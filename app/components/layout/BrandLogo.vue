@@ -8,7 +8,10 @@ const localePath = useLocalePath()
 </script>
 
 <template>
-  <component :is="asLink ? 'NuxtLink' : 'span'" :to="asLink ? localePath('index') : undefined" class="brand">
+  <!-- A real <NuxtLink>, not <component :is="'NuxtLink'">: a string passed to
+       `is` is not resolved against auto-imported components, so that renders an
+       inert <NuxtLink> custom element and the logo stops being clickable. -->
+  <NuxtLink v-if="asLink" :to="localePath('index')" class="brand" :aria-label="$t('nav.home')">
     <svg class="brand__mark" viewBox="0 0 48 48" aria-hidden="true">
       <circle class="brand__disc" cx="24" cy="24" r="22" />
       <ellipse class="brand__ear" cx="14" cy="15" rx="5" ry="8" />
@@ -20,7 +23,21 @@ const localePath = useLocalePath()
       <ellipse class="brand__nose" cx="24" cy="28" rx="2.6" ry="2.2" />
     </svg>
     <span class="brand__name">{{ BRAND.name }}</span>
-  </component>
+  </NuxtLink>
+
+  <span v-else class="brand">
+    <svg class="brand__mark" viewBox="0 0 48 48" aria-hidden="true">
+      <circle class="brand__disc" cx="24" cy="24" r="22" />
+      <ellipse class="brand__ear" cx="14" cy="15" rx="5" ry="8" />
+      <ellipse class="brand__ear" cx="34" cy="15" rx="5" ry="8" />
+      <ellipse class="brand__face" cx="24" cy="26" rx="15" ry="13" />
+      <ellipse class="brand__muzzle" cx="24" cy="31" rx="8" ry="6" />
+      <circle class="brand__eye" cx="18" cy="24" r="3" />
+      <circle class="brand__eye" cx="30" cy="24" r="3" />
+      <ellipse class="brand__nose" cx="24" cy="28" rx="2.6" ry="2.2" />
+    </svg>
+    <span class="brand__name">{{ BRAND.name }}</span>
+  </span>
 </template>
 
 <style scoped lang="scss">

@@ -20,12 +20,7 @@
   "verified": false,
   "questionCount": 20,
   "playableCount": 18,
-  "warnings": [
-    "Q6: no answer highlight found",
-    "Q6: option a is empty",
-    "Q17: no answer highlight found",
-    "Q17: option a is empty"
-  ],
+  "warnings": [],
   "questions": [
     {
       "id": "s3-penyisihan-sains-paud-q01",
@@ -179,7 +174,9 @@
         {
           "key": "a",
           "text": null,
-          "images": []
+          "images": [
+            "/soal/s3-penyisihan-sains-paud/q06-a.webp"
+          ]
         },
         {
           "key": "c",
@@ -189,7 +186,7 @@
           ]
         }
       ],
-      "answer": null,
+      "answer": "c",
       "status": "needs-review"
     },
     {
@@ -479,7 +476,9 @@
         {
           "key": "a",
           "text": null,
-          "images": []
+          "images": [
+            "/soal/s3-penyisihan-sains-paud/q17-a.webp"
+          ]
         },
         {
           "key": "c",
@@ -489,7 +488,7 @@
           ]
         }
       ],
-      "answer": null,
+      "answer": "c",
       "status": "needs-review"
     },
     {

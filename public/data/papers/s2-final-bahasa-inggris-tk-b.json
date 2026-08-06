@@ -404,17 +404,17 @@
       "images": [],
       "options": [
         {
-          "key": "c",
-          "text": "…..…",
-          "images": [
-            "/soal/s2-final-bahasa-inggris-tk-b/q15-c.webp"
-          ]
-        },
-        {
           "key": "b",
           "text": null,
           "images": [
             "/soal/s2-final-bahasa-inggris-tk-b/q15-b.webp"
+          ]
+        },
+        {
+          "key": "c",
+          "text": "…..…",
+          "images": [
+            "/soal/s2-final-bahasa-inggris-tk-b/q15-c.webp"
           ]
         }
       ],

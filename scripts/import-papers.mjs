@@ -264,14 +264,19 @@ async function importPaper(source, overrides) {
     const decision = decisions.get(question.n)
     if (decision.reason) warnings.push(`Q${question.n}: ${decision.reason}`)
 
-    const options = optionBands.map((band) => {
-      let text = bandText(band, pages, markerNodes) || null
-      // Several papers repeat the option letter as the option's own body text
-      // ("b.  b"). That is a typing slip in the source, not an answer.
-      if (text && text.toLowerCase() === band.key) text = null
-      if (text && band.assets.length && isKeyboardMash(text)) text = null
-      return { key: band.key, text, images: band.assets.map((asset) => asset.src) }
-    })
+    // Printed order is not always alphabetical — a few papers set out "a. c."
+    // side by side with "b." underneath. The letters are what the child is told
+    // to pick, so the app always lists them a, b, c.
+    const options = [...optionBands]
+      .sort((a, b) => a.key.localeCompare(b.key))
+      .map((band) => {
+        let text = bandText(band, pages, markerNodes) || null
+        // Several papers repeat the option letter as the option's own body text
+        // ("b.  b"). That is a typing slip in the source, not an answer.
+        if (text && text.toLowerCase() === band.key) text = null
+        if (text && band.assets.length && isKeyboardMash(text)) text = null
+        return { key: band.key, text, images: band.assets.map((asset) => asset.src) }
+      })
 
     for (const option of options) {
       if (!option.text && !option.images.length) {

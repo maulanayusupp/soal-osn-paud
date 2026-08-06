@@ -19,7 +19,7 @@
   "answerSource": "pdf",
   "verified": false,
   "questionCount": 20,
-  "playableCount": 19,
+  "playableCount": 20,
   "warnings": [
     "Q7: no answer highlight found"
   ],
@@ -216,8 +216,8 @@
           "images": []
         }
       ],
-      "answer": null,
-      "status": "needs-review"
+      "answer": "b",
+      "status": "ok"
     },
     {
       "id": "s2-final-matematika-tk-b-q08",

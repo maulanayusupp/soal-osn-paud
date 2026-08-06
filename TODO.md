@@ -5,17 +5,18 @@ must also update `CLAUDE.md`, the compliance pages, and both locales.
 
 ## Content quality
 
-- [ ] **Review the 86 held-back questions.** They sit in
-      `public/data/papers/*.json` with `status: "needs-review"`. Most are
-      questions the original paper never marked an answer for; a handful lost an
-      option to an unusual layout. Fix by adding `content/overrides/<id>.json`
-      and re-running `pnpm soal:import`.
-      Find them with:
-      `node -e "…"` over the papers, or read the `warnings` array on each paper.
-- [ ] **Human spot-check every paper.** `pnpm soal:proof <paper-id>` renders a
-      sheet showing each question with its extracted options and the answer the
-      pipeline read. Seasons 1–4 have been sampled, not exhaustively reviewed.
-      Mark a paper `"verified": true` in its override file once checked.
+- [ ] **Review the 58 held-back questions.** They sit in
+      `public/data/papers/*.json` with `status: "needs-review"`. Spot-checking
+      says most are questions the original paper simply never marked. Everything
+      recoverable from the .docx has already been recovered by
+      `node scripts/recover-keys.mjs --write`; what remains needs a human to read
+      the printed page and add `content/overrides/<id>.json` by hand.
+- [ ] **Human spot-check every paper.** `node scripts/audit-papers.mjs` already
+      verifies coverage, integrity, assets, and 872 answer keys against the Word
+      XML with no disagreements — but 269 picture-option keys cannot be checked
+      that way and only a sample has been read by eye. `pnpm soal:proof <paper-id>`
+      renders a sheet per paper for that. Mark a paper `"verified": true` in its
+      override file once checked.
 - [ ] Strip the last of the drafting noise. A handful of options still carry
       keyboard-mash from the source ("assa", "ijuhyt") next to their picture; the
       vowel-ratio filter in `import-papers.mjs` catches most but not all.

@@ -19,12 +19,9 @@
   "answerSource": "docx",
   "verified": false,
   "questionCount": 20,
-  "playableCount": 16,
+  "playableCount": 18,
   "warnings": [
-    "Q5: no answer highlight found",
-    "Q5: option a is empty",
     "Q14: no answer highlight found",
-    "Q16: option a is empty",
     "Q17: no answer highlight found"
   ],
   "questions": [
@@ -139,7 +136,9 @@
         {
           "key": "a",
           "text": null,
-          "images": []
+          "images": [
+            "/soal/s3-final-sains-tk-b/q05-a.webp"
+          ]
         },
         {
           "key": "b",
@@ -156,8 +155,8 @@
           ]
         }
       ],
-      "answer": null,
-      "status": "needs-review"
+      "answer": "c",
+      "status": "ok"
     },
     {
       "id": "s3-final-sains-tk-b-q06",
@@ -438,7 +437,9 @@
         {
           "key": "a",
           "text": null,
-          "images": []
+          "images": [
+            "/soal/s3-final-sains-tk-b/q16-a.webp"
+          ]
         },
         {
           "key": "b",
@@ -456,7 +457,7 @@
         }
       ],
       "answer": "a",
-      "status": "needs-review"
+      "status": "ok"
     },
     {
       "id": "s3-final-sains-tk-b-q17",

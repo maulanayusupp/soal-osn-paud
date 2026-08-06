@@ -19,18 +19,12 @@
   "answerSource": "docx",
   "verified": false,
   "questionCount": 20,
-  "playableCount": 15,
+  "playableCount": 17,
   "warnings": [
     "Q7: only 1 option(s)",
     "Q12: only 1 option(s)",
     "answer key read from the .docx (the shipped PDF is the unmarked student copy)",
-    "Q4: no answer highlight found",
-    "Q4: option a is empty",
-    "Q10: no answer highlight found",
-    "Q10: option a is empty",
-    "Q12: no answer highlight found",
-    "Q14: no answer highlight found",
-    "Q14: option a is empty"
+    "Q12: no answer highlight found"
   ],
   "questions": [
     {
@@ -121,7 +115,9 @@
         {
           "key": "a",
           "text": null,
-          "images": []
+          "images": [
+            "/soal/s4-final-matematika-paud/q04-a.webp"
+          ]
         },
         {
           "key": "c",
@@ -131,7 +127,7 @@
           ]
         }
       ],
-      "answer": null,
+      "answer": "c",
       "status": "needs-review"
     },
     {
@@ -283,8 +279,10 @@
       "options": [
         {
           "key": "a",
-          "text": null,
-          "images": []
+          "text": "c.",
+          "images": [
+            "/soal/s4-final-matematika-paud/q10-a.webp"
+          ]
         },
         {
           "key": "b",
@@ -301,8 +299,8 @@
           ]
         }
       ],
-      "answer": null,
-      "status": "needs-review"
+      "answer": "c",
+      "status": "ok"
     },
     {
       "id": "s4-final-matematika-paud-q11",
@@ -397,8 +395,10 @@
       "options": [
         {
           "key": "a",
-          "text": null,
-          "images": []
+          "text": "c.",
+          "images": [
+            "/soal/s4-final-matematika-paud/q14-a.webp"
+          ]
         },
         {
           "key": "b",
@@ -415,8 +415,8 @@
           ]
         }
       ],
-      "answer": null,
-      "status": "needs-review"
+      "answer": "b",
+      "status": "ok"
     },
     {
       "id": "s4-final-matematika-paud-q15",

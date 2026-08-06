@@ -25,7 +25,6 @@
     "Q12: only 1 option(s)",
     "answer key read from the .docx (the shipped PDF is the unmarked student copy)",
     "Q10: no answer highlight found",
-    "Q10: option a is empty",
     "Q12: no answer highlight found"
   ],
   "questions": [
@@ -291,7 +290,9 @@
         {
           "key": "a",
           "text": null,
-          "images": []
+          "images": [
+            "/soal/s4-final-matematika-tk-b/q10-a.webp"
+          ]
         },
         {
           "key": "c",

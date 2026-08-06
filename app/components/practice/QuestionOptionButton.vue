@@ -70,8 +70,11 @@ const state = computed(() => {
   align-items: center;
   gap: 0.9rem;
   width: 100%;
+  // A comfortable target for a small, imprecise finger.
+  min-height: 3.75rem;
   padding: 0.9rem 1rem;
   text-align: left;
+  -webkit-tap-highlight-color: transparent;
   background: var(--c-surface);
   border: 3px solid var(--c-ink-line-soft);
   border-radius: $radius-lg;
@@ -114,9 +117,16 @@ const state = computed(() => {
   }
 
   &__image {
-    max-height: 8.5rem;
+    // Capped by width as well as height: some option art is very wide, and on a
+    // 320px phone an unconstrained image pushes the whole row sideways.
+    max-height: 7.5rem;
+    max-width: 100%;
     width: auto;
     border-radius: $radius-sm;
+
+    @include respond-to('sm') {
+      max-height: 8.5rem;
+    }
 
     @include respond-to('md') {
       max-height: 10.5rem;

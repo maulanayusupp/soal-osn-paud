@@ -34,7 +34,12 @@ const fill = computed(() => (props.total === 0 ? 0 : (props.position / props.tot
 .rail {
   display: flex;
   align-items: center;
-  gap: 1rem;
+  gap: 0.7rem;
+  min-width: 0;
+
+  @include respond-to('sm') {
+    gap: 1rem;
+  }
 
   &__track {
     position: relative;
@@ -62,8 +67,13 @@ const fill = computed(() => (props.total === 0 ? 0 : (props.position / props.tot
     flex: none;
     font-family: var(--font-display);
     font-weight: 700;
-    font-size: 0.95rem;
+    font-size: 0.88rem;
+    white-space: nowrap;
     color: var(--c-ink);
+
+    @include respond-to('sm') {
+      font-size: 0.95rem;
+    }
   }
 }
 </style>

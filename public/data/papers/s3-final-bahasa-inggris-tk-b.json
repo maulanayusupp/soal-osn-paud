@@ -22,8 +22,7 @@
   "playableCount": 18,
   "warnings": [
     "Q12: no answer highlight found",
-    "Q13: no answer highlight found",
-    "Q13: option a is empty"
+    "Q13: no answer highlight found"
   ],
   "questions": [
     {
@@ -353,7 +352,9 @@
         {
           "key": "a",
           "text": null,
-          "images": []
+          "images": [
+            "/soal/s3-final-bahasa-inggris-tk-b/q13-a.webp"
+          ]
         },
         {
           "key": "b",

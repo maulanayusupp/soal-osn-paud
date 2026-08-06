@@ -2,7 +2,7 @@
   "generatedFrom": "scripts/import-papers.mjs",
   "paperCount": 60,
   "questionCount": 1200,
-  "playableCount": 1114,
+  "playableCount": 1142,
   "papers": [
     {
       "id": "s1-penyisihan-bahasa-inggris-paud",
@@ -132,9 +132,9 @@
       "level": "tk-a",
       "printedDate": "JUNI 2025",
       "questionCount": 20,
-      "playableCount": 16,
+      "playableCount": 17,
       "verified": false,
-      "warningCount": 4
+      "warningCount": 3
     },
     {
       "id": "s2-final-matematika-tk-b",
@@ -144,7 +144,7 @@
       "level": "tk-b",
       "printedDate": "JUNI 2025",
       "questionCount": 20,
-      "playableCount": 19,
+      "playableCount": 20,
       "verified": false,
       "warningCount": 1
     },
@@ -168,9 +168,9 @@
       "level": "tk-a",
       "printedDate": "MEI 2025",
       "questionCount": 20,
-      "playableCount": 18,
+      "playableCount": 19,
       "verified": false,
-      "warningCount": 1
+      "warningCount": 0
     },
     {
       "id": "s2-final-sains-tk-b",
@@ -182,7 +182,7 @@
       "questionCount": 20,
       "playableCount": 15,
       "verified": false,
-      "warningCount": 6
+      "warningCount": 4
     },
     {
       "id": "s2-penyisihan-bahasa-inggris-paud",
@@ -254,7 +254,7 @@
       "questionCount": 20,
       "playableCount": 18,
       "verified": false,
-      "warningCount": 2
+      "warningCount": 1
     },
     {
       "id": "s2-penyisihan-sains-paud",
@@ -288,9 +288,9 @@
       "level": "tk-b",
       "printedDate": "MEI 2025",
       "questionCount": 20,
-      "playableCount": 17,
+      "playableCount": 18,
       "verified": false,
-      "warningCount": 4
+      "warningCount": 2
     },
     {
       "id": "s3-final-bahasa-inggris-paud",
@@ -312,9 +312,9 @@
       "level": "tk-a",
       "printedDate": "OKTOBER 2025",
       "questionCount": 20,
-      "playableCount": 18,
+      "playableCount": 20,
       "verified": false,
-      "warningCount": 2
+      "warningCount": 0
     },
     {
       "id": "s3-final-bahasa-inggris-tk-b",
@@ -326,7 +326,7 @@
       "questionCount": 20,
       "playableCount": 18,
       "verified": false,
-      "warningCount": 3
+      "warningCount": 2
     },
     {
       "id": "s3-final-matematika-paud",
@@ -336,9 +336,9 @@
       "level": "paud",
       "printedDate": "OKTOBER 2025",
       "questionCount": 20,
-      "playableCount": 18,
+      "playableCount": 19,
       "verified": false,
-      "warningCount": 4
+      "warningCount": 0
     },
     {
       "id": "s3-final-matematika-tk-a",
@@ -348,9 +348,9 @@
       "level": "tk-a",
       "printedDate": "OKTOBER 2025",
       "questionCount": 20,
-      "playableCount": 16,
+      "playableCount": 17,
       "verified": false,
-      "warningCount": 5
+      "warningCount": 3
     },
     {
       "id": "s3-final-matematika-tk-b",
@@ -396,9 +396,9 @@
       "level": "tk-b",
       "printedDate": "OKTOBER 2025",
       "questionCount": 20,
-      "playableCount": 16,
+      "playableCount": 18,
       "verified": false,
-      "warningCount": 5
+      "warningCount": 2
     },
     {
       "id": "s3-penyisihan-bahasa-inggris-paud",
@@ -410,7 +410,7 @@
       "questionCount": 20,
       "playableCount": 18,
       "verified": false,
-      "warningCount": 2
+      "warningCount": 1
     },
     {
       "id": "s3-penyisihan-bahasa-inggris-tk-a",
@@ -420,9 +420,9 @@
       "level": "tk-a",
       "printedDate": "SEPTEMBER 2025",
       "questionCount": 20,
-      "playableCount": 17,
+      "playableCount": 19,
       "verified": false,
-      "warningCount": 4
+      "warningCount": 1
     },
     {
       "id": "s3-penyisihan-bahasa-inggris-tk-b",
@@ -444,9 +444,9 @@
       "level": "paud",
       "printedDate": "SEPTEMBER 2025",
       "questionCount": 20,
-      "playableCount": 17,
+      "playableCount": 19,
       "verified": false,
-      "warningCount": 4
+      "warningCount": 0
     },
     {
       "id": "s3-penyisihan-matematika-tk-a",
@@ -482,7 +482,7 @@
       "questionCount": 20,
       "playableCount": 18,
       "verified": false,
-      "warningCount": 4
+      "warningCount": 0
     },
     {
       "id": "s3-penyisihan-sains-tk-a",
@@ -492,9 +492,9 @@
       "level": "tk-a",
       "printedDate": "SEPTEMBER 2025",
       "questionCount": 20,
-      "playableCount": 18,
+      "playableCount": 19,
       "verified": false,
-      "warningCount": 3
+      "warningCount": 1
     },
     {
       "id": "s3-penyisihan-sains-tk-b",
@@ -504,9 +504,9 @@
       "level": "tk-b",
       "printedDate": "SEPTEMBER 2025",
       "questionCount": 20,
-      "playableCount": 19,
+      "playableCount": 20,
       "verified": false,
-      "warningCount": 2
+      "warningCount": 0
     },
     {
       "id": "s4-final-bahasa-inggris-paud",
@@ -516,9 +516,9 @@
       "level": "paud",
       "printedDate": "FEBRUARI 2026",
       "questionCount": 20,
-      "playableCount": 17,
+      "playableCount": 19,
       "verified": false,
-      "warningCount": 6
+      "warningCount": 2
     },
     {
       "id": "s4-final-bahasa-inggris-tk-a",
@@ -528,9 +528,9 @@
       "level": "tk-a",
       "printedDate": "FEBRUARI 2026",
       "questionCount": 20,
-      "playableCount": 18,
+      "playableCount": 20,
       "verified": false,
-      "warningCount": 5
+      "warningCount": 1
     },
     {
       "id": "s4-final-bahasa-inggris-tk-b",
@@ -552,9 +552,9 @@
       "level": "paud",
       "printedDate": "FEBRUARI 2026",
       "questionCount": 20,
-      "playableCount": 15,
+      "playableCount": 17,
       "verified": false,
-      "warningCount": 10
+      "warningCount": 4
     },
     {
       "id": "s4-final-matematika-tk-a",
@@ -564,9 +564,9 @@
       "level": "tk-a",
       "printedDate": "FEBRUARI 2026",
       "questionCount": 20,
-      "playableCount": 17,
+      "playableCount": 19,
       "verified": false,
-      "warningCount": 7
+      "warningCount": 2
     },
     {
       "id": "s4-final-matematika-tk-b",
@@ -578,7 +578,7 @@
       "questionCount": 20,
       "playableCount": 17,
       "verified": false,
-      "warningCount": 6
+      "warningCount": 5
     },
     {
       "id": "s4-final-sains-paud",
@@ -624,9 +624,9 @@
       "level": "paud",
       "printedDate": "JANUARI 2026",
       "questionCount": 20,
-      "playableCount": 19,
+      "playableCount": 20,
       "verified": false,
-      "warningCount": 1
+      "warningCount": 0
     },
     {
       "id": "s4-penyisihan-bahasa-inggris-tk-a",
@@ -638,7 +638,7 @@
       "questionCount": 20,
       "playableCount": 19,
       "verified": false,
-      "warningCount": 2
+      "warningCount": 1
     },
     {
       "id": "s4-penyisihan-bahasa-inggris-tk-b",
@@ -648,9 +648,9 @@
       "level": "tk-b",
       "printedDate": "JANUARI 2026",
       "questionCount": 20,
-      "playableCount": 18,
+      "playableCount": 19,
       "verified": false,
-      "warningCount": 4
+      "warningCount": 0
     },
     {
       "id": "s4-penyisihan-matematika-paud",
@@ -660,9 +660,9 @@
       "level": "paud",
       "printedDate": "JANUARI 2026",
       "questionCount": 20,
-      "playableCount": 17,
+      "playableCount": 18,
       "verified": false,
-      "warningCount": 3
+      "warningCount": 1
     },
     {
       "id": "s4-penyisihan-matematika-tk-a",
@@ -674,7 +674,7 @@
       "questionCount": 20,
       "playableCount": 18,
       "verified": false,
-      "warningCount": 3
+      "warningCount": 2
     },
     {
       "id": "s4-penyisihan-matematika-tk-b",
@@ -686,7 +686,7 @@
       "questionCount": 20,
       "playableCount": 18,
       "verified": false,
-      "warningCount": 2
+      "warningCount": 1
     },
     {
       "id": "s4-penyisihan-sains-paud",
@@ -720,9 +720,9 @@
       "level": "tk-b",
       "printedDate": "JANUARI 2026",
       "questionCount": 20,
-      "playableCount": 16,
+      "playableCount": 17,
       "verified": false,
-      "warningCount": 5
+      "warningCount": 2
     }
   ]
 }

@@ -51,7 +51,9 @@ export default defineNuxtConfig({
         { rel: 'icon', type: 'image/png', sizes: '32x32', href: '/favicon-32x32.png' },
         { rel: 'icon', type: 'image/png', sizes: '16x16', href: '/favicon-16x16.png' },
         { rel: 'apple-touch-icon', sizes: '180x180', href: '/apple-touch-icon.png' },
-        { rel: 'manifest', href: '/site.webmanifest' },
+        // `favicons` writes manifest.webmanifest, not site.webmanifest —
+        // pointing at the wrong name 404s through the Vue router on every page.
+        { rel: 'manifest', href: '/manifest.webmanifest' },
       ],
       meta: [
         { name: 'theme-color', content: '#fff8ec' },

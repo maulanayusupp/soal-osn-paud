@@ -22,7 +22,6 @@
   "playableCount": 18,
   "warnings": [
     "Q7: no answer highlight found",
-    "Q7: option a is empty",
     "Q18: option c is empty"
   ],
   "questions": [
@@ -203,7 +202,9 @@
         {
           "key": "a",
           "text": null,
-          "images": []
+          "images": [
+            "/soal/s4-penyisihan-matematika-tk-a/q07-a.webp"
+          ]
         },
         {
           "key": "c",

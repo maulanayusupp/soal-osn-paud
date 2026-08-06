@@ -19,13 +19,8 @@
   "answerSource": "docx",
   "verified": false,
   "questionCount": 20,
-  "playableCount": 17,
-  "warnings": [
-    "Q6: no answer highlight found",
-    "Q6: option a is empty",
-    "Q17: no answer highlight found",
-    "Q17: option a is empty"
-  ],
+  "playableCount": 19,
+  "warnings": [],
   "questions": [
     {
       "id": "s3-penyisihan-matematika-paud-q01",
@@ -179,14 +174,16 @@
         {
           "key": "a",
           "text": null,
-          "images": []
+          "images": [
+            "/soal/s3-penyisihan-matematika-paud/q06-a.webp",
+            "/soal/s3-penyisihan-matematika-paud/q06-a-2.webp"
+          ]
         },
         {
           "key": "b",
           "text": null,
           "images": [
-            "/soal/s3-penyisihan-matematika-paud/q06-b.webp",
-            "/soal/s3-penyisihan-matematika-paud/q06-b-2.webp"
+            "/soal/s3-penyisihan-matematika-paud/q06-b.webp"
           ]
         },
         {
@@ -197,8 +194,8 @@
           ]
         }
       ],
-      "answer": null,
-      "status": "needs-review"
+      "answer": "c",
+      "status": "ok"
     },
     {
       "id": "s3-penyisihan-matematika-paud-q07",
@@ -489,7 +486,9 @@
         {
           "key": "a",
           "text": null,
-          "images": []
+          "images": [
+            "/soal/s3-penyisihan-matematika-paud/q17-a.webp"
+          ]
         },
         {
           "key": "b",
@@ -506,8 +505,8 @@
           ]
         }
       ],
-      "answer": null,
-      "status": "needs-review"
+      "answer": "c",
+      "status": "ok"
     },
     {
       "id": "s3-penyisihan-matematika-paud-q18",

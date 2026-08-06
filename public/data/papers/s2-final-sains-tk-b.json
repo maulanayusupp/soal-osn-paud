@@ -24,8 +24,6 @@
     "Q4: no answer highlight found",
     "Q6: no answer highlight found",
     "Q12: no answer highlight found",
-    "Q13: no answer highlight found",
-    "Q13: option a is empty",
     "Q18: no answer highlight found"
   ],
   "questions": [
@@ -368,7 +366,9 @@
         {
           "key": "a",
           "text": null,
-          "images": []
+          "images": [
+            "/soal/s2-final-sains-tk-b/q13-a.webp"
+          ]
         },
         {
           "key": "c",
@@ -378,7 +378,7 @@
           ]
         }
       ],
-      "answer": null,
+      "answer": "c",
       "status": "needs-review"
     },
     {

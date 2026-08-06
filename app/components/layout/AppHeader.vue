@@ -21,7 +21,7 @@ watch(() => route.fullPath, () => { open.value = false })
         aria-controls="primary-menu"
         @click="open = !open"
       >
-        <BaseIcon :name="open ? 'close' : 'chevronDown'" :size="22" />
+        <BaseIcon :name="open ? 'close' : 'menu'" :size="22" />
         <span class="visually-hidden">{{ $t('nav.menu') }}</span>
       </button>
 
@@ -91,6 +91,10 @@ watch(() => route.fullPath, () => { open.value = false })
 
     &.is-open {
       display: flex;
+      // The header is sticky, so on a short phone in landscape the open menu
+      // could otherwise run past the bottom of the screen with no way back.
+      max-height: calc(100dvh - var(--header-height) - 1rem);
+      overflow-y: auto;
     }
 
     @include respond-to('lg') {

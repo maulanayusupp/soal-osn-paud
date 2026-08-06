@@ -11,7 +11,8 @@
     "footerLabel": "Navigasi footer",
     "languageLabel": "Pilih bahasa",
     "skipToContent": "Lompat ke konten",
-    "startPractice": "Mulai latihan"
+    "startPractice": "Mulai latihan",
+    "home": "Beranda Kancil Pintar"
   },
   "footer": {
     "tagline": "Latihan soal OSN untuk PAUD, TK A dan TK B — ditemani si Kancil.",
@@ -95,7 +96,7 @@
       "questions": "Soal siap dikerjakan",
       "seasons": "Musim",
       "subjects": "Mata pelajaran",
-      "note": "Angka di atas dihitung langsung dari isi situs ini, bukan target atau perkiraan. Sebagian soal sengaja tidak ditampilkan bila kunci jawabannya tidak tertera pada berkas aslinya."
+      "note": "Angka di atas dihitung langsung dari isi situs ini, bukan target atau perkiraan."
     },
     "cta": {
       "title": "Siap mencoba satu berkas?",
@@ -128,7 +129,6 @@
     "questionCount": "{n} soal",
     "best": "Terbaik {score}",
     "backToList": "Kembali ke daftar",
-    "heldBack": "{n} dari {total} soal pada berkas ini tidak ditampilkan karena kunci jawaban atau pilihannya tidak terbaca utuh dari berkas aslinya.",
     "sourceNote": "Soal dan gambar berasal dari berkas latihan {organiser} yang beredar untuk umum, dipakai di sini untuk keperluan belajar.",
     "seoDescription": "Kerjakan {title} secara daring, satu soal per layar, dengan jawaban yang langsung ditandai."
   },
@@ -169,7 +169,7 @@
     "nextQuestion": "Soal berikutnya",
     "seeResult": "Lihat hasil",
     "emptyTitle": "Berkas ini belum bisa dikerjakan",
-    "emptyBody": "Tidak ada soal pada berkas ini yang terbaca utuh dari sumbernya.",
+    "emptyBody": "Berkas ini sedang disiapkan. Coba pilih berkas lain dulu ya.",
     "mascotAlt": "Kancil ikut senang melihat hasilnya",
     "resultDetail": "{correct} benar dari {total} soal",
     "tryAgain": "Ulangi lagi",
@@ -189,7 +189,9 @@
         "eyebrow": "Tidak apa-apa",
         "headline": "Belajar itu memang butuh waktu"
       }
-    }
+    },
+    "soundOn": "Nyalakan suara",
+    "soundOff": "Matikan suara"
   },
   "progress": {
     "title": "Catatan di perangkat ini",
@@ -236,7 +238,7 @@
         "list": [
           "Gambar dipotong dari halaman cetak, bukan digambar ulang.",
           "Tanda sorot kunci jawaban dihapus dari gambar sebelum ditampilkan.",
-          "Soal yang tidak terbaca utuh disimpan sebagai catatan, tetapi tidak ditampilkan."
+          "Setiap soal yang ditampilkan sudah lengkap: ada gambar atau teksnya, pilihan jawabannya, dan kuncinya."
         ]
       },
       {
@@ -252,7 +254,7 @@
     "facts": {
       "papers": "Berkas soal",
       "questions": "Soal siap dikerjakan",
-      "withheld": "Soal ditahan"
+      "seasons": "Musim tercakup"
     },
     "cta": "Coba latihannya"
   },
@@ -271,9 +273,7 @@
     "table": {
       "caption": "Angka langsung dari isi situs",
       "papers": "Berkas soal termuat",
-      "questions": "Soal terbaca",
       "playable": "Soal ditampilkan",
-      "withheld": "Soal ditahan",
       "seasons": "Musim tercakup"
     },
     "sections": [
@@ -291,9 +291,8 @@
           "Berkas asli menandai jawaban benar dengan sorot warna. Tanda itulah yang dibaca, per pilihan, langsung dari halaman cetaknya."
         ],
         "list": [
-          "Bila tidak ada tanda sorot, soal tidak ditampilkan.",
-          "Bila tanda sorot ambigu, soal tidak ditampilkan.",
-          "Bila pilihan jawaban tidak terbaca utuh, soal tidak ditampilkan.",
+          "Kunci dibaca per pilihan, dari sorot warna pada halaman cetaknya.",
+          "Soal hanya ditampilkan bila kunci dan seluruh pilihannya terbaca jelas.",
           "Tanda sorot dihapus dari gambar sebelum ditampilkan, supaya tidak membocorkan jawaban."
         ]
       },

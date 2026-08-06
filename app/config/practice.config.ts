@@ -44,3 +44,6 @@ export const PROGRESS_STORAGE_KEY = 'kancil-progress-v1'
 
 /** Most recent sessions kept on the device. */
 export const PROGRESS_LIMIT = 60
+
+/** localStorage key holding the answer-sound preference. */
+export const SOUND_STORAGE_KEY = 'kancil-sound-v1'

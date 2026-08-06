@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { fetchPaper, playableQuestions } from '~/services/catalog.service'
+import { fetchPaper } from '~/services/catalog.service'
 import { SOURCE } from '~/config/brand.config'
 
 const route = useRoute()
@@ -29,10 +29,6 @@ const heading = computed(() =>
     : '',
 )
 
-const held = computed(() =>
-  paper.value ? paper.value.questionCount - playableQuestions(paper.value).length : 0,
-)
-
 usePageSeo(
   () => heading.value,
   () => t('paper.seoDescription', { title: heading.value }),
@@ -57,10 +53,6 @@ usePageSeo(
       </header>
 
       <PracticeStage :paper="paper" />
-
-      <InfoNote v-if="held > 0" class="page__note">
-        <p>{{ $t('paper.heldBack', { n: held, total: paper.questionCount }) }}</p>
-      </InfoNote>
 
       <p class="page__source">{{ $t('paper.sourceNote', { organiser: SOURCE.organiser }) }}</p>
     </div>
@@ -93,10 +85,6 @@ usePageSeo(
 
   &__title {
     font-size: clamp(1.5rem, 1.25rem + 1.2vw, 2.1rem);
-  }
-
-  &__note {
-    margin-top: 0.5rem;
   }
 
   &__source {

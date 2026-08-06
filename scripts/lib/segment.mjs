@@ -244,16 +244,22 @@ export function segment(pages) {
       const stop = rows[rowIndex + 1]
         ? { page: rows[rowIndex + 1][0].page, top: rows[rowIndex + 1][0].top }
         : end
-      row.forEach((option, i) => {
-        bands.push({
+      // Side-by-side options share one band; `siblings` lets assignImages split
+      // the row's pictures between them by x afterwards.
+      const siblings = []
+      row.forEach((option) => {
+        const band = {
           role: 'option',
           key: option.value,
           marker: option,
           from: { page: option.page, top: row[0].top },
           to: stop,
-          xFrom: row.length > 1 ? option.left - 8 : -Infinity,
-          xTo: row.length > 1 && row[i + 1] ? row[i + 1].left - 8 : Infinity,
-        })
+          xFrom: -Infinity,
+          xTo: Infinity,
+          siblings,
+        }
+        siblings.push(band)
+        bands.push(band)
       })
     })
 
@@ -432,6 +438,69 @@ export function assignImages(pages, questions) {
       // 3. Nothing contains it — masthead art above question 1. Dropped.
     }
   })
+
+  splitSideBySideRows(bands)
+}
+
+/**
+ * Share a side-by-side row's pictures out between its options.
+ *
+ * The row arrives as one band holding every picture on that line, because there
+ * is no reliable x boundary to split on beforehand: poppler merges "a. b. c."
+ * into a single run whose character offsets say nothing about the wide gaps
+ * actually printed between the letters. Estimating from those offsets put the
+ * boundaries far to the left and handed option a's picture to option b.
+ *
+ * The pictures themselves are the better ruler. Sort them left to right and cut
+ * at the widest gaps: three pictures across a row are three options, whatever
+ * the text run claims.
+ */
+function splitSideBySideRows(bands) {
+  const done = new Set()
+
+  for (const band of bands) {
+    const row = band.siblings
+    if (!row || row.length < 2 || done.has(row)) continue
+    done.add(row)
+
+    const pooled = row.flatMap((sibling) => sibling.imageGroups ?? [])
+    for (const sibling of row) sibling.imageGroups = []
+
+    const images = pooled
+      .flatMap((group) => group.images.map((image) => ({ image, pageIndex: group.pageIndex })))
+      .sort((a, b) => a.image.left - b.image.left)
+    if (!images.length) continue
+
+    // Cut at the row's widest gaps until there are as many runs as options.
+    const gaps = images
+      .slice(1)
+      .map((entry, i) => ({ at: i + 1, size: entry.image.left - images[i].image.left }))
+      .sort((a, b) => b.size - a.size)
+      .slice(0, row.length - 1)
+      .map((gap) => gap.at)
+      .sort((a, b) => a - b)
+
+    let cut = 0
+    for (const [index, entry] of images.entries()) {
+      if (gaps.includes(index)) cut += 1
+      const target = row[Math.min(cut, row.length - 1)]
+      let group = target.imageGroups.find((g) => g.pageIndex === entry.pageIndex)
+      if (!group) {
+        group = { pageIndex: entry.pageIndex, images: [] }
+        target.imageGroups.push(group)
+      }
+      group.images.push(entry.image)
+    }
+
+    // Where each letter is actually printed. The merged run only gives a
+    // character-offset guess, which is what made the columns wrong in the first
+    // place; the left edge of an option's own pictures is a real measurement,
+    // and its letter sits just to the left of it.
+    for (const sibling of row) {
+      const own = sibling.imageGroups.flatMap((group) => group.images)
+      if (own.length) sibling.markerHint = Math.min(...own.map((image) => image.left))
+    }
+  }
 }
 
 /** The groups assigned to a band by assignImages(). */

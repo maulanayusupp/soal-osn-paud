@@ -57,6 +57,8 @@ pnpm typecheck      # vue-tsc type check
 node scripts/scan-sources.mjs   # re-index the source papers on disk
 pnpm soal:import                # rebuild public/data + public/soal from them
 pnpm soal:proof <paper-id>      # render a visual proof sheet of one paper
+node scripts/audit-papers.mjs   # audit the data against the sources (see below)
+node scripts/recover-keys.mjs   # recover missed keys from the .docx (--write)
 ```
 
 ## Directory map (Nuxt 4 `app/` srcDir)
@@ -76,7 +78,8 @@ app/
                           #   QuestionOptionButton, ProgressRail, ResultPanel,
                           #   PaperCard, PaperFilters
   composables/            # usePractice, useProgress, usePaperLabels, usePageSeo,
-                          #   useFormat, useReveal, useLocalizedSections
+                          #   useFormat, useReveal, useLocalizedSections,
+                          #   useSoundEffects
   config/                 # STRUCTURE, not text: brand, navigation, practice
   layouts/default.vue     # skip link + header + <slot> + footer
   pages/                  # index, latihan/index, latihan/[paper], tentang,
@@ -87,7 +90,7 @@ app/
 content/
   sources.json            # inventory of the source papers on disk (generated)
   overrides/<id>.json     # optional hand corrections, applied on import
-i18n/locales/{id,en}.json # ALL user-facing text (252 keys each)
+i18n/locales/{id,en}.json # ALL user-facing text (251 keys each)
 public/data/              # catalog.json + papers/<id>.json (generated)
 public/soal/<id>/*.webp   # question illustrations (generated)
 scripts/                  # import pipeline, proof sheets, favicons, og, i18n check
@@ -124,7 +127,7 @@ printed page does.** Everything is therefore read off the rendered page.
 | ------- | -------- |
 | Geometry | `pdftohtml -xml -zoom 1.5` gives every text run and picture box. `pdftoppm -r 216` rasterises at exactly 2× that grid, so a box measured in one is readable in the other. |
 | Structure | A "N." at the left margin starts a question; an indented "a."/"b."/"c." starts an option. The option column is found *relative* to the question column, because some papers indent one question's options twice as far as the last one's. |
-| Side-by-side options | Options printed on one line arrive as a single merged text run; it is split back into letters and they are told apart by x instead of y. |
+| Side-by-side options | Options printed on one line ("a. ▢  b. ▢  c. ▢") arrive as a single merged text run. Splitting them by character offset does **not** work — poppler collapses the wide printed gaps, so the estimated columns sit far left and option a's picture is handed to option b. The pictures are the ruler instead: sort the row's pictures by x and cut at the widest gaps. The same measurement then tells the key reader where each letter really is (`markerHint`). |
 | Picture ownership | A picture belongs to the band its **centre** lands in, with a 20-unit look-ahead for pictures centred on the marker's own line. Matching on "which marker does the box cover" fails: the source PNGs carry wide transparent margins, so a box reaches well past the visible artwork. |
 | Answer key | The authors highlighted the correct option — magenta almost everywhere, yellow on a few questions. It is read from the pixels, in a narrow strip at the option marker (the artwork starts ~25 units further right, so nothing coloured in a picture can be mistaken for a key). |
 | Key erasure | The highlight is painted white **before** the pictures are cut, so it can never leak into what the child sees. |
@@ -132,10 +135,28 @@ printed page does.** Everything is therefore read off the rendered page.
 | Papers with no PDF | Season 3 and Season 4's Babak Penyisihan ship `.docx` only. **LibreOffice** converts them. Word 365 for Mac no longer answers AppleScript `save as` (-1708), and Pages reflows the floating pictures so badly it loses half the highlights — both verified, both rejected. |
 | Held-back questions | A question whose key or options could not be read in full is written to the JSON with `status: "needs-review"` and **never served**. A half-read question is worse for a five-year-old than a missing one. |
 
-**Current state: 1,114 of 1,200 questions across all 60 papers are served.** The
-remainder are mostly questions the original paper left unmarked. Re-running
-`pnpm soal:import` is safe and idempotent; `content/overrides/<id>.json` lets a
-human correction win over the extractor.
+**Current state: 1,142 of 1,200 questions across all 60 papers are served.** The
+remainder are questions the original paper left unmarked — spot-checked against
+the printed pages, not assumed. Re-running `pnpm soal:import` is safe and
+idempotent; `content/overrides/<id>.json` lets a human correction win over the
+extractor.
+
+### Auditing it
+
+`node scripts/audit-papers.mjs` checks the finished data against the sources by
+routes the importer never used, and is the thing to run after touching the
+pipeline:
+
+| Check | How |
+| ----- | --- |
+| Coverage | Question numbers printed in the source, counted with `pdftotext`, against what was extracted. Catches a paper silently truncated at question 20. |
+| Answer keys | The ordered triple of option texts is located in the **Word XML** and the highlight read from the markup — a path that shares no code with the pixel reader. 872 of the served questions are comparable this way; all 872 agree. |
+| Integrity | Every served question: 3+ options, exactly one answer, that answer on offer, no empty option, wording or a picture present. |
+| Assets | Every referenced image exists; no duplicates within a question; no orphans on disk. |
+
+`node scripts/recover-keys.mjs [--write]` goes the other way: for a question the
+pixel reader could not resolve, it looks the key up in the Word XML and writes an
+override. Everything it can currently recover has been recovered.
 
 ## Styling (SCSS, no inline CSS — hard rule)
 
@@ -163,6 +184,16 @@ which is precisely why `prefers-reduced-motion` switches it off globally without
 the component knowing anything about it. `PracticeStage` derives the mood from
 session state rather than setting it by hand, so the two cannot disagree.
 
+## Sound
+
+`useSoundEffects()` synthesises the right/wrong tones with the Web Audio API
+rather than shipping audio files: two short tones cost nothing to download and
+can be tuned in code. They are deliberately soft — this plays next to a small
+child's ear over and over, and a harsh buzzer for a wrong answer teaches the
+wrong thing. An `AudioContext` may only start from a user gesture, so it is
+created on the first answer. The mute toggle sits next to the progress rail and
+persists in `localStorage` (`SOUND_STORAGE_KEY`).
+
 ## Accessibility & motion
 
 - Skip link, semantic landmarks, visible focus rings, real `<table>` markup for
@@ -182,7 +213,7 @@ session state rather than setting it by hand, so the two cannot disagree.
   configured through `i18n.pages` in `nuxt.config`. Keys there are page file
   paths relative to `app/pages` without the extension (`latihan/index`).
 - Keys mirror page/section structure. **Keep ID and EN in lockstep** — same keys,
-  same interpolation placeholders (**252 keys each**). `pnpm i18n:check` verifies
+  same interpolation placeholders (**251 keys each**). `pnpm i18n:check` verifies
   both and exits non-zero on drift.
 - Legal/compliance prose is stored as an **array of sections** and read through
   `useLocalizedSections()`, so a section cannot quietly go missing from one

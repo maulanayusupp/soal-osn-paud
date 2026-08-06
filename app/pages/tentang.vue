@@ -48,7 +48,7 @@ const sections = useLocalizedSections('about.sections')
       </InfoNote>
 
       <dl v-if="totals" class="about__facts">
-        <div v-for="fact in ['papers', 'questions', 'withheld']" :key="fact">
+        <div v-for="fact in ['papers', 'questions', 'seasons']" :key="fact">
           <dt>{{ $t(`about.facts.${fact}`) }}</dt>
           <dd>{{ totals[fact as 'papers'] }}</dd>
         </div>

@@ -62,7 +62,6 @@ export function bankTotals(catalog: Catalog) {
     papers: papers.length,
     questions: catalog.questionCount,
     playable: catalog.playableCount,
-    withheld: catalog.questionCount - catalog.playableCount,
     seasons: seasonsIn(papers).length,
     subjects: new Set(papers.map((paper) => paper.subject)).size,
   }

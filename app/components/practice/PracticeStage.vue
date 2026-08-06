@@ -43,8 +43,14 @@ const feedback = computed(() => {
   return wasCorrect.value ? t('practice.feedbackCorrect') : t('practice.feedbackWrong')
 })
 
+const sound = useSoundEffects()
+
 function onChoose(key: OptionKey) {
+  if (phase.value !== 'answering' || !current.value) return
   choose(key)
+  // Read the outcome after choose() has judged it, not from the click.
+  if (wasCorrect.value) sound.playCorrect()
+  else sound.playWrong()
 }
 </script>
 
@@ -52,7 +58,20 @@ function onChoose(key: OptionKey) {
   <div class="stage">
     <!-- Playing --------------------------------------------------------- -->
     <template v-if="phase !== 'finished' && current">
-      <ProgressRail :position="position" :total="total" :correct="correctCount" />
+      <div class="stage__bar">
+        <ProgressRail :position="position" :total="total" :correct="correctCount" />
+        <button
+          class="stage__sound"
+          type="button"
+          :aria-pressed="!sound.muted.value"
+          @click="sound.toggle()"
+        >
+          <BaseIcon :name="sound.muted.value ? 'soundOff' : 'soundOn'" :size="20" />
+          <span class="visually-hidden">
+            {{ sound.muted.value ? $t('practice.soundOn') : $t('practice.soundOff') }}
+          </span>
+        </button>
+      </div>
 
       <BaseCard class="stage__card">
         <QuestionCard :question="current" :position="position" :total="total" />
@@ -82,6 +101,7 @@ function onChoose(key: OptionKey) {
 
         <BaseButton
           v-if="phase === 'revealed'"
+          class="stage__next"
           size="lg"
           variant="primary"
           @click="next"
@@ -120,6 +140,44 @@ function onChoose(key: OptionKey) {
   flex-direction: column;
   gap: 1.5rem;
 
+  &__bar {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    min-width: 0;
+
+    // The rail must be the part that shrinks, not the tally or the button.
+    > :first-child {
+      flex: 1;
+      min-width: 0;
+    }
+  }
+
+  &__sound {
+    display: grid;
+    place-items: center;
+    flex: none;
+    width: 2.6rem;
+    height: 2.6rem;
+    border: 2px solid var(--c-ink-line);
+    border-radius: 50%;
+    background: var(--c-surface);
+    color: var(--c-ink);
+    transition:
+      background-color $duration-fast $ease-out,
+      transform $duration-fast $ease-out;
+
+    &:hover {
+      background: var(--c-sun-soft);
+      transform: translateY(-2px);
+    }
+
+    &[aria-pressed='false'] {
+      color: var(--c-ink-soft);
+      background: var(--c-paper-deep);
+    }
+  }
+
   &__card {
     padding-block: 1.75rem;
   }
@@ -136,6 +194,15 @@ function onChoose(key: OptionKey) {
     align-items: center;
     justify-content: space-between;
     gap: 1rem;
+
+  }
+
+  // On a phone the "next" button is the thing being reached for, so it gets the
+  // full width rather than sitting in whatever gap is left over.
+  &__next {
+    @include respond-below('sm') {
+      flex: 1 1 100%;
+    }
   }
 
   &__mascot {

@@ -19,13 +19,10 @@
   "answerSource": "docx",
   "verified": false,
   "questionCount": 20,
-  "playableCount": 16,
+  "playableCount": 17,
   "warnings": [
     "Q8: no answer highlight found",
-    "Q8: option a is empty",
-    "Q14: option b is empty",
-    "Q19: no answer highlight found",
-    "Q19: option a is empty"
+    "Q19: no answer highlight found"
   ],
   "questions": [
     {
@@ -227,7 +224,9 @@
         {
           "key": "a",
           "text": null,
-          "images": []
+          "images": [
+            "/soal/s4-penyisihan-sains-tk-b/q08-a.webp"
+          ]
         },
         {
           "key": "c",
@@ -399,7 +398,9 @@
         {
           "key": "b",
           "text": null,
-          "images": []
+          "images": [
+            "/soal/s4-penyisihan-sains-tk-b/q14-b.webp"
+          ]
         },
         {
           "key": "c",
@@ -410,7 +411,7 @@
         }
       ],
       "answer": "a",
-      "status": "needs-review"
+      "status": "ok"
     },
     {
       "id": "s4-penyisihan-sains-tk-b-q15",
@@ -533,7 +534,9 @@
         {
           "key": "a",
           "text": null,
-          "images": []
+          "images": [
+            "/soal/s4-penyisihan-sains-tk-b/q19-a.webp"
+          ]
         },
         {
           "key": "c",

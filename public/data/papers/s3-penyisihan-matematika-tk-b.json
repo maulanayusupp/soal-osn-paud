@@ -201,20 +201,20 @@
         },
         {
           "key": "b",
-          "text": null,
+          "text": "n",
           "images": [
             "/soal/s3-penyisihan-matematika-tk-b/q07-b.webp"
           ]
         },
         {
           "key": "c",
-          "text": null,
+          "text": "n",
           "images": [
             "/soal/s3-penyisihan-matematika-tk-b/q07-c.webp"
           ]
         }
       ],
-      "answer": "a",
+      "answer": "b",
       "status": "ok"
     },
     {

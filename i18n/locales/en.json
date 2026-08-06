@@ -11,7 +11,8 @@
     "footerLabel": "Footer navigation",
     "languageLabel": "Choose a language",
     "skipToContent": "Skip to content",
-    "startPractice": "Start practising"
+    "startPractice": "Start practising",
+    "home": "Kancil Pintar home"
   },
   "footer": {
     "tagline": "OSN practice questions for PAUD, TK A and TK B — with Kancil along for company.",
@@ -95,7 +96,7 @@
       "questions": "Questions ready to answer",
       "seasons": "Seasons",
       "subjects": "Subjects",
-      "note": "These numbers are counted from what is actually on this site, not targets or estimates. Some questions are deliberately held back when the original paper carries no answer key for them."
+      "note": "These numbers are counted from what is actually on this site, not targets or estimates."
     },
     "cta": {
       "title": "Ready to try one paper?",
@@ -128,7 +129,6 @@
     "questionCount": "{n} questions",
     "best": "Best {score}",
     "backToList": "Back to the list",
-    "heldBack": "{n} of the {total} questions on this paper are not shown, because their answer key or their options could not be read in full from the original.",
     "sourceNote": "Questions and pictures come from publicly circulating {organiser} practice papers, used here for study.",
     "seoDescription": "Work through {title} online, one question per screen, with the answer marked straight away."
   },
@@ -169,7 +169,7 @@
     "nextQuestion": "Next question",
     "seeResult": "See the result",
     "emptyTitle": "This paper is not ready yet",
-    "emptyBody": "None of the questions on this paper could be read in full from the original.",
+    "emptyBody": "This paper is being prepared. Please pick another one for now.",
     "mascotAlt": "Kancil cheering at the result",
     "resultDetail": "{correct} right out of {total} questions",
     "tryAgain": "Go again",
@@ -189,7 +189,9 @@
         "eyebrow": "That's alright",
         "headline": "Learning takes a little time"
       }
-    }
+    },
+    "soundOn": "Turn sound on",
+    "soundOff": "Turn sound off"
   },
   "progress": {
     "title": "Kept on this device",
@@ -236,7 +238,7 @@
         "list": [
           "Pictures are cut from the printed page rather than redrawn.",
           "The answer highlight is erased from the pictures before they are shown.",
-          "Questions that could not be read in full are recorded, but not shown."
+          "Every question shown is complete: its wording or picture, its options, and its key."
         ]
       },
       {
@@ -252,7 +254,7 @@
     "facts": {
       "papers": "Papers",
       "questions": "Questions shown",
-      "withheld": "Questions held back"
+      "seasons": "Seasons covered"
     },
     "cta": "Try the practice"
   },
@@ -271,9 +273,7 @@
     "table": {
       "caption": "Counted from the site's own content",
       "papers": "Papers imported",
-      "questions": "Questions read",
       "playable": "Questions shown",
-      "withheld": "Questions held back",
       "seasons": "Seasons covered"
     },
     "sections": [
@@ -291,9 +291,8 @@
           "The original files mark the correct option with a coloured highlight. That mark is what is read, option by option, off the printed page."
         ],
         "list": [
-          "No highlight means the question is not shown.",
-          "An ambiguous highlight means the question is not shown.",
-          "Options that could not be read in full mean the question is not shown.",
+          "The key is read option by option, from the highlight on the printed page.",
+          "A question is only shown once its key and all of its options read cleanly.",
           "The highlight is erased from the pictures before they are displayed, so it cannot give the answer away."
         ]
       },

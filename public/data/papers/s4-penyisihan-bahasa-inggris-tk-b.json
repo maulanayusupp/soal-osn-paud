@@ -19,13 +19,8 @@
   "answerSource": "docx",
   "verified": false,
   "questionCount": 20,
-  "playableCount": 18,
-  "warnings": [
-    "Q3: no answer highlight found",
-    "Q3: option a is empty",
-    "Q12: no answer highlight found",
-    "Q12: option a is empty"
-  ],
+  "playableCount": 19,
+  "warnings": [],
   "questions": [
     {
       "id": "s4-penyisihan-bahasa-inggris-tk-b-q01",
@@ -90,7 +85,9 @@
         {
           "key": "a",
           "text": null,
-          "images": []
+          "images": [
+            "/soal/s4-penyisihan-bahasa-inggris-tk-b/q03-a.webp"
+          ]
         },
         {
           "key": "c",
@@ -100,7 +97,7 @@
           ]
         }
       ],
-      "answer": null,
+      "answer": "c",
       "status": "needs-review"
     },
     {
@@ -344,7 +341,9 @@
         {
           "key": "a",
           "text": null,
-          "images": []
+          "images": [
+            "/soal/s4-penyisihan-bahasa-inggris-tk-b/q12-a.webp"
+          ]
         },
         {
           "key": "b",
@@ -361,8 +360,8 @@
           ]
         }
       ],
-      "answer": null,
-      "status": "needs-review"
+      "answer": "b",
+      "status": "ok"
     },
     {
       "id": "s4-penyisihan-bahasa-inggris-tk-b-q13",

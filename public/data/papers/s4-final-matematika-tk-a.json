@@ -19,15 +19,10 @@
   "answerSource": "docx",
   "verified": false,
   "questionCount": 20,
-  "playableCount": 17,
+  "playableCount": 19,
   "warnings": [
     "answer key read from the .docx (the shipped PDF is the unmarked student copy)",
-    "Q4: no answer highlight found",
-    "Q4: option a is empty",
-    "Q8: no answer highlight found",
-    "Q8: option a is empty",
-    "Q11: no answer highlight found",
-    "Q11: option a is empty"
+    "Q11: no answer highlight found"
   ],
   "questions": [
     {
@@ -117,8 +112,10 @@
       "options": [
         {
           "key": "a",
-          "text": null,
-          "images": []
+          "text": "c.",
+          "images": [
+            "/soal/s4-final-matematika-tk-a/q04-a.webp"
+          ]
         },
         {
           "key": "b",
@@ -135,8 +132,8 @@
           ]
         }
       ],
-      "answer": null,
-      "status": "needs-review"
+      "answer": "c",
+      "status": "ok"
     },
     {
       "id": "s4-final-matematika-tk-a-q05",
@@ -231,8 +228,10 @@
       "options": [
         {
           "key": "a",
-          "text": null,
-          "images": []
+          "text": "c.",
+          "images": [
+            "/soal/s4-final-matematika-tk-a/q08-a.webp"
+          ]
         },
         {
           "key": "b",
@@ -249,8 +248,8 @@
           ]
         }
       ],
-      "answer": null,
-      "status": "needs-review"
+      "answer": "b",
+      "status": "ok"
     },
     {
       "id": "s4-final-matematika-tk-a-q09",
@@ -316,8 +315,10 @@
       "options": [
         {
           "key": "a",
-          "text": null,
-          "images": []
+          "text": "c.",
+          "images": [
+            "/soal/s4-final-matematika-tk-a/q11-a.webp"
+          ]
         },
         {
           "key": "b",

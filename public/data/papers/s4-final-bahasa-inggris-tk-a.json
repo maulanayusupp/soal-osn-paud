@@ -19,13 +19,9 @@
   "answerSource": "docx",
   "verified": false,
   "questionCount": 20,
-  "playableCount": 18,
+  "playableCount": 20,
   "warnings": [
-    "answer key read from the .docx (the shipped PDF is the unmarked student copy)",
-    "Q6: no answer highlight found",
-    "Q6: option a is empty",
-    "Q14: no answer highlight found",
-    "Q14: option a is empty"
+    "answer key read from the .docx (the shipped PDF is the unmarked student copy)"
   ],
   "questions": [
     {
@@ -163,8 +159,10 @@
       "options": [
         {
           "key": "a",
-          "text": null,
-          "images": []
+          "text": "c.",
+          "images": [
+            "/soal/s4-final-bahasa-inggris-tk-a/q06-a.webp"
+          ]
         },
         {
           "key": "b",
@@ -181,8 +179,8 @@
           ]
         }
       ],
-      "answer": null,
-      "status": "needs-review"
+      "answer": "c",
+      "status": "ok"
     },
     {
       "id": "s4-final-bahasa-inggris-tk-a-q07",
@@ -371,8 +369,10 @@
       "options": [
         {
           "key": "a",
-          "text": null,
-          "images": []
+          "text": "c.",
+          "images": [
+            "/soal/s4-final-bahasa-inggris-tk-a/q14-a.webp"
+          ]
         },
         {
           "key": "b",
@@ -389,8 +389,8 @@
           ]
         }
       ],
-      "answer": null,
-      "status": "needs-review"
+      "answer": "b",
+      "status": "ok"
     },
     {
       "id": "s4-final-bahasa-inggris-tk-a-q15",

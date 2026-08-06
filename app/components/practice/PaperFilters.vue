@@ -195,7 +195,9 @@ const isDefault = computed(
   display: inline-flex;
   align-items: center;
   gap: 0.4rem;
+  min-height: 2.6rem;
   padding: 0.45rem 1rem;
+  -webkit-tap-highlight-color: transparent;
   border: 2px solid var(--c-ink-line-soft);
   border-radius: $radius-pill;
   background: var(--c-surface);
@@ -220,6 +222,7 @@ const isDefault = computed(
   }
 
   &--sm {
+    min-height: 2.25rem;
     padding: 0.3rem 0.8rem;
     font-size: 0.85rem;
   }

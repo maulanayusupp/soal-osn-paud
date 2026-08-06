@@ -52,11 +52,17 @@ export function scoreOptionBands({ questions, marks, rasters, protectedBoxes, to
       // whole line. Word starts the swatch at the marker, while the artwork
       // begins ~25 units further right — so a strip this wide always sees the
       // key and never sees the picture, whatever colours the picture uses.
-      const stripLeft = Math.max(leftEdge, band.xFrom, marker.left - 6)
-      const stripRight = Math.min(
-        band.xTo,
-        marker.left + Math.min(marker.width + 10, 30),
-      )
+      //
+      // For a side-by-side option, `marker.left` is only a character-offset
+      // guess; `markerHint` — measured from that option's own pictures — says
+      // where the letter really is, so the strip is placed just left of them.
+      const anchor = band.markerHint ?? marker.left
+      const stripLeft = band.markerHint
+        ? Math.max(leftEdge, anchor - 44)
+        : Math.max(leftEdge, band.xFrom, marker.left - 6)
+      const stripRight = band.markerHint
+        ? anchor - 2
+        : Math.min(band.xTo, marker.left + Math.min(marker.width + 10, 30))
       const left = toRaster(stripLeft)
       const right = Math.min(raster.width, toRaster(stripRight))
 

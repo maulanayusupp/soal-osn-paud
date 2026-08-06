@@ -21,8 +21,7 @@
   "questionCount": 20,
   "playableCount": 18,
   "warnings": [
-    "Q4: no answer highlight found",
-    "Q4: option b is empty"
+    "Q4: no answer highlight found"
   ],
   "questions": [
     {
@@ -120,7 +119,9 @@
         {
           "key": "b",
           "text": null,
-          "images": []
+          "images": [
+            "/soal/s4-penyisihan-matematika-tk-b/q04-b.webp"
+          ]
         },
         {
           "key": "c",

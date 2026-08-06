@@ -19,12 +19,10 @@
   "answerSource": "docx",
   "verified": false,
   "questionCount": 20,
-  "playableCount": 16,
+  "playableCount": 17,
   "warnings": [
     "Q7: no answer highlight found",
     "Q8: no answer highlight found",
-    "Q18: no answer highlight found",
-    "Q18: option a is empty",
     "Q19: no answer highlight found"
   ],
   "questions": [
@@ -516,14 +514,16 @@
         {
           "key": "a",
           "text": null,
-          "images": []
+          "images": [
+            "/soal/s3-final-matematika-tk-a/q18-a.webp",
+            "/soal/s3-final-matematika-tk-a/q18-a-2.webp"
+          ]
         },
         {
           "key": "b",
           "text": null,
           "images": [
-            "/soal/s3-final-matematika-tk-a/q18-b.webp",
-            "/soal/s3-final-matematika-tk-a/q18-b-2.webp"
+            "/soal/s3-final-matematika-tk-a/q18-b.webp"
           ]
         },
         {
@@ -534,8 +534,8 @@
           ]
         }
       ],
-      "answer": null,
-      "status": "needs-review"
+      "answer": "b",
+      "status": "ok"
     },
     {
       "id": "s3-final-matematika-tk-a-q19",

@@ -19,11 +19,9 @@
   "answerSource": "docx",
   "verified": false,
   "questionCount": 20,
-  "playableCount": 17,
+  "playableCount": 18,
   "warnings": [
-    "Q13: no answer highlight found",
-    "Q17: no answer highlight found",
-    "Q17: option a is empty"
+    "Q17: no answer highlight found"
   ],
   "questions": [
     {
@@ -377,7 +375,8 @@
           "key": "a",
           "text": null,
           "images": [
-            "/soal/s4-penyisihan-matematika-paud/q13-a.webp"
+            "/soal/s4-penyisihan-matematika-paud/q13-a.webp",
+            "/soal/s4-penyisihan-matematika-paud/q13-a-2.webp"
           ]
         },
         {
@@ -395,8 +394,8 @@
           ]
         }
       ],
-      "answer": null,
-      "status": "needs-review"
+      "answer": "b",
+      "status": "ok"
     },
     {
       "id": "s4-penyisihan-matematika-paud-q14",
@@ -486,7 +485,9 @@
         {
           "key": "a",
           "text": null,
-          "images": []
+          "images": [
+            "/soal/s4-penyisihan-matematika-paud/q17-a.webp"
+          ]
         },
         {
           "key": "c",

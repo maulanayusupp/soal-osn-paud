@@ -19,11 +19,8 @@
   "answerSource": "docx",
   "verified": false,
   "questionCount": 20,
-  "playableCount": 18,
-  "warnings": [
-    "Q8: option b is empty",
-    "Q13: option a is empty"
-  ],
+  "playableCount": 20,
+  "warnings": [],
   "questions": [
     {
       "id": "s3-final-bahasa-inggris-tk-a-q01",
@@ -228,7 +225,9 @@
         {
           "key": "b",
           "text": null,
-          "images": []
+          "images": [
+            "/soal/s3-final-bahasa-inggris-tk-a/q08-b.webp"
+          ]
         },
         {
           "key": "c",
@@ -239,7 +238,7 @@
         }
       ],
       "answer": "a",
-      "status": "needs-review"
+      "status": "ok"
     },
     {
       "id": "s3-final-bahasa-inggris-tk-a-q09",
@@ -354,7 +353,9 @@
         {
           "key": "a",
           "text": null,
-          "images": []
+          "images": [
+            "/soal/s3-final-bahasa-inggris-tk-a/q13-a.webp"
+          ]
         },
         {
           "key": "b",
@@ -372,7 +373,7 @@
         }
       ],
       "answer": "a",
-      "status": "needs-review"
+      "status": "ok"
     },
     {
       "id": "s3-final-bahasa-inggris-tk-a-q14",

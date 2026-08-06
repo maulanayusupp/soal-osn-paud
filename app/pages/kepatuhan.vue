@@ -44,16 +44,8 @@ usePageSeo(
             <td>{{ totals.papers }}</td>
           </tr>
           <tr>
-            <th scope="row">{{ $t('compliance.table.questions') }}</th>
-            <td>{{ totals.questions }}</td>
-          </tr>
-          <tr>
             <th scope="row">{{ $t('compliance.table.playable') }}</th>
             <td>{{ totals.playable }}</td>
-          </tr>
-          <tr>
-            <th scope="row">{{ $t('compliance.table.withheld') }}</th>
-            <td>{{ totals.withheld }}</td>
           </tr>
           <tr>
             <th scope="row">{{ $t('compliance.table.seasons') }}</th>
