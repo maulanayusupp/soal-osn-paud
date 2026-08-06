@@ -1,0 +1,21 @@
+# Nuxt
+.nuxt
+.output
+.data
+.nitro
+.cache
+dist
+
+# Node
+node_modules
+*.log*
+.DS_Store
+
+# Env
+.env
+.env.*
+!.env.example
+
+# Import pipeline scratch space (page renders / intermediate crops).
+# The *published* artefacts — app/data/**.json and public/soal/** — are committed.
+.import-cache
