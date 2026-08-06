@@ -1,0 +1,560 @@
+{
+  "id": "s3-final-bahasa-inggris-tk-b",
+  "season": 3,
+  "round": "final",
+  "subject": "bahasa-inggris",
+  "level": "tk-b",
+  "printed": {
+    "title": "SOAL BAHASA INGGRIS BABAK FINAL",
+    "level": "TK B SEDERAJAT",
+    "date": "OKTOBER 2025",
+    "raw": [
+      "OLIMPIADE SISWA NASIONAL",
+      "SOAL BAHASA INGGRIS BABAK FINAL",
+      "TK B SEDERAJAT",
+      "OKTOBER 2025"
+    ]
+  },
+  "layoutSource": "docx",
+  "answerSource": "docx",
+  "verified": false,
+  "questionCount": 20,
+  "playableCount": 18,
+  "warnings": [
+    "Q12: no answer highlight found",
+    "Q13: no answer highlight found",
+    "Q13: option a is empty"
+  ],
+  "questions": [
+    {
+      "id": "s3-final-bahasa-inggris-tk-b-q01",
+      "n": 1,
+      "prompt": "How many legs do 7 camels have?",
+      "images": [
+        "/soal/s3-final-bahasa-inggris-tk-b/q01-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "30",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "7",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "28",
+          "images": []
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    },
+    {
+      "id": "s3-final-bahasa-inggris-tk-b-q02",
+      "n": 2,
+      "prompt": "Which number is bigger?",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": "27",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "26",
+          "images": [
+            "/soal/s3-final-bahasa-inggris-tk-b/q02-b.webp"
+          ]
+        },
+        {
+          "key": "c",
+          "text": "30",
+          "images": []
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    },
+    {
+      "id": "s3-final-bahasa-inggris-tk-b-q03",
+      "n": 3,
+      "prompt": "Which number is missing?",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": "Twenty-seven and thirty",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Two seven and three zero",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Twelve and three",
+          "images": []
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s3-final-bahasa-inggris-tk-b-q04",
+      "n": 4,
+      "prompt": "I have two tens and three ones. Which number am I?",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": "Two three",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Twenty-three",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Twelve three",
+          "images": []
+        }
+      ],
+      "answer": "b",
+      "status": "ok"
+    },
+    {
+      "id": "s3-final-bahasa-inggris-tk-b-q05",
+      "n": 5,
+      "prompt": "I am clear and have no taste. People drink me every day. What am I?",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": "Milk",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Rice",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Water",
+          "images": []
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    },
+    {
+      "id": "s3-final-bahasa-inggris-tk-b-q06",
+      "n": 6,
+      "prompt": "Which food comes from the sea?",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": null,
+          "images": [
+            "/soal/s3-final-bahasa-inggris-tk-b/q06-a.webp"
+          ]
+        },
+        {
+          "key": "b",
+          "text": null,
+          "images": [
+            "/soal/s3-final-bahasa-inggris-tk-b/q06-b.webp"
+          ]
+        },
+        {
+          "key": "c",
+          "text": null,
+          "images": [
+            "/soal/s3-final-bahasa-inggris-tk-b/q06-c.webp"
+          ]
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s3-final-bahasa-inggris-tk-b-q07",
+      "n": 7,
+      "prompt": "Which one is a drink made from oranges?",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": "Orange rice",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Orange smoothie",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Orange bread",
+          "images": []
+        }
+      ],
+      "answer": "b",
+      "status": "ok"
+    },
+    {
+      "id": "s3-final-bahasa-inggris-tk-b-q08",
+      "n": 8,
+      "prompt": "Which one is not a fruit drink?",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": "Lychee juice",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Lemonade",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Milk",
+          "images": []
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    },
+    {
+      "id": "s3-final-bahasa-inggris-tk-b-q09",
+      "n": 9,
+      "prompt": "I run on rails. What am I?",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": "Train",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Rickshaw",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Rocket",
+          "images": []
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s3-final-bahasa-inggris-tk-b-q10",
+      "n": 10,
+      "prompt": "The picture below is a …",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": "Glider",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Submarine",
+          "images": [
+            "/soal/s3-final-bahasa-inggris-tk-b/q10-b.webp"
+          ]
+        },
+        {
+          "key": "c",
+          "text": "Yacht",
+          "images": []
+        }
+      ],
+      "answer": "b",
+      "status": "ok"
+    },
+    {
+      "id": "s3-final-bahasa-inggris-tk-b-q11",
+      "n": 11,
+      "prompt": "I can fly in the sky. I have wings that go around. I can carry only a few people. What am I?",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": "Airplane",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Paraglider",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Helicopter",
+          "images": []
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    },
+    {
+      "id": "s3-final-bahasa-inggris-tk-b-q12",
+      "n": 12,
+      "prompt": "The picture below that shows a hot air balloon is …",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": null,
+          "images": [
+            "/soal/s3-final-bahasa-inggris-tk-b/q12-a.webp"
+          ]
+        },
+        {
+          "key": "b",
+          "text": null,
+          "images": [
+            "/soal/s3-final-bahasa-inggris-tk-b/q12-b.webp"
+          ]
+        },
+        {
+          "key": "c",
+          "text": null,
+          "images": [
+            "/soal/s3-final-bahasa-inggris-tk-b/q12-c.webp"
+          ]
+        }
+      ],
+      "answer": null,
+      "status": "needs-review"
+    },
+    {
+      "id": "s3-final-bahasa-inggris-tk-b-q13",
+      "n": 13,
+      "prompt": "The object below that has a rectangle shape is …",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": null,
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": null,
+          "images": [
+            "/soal/s3-final-bahasa-inggris-tk-b/q13-b.webp"
+          ]
+        },
+        {
+          "key": "c",
+          "text": null,
+          "images": [
+            "/soal/s3-final-bahasa-inggris-tk-b/q13-c.webp"
+          ]
+        }
+      ],
+      "answer": null,
+      "status": "needs-review"
+    },
+    {
+      "id": "s3-final-bahasa-inggris-tk-b-q14",
+      "n": 14,
+      "prompt": "Which shape has four equal sides?",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": "Square",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Oval",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Pentagon",
+          "images": []
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s3-final-bahasa-inggris-tk-b-q15",
+      "n": 15,
+      "prompt": "The picture below is a …",
+      "images": [
+        "/soal/s3-final-bahasa-inggris-tk-b/q15-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Star",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Diamond",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Heart",
+          "images": []
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    },
+    {
+      "id": "s3-final-bahasa-inggris-tk-b-q16",
+      "n": 16,
+      "prompt": "The flag in the picture below has a … shape.",
+      "images": [
+        "/soal/s3-final-bahasa-inggris-tk-b/q16-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Triangle",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Rectangle",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Square",
+          "images": []
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s3-final-bahasa-inggris-tk-b-q17",
+      "n": 17,
+      "prompt": "Which greeting do we say when the sun rises?",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": "Good night",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Good afternoon",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Good morning",
+          "images": []
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    },
+    {
+      "id": "s3-final-bahasa-inggris-tk-b-q18",
+      "n": 18,
+      "prompt": "If your friend is leaving your house, which greeting is correct?",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": "Goodbye",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Hello",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Good night",
+          "images": []
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s3-final-bahasa-inggris-tk-b-q19",
+      "n": 19,
+      "prompt": "When you meet a new friend for the first time, which greeting is correct?",
+      "images": [
+        "/soal/s3-final-bahasa-inggris-tk-b/q19-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Bye",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Hello",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Good night",
+          "images": []
+        }
+      ],
+      "answer": "b",
+      "status": "ok"
+    },
+    {
+      "id": "s3-final-bahasa-inggris-tk-b-q20",
+      "n": 20,
+      "prompt": "What should Emily answer?",
+      "images": [
+        "/soal/s3-final-bahasa-inggris-tk-b/q20-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Good afternoon",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Bye",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Hello",
+          "images": []
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    }
+  ]
+}

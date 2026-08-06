@@ -1,0 +1,568 @@
+{
+  "id": "s2-final-bahasa-inggris-tk-a",
+  "season": 2,
+  "round": "final",
+  "subject": "bahasa-inggris",
+  "level": "tk-a",
+  "printed": {
+    "title": "SOAL BAHASA INGGRIS BABAK FINAL",
+    "level": "TK A SEDERAJAT",
+    "date": "JUNI 2025",
+    "raw": [
+      "OLIMPIADE SISWA NASIONAL",
+      "SOAL BAHASA INGGRIS BABAK FINAL",
+      "TK A SEDERAJAT",
+      "JUNI 2025"
+    ]
+  },
+  "layoutSource": "pdf",
+  "answerSource": "pdf",
+  "verified": false,
+  "questionCount": 20,
+  "playableCount": 20,
+  "warnings": [],
+  "questions": [
+    {
+      "id": "s2-final-bahasa-inggris-tk-a-q01",
+      "n": 1,
+      "prompt": "Which one is the correct English for this number 20?",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": "Twentee",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Twenty",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Twinty",
+          "images": []
+        }
+      ],
+      "answer": "b",
+      "status": "ok"
+    },
+    {
+      "id": "s2-final-bahasa-inggris-tk-a-q02",
+      "n": 2,
+      "prompt": "What number comes after twelve?",
+      "images": [
+        "/soal/s2-final-bahasa-inggris-tk-a/q02-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Eleven",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Thirteen",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Twenty",
+          "images": []
+        }
+      ],
+      "answer": "b",
+      "status": "ok"
+    },
+    {
+      "id": "s2-final-bahasa-inggris-tk-a-q03",
+      "n": 3,
+      "prompt": "What is two numbers before nineteen?",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": "Seventeen",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Ten",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Sixteen",
+          "images": []
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s2-final-bahasa-inggris-tk-a-q04",
+      "n": 4,
+      "prompt": "Choose the number eighteen!",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": null,
+          "images": [
+            "/soal/s2-final-bahasa-inggris-tk-a/q04-a.webp"
+          ]
+        },
+        {
+          "key": "b",
+          "text": null,
+          "images": [
+            "/soal/s2-final-bahasa-inggris-tk-a/q04-b.webp"
+          ]
+        },
+        {
+          "key": "c",
+          "text": null,
+          "images": [
+            "/soal/s2-final-bahasa-inggris-tk-a/q04-c.webp"
+          ]
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s2-final-bahasa-inggris-tk-a-q05",
+      "n": 5,
+      "prompt": "How many broccolis are there below?",
+      "images": [
+        "/soal/s2-final-bahasa-inggris-tk-a/q05-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Twelve",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Sixteen",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Fourteen",
+          "images": []
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    },
+    {
+      "id": "s2-final-bahasa-inggris-tk-a-q06",
+      "n": 6,
+      "prompt": "The vegetable below is...",
+      "images": [
+        "/soal/s2-final-bahasa-inggris-tk-a/q06-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Cabbage",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Lettuce",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Spinach",
+          "images": []
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s2-final-bahasa-inggris-tk-a-q07",
+      "n": 7,
+      "prompt": "Which vegetable ends with the letter \"e\"?",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": "Eggplant",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Cabbage",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Orange",
+          "images": []
+        }
+      ],
+      "answer": "b",
+      "status": "ok"
+    },
+    {
+      "id": "s2-final-bahasa-inggris-tk-a-q08",
+      "n": 8,
+      "prompt": "The picture below that shows a sweet potato is...",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": null,
+          "images": [
+            "/soal/s2-final-bahasa-inggris-tk-a/q08-a.webp"
+          ]
+        },
+        {
+          "key": "b",
+          "text": null,
+          "images": [
+            "/soal/s2-final-bahasa-inggris-tk-a/q08-b.webp"
+          ]
+        },
+        {
+          "key": "c",
+          "text": null,
+          "images": [
+            "/soal/s2-final-bahasa-inggris-tk-a/q08-c.webp"
+          ]
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    },
+    {
+      "id": "s2-final-bahasa-inggris-tk-a-q09",
+      "n": 9,
+      "prompt": "What is the English word for “bayam”?",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": "Spinach",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Lettuce",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Cabbage",
+          "images": []
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s2-final-bahasa-inggris-tk-a-q10",
+      "n": 10,
+      "prompt": "What vegetables are orange in colour and are often used during Halloween?",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": null,
+          "images": [
+            "/soal/s2-final-bahasa-inggris-tk-a/q10-a.webp"
+          ]
+        },
+        {
+          "key": "b",
+          "text": null,
+          "images": [
+            "/soal/s2-final-bahasa-inggris-tk-a/q10-b.webp"
+          ]
+        },
+        {
+          "key": "c",
+          "text": null,
+          "images": [
+            "/soal/s2-final-bahasa-inggris-tk-a/q10-c.webp"
+          ]
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s2-final-bahasa-inggris-tk-a-q11",
+      "n": 11,
+      "prompt": "Which one is a family member?",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": "Friend",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Teacher",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Cousin",
+          "images": []
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    },
+    {
+      "id": "s2-final-bahasa-inggris-tk-a-q12",
+      "n": 12,
+      "prompt": "Who is your grandma?",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": "Your mother's mother",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Your father's father",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Your mother's sister",
+          "images": []
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s2-final-bahasa-inggris-tk-a-q13",
+      "n": 13,
+      "prompt": "She is my family member. She is my...",
+      "images": [
+        "/soal/s2-final-bahasa-inggris-tk-a/q13-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Neighbor",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Aunt",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Teacher",
+          "images": []
+        }
+      ],
+      "answer": "b",
+      "status": "ok"
+    },
+    {
+      "id": "s2-final-bahasa-inggris-tk-a-q14",
+      "n": 14,
+      "prompt": "They are...",
+      "images": [
+        "/soal/s2-final-bahasa-inggris-tk-a/q14-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Grandparents",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Grandfather",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Grandmother",
+          "images": []
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s2-final-bahasa-inggris-tk-a-q15",
+      "n": 15,
+      "prompt": "He is my...",
+      "images": [
+        "/soal/s2-final-bahasa-inggris-tk-a/q15-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Sister",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Father",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Brother",
+          "images": []
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    },
+    {
+      "id": "s2-final-bahasa-inggris-tk-a-q16",
+      "n": 16,
+      "prompt": "Which body part is not on your face?",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": null,
+          "images": [
+            "/soal/s2-final-bahasa-inggris-tk-a/q16-a.webp"
+          ]
+        },
+        {
+          "key": "b",
+          "text": null,
+          "images": [
+            "/soal/s2-final-bahasa-inggris-tk-a/q16-b.webp"
+          ]
+        },
+        {
+          "key": "c",
+          "text": null,
+          "images": [
+            "/soal/s2-final-bahasa-inggris-tk-a/q16-c.webp"
+          ]
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    },
+    {
+      "id": "s2-final-bahasa-inggris-tk-a-q17",
+      "n": 17,
+      "prompt": "Which part do you use to write?",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": "Foot",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Hand",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Eye",
+          "images": []
+        }
+      ],
+      "answer": "b",
+      "status": "ok"
+    },
+    {
+      "id": "s2-final-bahasa-inggris-tk-a-q18",
+      "n": 18,
+      "prompt": "What is the body part below?",
+      "images": [
+        "/soal/s2-final-bahasa-inggris-tk-a/q18-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Toes",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Waist",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Finger",
+          "images": []
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s2-final-bahasa-inggris-tk-a-q19",
+      "n": 19,
+      "prompt": "You can smell food using...",
+      "images": [
+        "/soal/s2-final-bahasa-inggris-tk-a/q19-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Nose",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Hand",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Mount",
+          "images": []
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s2-final-bahasa-inggris-tk-a-q20",
+      "n": 20,
+      "prompt": "The body parts shown in images A and B are …",
+      "images": [
+        "/soal/s2-final-bahasa-inggris-tk-a/q20-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Neck and hand",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Neck and fingers",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Fingers and hand",
+          "images": []
+        }
+      ],
+      "answer": "b",
+      "status": "ok"
+    }
+  ]
+}

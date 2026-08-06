@@ -1,0 +1,576 @@
+{
+  "id": "s4-penyisihan-matematika-tk-b",
+  "season": 4,
+  "round": "penyisihan",
+  "subject": "matematika",
+  "level": "tk-b",
+  "printed": {
+    "title": "SOAL MATEMATIKA BABAK PENYISIHAN",
+    "level": "TK B SEDERAJAT",
+    "date": "JANUARI 2026",
+    "raw": [
+      "OLIMPIADE SISWA NASIONAL",
+      "SOAL MATEMATIKA BABAK PENYISIHAN",
+      "TK B SEDERAJAT",
+      "JANUARI 2026"
+    ]
+  },
+  "layoutSource": "docx",
+  "answerSource": "docx",
+  "verified": false,
+  "questionCount": 20,
+  "playableCount": 18,
+  "warnings": [
+    "Q4: no answer highlight found",
+    "Q4: option b is empty"
+  ],
+  "questions": [
+    {
+      "id": "s4-penyisihan-matematika-tk-b-q01",
+      "n": 1,
+      "prompt": "Hasil penjumlahan berikut adalah….",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": "7",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "8",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "11",
+          "images": []
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s4-penyisihan-matematika-tk-b-q02",
+      "n": 2,
+      "prompt": "Sebutkan angka pada gambar berikut!",
+      "images": [
+        "/soal/s4-penyisihan-matematika-tk-b/q02-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Dua",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Dua belas",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Sebelas",
+          "images": []
+        }
+      ],
+      "answer": "b",
+      "status": "ok"
+    },
+    {
+      "id": "s4-penyisihan-matematika-tk-b-q03",
+      "n": 3,
+      "prompt": "Ada berapa kerang pada gambar di bawah ini?",
+      "images": [
+        "/soal/s4-penyisihan-matematika-tk-b/q03-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "15",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "13",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "14",
+          "images": []
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    },
+    {
+      "id": "s4-penyisihan-matematika-tk-b-q04",
+      "n": 4,
+      "prompt": "Pilih angka yang dibaca sebelas!",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": null,
+          "images": [
+            "/soal/s4-penyisihan-matematika-tk-b/q04-a.webp"
+          ]
+        },
+        {
+          "key": "b",
+          "text": null,
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": null,
+          "images": [
+            "/soal/s4-penyisihan-matematika-tk-b/q04-c.webp"
+          ]
+        }
+      ],
+      "answer": null,
+      "status": "needs-review"
+    },
+    {
+      "id": "s4-penyisihan-matematika-tk-b-q05",
+      "n": 5,
+      "prompt": "Pilihlah gambar semak dengan 15 bunga!",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": null,
+          "images": [
+            "/soal/s4-penyisihan-matematika-tk-b/q05-a.webp"
+          ]
+        },
+        {
+          "key": "b",
+          "text": null,
+          "images": [
+            "/soal/s4-penyisihan-matematika-tk-b/q05-b.webp"
+          ]
+        },
+        {
+          "key": "c",
+          "text": null,
+          "images": [
+            "/soal/s4-penyisihan-matematika-tk-b/q05-c.webp"
+          ]
+        }
+      ],
+      "answer": "b",
+      "status": "ok"
+    },
+    {
+      "id": "s4-penyisihan-matematika-tk-b-q06",
+      "n": 6,
+      "prompt": "Berapakah nilai buah apel berikut?",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": "1",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "11",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "10",
+          "images": []
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    },
+    {
+      "id": "s4-penyisihan-matematika-tk-b-q07",
+      "n": 7,
+      "prompt": "Nilai yang tepat untuk melengkapi bagian yang kosong adalah ….",
+      "images": [
+        "/soal/s4-penyisihan-matematika-tk-b/q07-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "10",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "2",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "1",
+          "images": []
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s4-penyisihan-matematika-tk-b-q08",
+      "n": 8,
+      "prompt": "Hasil pengurangan berikut adalah ….",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": "13",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "10",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "15",
+          "images": [
+            "/soal/s4-penyisihan-matematika-tk-b/q08-c.webp"
+          ]
+        }
+      ],
+      "answer": "b",
+      "status": "ok"
+    },
+    {
+      "id": "s4-penyisihan-matematika-tk-b-q09",
+      "n": 9,
+      "prompt": "Berapakah hasil penjumlahan berikut?",
+      "images": [
+        "/soal/s4-penyisihan-matematika-tk-b/q09-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "13",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "15",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "14",
+          "images": []
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    },
+    {
+      "id": "s4-penyisihan-matematika-tk-b-q10",
+      "n": 10,
+      "prompt": "Hulahop yang digunakan Ziya berbentuk ….",
+      "images": [
+        "/soal/s4-penyisihan-matematika-tk-b/q10-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Lingkaran",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Segitiga",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Persegi",
+          "images": []
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s4-penyisihan-matematika-tk-b-q11",
+      "n": 11,
+      "prompt": "Berdasarkan gambar berikut, benda dengan bentuk persegi adalah ….",
+      "images": [
+        "/soal/s4-penyisihan-matematika-tk-b/q11-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Cangkir",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Bantal",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Daun",
+          "images": []
+        }
+      ],
+      "answer": "b",
+      "status": "ok"
+    },
+    {
+      "id": "s4-penyisihan-matematika-tk-b-q12",
+      "n": 12,
+      "prompt": "Manakah gambar potongan buah semangka yang berbentuk segitiga?",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": null,
+          "images": [
+            "/soal/s4-penyisihan-matematika-tk-b/q12-a.webp"
+          ]
+        },
+        {
+          "key": "c",
+          "text": null,
+          "images": [
+            "/soal/s4-penyisihan-matematika-tk-b/q12-c.webp"
+          ]
+        }
+      ],
+      "answer": "a",
+      "status": "needs-review"
+    },
+    {
+      "id": "s4-penyisihan-matematika-tk-b-q13",
+      "n": 13,
+      "prompt": "Pilih kelompok buah dengan warna yang sama!",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": null,
+          "images": [
+            "/soal/s4-penyisihan-matematika-tk-b/q13-a.webp"
+          ]
+        },
+        {
+          "key": "b",
+          "text": null,
+          "images": [
+            "/soal/s4-penyisihan-matematika-tk-b/q13-b.webp"
+          ]
+        },
+        {
+          "key": "c",
+          "text": "Dcsa",
+          "images": [
+            "/soal/s4-penyisihan-matematika-tk-b/q13-c.webp"
+          ]
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    },
+    {
+      "id": "s4-penyisihan-matematika-tk-b-q14",
+      "n": 14,
+      "prompt": "Kelompok lebah yang jumlahnya sama adalah …",
+      "images": [
+        "/soal/s4-penyisihan-matematika-tk-b/q14-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Kelompok B dan C",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Kelompok A dan C",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Kelompok A dan B",
+          "images": []
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s4-penyisihan-matematika-tk-b-q15",
+      "n": 15,
+      "prompt": "Hewan yang paling tinggi pada gambar berikut adalah ….",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": "Burung",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Jerapah",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Tupai",
+          "images": [
+            "/soal/s4-penyisihan-matematika-tk-b/q15-c.webp"
+          ]
+        }
+      ],
+      "answer": "b",
+      "status": "ok"
+    },
+    {
+      "id": "s4-penyisihan-matematika-tk-b-q16",
+      "n": 16,
+      "prompt": "Manakah pensil yang paling pendek?",
+      "images": [
+        "/soal/s4-penyisihan-matematika-tk-b/q16-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Pensil B",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Pensil D",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Pensil A",
+          "images": []
+        }
+      ],
+      "answer": "b",
+      "status": "ok"
+    },
+    {
+      "id": "s4-penyisihan-matematika-tk-b-q17",
+      "n": 17,
+      "prompt": "Buah yang ukurannya paling besar adalah ….",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": "Durian, melon, dan semangka",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Durian, apel, dan manggis",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Ceri, mangga, dan semangka",
+          "images": [
+            "/soal/s4-penyisihan-matematika-tk-b/q17-c.webp"
+          ]
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s4-penyisihan-matematika-tk-b-q18",
+      "n": 18,
+      "prompt": "Pilihlah kelompok benda dengan bentuk yang sama!",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": null,
+          "images": [
+            "/soal/s4-penyisihan-matematika-tk-b/q18-a.webp"
+          ]
+        },
+        {
+          "key": "b",
+          "text": null,
+          "images": [
+            "/soal/s4-penyisihan-matematika-tk-b/q18-b.webp"
+          ]
+        },
+        {
+          "key": "c",
+          "text": null,
+          "images": [
+            "/soal/s4-penyisihan-matematika-tk-b/q18-c.webp"
+          ]
+        }
+      ],
+      "answer": "b",
+      "status": "ok"
+    },
+    {
+      "id": "s4-penyisihan-matematika-tk-b-q19",
+      "n": 19,
+      "prompt": "Hewan yang lebih berat adalah ….",
+      "images": [
+        "/soal/s4-penyisihan-matematika-tk-b/q19-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Tupai",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Bunglon",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Kedua hewan memiliki berat yang sama",
+          "images": []
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s4-penyisihan-matematika-tk-b-q20",
+      "n": 20,
+      "prompt": "Manakah sayuran yang lebih ringan?",
+      "images": [
+        "/soal/s4-penyisihan-matematika-tk-b/q20-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Tomat",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Terong",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Tomat dan terong",
+          "images": []
+        }
+      ],
+      "answer": "b",
+      "status": "ok"
+    }
+  ]
+}

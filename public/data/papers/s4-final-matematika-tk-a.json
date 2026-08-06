@@ -1,0 +1,616 @@
+{
+  "id": "s4-final-matematika-tk-a",
+  "season": 4,
+  "round": "final",
+  "subject": "matematika",
+  "level": "tk-a",
+  "printed": {
+    "title": "SOAL MATEMATIKA BABAK FINAL",
+    "level": "TK A SEDERAJAT",
+    "date": "FEBRUARI 2026",
+    "raw": [
+      "OLIMPIADE SISWA NASIONAL",
+      "SOAL MATEMATIKA BABAK FINAL",
+      "TK A SEDERAJAT",
+      "FEBRUARI 2026"
+    ]
+  },
+  "layoutSource": "pdf",
+  "answerSource": "docx",
+  "verified": false,
+  "questionCount": 20,
+  "playableCount": 17,
+  "warnings": [
+    "answer key read from the .docx (the shipped PDF is the unmarked student copy)",
+    "Q4: no answer highlight found",
+    "Q4: option a is empty",
+    "Q8: no answer highlight found",
+    "Q8: option a is empty",
+    "Q11: no answer highlight found",
+    "Q11: option a is empty"
+  ],
+  "questions": [
+    {
+      "id": "s4-final-matematika-tk-a-q01",
+      "n": 1,
+      "prompt": "Lengkapilah urutan berikut dengan angka yang tepat!",
+      "images": [
+        "/soal/s4-final-matematika-tk-a/q01-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "10, 12, 14, 16, 17, 18",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "10, 11, 14, 15, 16, 17",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "10, 11, 12, 14, 16, 17",
+          "images": []
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    },
+    {
+      "id": "s4-final-matematika-tk-a-q02",
+      "n": 2,
+      "prompt": "Urutankan angka berikut dari yang terkecil hingga keterbesar!",
+      "images": [
+        "/soal/s4-final-matematika-tk-a/q02-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "3, 5, 9, 10, 14, 17, 20",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "3, 5, 9, 11, 14, 17, 20",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "2, 3, 9, 10, 17, 19, 20",
+          "images": []
+        }
+      ],
+      "answer": "b",
+      "status": "ok"
+    },
+    {
+      "id": "s4-final-matematika-tk-a-q03",
+      "n": 3,
+      "prompt": "Bilangan manakah yang lebih besar dari 15 tetapi kurang dari 19?",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": "14",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "18",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "20",
+          "images": []
+        }
+      ],
+      "answer": "b",
+      "status": "ok"
+    },
+    {
+      "id": "s4-final-matematika-tk-a-q04",
+      "n": 4,
+      "prompt": "Tentukan gambar yang menunjukkan 18 kuda laut!",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": null,
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": null,
+          "images": [
+            "/soal/s4-final-matematika-tk-a/q04-b.webp"
+          ]
+        },
+        {
+          "key": "c",
+          "text": null,
+          "images": [
+            "/soal/s4-final-matematika-tk-a/q04-c.webp"
+          ]
+        }
+      ],
+      "answer": null,
+      "status": "needs-review"
+    },
+    {
+      "id": "s4-final-matematika-tk-a-q05",
+      "n": 5,
+      "prompt": "Manakah pasangan angka yang jumlahnya 20?",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": "13 dan 7",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "12 dan 9",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "17 dan 5",
+          "images": []
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s4-final-matematika-tk-a-q06",
+      "n": 6,
+      "prompt": "Manakah pasangan angka yang selisihnya 5?",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": "17 dan 13",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "14 dan 19",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "20 dan 12",
+          "images": []
+        }
+      ],
+      "answer": "b",
+      "status": "ok"
+    },
+    {
+      "id": "s4-final-matematika-tk-a-q07",
+      "n": 7,
+      "prompt": "Tentukan hasil penjumlahan berikut!",
+      "images": [
+        "/soal/s4-final-matematika-tk-a/q07-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": null,
+          "images": [
+            "/soal/s4-final-matematika-tk-a/q07-a.webp"
+          ]
+        },
+        {
+          "key": "b",
+          "text": null,
+          "images": [
+            "/soal/s4-final-matematika-tk-a/q07-b.webp"
+          ]
+        },
+        {
+          "key": "c",
+          "text": null,
+          "images": [
+            "/soal/s4-final-matematika-tk-a/q07-c.webp"
+          ]
+        }
+      ],
+      "answer": "b",
+      "status": "ok"
+    },
+    {
+      "id": "s4-final-matematika-tk-a-q08",
+      "n": 8,
+      "prompt": "Berapa hasil pengurangan berikut?",
+      "images": [
+        "/soal/s4-final-matematika-tk-a/q08-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": null,
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": null,
+          "images": [
+            "/soal/s4-final-matematika-tk-a/q08-b.webp"
+          ]
+        },
+        {
+          "key": "c",
+          "text": null,
+          "images": [
+            "/soal/s4-final-matematika-tk-a/q08-c.webp"
+          ]
+        }
+      ],
+      "answer": null,
+      "status": "needs-review"
+    },
+    {
+      "id": "s4-final-matematika-tk-a-q09",
+      "n": 9,
+      "prompt": "Berapa nilai yang tepat untuk huruf E berikut?",
+      "images": [
+        "/soal/s4-final-matematika-tk-a/q09-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "3",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "19",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "4",
+          "images": []
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    },
+    {
+      "id": "s4-final-matematika-tk-a-q10",
+      "n": 10,
+      "prompt": "Hasil pengurangan berikut adalah ….",
+      "images": [
+        "/soal/s4-final-matematika-tk-a/q10-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "5",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "3",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "4",
+          "images": []
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    },
+    {
+      "id": "s4-final-matematika-tk-a-q11",
+      "n": 11,
+      "prompt": "Perhatikan contoh pola warna balon berikut. Hasil pola warna balon pada soal adalah …",
+      "images": [
+        "/soal/s4-final-matematika-tk-a/q11-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": null,
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": null,
+          "images": [
+            "/soal/s4-final-matematika-tk-a/q11-b.webp"
+          ]
+        },
+        {
+          "key": "c",
+          "text": null,
+          "images": [
+            "/soal/s4-final-matematika-tk-a/q11-c.webp"
+          ]
+        }
+      ],
+      "answer": null,
+      "status": "needs-review"
+    },
+    {
+      "id": "s4-final-matematika-tk-a-q12",
+      "n": 12,
+      "prompt": "Lanjutkan pola berikut!",
+      "images": [
+        "/soal/s4-final-matematika-tk-a/q12-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": null,
+          "images": [
+            "/soal/s4-final-matematika-tk-a/q12-a.webp"
+          ]
+        },
+        {
+          "key": "b",
+          "text": null,
+          "images": [
+            "/soal/s4-final-matematika-tk-a/q12-b.webp"
+          ]
+        },
+        {
+          "key": "c",
+          "text": null,
+          "images": [
+            "/soal/s4-final-matematika-tk-a/q12-c.webp"
+          ]
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s4-final-matematika-tk-a-q13",
+      "n": 13,
+      "prompt": "Gambarkan pola bilangan berikutnya!",
+      "images": [
+        "/soal/s4-final-matematika-tk-a/q13-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": null,
+          "images": [
+            "/soal/s4-final-matematika-tk-a/q13-a.webp"
+          ]
+        },
+        {
+          "key": "b",
+          "text": null,
+          "images": [
+            "/soal/s4-final-matematika-tk-a/q13-b.webp"
+          ]
+        },
+        {
+          "key": "c",
+          "text": null,
+          "images": [
+            "/soal/s4-final-matematika-tk-a/q13-c.webp"
+          ]
+        }
+      ],
+      "answer": "b",
+      "status": "ok"
+    },
+    {
+      "id": "s4-final-matematika-tk-a-q14",
+      "n": 14,
+      "prompt": "Pola berikutnya yang benar adalah ….",
+      "images": [
+        "/soal/s4-final-matematika-tk-a/q14-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": null,
+          "images": [
+            "/soal/s4-final-matematika-tk-a/q14-a.webp"
+          ]
+        },
+        {
+          "key": "b",
+          "text": null,
+          "images": [
+            "/soal/s4-final-matematika-tk-a/q14-b.webp"
+          ]
+        },
+        {
+          "key": "c",
+          "text": null,
+          "images": [
+            "/soal/s4-final-matematika-tk-a/q14-c.webp"
+          ]
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    },
+    {
+      "id": "s4-final-matematika-tk-a-q15",
+      "n": 15,
+      "prompt": "Manakah kelompok yang tidak sesuai jika dikelompokkan berdasarkan jumlah?",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": null,
+          "images": [
+            "/soal/s4-final-matematika-tk-a/q15-a.webp"
+          ]
+        },
+        {
+          "key": "b",
+          "text": null,
+          "images": [
+            "/soal/s4-final-matematika-tk-a/q15-b.webp"
+          ]
+        },
+        {
+          "key": "c",
+          "text": null,
+          "images": [
+            "/soal/s4-final-matematika-tk-a/q15-c.webp"
+          ]
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    },
+    {
+      "id": "s4-final-matematika-tk-a-q16",
+      "n": 16,
+      "prompt": "Kelompok sayuran dengan warna yang sama adalah ….",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": null,
+          "images": [
+            "/soal/s4-final-matematika-tk-a/q16-a.webp"
+          ]
+        },
+        {
+          "key": "b",
+          "text": null,
+          "images": [
+            "/soal/s4-final-matematika-tk-a/q16-b.webp"
+          ]
+        },
+        {
+          "key": "c",
+          "text": null,
+          "images": [
+            "/soal/s4-final-matematika-tk-a/q16-c.webp"
+          ]
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s4-final-matematika-tk-a-q17",
+      "n": 17,
+      "prompt": "Manakah kelompok benda berikut yang memiliki berat dan warna yang sama?",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": null,
+          "images": [
+            "/soal/s4-final-matematika-tk-a/q17-a.webp"
+          ]
+        },
+        {
+          "key": "b",
+          "text": null,
+          "images": [
+            "/soal/s4-final-matematika-tk-a/q17-b.webp"
+          ]
+        },
+        {
+          "key": "c",
+          "text": null,
+          "images": [
+            "/soal/s4-final-matematika-tk-a/q17-c.webp"
+          ]
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s4-final-matematika-tk-a-q18",
+      "n": 18,
+      "prompt": "Manakah kelompok yang tidak sesuai jika dikelompokkan berdasarkan berat?",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": null,
+          "images": [
+            "/soal/s4-final-matematika-tk-a/q18-a.webp"
+          ]
+        },
+        {
+          "key": "b",
+          "text": null,
+          "images": [
+            "/soal/s4-final-matematika-tk-a/q18-b.webp"
+          ]
+        },
+        {
+          "key": "c",
+          "text": null,
+          "images": [
+            "/soal/s4-final-matematika-tk-a/q18-c.webp"
+          ]
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    },
+    {
+      "id": "s4-final-matematika-tk-a-q19",
+      "n": 19,
+      "prompt": "Manakah benda yang lebih besar tetapi lebih ringan?",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": "Buku besar",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Batu besar",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Balon besar",
+          "images": []
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    },
+    {
+      "id": "s4-final-matematika-tk-a-q20",
+      "n": 20,
+      "prompt": "Perhatikan gambar berikut. Manakah dua hewan yang ukurannya lebih kecil daripada marmut?",
+      "images": [
+        "/soal/s4-final-matematika-tk-a/q20-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Jangkrik dan marmut",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Burung dan jangkrik",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Marmut dan monyet",
+          "images": []
+        }
+      ],
+      "answer": "b",
+      "status": "ok"
+    }
+  ]
+}

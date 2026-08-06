@@ -1,0 +1,592 @@
+{
+  "id": "s3-penyisihan-sains-tk-a",
+  "season": 3,
+  "round": "penyisihan",
+  "subject": "sains",
+  "level": "tk-a",
+  "printed": {
+    "title": "SOAL SAINS BABAK PENYISIHAN",
+    "level": "TK A SEDERAJAT",
+    "date": "SEPTEMBER 2025",
+    "raw": [
+      "OLIMPIADE SISWA NASIONAL",
+      "SOAL SAINS BABAK PENYISIHAN",
+      "TK A SEDERAJAT",
+      "SEPTEMBER 2025"
+    ]
+  },
+  "layoutSource": "docx",
+  "answerSource": "docx",
+  "verified": false,
+  "questionCount": 20,
+  "playableCount": 18,
+  "warnings": [
+    "Q5: no answer highlight found",
+    "Q17: no answer highlight found",
+    "Q17: option a is empty"
+  ],
+  "questions": [
+    {
+      "id": "s3-penyisihan-sains-tk-a-q01",
+      "n": 1,
+      "prompt": "Dengan mata kita bisa …",
+      "images": [
+        "/soal/s3-penyisihan-sains-tk-a/q01-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Melihat",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Makan",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Berjalan",
+          "images": []
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s3-penyisihan-sains-tk-a-q02",
+      "n": 2,
+      "prompt": "Hidung digunakan untuk …",
+      "images": [
+        "/soal/s3-penyisihan-sains-tk-a/q02-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Makan",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Memegang",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Mencium",
+          "images": []
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    },
+    {
+      "id": "s3-penyisihan-sains-tk-a-q03",
+      "n": 3,
+      "prompt": "Di bawah ini yang merupakan kegunaan dari telinga adalah …",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": null,
+          "images": [
+            "/soal/s3-penyisihan-sains-tk-a/q03-a.webp"
+          ]
+        },
+        {
+          "key": "b",
+          "text": null,
+          "images": [
+            "/soal/s3-penyisihan-sains-tk-a/q03-b.webp"
+          ]
+        },
+        {
+          "key": "c",
+          "text": null,
+          "images": [
+            "/soal/s3-penyisihan-sains-tk-a/q03-c.webp"
+          ]
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s3-penyisihan-sains-tk-a-q04",
+      "n": 4,
+      "prompt": "Saat makan permen, kita merasakan manis dengan …",
+      "images": [
+        "/soal/s3-penyisihan-sains-tk-a/q04-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Tangan",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Lidah",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Hidung",
+          "images": []
+        }
+      ],
+      "answer": "b",
+      "status": "ok"
+    },
+    {
+      "id": "s3-penyisihan-sains-tk-a-q05",
+      "n": 5,
+      "prompt": "Kita bisa melihat indahnya bunga menggunakan …",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": null,
+          "images": [
+            "/soal/s3-penyisihan-sains-tk-a/q05-a.webp"
+          ]
+        },
+        {
+          "key": "b",
+          "text": null,
+          "images": [
+            "/soal/s3-penyisihan-sains-tk-a/q05-b.webp"
+          ]
+        },
+        {
+          "key": "c",
+          "text": null,
+          "images": [
+            "/soal/s3-penyisihan-sains-tk-a/q05-c.webp"
+          ]
+        }
+      ],
+      "answer": null,
+      "status": "needs-review"
+    },
+    {
+      "id": "s3-penyisihan-sains-tk-a-q06",
+      "n": 6,
+      "prompt": "Kita mendengar suara burung dengan …",
+      "images": [
+        "/soal/s3-penyisihan-sains-tk-a/q06-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Mata",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Telinga",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Hidung",
+          "images": []
+        }
+      ],
+      "answer": "b",
+      "status": "ok"
+    },
+    {
+      "id": "s3-penyisihan-sains-tk-a-q07",
+      "n": 7,
+      "prompt": "Saat turun air dari langit disebut …",
+      "images": [
+        "/soal/s3-penyisihan-sains-tk-a/q07-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Hujan",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Angin",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Panas",
+          "images": []
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s3-penyisihan-sains-tk-a-q08",
+      "n": 8,
+      "prompt": "Cuaca pada gambar ini adalah …",
+      "images": [
+        "/soal/s3-penyisihan-sains-tk-a/q08-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Hujan",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Badai",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Cerah",
+          "images": []
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    },
+    {
+      "id": "s3-penyisihan-sains-tk-a-q09",
+      "n": 9,
+      "prompt": "Manakah gambar yang menunjukkan pelangi?",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": null,
+          "images": [
+            "/soal/s3-penyisihan-sains-tk-a/q09-a.webp"
+          ]
+        },
+        {
+          "key": "b",
+          "text": null,
+          "images": [
+            "/soal/s3-penyisihan-sains-tk-a/q09-b.webp"
+          ]
+        },
+        {
+          "key": "c",
+          "text": null,
+          "images": [
+            "/soal/s3-penyisihan-sains-tk-a/q09-c.webp"
+          ]
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s3-penyisihan-sains-tk-a-q10",
+      "n": 10,
+      "prompt": "Kegiatan di bawah ini yang dilakukan saat hujan adalah …",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": null,
+          "images": [
+            "/soal/s3-penyisihan-sains-tk-a/q10-a.webp"
+          ]
+        },
+        {
+          "key": "b",
+          "text": null,
+          "images": [
+            "/soal/s3-penyisihan-sains-tk-a/q10-b.webp"
+          ]
+        },
+        {
+          "key": "c",
+          "text": null,
+          "images": [
+            "/soal/s3-penyisihan-sains-tk-a/q10-c.webp"
+          ]
+        }
+      ],
+      "answer": "b",
+      "status": "ok"
+    },
+    {
+      "id": "s3-penyisihan-sains-tk-a-q11",
+      "n": 11,
+      "prompt": "Jerapah adalah …",
+      "images": [
+        "/soal/s3-penyisihan-sains-tk-a/q11-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Makhluk hidup",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Makhluk tak hidup",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Benda",
+          "images": []
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s3-penyisihan-sains-tk-a-q12",
+      "n": 12,
+      "prompt": "Batu adalah …",
+      "images": [
+        "/soal/s3-penyisihan-sains-tk-a/q12-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Makhluk hidup",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Hewan",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Makhluk tak hidup",
+          "images": []
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    },
+    {
+      "id": "s3-penyisihan-sains-tk-a-q13",
+      "n": 13,
+      "prompt": "Di bawah ini, manakah yang merupakan benda tak hidup?",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": null,
+          "images": [
+            "/soal/s3-penyisihan-sains-tk-a/q13-a.webp"
+          ]
+        },
+        {
+          "key": "b",
+          "text": null,
+          "images": [
+            "/soal/s3-penyisihan-sains-tk-a/q13-b.webp"
+          ]
+        },
+        {
+          "key": "c",
+          "text": null,
+          "images": [
+            "/soal/s3-penyisihan-sains-tk-a/q13-c.webp"
+          ]
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    },
+    {
+      "id": "s3-penyisihan-sains-tk-a-q14",
+      "n": 14,
+      "prompt": "Bunga yang mekar di taman adalah …",
+      "images": [
+        "/soal/s3-penyisihan-sains-tk-a/q14-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Makhluk tak hidup",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Makhluk hidup",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Hewan",
+          "images": []
+        }
+      ],
+      "answer": "b",
+      "status": "ok"
+    },
+    {
+      "id": "s3-penyisihan-sains-tk-a-q15",
+      "n": 15,
+      "prompt": "Kursi adalah …",
+      "images": [
+        "/soal/s3-penyisihan-sains-tk-a/q15-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Makhluk hidup",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Makhluk tak hidup",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Tumbuhan",
+          "images": []
+        }
+      ],
+      "answer": "b",
+      "status": "ok"
+    },
+    {
+      "id": "s3-penyisihan-sains-tk-a-q16",
+      "n": 16,
+      "prompt": "Kelinci bisa tumbuh besar, maka kelinci adalah …",
+      "images": [
+        "/soal/s3-penyisihan-sains-tk-a/q16-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Makhluk hidup",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Benda",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Makhluk tak hidup",
+          "images": []
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s3-penyisihan-sains-tk-a-q17",
+      "n": 17,
+      "prompt": "Manakah di bawah ini yang bisa bernapas?",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": null,
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": null,
+          "images": [
+            "/soal/s3-penyisihan-sains-tk-a/q17-b.webp"
+          ]
+        },
+        {
+          "key": "c",
+          "text": null,
+          "images": [
+            "/soal/s3-penyisihan-sains-tk-a/q17-c.webp"
+          ]
+        }
+      ],
+      "answer": null,
+      "status": "needs-review"
+    },
+    {
+      "id": "s3-penyisihan-sains-tk-a-q18",
+      "n": 18,
+      "prompt": "Pohon bisa tumbuh, maka pohon adalah …",
+      "images": [
+        "/soal/s3-penyisihan-sains-tk-a/q18-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Hewan",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Makhluk hidup",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Makhluk tak hidup",
+          "images": []
+        }
+      ],
+      "answer": "b",
+      "status": "ok"
+    },
+    {
+      "id": "s3-penyisihan-sains-tk-a-q19",
+      "n": 19,
+      "prompt": "Matahari membuat bumi menjadi …",
+      "images": [
+        "/soal/s3-penyisihan-sains-tk-a/q19-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Terang",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Gelap",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Hujan",
+          "images": []
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s3-penyisihan-sains-tk-a-q20",
+      "n": 20,
+      "prompt": "Kita bisa menjemur pakaian dengan bantuan …",
+      "images": [
+        "/soal/s3-penyisihan-sains-tk-a/q20-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Bulan",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Hujan",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Matahari",
+          "images": []
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    }
+  ]
+}

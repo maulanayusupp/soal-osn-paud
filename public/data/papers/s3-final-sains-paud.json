@@ -1,0 +1,558 @@
+{
+  "id": "s3-final-sains-paud",
+  "season": 3,
+  "round": "final",
+  "subject": "sains",
+  "level": "paud",
+  "printed": {
+    "title": "SOAL SAINS BABAK FINAL",
+    "level": "PAUD SEDERAJAT",
+    "date": "OKTOBER 2025",
+    "raw": [
+      "OLIMPIADE SISWA NASIONAL",
+      "SOAL SAINS BABAK FINAL",
+      "PAUD SEDERAJAT",
+      "OKTOBER 2025"
+    ]
+  },
+  "layoutSource": "docx",
+  "answerSource": "docx",
+  "verified": false,
+  "questionCount": 20,
+  "playableCount": 19,
+  "warnings": [
+    "Q11: no answer highlight found"
+  ],
+  "questions": [
+    {
+      "id": "s3-final-sains-paud-q01",
+      "n": 1,
+      "prompt": "Aku berada di antara kepala dan badan. Siapakah aku?",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": "Leher",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Siku",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Lutut",
+          "images": []
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s3-final-sains-paud-q02",
+      "n": 2,
+      "prompt": "Bagian tubuh yang ditunjukkan oleh panah berikut adalah …",
+      "images": [
+        "/soal/s3-final-sains-paud/q02-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Tumit",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Lengan",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Lutut",
+          "images": []
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    },
+    {
+      "id": "s3-final-sains-paud-q03",
+      "n": 3,
+      "prompt": "Gambar di bawah ini menunjukkan bagian dagu adalah …",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": null,
+          "images": [
+            "/soal/s3-final-sains-paud/q03-a.webp"
+          ]
+        },
+        {
+          "key": "b",
+          "text": null,
+          "images": [
+            "/soal/s3-final-sains-paud/q03-b.webp"
+          ]
+        },
+        {
+          "key": "c",
+          "text": null,
+          "images": [
+            "/soal/s3-final-sains-paud/q03-c.webp"
+          ]
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s3-final-sains-paud-q04",
+      "n": 4,
+      "prompt": "Bagian tubuh yang tidak ada pada gambar di bawah ini adalah …",
+      "images": [
+        "/soal/s3-final-sains-paud/q04-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Pusar",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Perut",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Pundak",
+          "images": []
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    },
+    {
+      "id": "s3-final-sains-paud-q05",
+      "n": 5,
+      "prompt": "Manakah yang termasuk benda panas?",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": null,
+          "images": [
+            "/soal/s3-final-sains-paud/q05-a.webp"
+          ]
+        },
+        {
+          "key": "b",
+          "text": null,
+          "images": [
+            "/soal/s3-final-sains-paud/q05-b.webp"
+          ]
+        },
+        {
+          "key": "c",
+          "text": null,
+          "images": [
+            "/soal/s3-final-sains-paud/q05-c.webp"
+          ]
+        }
+      ],
+      "answer": "b",
+      "status": "ok"
+    },
+    {
+      "id": "s3-final-sains-paud-q06",
+      "n": 6,
+      "prompt": "Lilin yang tidak dinyalakan terasa …",
+      "images": [
+        "/soal/s3-final-sains-paud/q06-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Panas",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Terbakar",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Dingin",
+          "images": []
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    },
+    {
+      "id": "s3-final-sains-paud-q07",
+      "n": 7,
+      "prompt": "Ibu meletakkan buah melon di kulkas, sementara buah apel diletakkan di meja. Buah manakah yang terasa dingin?",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": "Melon",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Apel",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Tidak ada buah yang terasa dingin",
+          "images": []
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s3-final-sains-paud-q08",
+      "n": 8,
+      "prompt": "Saat siang hari pasir pantai akan terasa …",
+      "images": [
+        "/soal/s3-final-sains-paud/q08-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Beku",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Pedas",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Panas",
+          "images": []
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    },
+    {
+      "id": "s3-final-sains-paud-q09",
+      "n": 9,
+      "prompt": "Kakak memiliki sirsak, bunga kol, dan kubis. Dari ketiga hal tersebut, manakah yang termasuk sayuran?",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": "Kubis",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Bunga kol dan kubis",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Sirsak",
+          "images": []
+        }
+      ],
+      "answer": "b",
+      "status": "ok"
+    },
+    {
+      "id": "s3-final-sains-paud-q10",
+      "n": 10,
+      "prompt": "Ibu ingin membuat sayur sup. Manakah yang tidak cocok dimasukkan ke dalam sup?",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": "Delima",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Kentang",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Jagung",
+          "images": []
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s3-final-sains-paud-q11",
+      "n": 11,
+      "prompt": "Gambar manakah yang menunjukkan lobak?",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": null,
+          "images": [
+            "/soal/s3-final-sains-paud/q11-a.webp"
+          ]
+        },
+        {
+          "key": "b",
+          "text": null,
+          "images": [
+            "/soal/s3-final-sains-paud/q11-b.webp"
+          ]
+        },
+        {
+          "key": "c",
+          "text": null,
+          "images": [
+            "/soal/s3-final-sains-paud/q11-c.webp"
+          ]
+        }
+      ],
+      "answer": null,
+      "status": "needs-review"
+    },
+    {
+      "id": "s3-final-sains-paud-q12",
+      "n": 12,
+      "prompt": "Buah dengan ciri memiliki rambut pada kulitnya adalah …",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": "Durian",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Rambutan",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Raspberry",
+          "images": []
+        }
+      ],
+      "answer": "b",
+      "status": "ok"
+    },
+    {
+      "id": "s3-final-sains-paud-q13",
+      "n": 13,
+      "prompt": "Hewan yang biasa dijadikan peliharaan di rumah adalah …",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": "Jerapah",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Kuda nil",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Hamster",
+          "images": []
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    },
+    {
+      "id": "s3-final-sains-paud-q14",
+      "n": 14,
+      "prompt": "Manakah di bawah ini yang termasuk tumbuhan?",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": "Belalang",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Anggrek",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Lebah",
+          "images": []
+        }
+      ],
+      "answer": "b",
+      "status": "ok"
+    },
+    {
+      "id": "s3-final-sains-paud-q15",
+      "n": 15,
+      "prompt": "Sebutkan nama-nama hewan yang ada pada gambar berikut!",
+      "images": [
+        "/soal/s3-final-sains-paud/q15-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Bunglon, merak, dan tupai",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Bunglon, merak, tupai, dan capung",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Kadal, merak, tupai, dan lalat",
+          "images": []
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    },
+    {
+      "id": "s3-final-sains-paud-q16",
+      "n": 16,
+      "prompt": "Sayur dan buah-buahan yang biasa kita makan termasuk …",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": "Tumbuhan",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Hewan",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Mainan",
+          "images": []
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s3-final-sains-paud-q17",
+      "n": 17,
+      "prompt": "Jika air di sungai kering, maka ikan akan …",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": "Mati",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Hidup",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Terbang",
+          "images": []
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s3-final-sains-paud-q18",
+      "n": 18,
+      "prompt": "Air bisa digunakan untuk banyak hal, kecuali …",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": "Memandikan kucing",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Menjemur baju",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Menyiram tanaman",
+          "images": []
+        }
+      ],
+      "answer": "b",
+      "status": "ok"
+    },
+    {
+      "id": "s3-final-sains-paud-q19",
+      "n": 19,
+      "prompt": "Benda berikut semuanya butuh air, kecuali …",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": "Kepiting",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Bunga matahari",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Pasir pantai",
+          "images": []
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    },
+    {
+      "id": "s3-final-sains-paud-q20",
+      "n": 20,
+      "prompt": "Kegiatan berikut menunjukkan air digunakan untuk …",
+      "images": [
+        "/soal/s3-final-sains-paud/q20-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Menanam tanaman",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Manyiram tanaman",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Mencuci tanah",
+          "images": []
+        }
+      ],
+      "answer": "b",
+      "status": "ok"
+    }
+  ]
+}

@@ -1,0 +1,540 @@
+{
+  "id": "s4-final-sains-tk-a",
+  "season": 4,
+  "round": "final",
+  "subject": "sains",
+  "level": "tk-a",
+  "printed": {
+    "title": "SOAL SAINS/IPA BABAK FINAL",
+    "level": "TK A SEDERAJAT",
+    "date": "FEBRUARI 2026",
+    "raw": [
+      "OLIMPIADE SISWA NASIONAL",
+      "SOAL SAINS/IPA BABAK FINAL",
+      "TK A SEDERAJAT",
+      "FEBRUARI 2026"
+    ]
+  },
+  "layoutSource": "pdf",
+  "answerSource": "docx",
+  "verified": false,
+  "questionCount": 20,
+  "playableCount": 20,
+  "warnings": [
+    "answer key read from the .docx (the shipped PDF is the unmarked student copy)"
+  ],
+  "questions": [
+    {
+      "id": "s4-final-sains-tk-a-q01",
+      "n": 1,
+      "prompt": "Saat berjalan di taman, Lila menyentuh daun yang basah. Fungsi indra kulit di sini adalah …",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": "Merasakan tekstur dan suhu daun",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Mencicipi rasa daun",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Mendengar tekstur daun",
+          "images": []
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s4-final-sains-tk-a-q02",
+      "n": 2,
+      "prompt": "Pernyataan berikut yang benar mengenai manfaat alat indra adalah …",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": "Andi mendengar suara burung dengan lubang hidung",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Dinginnya es krim bisa dirasakan dengan lidah dan kulit",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Mata berjumlah 2 dan terletak di atas hidung",
+          "images": []
+        }
+      ],
+      "answer": "b",
+      "status": "ok"
+    },
+    {
+      "id": "s4-final-sains-tk-a-q03",
+      "n": 3,
+      "prompt": "Yaya dan Tom bermain tebak-tebakan jenis makanan dengan cara menutup mata dan tanpa menyentuh. Bagaimana keduanya bisa menebak jenis makanan tersebut?",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": "Menggunakan indra hidung untuk mencium aroma makanan",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Menggunakan lidah untuk melihat aroma makanan",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Menggunakan tangan untuk merasakan tekstur makanan",
+          "images": []
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s4-final-sains-tk-a-q04",
+      "n": 4,
+      "prompt": "Indra mana yang tidak digunakan dalam aktivitas berikut?",
+      "images": [
+        "/soal/s4-final-sains-tk-a/q04-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Kulit dan hidung",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Lidah dan telinga",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Hidung dan lidah",
+          "images": []
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    },
+    {
+      "id": "s4-final-sains-tk-a-q05",
+      "n": 5,
+      "prompt": "Manfaat matahari bagi petani adalah …",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": "Membantu tanaman tumbuh",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Mengeringkan ikan",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Menghangatkan tanah sawah",
+          "images": []
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s4-final-sains-tk-a-q06",
+      "n": 6,
+      "prompt": "Berikut peran matahari bagi alam, kecuali …",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": "Membuat lingkungan menjadi hangat",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Membuat laut menjadi kering",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Membantu terjadinya hujan",
+          "images": []
+        }
+      ],
+      "answer": "b",
+      "status": "ok"
+    },
+    {
+      "id": "s4-final-sains-tk-a-q07",
+      "n": 7,
+      "prompt": "Pagi hari, ibu mengeringkan karpet di halaman rumah. Sementara itu, Nita membantu dengan menyapu halaman. Di dekat mereka terdapat seekor kucing yang sedang berjemur. Berdasarkan aktivitas di atas, aktivitas mana saja yang memanfaatkan matahari?",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": "Mengeringkan karpet dan menjemur baju",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Kucing berjemur dan Nita menyapu halaman",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Kucing berjemur dan ibu mengeringkan karpet",
+          "images": []
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    },
+    {
+      "id": "s4-final-sains-tk-a-q08",
+      "n": 8,
+      "prompt": "Ibu memiliki banyak ayam. Saat matahari mulai terbit di pagi hari, ayam-ayam tersebut keluar dari kandang. Mengapa ayam mulai keluar kandang saat matahari terbit?",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": "Cahaya matahari membantu ayam menemukan anak-anak mereka",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Cahaya matahari membantu ayam cepat bertelur",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Cahaya matahari membantu ayam melihat dengan jelas untuk mencari makan",
+          "images": []
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    },
+    {
+      "id": "s4-final-sains-tk-a-q09",
+      "n": 9,
+      "prompt": "Beni memegang layar ponsel dan bulu ayam secara bergantian. Perbedaan sifat kedua benda tersebut yang paling tepat adalah …",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": "Layar ponsel terasa licin, sementara bulu ayam terasa lembut",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Layar ponsel dan bulu ayam sama-sama terasa lunak",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Layar ponsel terasa keras, sementara bulu ayam terasa lengket",
+          "images": []
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s4-final-sains-tk-a-q10",
+      "n": 10,
+      "prompt": "Sebuah benda ditekan dengan tangan dan bentuknya kembali seperti semula. Sifat benda tersebut adalah …",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": "Keras dan rapuh",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Rapuh dan lunak",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Lunak dan lentur",
+          "images": []
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    },
+    {
+      "id": "s4-final-sains-tk-a-q11",
+      "n": 11,
+      "prompt": "Berapa jumlah benda yang terasa keras pada gambar berikut?",
+      "images": [
+        "/soal/s4-final-sains-tk-a/q11-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "12",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "17",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "14",
+          "images": []
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s4-final-sains-tk-a-q12",
+      "n": 12,
+      "prompt": "Rani ingin memindahkan beberapa benda dengan tangan kosong. Di depannya ada panci yang baru digunakan memasak, kain lap, dan air yang baru mendidih. Benda manakah yang paling aman dipindahkan dengan tangan kosong?",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": "Air dingin",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Panci",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Kain lap",
+          "images": []
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    },
+    {
+      "id": "s4-final-sains-tk-a-q13",
+      "n": 13,
+      "prompt": "Sebutkan benda tak hidup yang ada di dalam akuarium berikut!",
+      "images": [
+        "/soal/s4-final-sains-tk-a/q13-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Air, batu, dan pasir",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Batu, Pasir, dan tanaman laut",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Air, batu, dan kulit kerang",
+          "images": []
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s4-final-sains-tk-a-q14",
+      "n": 14,
+      "prompt": "Robot dapat bergerak, bersuara, dan melakukan beberapa aktivitas seperti manusia. Namun, mengapa robot tetap disebut sebagai benda tak hidup?",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": "Karena robot tidak memiliki rambut",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Karena robot tidak dapat bersentuhan dengan air",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Karena robot tidak bernapas dan bertumbuh",
+          "images": []
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    },
+    {
+      "id": "s4-final-sains-tk-a-q15",
+      "n": 15,
+      "prompt": "Di rumah, Ibu memiliki kaktus yang sudah lama ditanam dan selalu disiram, namun tingginya tidak berubah. Ibu juga memelihara kelinci yang setiap hari diberi makan dan minum. Selain itu, Ibu memiliki jam dinding yang selalu dibersihkan agar tetap bagus. Berdasarkan bacaan tersebut, mengapa kaktus dan kelinci termasuk makhluk hidup?",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": "Karena keduanya memerlukan air dan perawatan untuk hidup",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Karena keduanya harus dirawat dan dibersihkan seperti jam dinding",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Karena keduanya tidak bisa bergerak dan tidak membutuhkan makanan",
+          "images": []
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s4-final-sains-tk-a-q16",
+      "n": 16,
+      "prompt": "Kipas angin bisa berputar dan bergerak. Mengapa kipas angin bukan makhluk hidup?",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": "Karena kipas angin tidak dapat bicara",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Karena kipas angin tidak dapat menyentuh benda lain",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Karena kipas tidak dapat bernapas",
+          "images": []
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    },
+    {
+      "id": "s4-final-sains-tk-a-q17",
+      "n": 17,
+      "prompt": "Pagi hari, Sinta bangun tidur lalu mencuci tangan dan wajahnya. Setelah itu, ia menyikat gigi sebelum sarapan. Sinta kemudian bermain di halaman hingga tangannya kotor. Saat waktu makan tiba, Sinta langsung makan tanpa mencuci tangan terlebih dahulu. Kebiasaan hidup sehat yang dilakukan Sinta pada cerita di atas adalah…",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": "Mencuci tangan dan wajah setelah makan serta menggosok gigi",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Mencuci tangan dan wajah setelah bangun tidur serta menggosok gigi",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Mencuci tangan sebelum makan dan menggosok gigi",
+          "images": []
+        }
+      ],
+      "answer": "b",
+      "status": "ok"
+    },
+    {
+      "id": "s4-final-sains-tk-a-q18",
+      "n": 18,
+      "prompt": "Pagi hari, Sinta bangun tidur lalu mencuci tangan dan wajahnya. Setelah itu, ia menyikat gigi sebelum sarapan. Sinta kemudian bermain di halaman hingga tangannya kotor. Saat waktu makan tiba, Sinta langsung makan tanpa mencuci tangan terlebih dahulu. Pada cerita di atas, kebiasaan manakah yang tidak sehat dan bagaimana cara mengubahnya agar menjadi kebiasaan sehat?",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": "Bermain di halaman, sebaiknya hanya bermain di dalam ruangan",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Langsung makan tanpa mencuci tangan, sebaiknya mencuci tangan sebelum makan",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Menyikat gigi sebelum sarapan, sebaiknya tidak perlu menyikat gigi sebelum sarapan",
+          "images": []
+        }
+      ],
+      "answer": "b",
+      "status": "ok"
+    },
+    {
+      "id": "s4-final-sains-tk-a-q19",
+      "n": 19,
+      "prompt": "Manakah kebiasaan yang menunjukkan hidup sehat?",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": null,
+          "images": [
+            "/soal/s4-final-sains-tk-a/q19-a.webp"
+          ]
+        },
+        {
+          "key": "b",
+          "text": null,
+          "images": [
+            "/soal/s4-final-sains-tk-a/q19-b.webp"
+          ]
+        },
+        {
+          "key": "c",
+          "text": null,
+          "images": [
+            "/soal/s4-final-sains-tk-a/q19-c.webp"
+          ]
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s4-final-sains-tk-a-q20",
+      "n": 20,
+      "prompt": "Pernyataan hidup sehat yang benar adalah …",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": "Mencuci tangan setelah buang air kecil",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Membuang kain lap yang baru digunakan",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Membersihkan semua mainan dengan air selokan",
+          "images": []
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    }
+  ]
+}

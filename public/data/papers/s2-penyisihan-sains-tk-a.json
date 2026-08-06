@@ -1,0 +1,575 @@
+{
+  "id": "s2-penyisihan-sains-tk-a",
+  "season": 2,
+  "round": "penyisihan",
+  "subject": "sains",
+  "level": "tk-a",
+  "printed": {
+    "title": "SOAL SAINS/IPA BABAK PENYISIHAN",
+    "level": "TK A SEDERAJAT",
+    "date": "MEI 2025",
+    "raw": [
+      "OLIMPIADE SISWA NASIONAL",
+      "SOAL SAINS/IPA BABAK PENYISIHAN",
+      "TK A SEDERAJAT",
+      "MEI 2025"
+    ]
+  },
+  "layoutSource": "pdf",
+  "answerSource": "pdf",
+  "verified": false,
+  "questionCount": 20,
+  "playableCount": 19,
+  "warnings": [],
+  "questions": [
+    {
+      "id": "s2-penyisihan-sains-tk-a-q01",
+      "n": 1,
+      "prompt": "Kita dapat merasakan rasa manis dengan...",
+      "images": [
+        "/soal/s2-penyisihan-sains-tk-a/q01-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Mata",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Lidah",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Hidung",
+          "images": []
+        }
+      ],
+      "answer": "b",
+      "status": "ok"
+    },
+    {
+      "id": "s2-penyisihan-sains-tk-a-q02",
+      "n": 2,
+      "prompt": "Untuk mendengar suara, kita menggunakan...",
+      "images": [
+        "/soal/s2-penyisihan-sains-tk-a/q02-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Telinga",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Mata",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Mulut",
+          "images": []
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s2-penyisihan-sains-tk-a-q03",
+      "n": 3,
+      "prompt": "Indra apa yang digunakan untuk melihat?",
+      "images": [
+        "/soal/s2-penyisihan-sains-tk-a/q03-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Mata",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Lidah",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Tangan",
+          "images": []
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s2-penyisihan-sains-tk-a-q04",
+      "n": 4,
+      "prompt": "Kita dapat mencium bau menggunakan ….",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": "Mata",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Hidung",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Mulut",
+          "images": [
+            "/soal/s2-penyisihan-sains-tk-a/q04-c.webp"
+          ]
+        }
+      ],
+      "answer": "b",
+      "status": "ok"
+    },
+    {
+      "id": "s2-penyisihan-sains-tk-a-q05",
+      "n": 5,
+      "prompt": "Kita dapat melihat benda di sekitar menggunakan …",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": null,
+          "images": [
+            "/soal/s2-penyisihan-sains-tk-a/q05-a.webp"
+          ]
+        },
+        {
+          "key": "b",
+          "text": null,
+          "images": [
+            "/soal/s2-penyisihan-sains-tk-a/q05-b.webp"
+          ]
+        },
+        {
+          "key": "c",
+          "text": null,
+          "images": [
+            "/soal/s2-penyisihan-sains-tk-a/q05-c.webp"
+          ]
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    },
+    {
+      "id": "s2-penyisihan-sains-tk-a-q06",
+      "n": 6,
+      "prompt": "Kita dapat merasakan lezatnya masakan ibu menggunakan …",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": null,
+          "images": [
+            "/soal/s2-penyisihan-sains-tk-a/q06-a.webp"
+          ]
+        },
+        {
+          "key": "b",
+          "text": null,
+          "images": [
+            "/soal/s2-penyisihan-sains-tk-a/q06-b.webp"
+          ]
+        },
+        {
+          "key": "c",
+          "text": null,
+          "images": [
+            "/soal/s2-penyisihan-sains-tk-a/q06-c.webp"
+          ]
+        }
+      ],
+      "answer": "b",
+      "status": "ok"
+    },
+    {
+      "id": "s2-penyisihan-sains-tk-a-q07",
+      "n": 7,
+      "prompt": "Kita bisa mencium bau yang tidak sedap menggunakan ….",
+      "images": [
+        "/soal/s2-penyisihan-sains-tk-a/q07-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Mulut",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Tangan",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Hidung",
+          "images": []
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    },
+    {
+      "id": "s2-penyisihan-sains-tk-a-q08",
+      "n": 8,
+      "prompt": "Hewan apa yang bersuara “guk guk”?",
+      "images": [
+        "/soal/s2-penyisihan-sains-tk-a/q08-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Anjing",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Kucing",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Ikan",
+          "images": []
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s2-penyisihan-sains-tk-a-q09",
+      "n": 9,
+      "prompt": "Hewan apa yang bersuara “meong”?",
+      "images": [
+        "/soal/s2-penyisihan-sains-tk-a/q09-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Sapi",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Kucing",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Kambing",
+          "images": []
+        }
+      ],
+      "answer": "b",
+      "status": "ok"
+    },
+    {
+      "id": "s2-penyisihan-sains-tk-a-q10",
+      "n": 10,
+      "prompt": "Hewan apa yang bersuara “kukuruyuk”?",
+      "images": [
+        "/soal/s2-penyisihan-sains-tk-a/q10-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Ayam",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Ikan",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Buaya",
+          "images": []
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s2-penyisihan-sains-tk-a-q11",
+      "n": 11,
+      "prompt": "Hewan berikut ini yang memiliki suara \"kwek kwek\" adalah...",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": null,
+          "images": [
+            "/soal/s2-penyisihan-sains-tk-a/q11-a.webp"
+          ]
+        },
+        {
+          "key": "c",
+          "text": "..",
+          "images": [
+            "/soal/s2-penyisihan-sains-tk-a/q11-c.webp"
+          ]
+        }
+      ],
+      "answer": "c",
+      "status": "needs-review"
+    },
+    {
+      "id": "s2-penyisihan-sains-tk-a-q12",
+      "n": 12,
+      "prompt": "“Moo” adalah suara dari...",
+      "images": [
+        "/soal/s2-penyisihan-sains-tk-a/q12-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Ikan",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Sapi",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Ayam",
+          "images": []
+        }
+      ],
+      "answer": "b",
+      "status": "ok"
+    },
+    {
+      "id": "s2-penyisihan-sains-tk-a-q13",
+      "n": 13,
+      "prompt": "\"Ngok ngok\" adalah suara dari...",
+      "images": [
+        "/soal/s2-penyisihan-sains-tk-a/q13-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Babi",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Ayam",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Sapi",
+          "images": []
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s2-penyisihan-sains-tk-a-q14",
+      "n": 14,
+      "prompt": "\"Mbek mbek\" adalah suara dari...",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": null,
+          "images": [
+            "/soal/s2-penyisihan-sains-tk-a/q14-a.webp"
+          ]
+        },
+        {
+          "key": "b",
+          "text": null,
+          "images": [
+            "/soal/s2-penyisihan-sains-tk-a/q14-b.webp"
+          ]
+        },
+        {
+          "key": "c",
+          "text": null,
+          "images": [
+            "/soal/s2-penyisihan-sains-tk-a/q14-c.webp"
+          ]
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s2-penyisihan-sains-tk-a-q15",
+      "n": 15,
+      "prompt": "\"Krik krik\" adalah suara dari...",
+      "images": [
+        "/soal/s2-penyisihan-sains-tk-a/q15-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Sapi",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Kucing",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Jangkrik",
+          "images": []
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    },
+    {
+      "id": "s2-penyisihan-sains-tk-a-q16",
+      "n": 16,
+      "prompt": "Cuaca pada gambar ini adalah...",
+      "images": [
+        "/soal/s2-penyisihan-sains-tk-a/q16-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Hujan",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Cerah",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Panas",
+          "images": []
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s2-penyisihan-sains-tk-a-q17",
+      "n": 17,
+      "prompt": "Gambar ini menunjukkan cuaca...",
+      "images": [
+        "/soal/s2-penyisihan-sains-tk-a/q17-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Hujan",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Badai",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Cerah",
+          "images": []
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    },
+    {
+      "id": "s2-penyisihan-sains-tk-a-q18",
+      "n": 18,
+      "prompt": "Gambar ini menunjukkan cuaca...",
+      "images": [
+        "/soal/s2-penyisihan-sains-tk-a/q18-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Cerah",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Berangin",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Malam",
+          "images": []
+        }
+      ],
+      "answer": "b",
+      "status": "ok"
+    },
+    {
+      "id": "s2-penyisihan-sains-tk-a-q19",
+      "n": 19,
+      "prompt": "Kita memakai payung saat ….",
+      "images": [
+        "/soal/s2-penyisihan-sains-tk-a/q19-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Cuaca cerah",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Hujan turun",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Muncul pelangi",
+          "images": []
+        }
+      ],
+      "answer": "b",
+      "status": "ok"
+    },
+    {
+      "id": "s2-penyisihan-sains-tk-a-q20",
+      "n": 20,
+      "prompt": "Gambar ini menunjukkan cuaca...",
+      "images": [
+        "/soal/s2-penyisihan-sains-tk-a/q20-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Hujan petir",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Cerah",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Panas",
+          "images": []
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    }
+  ]
+}

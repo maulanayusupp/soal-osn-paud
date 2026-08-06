@@ -1,0 +1,582 @@
+{
+  "id": "s3-penyisihan-bahasa-inggris-tk-b",
+  "season": 3,
+  "round": "penyisihan",
+  "subject": "bahasa-inggris",
+  "level": "tk-b",
+  "printed": {
+    "title": "SOAL BAHASA INGGRIS BABAK PENYISIHAN",
+    "level": "TK B SEDERAJAT",
+    "date": "SEPTEMBER 2025",
+    "raw": [
+      "OLIMPIADE SISWA NASIONAL",
+      "SOAL BAHASA INGGRIS BABAK PENYISIHAN",
+      "TK B SEDERAJAT",
+      "SEPTEMBER 2025"
+    ]
+  },
+  "layoutSource": "docx",
+  "answerSource": "docx",
+  "verified": false,
+  "questionCount": 20,
+  "playableCount": 20,
+  "warnings": [],
+  "questions": [
+    {
+      "id": "s3-penyisihan-bahasa-inggris-tk-b-q01",
+      "n": 1,
+      "prompt": "Which one is number fifteen?",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": null,
+          "images": [
+            "/soal/s3-penyisihan-bahasa-inggris-tk-b/q01-a.webp"
+          ]
+        },
+        {
+          "key": "b",
+          "text": null,
+          "images": [
+            "/soal/s3-penyisihan-bahasa-inggris-tk-b/q01-b.webp"
+          ]
+        },
+        {
+          "key": "c",
+          "text": null,
+          "images": [
+            "/soal/s3-penyisihan-bahasa-inggris-tk-b/q01-c.webp"
+          ]
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s3-penyisihan-bahasa-inggris-tk-b-q02",
+      "n": 2,
+      "prompt": "The number below is …",
+      "images": [
+        "/soal/s3-penyisihan-bahasa-inggris-tk-b/q02-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Fourteen",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Thirteen",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Fifteen",
+          "images": []
+        }
+      ],
+      "answer": "b",
+      "status": "ok"
+    },
+    {
+      "id": "s3-penyisihan-bahasa-inggris-tk-b-q03",
+      "n": 3,
+      "prompt": "How many stars are these?",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": "11",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "12",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "13",
+          "images": [
+            "/soal/s3-penyisihan-bahasa-inggris-tk-b/q03-c.webp"
+          ]
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s3-penyisihan-bahasa-inggris-tk-b-q04",
+      "n": 4,
+      "prompt": "Which number comes before 13?",
+      "images": [
+        "/soal/s3-penyisihan-bahasa-inggris-tk-b/q04-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "15",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "14",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "12",
+          "images": []
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    },
+    {
+      "id": "s3-penyisihan-bahasa-inggris-tk-b-q05",
+      "n": 5,
+      "prompt": "I am hungry. I eat …",
+      "images": [
+        "/soal/s3-penyisihan-bahasa-inggris-tk-b/q05-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Chicken",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Milk",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Water",
+          "images": []
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s3-penyisihan-bahasa-inggris-tk-b-q06",
+      "n": 6,
+      "prompt": "What is this?",
+      "images": [
+        "/soal/s3-penyisihan-bahasa-inggris-tk-b/q06-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Rice",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Donut",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Milk",
+          "images": []
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    },
+    {
+      "id": "s3-penyisihan-bahasa-inggris-tk-b-q07",
+      "n": 7,
+      "prompt": "Which one is a drink?",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": null,
+          "images": [
+            "/soal/s3-penyisihan-bahasa-inggris-tk-b/q07-a.webp"
+          ]
+        },
+        {
+          "key": "b",
+          "text": null,
+          "images": [
+            "/soal/s3-penyisihan-bahasa-inggris-tk-b/q07-b.webp"
+          ]
+        },
+        {
+          "key": "c",
+          "text": null,
+          "images": [
+            "/soal/s3-penyisihan-bahasa-inggris-tk-b/q07-c.webp"
+          ]
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s3-penyisihan-bahasa-inggris-tk-b-q08",
+      "n": 8,
+      "prompt": "This is …",
+      "images": [
+        "/soal/s3-penyisihan-bahasa-inggris-tk-b/q08-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Rice",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Juice",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Donut",
+          "images": []
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    },
+    {
+      "id": "s3-penyisihan-bahasa-inggris-tk-b-q09",
+      "n": 9,
+      "prompt": "What is Emma eating?",
+      "images": [
+        "/soal/s3-penyisihan-bahasa-inggris-tk-b/q09-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Rice",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Noodles",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Chicken",
+          "images": []
+        }
+      ],
+      "answer": "b",
+      "status": "ok"
+    },
+    {
+      "id": "s3-penyisihan-bahasa-inggris-tk-b-q10",
+      "n": 10,
+      "prompt": "What is this?",
+      "images": [
+        "/soal/s3-penyisihan-bahasa-inggris-tk-b/q10-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Train",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Bus",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Car",
+          "images": []
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s3-penyisihan-bahasa-inggris-tk-b-q11",
+      "n": 11,
+      "prompt": "Which picture shows a car?",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": null,
+          "images": [
+            "/soal/s3-penyisihan-bahasa-inggris-tk-b/q11-a.webp"
+          ]
+        },
+        {
+          "key": "b",
+          "text": null,
+          "images": [
+            "/soal/s3-penyisihan-bahasa-inggris-tk-b/q11-b.webp"
+          ]
+        },
+        {
+          "key": "c",
+          "text": null,
+          "images": [
+            "/soal/s3-penyisihan-bahasa-inggris-tk-b/q11-c.webp"
+          ]
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s3-penyisihan-bahasa-inggris-tk-b-q12",
+      "n": 12,
+      "prompt": "I go to Surabaya by …",
+      "images": [
+        "/soal/s3-penyisihan-bahasa-inggris-tk-b/q12-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Bike",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Bus",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Airplane",
+          "images": []
+        }
+      ],
+      "answer": "b",
+      "status": "ok"
+    },
+    {
+      "id": "s3-penyisihan-bahasa-inggris-tk-b-q13",
+      "n": 13,
+      "prompt": "This is …",
+      "images": [
+        "/soal/s3-penyisihan-bahasa-inggris-tk-b/q13-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Car",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Train",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Airplane",
+          "images": []
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    },
+    {
+      "id": "s3-penyisihan-bahasa-inggris-tk-b-q14",
+      "n": 14,
+      "prompt": "Paul goes to school by …",
+      "images": [
+        "/soal/s3-penyisihan-bahasa-inggris-tk-b/q14-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Car",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Bus",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Bike",
+          "images": []
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    },
+    {
+      "id": "s3-penyisihan-bahasa-inggris-tk-b-q15",
+      "n": 15,
+      "prompt": "What shape is this?",
+      "images": [
+        "/soal/s3-penyisihan-bahasa-inggris-tk-b/q15-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Square",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Circle",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Rectangle",
+          "images": []
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s3-penyisihan-bahasa-inggris-tk-b-q16",
+      "n": 16,
+      "prompt": "Which one is a circle?",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": null,
+          "images": [
+            "/soal/s3-penyisihan-bahasa-inggris-tk-b/q16-a.webp"
+          ]
+        },
+        {
+          "key": "b",
+          "text": null,
+          "images": [
+            "/soal/s3-penyisihan-bahasa-inggris-tk-b/q16-b.webp"
+          ]
+        },
+        {
+          "key": "c",
+          "text": null,
+          "images": [
+            "/soal/s3-penyisihan-bahasa-inggris-tk-b/q16-c.webp"
+          ]
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s3-penyisihan-bahasa-inggris-tk-b-q17",
+      "n": 17,
+      "prompt": "This is a …",
+      "images": [
+        "/soal/s3-penyisihan-bahasa-inggris-tk-b/q17-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Circle",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Square",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Star",
+          "images": []
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    },
+    {
+      "id": "s3-penyisihan-bahasa-inggris-tk-b-q18",
+      "n": 18,
+      "prompt": "Which shape looks like the moon?",
+      "images": [
+        "/soal/s3-penyisihan-bahasa-inggris-tk-b/q18-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Rectangle",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Circle",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Square",
+          "images": []
+        }
+      ],
+      "answer": "b",
+      "status": "ok"
+    },
+    {
+      "id": "s3-penyisihan-bahasa-inggris-tk-b-q19",
+      "n": 19,
+      "prompt": "In the morning we say …",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": "Good morning",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Good night",
+          "images": [
+            "/soal/s3-penyisihan-bahasa-inggris-tk-b/q19-b.webp"
+          ]
+        },
+        {
+          "key": "c",
+          "text": "Good bye",
+          "images": []
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s3-penyisihan-bahasa-inggris-tk-b-q20",
+      "n": 20,
+      "prompt": "At night, mommy says …",
+      "images": [
+        "/soal/s3-penyisihan-bahasa-inggris-tk-b/q20-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Hello",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Good night",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Good afternoon",
+          "images": []
+        }
+      ],
+      "answer": "b",
+      "status": "ok"
+    }
+  ]
+}

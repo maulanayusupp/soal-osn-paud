@@ -1,0 +1,597 @@
+{
+  "id": "s3-penyisihan-matematika-paud",
+  "season": 3,
+  "round": "penyisihan",
+  "subject": "matematika",
+  "level": "paud",
+  "printed": {
+    "title": "SOAL MATEMATIKA BABAK PENYISIHAN",
+    "level": "PAUD SEDERAJAT",
+    "date": "SEPTEMBER 2025",
+    "raw": [
+      "OLIMPIADE SISWA NASIONAL",
+      "SOAL MATEMATIKA BABAK PENYISIHAN",
+      "PAUD SEDERAJAT",
+      "SEPTEMBER 2025"
+    ]
+  },
+  "layoutSource": "docx",
+  "answerSource": "docx",
+  "verified": false,
+  "questionCount": 20,
+  "playableCount": 17,
+  "warnings": [
+    "Q6: no answer highlight found",
+    "Q6: option a is empty",
+    "Q17: no answer highlight found",
+    "Q17: option a is empty"
+  ],
+  "questions": [
+    {
+      "id": "s3-penyisihan-matematika-paud-q01",
+      "n": 1,
+      "prompt": "Angka berapakah ini?",
+      "images": [
+        "/soal/s3-penyisihan-matematika-paud/q01-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Tiga",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Lima",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Satu",
+          "images": []
+        }
+      ],
+      "answer": "b",
+      "status": "ok"
+    },
+    {
+      "id": "s3-penyisihan-matematika-paud-q02",
+      "n": 2,
+      "prompt": "Berapa jumlah apel berikut?",
+      "images": [
+        "/soal/s3-penyisihan-matematika-paud/q02-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "5",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "2",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "4",
+          "images": []
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s3-penyisihan-matematika-paud-q03",
+      "n": 3,
+      "prompt": "Di bawah ini manakah yang menunjukkan angka empat?",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": null,
+          "images": [
+            "/soal/s3-penyisihan-matematika-paud/q03-a.webp"
+          ]
+        },
+        {
+          "key": "b",
+          "text": null,
+          "images": [
+            "/soal/s3-penyisihan-matematika-paud/q03-b.webp"
+          ]
+        },
+        {
+          "key": "c",
+          "text": "V",
+          "images": [
+            "/soal/s3-penyisihan-matematika-paud/q03-c.webp"
+          ]
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    },
+    {
+      "id": "s3-penyisihan-matematika-paud-q04",
+      "n": 4,
+      "prompt": "Pilihlah jawaban yang berisi 2 benda!",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": null,
+          "images": [
+            "/soal/s3-penyisihan-matematika-paud/q04-a.webp"
+          ]
+        },
+        {
+          "key": "b",
+          "text": "n",
+          "images": [
+            "/soal/s3-penyisihan-matematika-paud/q04-b.webp"
+          ]
+        },
+        {
+          "key": "c",
+          "text": null,
+          "images": [
+            "/soal/s3-penyisihan-matematika-paud/q04-c.webp"
+          ]
+        }
+      ],
+      "answer": "b",
+      "status": "ok"
+    },
+    {
+      "id": "s3-penyisihan-matematika-paud-q05",
+      "n": 5,
+      "prompt": "Pilih angka yang tepat untuk mengisi bagian yang kosong!",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": "2",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "1",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "4",
+          "images": []
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s3-penyisihan-matematika-paud-q06",
+      "n": 6,
+      "prompt": "Selesaikan penjumlahan berikut!",
+      "images": [
+        "/soal/s3-penyisihan-matematika-paud/q06-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": null,
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": null,
+          "images": [
+            "/soal/s3-penyisihan-matematika-paud/q06-b.webp",
+            "/soal/s3-penyisihan-matematika-paud/q06-b-2.webp"
+          ]
+        },
+        {
+          "key": "c",
+          "text": null,
+          "images": [
+            "/soal/s3-penyisihan-matematika-paud/q06-c.webp"
+          ]
+        }
+      ],
+      "answer": null,
+      "status": "needs-review"
+    },
+    {
+      "id": "s3-penyisihan-matematika-paud-q07",
+      "n": 7,
+      "prompt": "Hitung hasil penjumlahan di bawah ini!",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": "3",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "2",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "1",
+          "images": [
+            "/soal/s3-penyisihan-matematika-paud/q07-c.webp"
+          ]
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s3-penyisihan-matematika-paud-q08",
+      "n": 8,
+      "prompt": "Lengkapi hasil penjumlahan berikut!",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": "5",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "1",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "4",
+          "images": [
+            "/soal/s3-penyisihan-matematika-paud/q08-c.webp"
+          ]
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    },
+    {
+      "id": "s3-penyisihan-matematika-paud-q09",
+      "n": 9,
+      "prompt": "Hitunglah hasil penjumlahan berikut!",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": "3",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "4",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "5",
+          "images": [
+            "/soal/s3-penyisihan-matematika-paud/q09-c.webp"
+          ]
+        }
+      ],
+      "answer": "b",
+      "status": "ok"
+    },
+    {
+      "id": "s3-penyisihan-matematika-paud-q10",
+      "n": 10,
+      "prompt": "Berapa hasil dari penjumlahan berikut?",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": "2",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "3",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "1",
+          "images": []
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s3-penyisihan-matematika-paud-q11",
+      "n": 11,
+      "prompt": "Tentukan hasil pengurangan berikut!",
+      "images": [
+        "/soal/s3-penyisihan-matematika-paud/q11-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "1",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "2",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "3",
+          "images": [
+            "/soal/s3-penyisihan-matematika-paud/q11-c.webp"
+          ]
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s3-penyisihan-matematika-paud-q12",
+      "n": 12,
+      "prompt": "Selesaikan pengurangan berikut!",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": "3",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "4",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "1",
+          "images": []
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s3-penyisihan-matematika-paud-q13",
+      "n": 13,
+      "prompt": "Lengkapi hasil pengurangan berikut!",
+      "images": [
+        "/soal/s3-penyisihan-matematika-paud/q13-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "4",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "1",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "2",
+          "images": [
+            "/soal/s3-penyisihan-matematika-paud/q13-c.webp"
+          ]
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    },
+    {
+      "id": "s3-penyisihan-matematika-paud-q14",
+      "n": 14,
+      "prompt": "Berapa hasil dari pengurangan berikut?",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": null,
+          "images": [
+            "/soal/s3-penyisihan-matematika-paud/q14-a.webp"
+          ]
+        },
+        {
+          "key": "b",
+          "text": null,
+          "images": [
+            "/soal/s3-penyisihan-matematika-paud/q14-b.webp"
+          ]
+        },
+        {
+          "key": "c",
+          "text": null,
+          "images": [
+            "/soal/s3-penyisihan-matematika-paud/q14-c.webp"
+          ]
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    },
+    {
+      "id": "s3-penyisihan-matematika-paud-q15",
+      "n": 15,
+      "prompt": "Hitunglah hasil pengurangan berikut!",
+      "images": [
+        "/soal/s3-penyisihan-matematika-paud/q15-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "1",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "2",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "3",
+          "images": []
+        }
+      ],
+      "answer": "b",
+      "status": "ok"
+    },
+    {
+      "id": "s3-penyisihan-matematika-paud-q16",
+      "n": 16,
+      "prompt": "Pilihlah bentuk yang sama dengan bentuk jam di bawah ini!",
+      "images": [
+        "/soal/s3-penyisihan-matematika-paud/q16-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": null,
+          "images": [
+            "/soal/s3-penyisihan-matematika-paud/q16-a.webp"
+          ]
+        },
+        {
+          "key": "b",
+          "text": "c",
+          "images": [
+            "/soal/s3-penyisihan-matematika-paud/q16-b.webp"
+          ]
+        },
+        {
+          "key": "c",
+          "text": null,
+          "images": [
+            "/soal/s3-penyisihan-matematika-paud/q16-c.webp"
+          ]
+        }
+      ],
+      "answer": "b",
+      "status": "ok"
+    },
+    {
+      "id": "s3-penyisihan-matematika-paud-q17",
+      "n": 17,
+      "prompt": "Manakah benda yang memiliki bentuk segitiga?",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": null,
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": null,
+          "images": [
+            "/soal/s3-penyisihan-matematika-paud/q17-b.webp"
+          ]
+        },
+        {
+          "key": "c",
+          "text": "x",
+          "images": [
+            "/soal/s3-penyisihan-matematika-paud/q17-c.webp"
+          ]
+        }
+      ],
+      "answer": null,
+      "status": "needs-review"
+    },
+    {
+      "id": "s3-penyisihan-matematika-paud-q18",
+      "n": 18,
+      "prompt": "Bentuk roda sepeda berikut adalah...",
+      "images": [
+        "/soal/s3-penyisihan-matematika-paud/q18-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Lingkaran",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Persegi",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Segitiga",
+          "images": []
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s3-penyisihan-matematika-paud-q19",
+      "n": 19,
+      "prompt": "Pilih jawaban yang memiliki jumlah sama dengan gambar berikut!",
+      "images": [
+        "/soal/s3-penyisihan-matematika-paud/q19-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": null,
+          "images": [
+            "/soal/s3-penyisihan-matematika-paud/q19-a.webp"
+          ]
+        },
+        {
+          "key": "b",
+          "text": null,
+          "images": [
+            "/soal/s3-penyisihan-matematika-paud/q19-b.webp"
+          ]
+        },
+        {
+          "key": "c",
+          "text": null,
+          "images": [
+            "/soal/s3-penyisihan-matematika-paud/q19-c.webp"
+          ]
+        }
+      ],
+      "answer": "b",
+      "status": "ok"
+    },
+    {
+      "id": "s3-penyisihan-matematika-paud-q20",
+      "n": 20,
+      "prompt": "Pilihlah gambar yang semua memiliki bentuk sama!",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": null,
+          "images": [
+            "/soal/s3-penyisihan-matematika-paud/q20-a.webp"
+          ]
+        },
+        {
+          "key": "c",
+          "text": null,
+          "images": [
+            "/soal/s3-penyisihan-matematika-paud/q20-c.webp"
+          ]
+        }
+      ],
+      "answer": "a",
+      "status": "needs-review"
+    }
+  ]
+}

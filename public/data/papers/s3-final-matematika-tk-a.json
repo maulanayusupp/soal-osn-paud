@@ -1,0 +1,597 @@
+{
+  "id": "s3-final-matematika-tk-a",
+  "season": 3,
+  "round": "final",
+  "subject": "matematika",
+  "level": "tk-a",
+  "printed": {
+    "title": "SOAL MATEMATIKA BABAK FINAL",
+    "level": "TK A SEDERAJAT",
+    "date": "OKTOBER 2025",
+    "raw": [
+      "OLIMPIADE SISWA NASIONAL",
+      "SOAL MATEMATIKA BABAK FINAL",
+      "TK A SEDERAJAT",
+      "OKTOBER 2025"
+    ]
+  },
+  "layoutSource": "docx",
+  "answerSource": "docx",
+  "verified": false,
+  "questionCount": 20,
+  "playableCount": 16,
+  "warnings": [
+    "Q7: no answer highlight found",
+    "Q8: no answer highlight found",
+    "Q18: no answer highlight found",
+    "Q18: option a is empty",
+    "Q19: no answer highlight found"
+  ],
+  "questions": [
+    {
+      "id": "s3-final-matematika-tk-a-q01",
+      "n": 1,
+      "prompt": "Hitunglah boneka berikut!",
+      "images": [
+        "/soal/s3-final-matematika-tk-a/q01-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "13",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "15",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "17",
+          "images": []
+        }
+      ],
+      "answer": "b",
+      "status": "ok"
+    },
+    {
+      "id": "s3-final-matematika-tk-a-q02",
+      "n": 2,
+      "prompt": "Angka yang tepat untuk melengkapi bagian yang kosong adalah...",
+      "images": [
+        "/soal/s3-final-matematika-tk-a/q02-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "9 dan 16",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "7 dan 15",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "9 dan 18",
+          "images": []
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    },
+    {
+      "id": "s3-final-matematika-tk-a-q03",
+      "n": 3,
+      "prompt": "Lengkapilah angka yang hilang di bawah ini!",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": "14, 15, 17",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "14, 15, 16",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "15, 17, 18",
+          "images": []
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s3-final-matematika-tk-a-q04",
+      "n": 4,
+      "prompt": "Berapa banyak buah apel yang ada di pohon berikut?",
+      "images": [
+        "/soal/s3-final-matematika-tk-a/q04-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "17",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "16",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "20",
+          "images": [
+            "/soal/s3-final-matematika-tk-a/q04-c.webp"
+          ]
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s3-final-matematika-tk-a-q05",
+      "n": 5,
+      "prompt": "Berapa nilai buah ceri di bawah ini?",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": "6",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "8",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "7",
+          "images": [
+            "/soal/s3-final-matematika-tk-a/q05-c.webp"
+          ]
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s3-final-matematika-tk-a-q06",
+      "n": 6,
+      "prompt": "Hitung hasil penjumlahan berikut!",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": null,
+          "images": [
+            "/soal/s3-final-matematika-tk-a/q06-a.webp"
+          ]
+        },
+        {
+          "key": "b",
+          "text": null,
+          "images": [
+            "/soal/s3-final-matematika-tk-a/q06-b.webp"
+          ]
+        },
+        {
+          "key": "c",
+          "text": null,
+          "images": [
+            "/soal/s3-final-matematika-tk-a/q06-c.webp"
+          ]
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    },
+    {
+      "id": "s3-final-matematika-tk-a-q07",
+      "n": 7,
+      "prompt": "Berapa hasil penjumlahan berikut?",
+      "images": [
+        "/soal/s3-final-matematika-tk-a/q07-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "9",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "7",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "2",
+          "images": []
+        }
+      ],
+      "answer": null,
+      "status": "needs-review"
+    },
+    {
+      "id": "s3-final-matematika-tk-a-q08",
+      "n": 8,
+      "prompt": "Selesaikan penjumlahan berikut ini!",
+      "images": [
+        "/soal/s3-final-matematika-tk-a/q08-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": null,
+          "images": [
+            "/soal/s3-final-matematika-tk-a/q08-a.webp"
+          ]
+        },
+        {
+          "key": "b",
+          "text": null,
+          "images": [
+            "/soal/s3-final-matematika-tk-a/q08-b.webp"
+          ]
+        },
+        {
+          "key": "c",
+          "text": null,
+          "images": [
+            "/soal/s3-final-matematika-tk-a/q08-c.webp"
+          ]
+        }
+      ],
+      "answer": null,
+      "status": "needs-review"
+    },
+    {
+      "id": "s3-final-matematika-tk-a-q09",
+      "n": 9,
+      "prompt": "Hitunglah hasil pengurangan di bawah ini!",
+      "images": [
+        "/soal/s3-final-matematika-tk-a/q09-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "13",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "12",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "3",
+          "images": []
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s3-final-matematika-tk-a-q10",
+      "n": 10,
+      "prompt": "Berapakah hasil pengurangan berikut ini?",
+      "images": [
+        "/soal/s3-final-matematika-tk-a/q10-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "7",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "6",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "8",
+          "images": []
+        }
+      ],
+      "answer": "b",
+      "status": "ok"
+    },
+    {
+      "id": "s3-final-matematika-tk-a-q11",
+      "n": 11,
+      "prompt": "Selesaikan pengurangan berikut!",
+      "images": [
+        "/soal/s3-final-matematika-tk-a/q11-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": null,
+          "images": [
+            "/soal/s3-final-matematika-tk-a/q11-a.webp"
+          ]
+        },
+        {
+          "key": "b",
+          "text": null,
+          "images": [
+            "/soal/s3-final-matematika-tk-a/q11-b.webp"
+          ]
+        },
+        {
+          "key": "c",
+          "text": null,
+          "images": [
+            "/soal/s3-final-matematika-tk-a/q11-c.webp"
+          ]
+        }
+      ],
+      "answer": "b",
+      "status": "ok"
+    },
+    {
+      "id": "s3-final-matematika-tk-a-q12",
+      "n": 12,
+      "prompt": "Selesaikan operasi berikut!",
+      "images": [
+        "/soal/s3-final-matematika-tk-a/q12-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "9",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "11",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "18",
+          "images": []
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s3-final-matematika-tk-a-q13",
+      "n": 13,
+      "prompt": "Tutup botol pada gambar di bawah ini memiliki bentuk seperti …",
+      "images": [
+        "/soal/s3-final-matematika-tk-a/q13-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Segitiga",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Segiempat",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Lingkaran",
+          "images": []
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    },
+    {
+      "id": "s3-final-matematika-tk-a-q14",
+      "n": 14,
+      "prompt": "Berapa jumlah segitiga di bawah ini?",
+      "images": [
+        "/soal/s3-final-matematika-tk-a/q14-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "9",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "14",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "16",
+          "images": []
+        }
+      ],
+      "answer": "b",
+      "status": "ok"
+    },
+    {
+      "id": "s3-final-matematika-tk-a-q15",
+      "n": 15,
+      "prompt": "Susun angka berikut dari yang terkecil ke terbesar!",
+      "images": [
+        "/soal/s3-final-matematika-tk-a/q15-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "1 – 3 – 5 – 7 – 11 – 19 – 20",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "1 – 2 – 5 – 7 – 11 – 19 – 20",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "1 – 3 – 5 – 7 – 11 – 18 – 20",
+          "images": []
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s3-final-matematika-tk-a-q16",
+      "n": 16,
+      "prompt": "Urutkan angka berikut dari yang terbesar ke terkecil!",
+      "images": [
+        "/soal/s3-final-matematika-tk-a/q16-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "19 – 18 – 16 – 13 – 14 – 8 – 5",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "19 – 16 – 14 – 13 – 11 – 8 – 5",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "19 – 16 – 13 – 14 – 11 – 8 – 5",
+          "images": []
+        }
+      ],
+      "answer": "b",
+      "status": "ok"
+    },
+    {
+      "id": "s3-final-matematika-tk-a-q17",
+      "n": 17,
+      "prompt": "Lanjutkan pola di bawah ini!",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": null,
+          "images": [
+            "/soal/s3-final-matematika-tk-a/q17-a.webp"
+          ]
+        },
+        {
+          "key": "b",
+          "text": null,
+          "images": [
+            "/soal/s3-final-matematika-tk-a/q17-b.webp"
+          ]
+        },
+        {
+          "key": "c",
+          "text": null,
+          "images": [
+            "/soal/s3-final-matematika-tk-a/q17-c.webp"
+          ]
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    },
+    {
+      "id": "s3-final-matematika-tk-a-q18",
+      "n": 18,
+      "prompt": "Lengkapilah pola berikut ini!",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": null,
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": null,
+          "images": [
+            "/soal/s3-final-matematika-tk-a/q18-b.webp",
+            "/soal/s3-final-matematika-tk-a/q18-b-2.webp"
+          ]
+        },
+        {
+          "key": "c",
+          "text": null,
+          "images": [
+            "/soal/s3-final-matematika-tk-a/q18-c.webp"
+          ]
+        }
+      ],
+      "answer": null,
+      "status": "needs-review"
+    },
+    {
+      "id": "s3-final-matematika-tk-a-q19",
+      "n": 19,
+      "prompt": "Gambarkan pola berikutnya!",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": null,
+          "images": [
+            "/soal/s3-final-matematika-tk-a/q19-a.webp"
+          ]
+        },
+        {
+          "key": "b",
+          "text": null,
+          "images": [
+            "/soal/s3-final-matematika-tk-a/q19-b.webp"
+          ]
+        },
+        {
+          "key": "c",
+          "text": null,
+          "images": [
+            "/soal/s3-final-matematika-tk-a/q19-c.webp"
+          ]
+        }
+      ],
+      "answer": null,
+      "status": "needs-review"
+    },
+    {
+      "id": "s3-final-matematika-tk-a-q20",
+      "n": 20,
+      "prompt": "Isilah batu yang kosong dengan angka yang benar!",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": "13, 14, 16, 18",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "13, 15, 16, 17",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "13, 15, 17, 19",
+          "images": []
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    }
+  ]
+}

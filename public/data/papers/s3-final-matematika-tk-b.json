@@ -1,0 +1,583 @@
+{
+  "id": "s3-final-matematika-tk-b",
+  "season": 3,
+  "round": "final",
+  "subject": "matematika",
+  "level": "tk-b",
+  "printed": {
+    "title": "SOAL MATEMATIKA BABAK FINAL",
+    "level": "TK B SEDERAJAT",
+    "date": "OKTOBER 2025",
+    "raw": [
+      "OLIMPIADE SISWA NASIONAL",
+      "SOAL MATEMATIKA BABAK FINAL",
+      "TK B SEDERAJAT",
+      "OKTOBER 2025"
+    ]
+  },
+  "layoutSource": "docx",
+  "answerSource": "docx",
+  "verified": false,
+  "questionCount": 20,
+  "playableCount": 20,
+  "warnings": [],
+  "questions": [
+    {
+      "id": "s3-final-matematika-tk-b-q01",
+      "n": 1,
+      "prompt": "Hitunglah jumlah jerami pada gambar di bawah ini!",
+      "images": [
+        "/soal/s3-final-matematika-tk-b/q01-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "4",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "8",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "9",
+          "images": []
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    },
+    {
+      "id": "s3-final-matematika-tk-b-q02",
+      "n": 2,
+      "prompt": "Berapa jumlah sapi di bawah ini?",
+      "images": [
+        "/soal/s3-final-matematika-tk-b/q02-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "27",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "26",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "24",
+          "images": []
+        }
+      ],
+      "answer": "b",
+      "status": "ok"
+    },
+    {
+      "id": "s3-final-matematika-tk-b-q03",
+      "n": 3,
+      "prompt": "Lengkapilah bagian yang kosong dengan angka yang tepat!",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": "17, 25, 29, 21, 20",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "19, 24, 29, 20, 18",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "17, 25, 29, 20, 18",
+          "images": [
+            "/soal/s3-final-matematika-tk-b/q03-c.webp"
+          ]
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s3-final-matematika-tk-b-q04",
+      "n": 4,
+      "prompt": "Berapa jumlah kue yang ada di atas meja berikut?",
+      "images": [
+        "/soal/s3-final-matematika-tk-b/q04-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "30",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "28",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "29",
+          "images": []
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    },
+    {
+      "id": "s3-final-matematika-tk-b-q05",
+      "n": 5,
+      "prompt": "Nilai dari huruf D adalah …",
+      "images": [
+        "/soal/s3-final-matematika-tk-b/q05-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "30",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "29",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "28",
+          "images": []
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s3-final-matematika-tk-b-q06",
+      "n": 6,
+      "prompt": "Selesaikan penjumlahan di bawah ini!",
+      "images": [
+        "/soal/s3-final-matematika-tk-b/q06-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "11",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "29",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "26",
+          "images": []
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    },
+    {
+      "id": "s3-final-matematika-tk-b-q07",
+      "n": 7,
+      "prompt": "Tentukan hasil penjumlahan berikut ini!",
+      "images": [
+        "/soal/s3-final-matematika-tk-b/q07-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": null,
+          "images": [
+            "/soal/s3-final-matematika-tk-b/q07-a.webp"
+          ]
+        },
+        {
+          "key": "b",
+          "text": null,
+          "images": [
+            "/soal/s3-final-matematika-tk-b/q07-b.webp"
+          ]
+        },
+        {
+          "key": "c",
+          "text": null,
+          "images": [
+            "/soal/s3-final-matematika-tk-b/q07-c.webp"
+          ]
+        }
+      ],
+      "answer": "b",
+      "status": "ok"
+    },
+    {
+      "id": "s3-final-matematika-tk-b-q08",
+      "n": 8,
+      "prompt": "Berapa hasil penjumlahan berikut?",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": null,
+          "images": [
+            "/soal/s3-final-matematika-tk-b/q08-a.webp"
+          ]
+        },
+        {
+          "key": "b",
+          "text": null,
+          "images": [
+            "/soal/s3-final-matematika-tk-b/q08-b.webp"
+          ]
+        },
+        {
+          "key": "c",
+          "text": null,
+          "images": [
+            "/soal/s3-final-matematika-tk-b/q08-c.webp"
+          ]
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s3-final-matematika-tk-b-q09",
+      "n": 9,
+      "prompt": "Perhatikan soal di bawah ini. Dari semua pengurangan berikut, ada berapa yang hasilnya",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": "4",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "5",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "6",
+          "images": [
+            "/soal/s3-final-matematika-tk-b/q09-c.webp"
+          ]
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s3-final-matematika-tk-b-q10",
+      "n": 10,
+      "prompt": "Berapa nilai dari kue berikut?",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": "26",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "30",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "23",
+          "images": []
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    },
+    {
+      "id": "s3-final-matematika-tk-b-q11",
+      "n": 11,
+      "prompt": "Berapa hasil dari pengurangan berikut?",
+      "images": [
+        "/soal/s3-final-matematika-tk-b/q11-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "19",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "18",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "16",
+          "images": [
+            "/soal/s3-final-matematika-tk-b/q11-c.webp"
+          ]
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s3-final-matematika-tk-b-q12",
+      "n": 12,
+      "prompt": "Hasil dari operasi bilangan berikut adalah …",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": "23",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "29",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "25",
+          "images": []
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    },
+    {
+      "id": "s3-final-matematika-tk-b-q13",
+      "n": 13,
+      "prompt": "Isilah bagian yang kosong dengan angka yang benar!",
+      "images": [
+        "/soal/s3-final-matematika-tk-b/q13-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "26, 25, 21, 18",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "27, 29, 27, 23",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "26, 24, 21, 17",
+          "images": []
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    },
+    {
+      "id": "s3-final-matematika-tk-b-q14",
+      "n": 14,
+      "prompt": "Warna selanjunya dari pola berikut adalah ….",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": null,
+          "images": [
+            "/soal/s3-final-matematika-tk-b/q14-a.webp"
+          ]
+        },
+        {
+          "key": "b",
+          "text": null,
+          "images": [
+            "/soal/s3-final-matematika-tk-b/q14-b.webp"
+          ]
+        },
+        {
+          "key": "c",
+          "text": null,
+          "images": [
+            "/soal/s3-final-matematika-tk-b/q14-c.webp",
+            "/soal/s3-final-matematika-tk-b/q14-c-2.webp"
+          ]
+        }
+      ],
+      "answer": "b",
+      "status": "ok"
+    },
+    {
+      "id": "s3-final-matematika-tk-b-q15",
+      "n": 15,
+      "prompt": "Pilihlah gambar yang tepat untuk melanjutkan pola berikut!",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": null,
+          "images": [
+            "/soal/s3-final-matematika-tk-b/q15-a.webp"
+          ]
+        },
+        {
+          "key": "b",
+          "text": null,
+          "images": [
+            "/soal/s3-final-matematika-tk-b/q15-b.webp"
+          ]
+        },
+        {
+          "key": "c",
+          "text": null,
+          "images": [
+            "/soal/s3-final-matematika-tk-b/q15-c.webp"
+          ]
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    },
+    {
+      "id": "s3-final-matematika-tk-b-q16",
+      "n": 16,
+      "prompt": "Angka yang tepat untuk mengisi bagian A, B, C, dan D adalah …",
+      "images": [
+        "/soal/s3-final-matematika-tk-b/q16-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "12, 19, 24, 27",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "11, 19, 25, 27",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "11, 19, 24, 27",
+          "images": []
+        }
+      ],
+      "answer": "b",
+      "status": "ok"
+    },
+    {
+      "id": "s3-final-matematika-tk-b-q17",
+      "n": 17,
+      "prompt": "Hitunglah jumlah bangun selain segitiga pada gambar di bawah ini!",
+      "images": [
+        "/soal/s3-final-matematika-tk-b/q17-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "3",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "2",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "13",
+          "images": []
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s3-final-matematika-tk-b-q18",
+      "n": 18,
+      "prompt": "Berapa jumlah segitiga yang berwarna putih di bawah ini?",
+      "images": [
+        "/soal/s3-final-matematika-tk-b/q18-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "26",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "23",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "29",
+          "images": []
+        }
+      ],
+      "answer": "b",
+      "status": "ok"
+    },
+    {
+      "id": "s3-final-matematika-tk-b-q19",
+      "n": 19,
+      "prompt": "Berapa jumlah bunga yang berukuran kecil?",
+      "images": [
+        "/soal/s3-final-matematika-tk-b/q19-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "19",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "24",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "13",
+          "images": []
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    },
+    {
+      "id": "s3-final-matematika-tk-b-q20",
+      "n": 20,
+      "prompt": "Buah manakah yang lebih berat?",
+      "images": [
+        "/soal/s3-final-matematika-tk-b/q20-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Durian",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Pepaya",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Nangka",
+          "images": []
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    }
+  ]
+}

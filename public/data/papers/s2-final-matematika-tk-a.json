@@ -1,0 +1,597 @@
+{
+  "id": "s2-final-matematika-tk-a",
+  "season": 2,
+  "round": "final",
+  "subject": "matematika",
+  "level": "tk-a",
+  "printed": {
+    "title": "SOAL MATEMATIKA BABAK FINAL",
+    "level": "TK A SEDERAJAT",
+    "date": "JUNI 2025",
+    "raw": [
+      "OLIMPIADE SISWA NASIONAL",
+      "SOAL MATEMATIKA BABAK FINAL",
+      "TK A SEDERAJAT",
+      "JUNI 2025"
+    ]
+  },
+  "layoutSource": "pdf",
+  "answerSource": "pdf",
+  "verified": false,
+  "questionCount": 20,
+  "playableCount": 16,
+  "warnings": [
+    "Q7: no answer highlight found",
+    "Q12: option a is empty",
+    "Q13: option a is empty",
+    "Q20: option a is empty"
+  ],
+  "questions": [
+    {
+      "id": "s2-final-matematika-tk-a-q01",
+      "n": 1,
+      "prompt": "Angka yang tepat untuk mengisi bagian yang kosong adalah …",
+      "images": [
+        "/soal/s2-final-matematika-tk-a/q01-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "13, 11, 16",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "11, 13, 17",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "11, 13, 15",
+          "images": []
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    },
+    {
+      "id": "s2-final-matematika-tk-a-q02",
+      "n": 2,
+      "prompt": "Angka yang tepat untuk mengisi bagian yang kosong adalah …",
+      "images": [
+        "/soal/s2-final-matematika-tk-a/q02-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "18, 20",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "14, 15",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "20, 18",
+          "images": []
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    },
+    {
+      "id": "s2-final-matematika-tk-a-q03",
+      "n": 3,
+      "prompt": "Angka di bawah ini dibaca …..",
+      "images": [
+        "/soal/s2-final-matematika-tk-a/q03-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Dua kosong",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Dua puluh",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Kosong dua",
+          "images": []
+        }
+      ],
+      "answer": "b",
+      "status": "ok"
+    },
+    {
+      "id": "s2-final-matematika-tk-a-q04",
+      "n": 4,
+      "prompt": "Berapa jumlah jeruk pada gambar berikut?",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": "13",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "12",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "11",
+          "images": [
+            "/soal/s2-final-matematika-tk-a/q04-c.webp"
+          ]
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s2-final-matematika-tk-a-q05",
+      "n": 5,
+      "prompt": "Selesaikan operasi bilangan berikut!",
+      "images": [
+        "/soal/s2-final-matematika-tk-a/q05-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "18",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "19",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "20",
+          "images": []
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    },
+    {
+      "id": "s2-final-matematika-tk-a-q06",
+      "n": 6,
+      "prompt": "Selesaikan penjumlahan berikut!",
+      "images": [
+        "/soal/s2-final-matematika-tk-a/q06-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "17",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "18",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "10",
+          "images": []
+        }
+      ],
+      "answer": "b",
+      "status": "ok"
+    },
+    {
+      "id": "s2-final-matematika-tk-a-q07",
+      "n": 7,
+      "prompt": "Berapakah jumlah berat buah mangga dan jeruk di bawah ini?",
+      "images": [
+        "/soal/s2-final-matematika-tk-a/q07-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "10",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "11",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "01",
+          "images": []
+        }
+      ],
+      "answer": null,
+      "status": "needs-review"
+    },
+    {
+      "id": "s2-final-matematika-tk-a-q08",
+      "n": 8,
+      "prompt": "Selesaikan penjumlahan berikut!",
+      "images": [
+        "/soal/s2-final-matematika-tk-a/q08-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "..",
+          "images": [
+            "/soal/s2-final-matematika-tk-a/q08-a.webp"
+          ]
+        },
+        {
+          "key": "b",
+          "text": "….",
+          "images": [
+            "/soal/s2-final-matematika-tk-a/q08-b.webp"
+          ]
+        },
+        {
+          "key": "c",
+          "text": null,
+          "images": [
+            "/soal/s2-final-matematika-tk-a/q08-c.webp"
+          ]
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s2-final-matematika-tk-a-q09",
+      "n": 9,
+      "prompt": "Selesaikan pengurangan berikut!",
+      "images": [
+        "/soal/s2-final-matematika-tk-a/q09-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "10",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "6",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "8",
+          "images": []
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    },
+    {
+      "id": "s2-final-matematika-tk-a-q10",
+      "n": 10,
+      "prompt": "Selesaikan pengurangan berikut!",
+      "images": [
+        "/soal/s2-final-matematika-tk-a/q10-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "15",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "10",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "18",
+          "images": []
+        }
+      ],
+      "answer": "b",
+      "status": "ok"
+    },
+    {
+      "id": "s2-final-matematika-tk-a-q11",
+      "n": 11,
+      "prompt": "Selesaikan pengurangan berikut!",
+      "images": [
+        "/soal/s2-final-matematika-tk-a/q11-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "7",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "8",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "9",
+          "images": []
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s2-final-matematika-tk-a-q12",
+      "n": 12,
+      "prompt": "Pengurangan mana yang hasilnya 8?",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": null,
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": null,
+          "images": [
+            "/soal/s2-final-matematika-tk-a/q12-b.webp"
+          ]
+        },
+        {
+          "key": "c",
+          "text": null,
+          "images": [
+            "/soal/s2-final-matematika-tk-a/q12-c.webp"
+          ]
+        }
+      ],
+      "answer": "c",
+      "status": "needs-review"
+    },
+    {
+      "id": "s2-final-matematika-tk-a-q13",
+      "n": 13,
+      "prompt": "Uraikan bentuk-bentuk penyusun bangun berikut!",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": null,
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": null,
+          "images": [
+            "/soal/s2-final-matematika-tk-a/q13-b.webp"
+          ]
+        },
+        {
+          "key": "c",
+          "text": null,
+          "images": [
+            "/soal/s2-final-matematika-tk-a/q13-c.webp"
+          ]
+        }
+      ],
+      "answer": "c",
+      "status": "needs-review"
+    },
+    {
+      "id": "s2-final-matematika-tk-a-q14",
+      "n": 14,
+      "prompt": "Hitunglah jumlah persegi pada gambar di bawah ini!",
+      "images": [
+        "/soal/s2-final-matematika-tk-a/q14-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "12",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "14",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "7",
+          "images": []
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s2-final-matematika-tk-a-q15",
+      "n": 15,
+      "prompt": "Manakah pasangan yang tepat untuk melengkapi bentuk berikut?",
+      "images": [
+        "/soal/s2-final-matematika-tk-a/q15-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": null,
+          "images": [
+            "/soal/s2-final-matematika-tk-a/q15-a.webp"
+          ]
+        },
+        {
+          "key": "b",
+          "text": null,
+          "images": [
+            "/soal/s2-final-matematika-tk-a/q15-b.webp"
+          ]
+        },
+        {
+          "key": "c",
+          "text": "…",
+          "images": []
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    },
+    {
+      "id": "s2-final-matematika-tk-a-q16",
+      "n": 16,
+      "prompt": "Cocokkan bentuk dengan gambar benda berikut!",
+      "images": [
+        "/soal/s2-final-matematika-tk-a/q16-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": null,
+          "images": [
+            "/soal/s2-final-matematika-tk-a/q16-a.webp"
+          ]
+        },
+        {
+          "key": "b",
+          "text": null,
+          "images": [
+            "/soal/s2-final-matematika-tk-a/q16-b.webp"
+          ]
+        },
+        {
+          "key": "c",
+          "text": null,
+          "images": [
+            "/soal/s2-final-matematika-tk-a/q16-c.webp"
+          ]
+        }
+      ],
+      "answer": "b",
+      "status": "ok"
+    },
+    {
+      "id": "s2-final-matematika-tk-a-q17",
+      "n": 17,
+      "prompt": "Manakah hewan yang berukuran paling besar setelah beruang?",
+      "images": [
+        "/soal/s2-final-matematika-tk-a/q17-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Koala",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Beruang",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Singa",
+          "images": []
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    },
+    {
+      "id": "s2-final-matematika-tk-a-q18",
+      "n": 18,
+      "prompt": "Urutkan hewan-hewan berikut dari ukuran yang paling kecil hingga yang paling besar!",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": "B – C – D – A",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "B – D – A – C",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "B – A – D – C",
+          "images": [
+            "/soal/s2-final-matematika-tk-a/q18-c.webp"
+          ]
+        }
+      ],
+      "answer": "b",
+      "status": "ok"
+    },
+    {
+      "id": "s2-final-matematika-tk-a-q19",
+      "n": 19,
+      "prompt": "Hewan manakah yang memiliki ukuran lebih kecil dibandingkan ayam?",
+      "images": [
+        "/soal/s2-final-matematika-tk-a/q19-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": null,
+          "images": [
+            "/soal/s2-final-matematika-tk-a/q19-a.webp"
+          ]
+        },
+        {
+          "key": "b",
+          "text": null,
+          "images": [
+            "/soal/s2-final-matematika-tk-a/q19-b.webp"
+          ]
+        },
+        {
+          "key": "c",
+          "text": null,
+          "images": [
+            "/soal/s2-final-matematika-tk-a/q19-c.webp"
+          ]
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    },
+    {
+      "id": "s2-final-matematika-tk-a-q20",
+      "n": 20,
+      "prompt": "Siapa yang tingginya lebih rendah dari B?",
+      "images": [
+        "/soal/s2-final-matematika-tk-a/q20-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": null,
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "C",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "D",
+          "images": []
+        }
+      ],
+      "answer": "a",
+      "status": "needs-review"
+    }
+  ]
+}

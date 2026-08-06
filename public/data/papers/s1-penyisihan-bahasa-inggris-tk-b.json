@@ -1,0 +1,568 @@
+{
+  "id": "s1-penyisihan-bahasa-inggris-tk-b",
+  "season": 1,
+  "round": "penyisihan",
+  "subject": "bahasa-inggris",
+  "level": "tk-b",
+  "printed": {
+    "title": "SOAL BAHASA INGGRIS BABAK PENYISIHAN",
+    "level": "TK B SEDERAJAT",
+    "date": "DESEMBER 2024",
+    "raw": [
+      "OLIMPIADE SISWA NASIONAL",
+      "SOAL BAHASA INGGRIS BABAK PENYISIHAN",
+      "TK B SEDERAJAT",
+      "DESEMBER 2024"
+    ]
+  },
+  "layoutSource": "pdf",
+  "answerSource": "pdf",
+  "verified": false,
+  "questionCount": 20,
+  "playableCount": 20,
+  "warnings": [],
+  "questions": [
+    {
+      "id": "s1-penyisihan-bahasa-inggris-tk-b-q01",
+      "n": 1,
+      "prompt": "I love my …. so much.",
+      "images": [
+        "/soal/s1-penyisihan-bahasa-inggris-tk-b/q01-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Mom",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Dad",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Uncle",
+          "images": []
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s1-penyisihan-bahasa-inggris-tk-b-q02",
+      "n": 2,
+      "prompt": "Which shape is like a TV?",
+      "images": [
+        "/soal/s1-penyisihan-bahasa-inggris-tk-b/q02-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Oval",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Star",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Square",
+          "images": []
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    },
+    {
+      "id": "s1-penyisihan-bahasa-inggris-tk-b-q03",
+      "n": 3,
+      "prompt": "What fruit is this?",
+      "images": [
+        "/soal/s1-penyisihan-bahasa-inggris-tk-b/q03-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Melon",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Watermelon",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Apple",
+          "images": []
+        }
+      ],
+      "answer": "b",
+      "status": "ok"
+    },
+    {
+      "id": "s1-penyisihan-bahasa-inggris-tk-b-q04",
+      "n": 4,
+      "prompt": "What shape is this?",
+      "images": [
+        "/soal/s1-penyisihan-bahasa-inggris-tk-b/q04-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Square",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Circle",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Triangle",
+          "images": []
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s1-penyisihan-bahasa-inggris-tk-b-q05",
+      "n": 5,
+      "prompt": "I will go to the zoo with my …..",
+      "images": [
+        "/soal/s1-penyisihan-bahasa-inggris-tk-b/q05-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Mother",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Sister",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Grandfather",
+          "images": []
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    },
+    {
+      "id": "s1-penyisihan-bahasa-inggris-tk-b-q06",
+      "n": 6,
+      "prompt": "What number is this?",
+      "images": [
+        "/soal/s1-penyisihan-bahasa-inggris-tk-b/q06-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "One",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Four",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Two",
+          "images": []
+        }
+      ],
+      "answer": "b",
+      "status": "ok"
+    },
+    {
+      "id": "s1-penyisihan-bahasa-inggris-tk-b-q07",
+      "n": 7,
+      "prompt": "What fruit is this?",
+      "images": [
+        "/soal/s1-penyisihan-bahasa-inggris-tk-b/q07-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Mangosteen",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Pineapple",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Orange",
+          "images": []
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s1-penyisihan-bahasa-inggris-tk-b-q08",
+      "n": 8,
+      "prompt": "It is my ….",
+      "images": [
+        "/soal/s1-penyisihan-bahasa-inggris-tk-b/q08-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Family",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Friends",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Brother",
+          "images": []
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s1-penyisihan-bahasa-inggris-tk-b-q09",
+      "n": 9,
+      "prompt": "He is my ….",
+      "images": [
+        "/soal/s1-penyisihan-bahasa-inggris-tk-b/q09-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Mother",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Father",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Sister",
+          "images": []
+        }
+      ],
+      "answer": "b",
+      "status": "ok"
+    },
+    {
+      "id": "s1-penyisihan-bahasa-inggris-tk-b-q10",
+      "n": 10,
+      "prompt": "What number is this?",
+      "images": [
+        "/soal/s1-penyisihan-bahasa-inggris-tk-b/q10-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Nine",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Ten",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Eight",
+          "images": []
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s1-penyisihan-bahasa-inggris-tk-b-q11",
+      "n": 11,
+      "prompt": "It is my ….",
+      "images": [
+        "/soal/s1-penyisihan-bahasa-inggris-tk-b/q11-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Grandmother",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Friends",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Parent",
+          "images": []
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    },
+    {
+      "id": "s1-penyisihan-bahasa-inggris-tk-b-q12",
+      "n": 12,
+      "prompt": "Which of these is an avocado?",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": null,
+          "images": [
+            "/soal/s1-penyisihan-bahasa-inggris-tk-b/q12-a.webp"
+          ]
+        },
+        {
+          "key": "b",
+          "text": null,
+          "images": [
+            "/soal/s1-penyisihan-bahasa-inggris-tk-b/q12-b.webp"
+          ]
+        },
+        {
+          "key": "c",
+          "text": null,
+          "images": [
+            "/soal/s1-penyisihan-bahasa-inggris-tk-b/q12-c.webp"
+          ]
+        }
+      ],
+      "answer": "b",
+      "status": "ok"
+    },
+    {
+      "id": "s1-penyisihan-bahasa-inggris-tk-b-q13",
+      "n": 13,
+      "prompt": "What shape is this melon?",
+      "images": [
+        "/soal/s1-penyisihan-bahasa-inggris-tk-b/q13-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Square",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Triangel",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Circle",
+          "images": []
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    },
+    {
+      "id": "s1-penyisihan-bahasa-inggris-tk-b-q14",
+      "n": 14,
+      "prompt": "What fruit is this?",
+      "images": [
+        "/soal/s1-penyisihan-bahasa-inggris-tk-b/q14-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Pear",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Lemon",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Starfruit",
+          "images": []
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s1-penyisihan-bahasa-inggris-tk-b-q15",
+      "n": 15,
+      "prompt": "What shape is this?",
+      "images": [
+        "/soal/s1-penyisihan-bahasa-inggris-tk-b/q15-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Circle",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Star",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Square",
+          "images": []
+        }
+      ],
+      "answer": "b",
+      "status": "ok"
+    },
+    {
+      "id": "s1-penyisihan-bahasa-inggris-tk-b-q16",
+      "n": 16,
+      "prompt": "What number is this?",
+      "images": [
+        "/soal/s1-penyisihan-bahasa-inggris-tk-b/q16-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Seven",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Five",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Six",
+          "images": []
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    },
+    {
+      "id": "s1-penyisihan-bahasa-inggris-tk-b-q17",
+      "n": 17,
+      "prompt": "Which fruit is yellow?",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": "Banana",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Grape",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Guava",
+          "images": []
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s1-penyisihan-bahasa-inggris-tk-b-q18",
+      "n": 18,
+      "prompt": "How many tomatoes are there?",
+      "images": [
+        "/soal/s1-penyisihan-bahasa-inggris-tk-b/q18-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Six",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Seven",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Nine",
+          "images": []
+        }
+      ],
+      "answer": "b",
+      "status": "ok"
+    },
+    {
+      "id": "s1-penyisihan-bahasa-inggris-tk-b-q19",
+      "n": 19,
+      "prompt": "How many flowers are there?",
+      "images": [
+        "/soal/s1-penyisihan-bahasa-inggris-tk-b/q19-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Five",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Three",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Two",
+          "images": []
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s1-penyisihan-bahasa-inggris-tk-b-q20",
+      "n": 20,
+      "prompt": "Which shape is like a slice of pizza?",
+      "images": [
+        "/soal/s1-penyisihan-bahasa-inggris-tk-b/q20-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Triangel",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Oval",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Star",
+          "images": []
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    }
+  ]
+}

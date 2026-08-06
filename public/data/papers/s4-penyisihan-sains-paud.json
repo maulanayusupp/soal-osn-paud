@@ -1,0 +1,598 @@
+{
+  "id": "s4-penyisihan-sains-paud",
+  "season": 4,
+  "round": "penyisihan",
+  "subject": "sains",
+  "level": "paud",
+  "printed": {
+    "title": "SOAL SAINS/IPA BABAK PENYISIHAN",
+    "level": "PAUD SEDERAJAT",
+    "date": "JANUARI 2026",
+    "raw": [
+      "OLIMPIADE SISWA NASIONAL",
+      "SOAL SAINS/IPA BABAK PENYISIHAN",
+      "PAUD SEDERAJAT",
+      "JANUARI 2026"
+    ]
+  },
+  "layoutSource": "docx",
+  "answerSource": "docx",
+  "verified": false,
+  "questionCount": 20,
+  "playableCount": 20,
+  "warnings": [],
+  "questions": [
+    {
+      "id": "s4-penyisihan-sains-paud-q01",
+      "n": 1,
+      "prompt": "Anggota tubuh apakah ini?",
+      "images": [
+        "/soal/s4-penyisihan-sains-paud/q01-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Kaki",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Perut",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Kepala",
+          "images": []
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    },
+    {
+      "id": "s4-penyisihan-sains-paud-q02",
+      "n": 2,
+      "prompt": "Pilih gambar yang menunjukkan tangan!",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": null,
+          "images": [
+            "/soal/s4-penyisihan-sains-paud/q02-a.webp"
+          ]
+        },
+        {
+          "key": "b",
+          "text": null,
+          "images": [
+            "/soal/s4-penyisihan-sains-paud/q02-b.webp"
+          ]
+        },
+        {
+          "key": "c",
+          "text": null,
+          "images": [
+            "/soal/s4-penyisihan-sains-paud/q02-c.webp"
+          ]
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s4-penyisihan-sains-paud-q03",
+      "n": 3,
+      "prompt": "Memei sedang menyisir ….",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": "Telinga",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Rambut",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Tangan",
+          "images": [
+            "/soal/s4-penyisihan-sains-paud/q03-c.webp"
+          ]
+        }
+      ],
+      "answer": "b",
+      "status": "ok"
+    },
+    {
+      "id": "s4-penyisihan-sains-paud-q04",
+      "n": 4,
+      "prompt": "Bagian tubuh berikut adalah ….",
+      "images": [
+        "/soal/s4-penyisihan-sains-paud/q04-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Kepala",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Rambut",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Mata",
+          "images": []
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    },
+    {
+      "id": "s4-penyisihan-sains-paud-q05",
+      "n": 5,
+      "prompt": "Apa yang kita rasakan saat menyentuh obor api?",
+      "images": [
+        "/soal/s4-penyisihan-sains-paud/q05-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Panas",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Dingin",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Beku",
+          "images": []
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s4-penyisihan-sains-paud-q06",
+      "n": 6,
+      "prompt": "Bagaimana rasa es?",
+      "images": [
+        "/soal/s4-penyisihan-sains-paud/q06-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Panas",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Hangat",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Dingin",
+          "images": []
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    },
+    {
+      "id": "s4-penyisihan-sains-paud-q07",
+      "n": 7,
+      "prompt": "Manakah minuman yang dingin?",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": null,
+          "images": [
+            "/soal/s4-penyisihan-sains-paud/q07-a.webp"
+          ]
+        },
+        {
+          "key": "b",
+          "text": null,
+          "images": [
+            "/soal/s4-penyisihan-sains-paud/q07-b.webp"
+          ]
+        },
+        {
+          "key": "c",
+          "text": null,
+          "images": [
+            "/soal/s4-penyisihan-sains-paud/q07-c.webp"
+          ]
+        }
+      ],
+      "answer": "b",
+      "status": "ok"
+    },
+    {
+      "id": "s4-penyisihan-sains-paud-q08",
+      "n": 8,
+      "prompt": "Makanan yang baru dimasak terasa ….",
+      "images": [
+        "/soal/s4-penyisihan-sains-paud/q08-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Dingin",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Beku",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Panas",
+          "images": []
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    },
+    {
+      "id": "s4-penyisihan-sains-paud-q09",
+      "n": 9,
+      "prompt": "Gambar berikut menunjukkan ….",
+      "images": [
+        "/soal/s4-penyisihan-sains-paud/q09-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Buah-buahan",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Sayur-sayuran",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Bunga",
+          "images": []
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s4-penyisihan-sains-paud-q10",
+      "n": 10,
+      "prompt": "Pilih gambar yang menunjukkan buah nanas!",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": null,
+          "images": [
+            "/soal/s4-penyisihan-sains-paud/q10-a.webp"
+          ]
+        },
+        {
+          "key": "b",
+          "text": null,
+          "images": [
+            "/soal/s4-penyisihan-sains-paud/q10-b.webp"
+          ]
+        },
+        {
+          "key": "c",
+          "text": null,
+          "images": [
+            "/soal/s4-penyisihan-sains-paud/q10-c.webp"
+          ]
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    },
+    {
+      "id": "s4-penyisihan-sains-paud-q11",
+      "n": 11,
+      "prompt": "Gambar berikut adalah ….",
+      "images": [
+        "/soal/s4-penyisihan-sains-paud/q11-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Tomat",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Seledri",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Terong",
+          "images": []
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s4-penyisihan-sains-paud-q12",
+      "n": 12,
+      "prompt": "Manakah di antara gambar berikut yang termasuk sayuran?",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": null,
+          "images": [
+            "/soal/s4-penyisihan-sains-paud/q12-a.webp"
+          ]
+        },
+        {
+          "key": "b",
+          "text": null,
+          "images": [
+            "/soal/s4-penyisihan-sains-paud/q12-b.webp"
+          ]
+        },
+        {
+          "key": "c",
+          "text": null,
+          "images": [
+            "/soal/s4-penyisihan-sains-paud/q12-c.webp"
+          ]
+        }
+      ],
+      "answer": "b",
+      "status": "ok"
+    },
+    {
+      "id": "s4-penyisihan-sains-paud-q13",
+      "n": 13,
+      "prompt": "Manakah gambar yang menunjukkan singa?",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": null,
+          "images": [
+            "/soal/s4-penyisihan-sains-paud/q13-a.webp"
+          ]
+        },
+        {
+          "key": "b",
+          "text": null,
+          "images": [
+            "/soal/s4-penyisihan-sains-paud/q13-b.webp"
+          ]
+        },
+        {
+          "key": "c",
+          "text": null,
+          "images": [
+            "/soal/s4-penyisihan-sains-paud/q13-c.webp"
+          ]
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s4-penyisihan-sains-paud-q14",
+      "n": 14,
+      "prompt": "Manakah gambar kepiting?",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": null,
+          "images": [
+            "/soal/s4-penyisihan-sains-paud/q14-a.webp"
+          ]
+        },
+        {
+          "key": "b",
+          "text": null,
+          "images": [
+            "/soal/s4-penyisihan-sains-paud/q14-b.webp"
+          ]
+        },
+        {
+          "key": "c",
+          "text": null,
+          "images": [
+            "/soal/s4-penyisihan-sains-paud/q14-c.webp"
+          ]
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    },
+    {
+      "id": "s4-penyisihan-sains-paud-q15",
+      "n": 15,
+      "prompt": "Zeya sedang memberi makan ….",
+      "images": [
+        "/soal/s4-penyisihan-sains-paud/q15-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Ikan",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Rumput",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Kepiting",
+          "images": []
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s4-penyisihan-sains-paud-q16",
+      "n": 16,
+      "prompt": "Apa nama hewan pada gambar berikut?",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": "Rumput",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Buaya",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Bunglon",
+          "images": [
+            "/soal/s4-penyisihan-sains-paud/q16-c.webp"
+          ]
+        }
+      ],
+      "answer": "b",
+      "status": "ok"
+    },
+    {
+      "id": "s4-penyisihan-sains-paud-q17",
+      "n": 17,
+      "prompt": "Pilih gambar yang merupakan pohon!",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": null,
+          "images": [
+            "/soal/s4-penyisihan-sains-paud/q17-a.webp"
+          ]
+        },
+        {
+          "key": "b",
+          "text": null,
+          "images": [
+            "/soal/s4-penyisihan-sains-paud/q17-b.webp"
+          ]
+        },
+        {
+          "key": "c",
+          "text": null,
+          "images": [
+            "/soal/s4-penyisihan-sains-paud/q17-c.webp"
+          ]
+        }
+      ],
+      "answer": "b",
+      "status": "ok"
+    },
+    {
+      "id": "s4-penyisihan-sains-paud-q18",
+      "n": 18,
+      "prompt": "Apa yang diberikan Anya kepada ibu?",
+      "images": [
+        "/soal/s4-penyisihan-sains-paud/q18-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Rumput",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Batu",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Bunga",
+          "images": []
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    },
+    {
+      "id": "s4-penyisihan-sains-paud-q19",
+      "n": 19,
+      "prompt": "Gambar berikut menunjukkan ….",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": "Rumput",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Bunga",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Pohon",
+          "images": [
+            "/soal/s4-penyisihan-sains-paud/q19-c.webp"
+          ]
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s4-penyisihan-sains-paud-q20",
+      "n": 20,
+      "prompt": "Di bawah ini, manakah yang termasuk tumbuhan?",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": null,
+          "images": [
+            "/soal/s4-penyisihan-sains-paud/q20-a.webp"
+          ]
+        },
+        {
+          "key": "b",
+          "text": null,
+          "images": [
+            "/soal/s4-penyisihan-sains-paud/q20-b.webp"
+          ]
+        },
+        {
+          "key": "c",
+          "text": null,
+          "images": [
+            "/soal/s4-penyisihan-sains-paud/q20-c.webp"
+          ]
+        }
+      ],
+      "answer": "b",
+      "status": "ok"
+    }
+  ]
+}

@@ -1,0 +1,588 @@
+{
+  "id": "s2-final-sains-paud",
+  "season": 2,
+  "round": "final",
+  "subject": "sains",
+  "level": "paud",
+  "printed": {
+    "title": "SOAL SAINS/IPA BABAK FINAL",
+    "level": "PAUD SEDERAJAT",
+    "date": "JUNI 2025",
+    "raw": [
+      "OLIMPIADE SISWA NASIONAL",
+      "SOAL SAINS/IPA BABAK FINAL",
+      "PAUD SEDERAJAT",
+      "JUNI 2025"
+    ]
+  },
+  "layoutSource": "pdf",
+  "answerSource": "pdf",
+  "verified": false,
+  "questionCount": 20,
+  "playableCount": 19,
+  "warnings": [
+    "Q10: no answer highlight found"
+  ],
+  "questions": [
+    {
+      "id": "s2-final-sains-paud-q01",
+      "n": 1,
+      "prompt": "Bagian apa saja yang terdapat di dalam mulut?",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": "Gigi, lidah, dan bibir",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Bibir, telinga, dan hidung",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Mata, alis, dan lidah",
+          "images": []
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s2-final-sains-paud-q02",
+      "n": 2,
+      "prompt": "Bagian tubuh manusia yang jumlahnya paling banyak adalah...",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": null,
+          "images": [
+            "/soal/s2-final-sains-paud/q02-a.webp"
+          ]
+        },
+        {
+          "key": "b",
+          "text": null,
+          "images": [
+            "/soal/s2-final-sains-paud/q02-b.webp"
+          ]
+        },
+        {
+          "key": "c",
+          "text": null,
+          "images": [
+            "/soal/s2-final-sains-paud/q02-c.webp"
+          ]
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s2-final-sains-paud-q03",
+      "n": 3,
+      "prompt": "Kita menggunakan mulut untuk...",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": "Melihat",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Berbicara dan makan",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Mendengar",
+          "images": []
+        }
+      ],
+      "answer": "b",
+      "status": "ok"
+    },
+    {
+      "id": "s2-final-sains-paud-q04",
+      "n": 4,
+      "prompt": "Kita bisa mendengar musik menggunakan...",
+      "images": [
+        "/soal/s2-final-sains-paud/q04-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Telinga",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Kelopak mata",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Leher",
+          "images": []
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s2-final-sains-paud-q05",
+      "n": 5,
+      "prompt": "Gege memegang payung menggunakan …",
+      "images": [
+        "/soal/s2-final-sains-paud/q05-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Kepala",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Siku",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Tangan",
+          "images": []
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    },
+    {
+      "id": "s2-final-sains-paud-q06",
+      "n": 6,
+      "prompt": "Bagian tubuh di bawah ini adalah …..",
+      "images": [
+        "/soal/s2-final-sains-paud/q06-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Telapak tangan",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Telapak kaki",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Lutut",
+          "images": []
+        }
+      ],
+      "answer": "b",
+      "status": "ok"
+    },
+    {
+      "id": "s2-final-sains-paud-q07",
+      "n": 7,
+      "prompt": "Manakah gambar yang menunjukkan bagian dahi?",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": null,
+          "images": [
+            "/soal/s2-final-sains-paud/q07-a.webp"
+          ]
+        },
+        {
+          "key": "b",
+          "text": null,
+          "images": [
+            "/soal/s2-final-sains-paud/q07-b.webp"
+          ]
+        },
+        {
+          "key": "c",
+          "text": null,
+          "images": [
+            "/soal/s2-final-sains-paud/q07-c.webp"
+          ]
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s2-final-sains-paud-q08",
+      "n": 8,
+      "prompt": "Setiap pagi Tata menyisir...",
+      "images": [
+        "/soal/s2-final-sains-paud/q08-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Alis",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Bulu mata",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Rambut",
+          "images": []
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    },
+    {
+      "id": "s2-final-sains-paud-q09",
+      "n": 9,
+      "prompt": "Minuman yang diberi es batu akan terasa....",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": "Panas",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Dingin",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Manis",
+          "images": []
+        }
+      ],
+      "answer": "b",
+      "status": "ok"
+    },
+    {
+      "id": "s2-final-sains-paud-q10",
+      "n": 10,
+      "prompt": "Benda yang terasa panas saat disentuh adalah...",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": null,
+          "images": [
+            "/soal/s2-final-sains-paud/q10-a.webp"
+          ]
+        },
+        {
+          "key": "b",
+          "text": null,
+          "images": [
+            "/soal/s2-final-sains-paud/q10-b.webp"
+          ]
+        },
+        {
+          "key": "c",
+          "text": null,
+          "images": [
+            "/soal/s2-final-sains-paud/q10-c.webp"
+          ]
+        }
+      ],
+      "answer": null,
+      "status": "needs-review"
+    },
+    {
+      "id": "s2-final-sains-paud-q11",
+      "n": 11,
+      "prompt": "Buah yang dimasukkan ke kulkas terasa...",
+      "images": [
+        "/soal/s2-final-sains-paud/q11-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Hangat",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Panas",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Dingin",
+          "images": []
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    },
+    {
+      "id": "s2-final-sains-paud-q12",
+      "n": 12,
+      "prompt": "Telur yang direbus terasa...",
+      "images": [
+        "/soal/s2-final-sains-paud/q12-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Panas",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Dingin",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Beku",
+          "images": []
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s2-final-sains-paud-q13",
+      "n": 13,
+      "prompt": "Jika kita memegang benda panas, tangan kita akan terasa....",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": "Dingin",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Beku",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Panas",
+          "images": []
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    },
+    {
+      "id": "s2-final-sains-paud-q14",
+      "n": 14,
+      "prompt": "Ketika udara dingin, memakai selimut membuat tubuh terasa...",
+      "images": [
+        "/soal/s2-final-sains-paud/q14-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Hangat",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Beku",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Dingin",
+          "images": []
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s2-final-sains-paud-q15",
+      "n": 15,
+      "prompt": "Di bawah ini, gambar yang menunjukkan sayuran adalah...",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": null,
+          "images": [
+            "/soal/s2-final-sains-paud/q15-a.webp"
+          ]
+        },
+        {
+          "key": "b",
+          "text": null,
+          "images": [
+            "/soal/s2-final-sains-paud/q15-b.webp"
+          ]
+        },
+        {
+          "key": "c",
+          "text": null,
+          "images": [
+            "/soal/s2-final-sains-paud/q15-c.webp"
+          ]
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    },
+    {
+      "id": "s2-final-sains-paud-q16",
+      "n": 16,
+      "prompt": "Di bawah ini, buah yang memiliki kulit berduri dan baunya harum adalah...",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": null,
+          "images": [
+            "/soal/s2-final-sains-paud/q16-a.webp"
+          ]
+        },
+        {
+          "key": "b",
+          "text": null,
+          "images": [
+            "/soal/s2-final-sains-paud/q16-b.webp"
+          ]
+        },
+        {
+          "key": "c",
+          "text": null,
+          "images": [
+            "/soal/s2-final-sains-paud/q16-c.webp"
+          ]
+        }
+      ],
+      "answer": "b",
+      "status": "ok"
+    },
+    {
+      "id": "s2-final-sains-paud-q17",
+      "n": 17,
+      "prompt": "Manakah di bawah ini yang merupakan gambar sayuran buncis?",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": null,
+          "images": [
+            "/soal/s2-final-sains-paud/q17-a.webp"
+          ]
+        },
+        {
+          "key": "b",
+          "text": null,
+          "images": [
+            "/soal/s2-final-sains-paud/q17-b.webp"
+          ]
+        },
+        {
+          "key": "c",
+          "text": null,
+          "images": [
+            "/soal/s2-final-sains-paud/q17-c.webp"
+          ]
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s2-final-sains-paud-q18",
+      "n": 18,
+      "prompt": "Buah yang memiliki rasa asam dan berwarna kuning adalah …",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": null,
+          "images": [
+            "/soal/s2-final-sains-paud/q18-a.webp"
+          ]
+        },
+        {
+          "key": "b",
+          "text": null,
+          "images": [
+            "/soal/s2-final-sains-paud/q18-b.webp"
+          ]
+        },
+        {
+          "key": "c",
+          "text": null,
+          "images": [
+            "/soal/s2-final-sains-paud/q18-c.webp"
+          ]
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s2-final-sains-paud-q19",
+      "n": 19,
+      "prompt": "Apa nama buah berikut?",
+      "images": [
+        "/soal/s2-final-sains-paud/q19-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Jambu biji",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Sirsak",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Salak",
+          "images": []
+        }
+      ],
+      "answer": "b",
+      "status": "ok"
+    },
+    {
+      "id": "s2-final-sains-paud-q20",
+      "n": 20,
+      "prompt": "Apa nama sayuran berikut?",
+      "images": [
+        "/soal/s2-final-sains-paud/q20-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Selada",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Bayam",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Kangkung",
+          "images": []
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    }
+  ]
+}

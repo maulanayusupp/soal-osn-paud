@@ -1,0 +1,592 @@
+{
+  "id": "s2-penyisihan-matematika-paud",
+  "season": 2,
+  "round": "penyisihan",
+  "subject": "matematika",
+  "level": "paud",
+  "printed": {
+    "title": "SOAL MATEMATIKA BABAK PENYISIHAN",
+    "level": "PAUD SEDERAJAT",
+    "date": "MEI 2025",
+    "raw": [
+      "OLIMPIADE SISWA NASIONAL",
+      "SOAL MATEMATIKA BABAK PENYISIHAN",
+      "PAUD SEDERAJAT",
+      "MEI 2025"
+    ]
+  },
+  "layoutSource": "pdf",
+  "answerSource": "pdf",
+  "verified": false,
+  "questionCount": 20,
+  "playableCount": 19,
+  "warnings": [
+    "Q9: no answer highlight found"
+  ],
+  "questions": [
+    {
+      "id": "s2-penyisihan-matematika-paud-q01",
+      "n": 1,
+      "prompt": "Angka di bawah ini dibaca….",
+      "images": [
+        "/soal/s2-penyisihan-matematika-paud/q01-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Satu",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Dua",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Tiga",
+          "images": []
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s2-penyisihan-matematika-paud-q02",
+      "n": 2,
+      "prompt": "Lihat gambar di bawah ini, ada berapa jari yang diangkat?",
+      "images": [
+        "/soal/s2-penyisihan-matematika-paud/q02-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "2",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "3",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "1",
+          "images": []
+        }
+      ],
+      "answer": "b",
+      "status": "ok"
+    },
+    {
+      "id": "s2-penyisihan-matematika-paud-q03",
+      "n": 3,
+      "prompt": "Berapa jumlah buah jeruk dibawah ini?",
+      "images": [
+        "/soal/s2-penyisihan-matematika-paud/q03-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Empat",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Dua",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Tiga",
+          "images": []
+        }
+      ],
+      "answer": "b",
+      "status": "ok"
+    },
+    {
+      "id": "s2-penyisihan-matematika-paud-q04",
+      "n": 4,
+      "prompt": "Hitunglah buah mangga yang ada di keranjang berikut!",
+      "images": [
+        "/soal/s2-penyisihan-matematika-paud/q04-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "3",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "2",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "1",
+          "images": []
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s2-penyisihan-matematika-paud-q05",
+      "n": 5,
+      "prompt": "Angka pada gambar di bawah ini dibaca…",
+      "images": [
+        "/soal/s2-penyisihan-matematika-paud/q05-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Satu",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Tiga",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Lima",
+          "images": []
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    },
+    {
+      "id": "s2-penyisihan-matematika-paud-q06",
+      "n": 6,
+      "prompt": "Berapa jumlah hewan pada gambar di bawah ini?",
+      "images": [
+        "/soal/s2-penyisihan-matematika-paud/q06-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "4",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "3",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "5",
+          "images": []
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s2-penyisihan-matematika-paud-q07",
+      "n": 7,
+      "prompt": "Hitunglah ikan yang ada di dalam akuarium berikut!",
+      "images": [
+        "/soal/s2-penyisihan-matematika-paud/q07-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "2",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "3",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "4",
+          "images": []
+        }
+      ],
+      "answer": "b",
+      "status": "ok"
+    },
+    {
+      "id": "s2-penyisihan-matematika-paud-q08",
+      "n": 8,
+      "prompt": "Lengkapilah kotak di bawah ini dengan angka yang berurutan dari 1 sampai 5!",
+      "images": [
+        "/soal/s2-penyisihan-matematika-paud/q08-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "2, 3, 4",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "1, 5, 3",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "2, 4, 1",
+          "images": []
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s2-penyisihan-matematika-paud-q09",
+      "n": 9,
+      "prompt": "Selesaikan penjumlahan berikut!",
+      "images": [
+        "/soal/s2-penyisihan-matematika-paud/q09-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": null,
+          "images": [
+            "/soal/s2-penyisihan-matematika-paud/q09-a.webp"
+          ]
+        },
+        {
+          "key": "b",
+          "text": null,
+          "images": [
+            "/soal/s2-penyisihan-matematika-paud/q09-b.webp"
+          ]
+        },
+        {
+          "key": "c",
+          "text": null,
+          "images": [
+            "/soal/s2-penyisihan-matematika-paud/q09-c.webp"
+          ]
+        }
+      ],
+      "answer": null,
+      "status": "needs-review"
+    },
+    {
+      "id": "s2-penyisihan-matematika-paud-q10",
+      "n": 10,
+      "prompt": "Selesaikan penjumlahan berikut!",
+      "images": [
+        "/soal/s2-penyisihan-matematika-paud/q10-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": null,
+          "images": [
+            "/soal/s2-penyisihan-matematika-paud/q10-a.webp"
+          ]
+        },
+        {
+          "key": "b",
+          "text": ".",
+          "images": [
+            "/soal/s2-penyisihan-matematika-paud/q10-b.webp"
+          ]
+        },
+        {
+          "key": "c",
+          "text": null,
+          "images": [
+            "/soal/s2-penyisihan-matematika-paud/q10-c.webp"
+          ]
+        }
+      ],
+      "answer": "b",
+      "status": "ok"
+    },
+    {
+      "id": "s2-penyisihan-matematika-paud-q11",
+      "n": 11,
+      "prompt": "Selesaikan penjumlahan berikut!",
+      "images": [
+        "/soal/s2-penyisihan-matematika-paud/q11-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "2",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "3",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "4",
+          "images": []
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s2-penyisihan-matematika-paud-q12",
+      "n": 12,
+      "prompt": "Selesaikan penjumlahan berikut!",
+      "images": [
+        "/soal/s2-penyisihan-matematika-paud/q12-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "4",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "2",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "3",
+          "images": []
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    },
+    {
+      "id": "s2-penyisihan-matematika-paud-q13",
+      "n": 13,
+      "prompt": "Berapa jumlah kue yang ada di meja?",
+      "images": [
+        "/soal/s2-penyisihan-matematika-paud/q13-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "2",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "3",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "4",
+          "images": []
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s2-penyisihan-matematika-paud-q14",
+      "n": 14,
+      "prompt": "Selesaikan penjumlahan berikut!",
+      "images": [
+        "/soal/s2-penyisihan-matematika-paud/q14-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": null,
+          "images": [
+            "/soal/s2-penyisihan-matematika-paud/q14-a.webp"
+          ]
+        },
+        {
+          "key": "b",
+          "text": null,
+          "images": [
+            "/soal/s2-penyisihan-matematika-paud/q14-b.webp"
+          ]
+        },
+        {
+          "key": "c",
+          "text": null,
+          "images": [
+            "/soal/s2-penyisihan-matematika-paud/q14-c.webp"
+          ]
+        }
+      ],
+      "answer": "b",
+      "status": "ok"
+    },
+    {
+      "id": "s2-penyisihan-matematika-paud-q15",
+      "n": 15,
+      "prompt": "Selesaikan penjumlahan berikut!",
+      "images": [
+        "/soal/s2-penyisihan-matematika-paud/q15-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "4",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "3",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "5",
+          "images": []
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s2-penyisihan-matematika-paud-q16",
+      "n": 16,
+      "prompt": "Roda di bawah ini berbentuk…",
+      "images": [
+        "/soal/s2-penyisihan-matematika-paud/q16-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Lingkaran",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Segitiga",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Persegi",
+          "images": []
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s2-penyisihan-matematika-paud-q17",
+      "n": 17,
+      "prompt": "Selesaikan pengurangan berikut!",
+      "images": [
+        "/soal/s2-penyisihan-matematika-paud/q17-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "2",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "3",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "1",
+          "images": []
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    },
+    {
+      "id": "s2-penyisihan-matematika-paud-q18",
+      "n": 18,
+      "prompt": "Selesaikan pengurangan berikut!",
+      "images": [
+        "/soal/s2-penyisihan-matematika-paud/q18-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": null,
+          "images": [
+            "/soal/s2-penyisihan-matematika-paud/q18-a.webp"
+          ]
+        },
+        {
+          "key": "b",
+          "text": null,
+          "images": [
+            "/soal/s2-penyisihan-matematika-paud/q18-b.webp"
+          ]
+        },
+        {
+          "key": "c",
+          "text": null,
+          "images": [
+            "/soal/s2-penyisihan-matematika-paud/q18-c.webp"
+          ]
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s2-penyisihan-matematika-paud-q19",
+      "n": 19,
+      "prompt": "Selesaikan pengurangan berikut!",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": "2",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "4",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "3",
+          "images": [
+            "/soal/s2-penyisihan-matematika-paud/q19-c.webp"
+          ]
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    },
+    {
+      "id": "s2-penyisihan-matematika-paud-q20",
+      "n": 20,
+      "prompt": "Selesaikan pengurangan berikut!",
+      "images": [
+        "/soal/s2-penyisihan-matematika-paud/q20-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "2",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "3",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "5",
+          "images": []
+        }
+      ],
+      "answer": "b",
+      "status": "ok"
+    }
+  ]
+}

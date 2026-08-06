@@ -1,0 +1,598 @@
+{
+  "id": "s4-final-matematika-tk-b",
+  "season": 4,
+  "round": "final",
+  "subject": "matematika",
+  "level": "tk-b",
+  "printed": {
+    "title": "SOAL MATEMATIKA BABAK FINAL",
+    "level": "TK B SEDERAJAT",
+    "date": "FEBRUARI 2026",
+    "raw": [
+      "OLIMPIADE SISWA NASIONAL",
+      "SOAL MATEMATIKA BABAK FINAL",
+      "TK B SEDERAJAT",
+      "FEBRUARI 2026"
+    ]
+  },
+  "layoutSource": "pdf",
+  "answerSource": "docx",
+  "verified": false,
+  "questionCount": 20,
+  "playableCount": 17,
+  "warnings": [
+    "Q8: only 1 option(s)",
+    "Q12: only 1 option(s)",
+    "answer key read from the .docx (the shipped PDF is the unmarked student copy)",
+    "Q10: no answer highlight found",
+    "Q10: option a is empty",
+    "Q12: no answer highlight found"
+  ],
+  "questions": [
+    {
+      "id": "s4-final-matematika-tk-b-q01",
+      "n": 1,
+      "prompt": "Dari urutan angka 9 sampai 28, manakah angka yang tidak terdapat pada kumpulan angka berikut?",
+      "images": [
+        "/soal/s4-final-matematika-tk-b/q01-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "23",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "17",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "29",
+          "images": []
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s4-final-matematika-tk-b-q02",
+      "n": 2,
+      "prompt": "Tentukan gambar yang menunjukkan 27 angsa!",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": null,
+          "images": [
+            "/soal/s4-final-matematika-tk-b/q02-a.webp"
+          ]
+        },
+        {
+          "key": "b",
+          "text": null,
+          "images": [
+            "/soal/s4-final-matematika-tk-b/q02-b.webp"
+          ]
+        },
+        {
+          "key": "c",
+          "text": null,
+          "images": [
+            "/soal/s4-final-matematika-tk-b/q02-c.webp"
+          ]
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    },
+    {
+      "id": "s4-final-matematika-tk-b-q03",
+      "n": 3,
+      "prompt": "Berapa jumlah telur di bawah ini?",
+      "images": [
+        "/soal/s4-final-matematika-tk-b/q03-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "29",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "30",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "28",
+          "images": []
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s4-final-matematika-tk-b-q04",
+      "n": 4,
+      "prompt": "Susunlah angka-angka berikut dari nilai terbesar ke nilai terkecil!",
+      "images": [
+        "/soal/s4-final-matematika-tk-b/q04-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "30, 29, 28, 21, 18, 16, 13, 11, 8, 7, 0",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "21, 16, 11, 7, 0, 18, 13, 9, 29, 30, 28",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "30, 29, 28, 21, 18, 16, 13, 11, 9, 7, 0",
+          "images": []
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    },
+    {
+      "id": "s4-final-matematika-tk-b-q05",
+      "n": 5,
+      "prompt": "Tentukan angka yang sesuai untuk setiap huruf pada lingkaran agar hasil pengurangannya bernilai 3!",
+      "images": [
+        "/soal/s4-final-matematika-tk-b/q05-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "14, 27, 16, 18, 5, 2",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "14, 27, 10, 18, 12, 9",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "14, 26, 16, 18, 11, 8",
+          "images": []
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    },
+    {
+      "id": "s4-final-matematika-tk-b-q06",
+      "n": 6,
+      "prompt": "Kerjakanlah operasi hitung di bawah ini dengan benar!",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": "28",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "29",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "20",
+          "images": [
+            "/soal/s4-final-matematika-tk-b/q06-c.webp"
+          ]
+        }
+      ],
+      "answer": "b",
+      "status": "ok"
+    },
+    {
+      "id": "s4-final-matematika-tk-b-q07",
+      "n": 7,
+      "prompt": "Tentukan hasil penjumlahan berikut!",
+      "images": [
+        "/soal/s4-final-matematika-tk-b/q07-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": null,
+          "images": [
+            "/soal/s4-final-matematika-tk-b/q07-a.webp"
+          ]
+        },
+        {
+          "key": "b",
+          "text": null,
+          "images": [
+            "/soal/s4-final-matematika-tk-b/q07-b.webp"
+          ]
+        },
+        {
+          "key": "c",
+          "text": null,
+          "images": [
+            "/soal/s4-final-matematika-tk-b/q07-c.webp"
+          ]
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s4-final-matematika-tk-b-q08",
+      "n": 8,
+      "prompt": "Selesaikan pengurangan berikut!",
+      "images": [
+        "/soal/s4-final-matematika-tk-b/q08-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": null,
+          "images": [
+            "/soal/s4-final-matematika-tk-b/q08-a.webp"
+          ]
+        }
+      ],
+      "answer": "a",
+      "status": "needs-review"
+    },
+    {
+      "id": "s4-final-matematika-tk-b-q09",
+      "n": 9,
+      "prompt": "Tentukan warna permen berikut berdasarkan hasil penjumlahannya!",
+      "images": [
+        "/soal/s4-final-matematika-tk-b/q09-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": null,
+          "images": [
+            "/soal/s4-final-matematika-tk-b/q09-a.webp"
+          ]
+        },
+        {
+          "key": "b",
+          "text": null,
+          "images": [
+            "/soal/s4-final-matematika-tk-b/q09-b.webp"
+          ]
+        },
+        {
+          "key": "c",
+          "text": null,
+          "images": [
+            "/soal/s4-final-matematika-tk-b/q09-c.webp"
+          ]
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    },
+    {
+      "id": "s4-final-matematika-tk-b-q10",
+      "n": 10,
+      "prompt": "Berapa hasil pengurangan berikut?",
+      "images": [
+        "/soal/s4-final-matematika-tk-b/q10-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": null,
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": null,
+          "images": [
+            "/soal/s4-final-matematika-tk-b/q10-c.webp"
+          ]
+        }
+      ],
+      "answer": null,
+      "status": "needs-review"
+    },
+    {
+      "id": "s4-final-matematika-tk-b-q11",
+      "n": 11,
+      "prompt": "Lanjutkan pola berikut!",
+      "images": [
+        "/soal/s4-final-matematika-tk-b/q11-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": null,
+          "images": [
+            "/soal/s4-final-matematika-tk-b/q11-a.webp"
+          ]
+        },
+        {
+          "key": "b",
+          "text": null,
+          "images": [
+            "/soal/s4-final-matematika-tk-b/q11-b.webp"
+          ]
+        },
+        {
+          "key": "c",
+          "text": null,
+          "images": [
+            "/soal/s4-final-matematika-tk-b/q11-c.webp"
+          ]
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s4-final-matematika-tk-b-q12",
+      "n": 12,
+      "prompt": "Warnailah bunga di bawah ini dengan warna sesuai contoh yang diberikan!",
+      "images": [
+        "/soal/s4-final-matematika-tk-b/q12-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": null,
+          "images": [
+            "/soal/s4-final-matematika-tk-b/q12-a.webp"
+          ]
+        }
+      ],
+      "answer": null,
+      "status": "needs-review"
+    },
+    {
+      "id": "s4-final-matematika-tk-b-q13",
+      "n": 13,
+      "prompt": "Bagaimana pola selanjutnya?",
+      "images": [
+        "/soal/s4-final-matematika-tk-b/q13-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": null,
+          "images": [
+            "/soal/s4-final-matematika-tk-b/q13-a.webp"
+          ]
+        },
+        {
+          "key": "b",
+          "text": null,
+          "images": [
+            "/soal/s4-final-matematika-tk-b/q13-b.webp"
+          ]
+        },
+        {
+          "key": "c",
+          "text": null,
+          "images": [
+            "/soal/s4-final-matematika-tk-b/q13-c.webp"
+          ]
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    },
+    {
+      "id": "s4-final-matematika-tk-b-q14",
+      "n": 14,
+      "prompt": "Pola yang tepat untuk melengkapi bagian yang kosong adalah …..",
+      "images": [
+        "/soal/s4-final-matematika-tk-b/q14-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": null,
+          "images": [
+            "/soal/s4-final-matematika-tk-b/q14-a.webp"
+          ]
+        },
+        {
+          "key": "b",
+          "text": null,
+          "images": [
+            "/soal/s4-final-matematika-tk-b/q14-b.webp"
+          ]
+        },
+        {
+          "key": "c",
+          "text": null,
+          "images": [
+            "/soal/s4-final-matematika-tk-b/q14-c.webp"
+          ]
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s4-final-matematika-tk-b-q15",
+      "n": 15,
+      "prompt": "Kelompok manakah yang tidak sesuai jika dikelompokkan berdasarkan bentuk?",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": null,
+          "images": [
+            "/soal/s4-final-matematika-tk-b/q15-a.webp"
+          ]
+        },
+        {
+          "key": "b",
+          "text": null,
+          "images": [
+            "/soal/s4-final-matematika-tk-b/q15-b.webp"
+          ]
+        },
+        {
+          "key": "c",
+          "text": null,
+          "images": [
+            "/soal/s4-final-matematika-tk-b/q15-c.webp"
+          ]
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    },
+    {
+      "id": "s4-final-matematika-tk-b-q16",
+      "n": 16,
+      "prompt": "Kelompok berikut yang tidak sesuai jika dikelompokkan berdasarkan jumlah adalah …",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": null,
+          "images": [
+            "/soal/s4-final-matematika-tk-b/q16-a.webp"
+          ]
+        },
+        {
+          "key": "b",
+          "text": null,
+          "images": [
+            "/soal/s4-final-matematika-tk-b/q16-b.webp"
+          ]
+        },
+        {
+          "key": "c",
+          "text": null,
+          "images": [
+            "/soal/s4-final-matematika-tk-b/q16-c.webp"
+          ]
+        }
+      ],
+      "answer": "b",
+      "status": "ok"
+    },
+    {
+      "id": "s4-final-matematika-tk-b-q17",
+      "n": 17,
+      "prompt": "Manakah kelompok benda yang dapat dikelompokkan berdasarkan jumlah dan berat yang sama?",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": null,
+          "images": [
+            "/soal/s4-final-matematika-tk-b/q17-a.webp"
+          ]
+        },
+        {
+          "key": "b",
+          "text": null,
+          "images": [
+            "/soal/s4-final-matematika-tk-b/q17-b.webp"
+          ]
+        },
+        {
+          "key": "c",
+          "text": null,
+          "images": [
+            "/soal/s4-final-matematika-tk-b/q17-c.webp"
+          ]
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    },
+    {
+      "id": "s4-final-matematika-tk-b-q18",
+      "n": 18,
+      "prompt": "Manakah benda yang lebih panjang tetapi lebih ringan?",
+      "images": [
+        "/soal/s4-final-matematika-tk-b/q18-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Kayu",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Pensil",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Penggaris",
+          "images": []
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    },
+    {
+      "id": "s4-final-matematika-tk-b-q19",
+      "n": 19,
+      "prompt": "Benda berikut yang berukuran kecil namun berat adalah …..",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": "Batu kecil",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Semangka",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Biji kuaci",
+          "images": []
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s4-final-matematika-tk-b-q20",
+      "n": 20,
+      "prompt": "Berdasarkan gambar berikut manakah benda yang lebih besar dari penghapus tetapi lebih ringan dari buku?",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": "Bulpoin",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Vas bunga",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Botol air",
+          "images": [
+            "/soal/s4-final-matematika-tk-b/q20-c.webp"
+          ]
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    }
+  ]
+}

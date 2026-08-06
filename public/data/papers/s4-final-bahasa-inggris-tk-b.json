@@ -1,0 +1,538 @@
+{
+  "id": "s4-final-bahasa-inggris-tk-b",
+  "season": 4,
+  "round": "final",
+  "subject": "bahasa-inggris",
+  "level": "tk-b",
+  "printed": {
+    "title": "SOAL BAHASA INGGRIS BABAK FINAL",
+    "level": "TK B SEDERAJAT",
+    "date": "FEBRUARI 2026",
+    "raw": [
+      "OLIMPIADE SISWA NASIONAL",
+      "SOAL BAHASA INGGRIS BABAK FINAL",
+      "TK B SEDERAJAT",
+      "FEBRUARI 2026"
+    ]
+  },
+  "layoutSource": "pdf",
+  "answerSource": "docx",
+  "verified": false,
+  "questionCount": 20,
+  "playableCount": 20,
+  "warnings": [
+    "answer key read from the .docx (the shipped PDF is the unmarked student copy)"
+  ],
+  "questions": [
+    {
+      "id": "s4-final-bahasa-inggris-tk-b-q01",
+      "n": 1,
+      "prompt": "Which number has 3 tens?",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": "30",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "23",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "13",
+          "images": []
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s4-final-bahasa-inggris-tk-b-q02",
+      "n": 2,
+      "prompt": "How many frogs are on land?",
+      "images": [
+        "/soal/s4-final-bahasa-inggris-tk-b/q02-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "30",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "21",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "23",
+          "images": []
+        }
+      ],
+      "answer": "b",
+      "status": "ok"
+    },
+    {
+      "id": "s4-final-bahasa-inggris-tk-b-q03",
+      "n": 3,
+      "prompt": "Which number is 3 more than 17 and 2 less than 22?",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": "22",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "24",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "20",
+          "images": []
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    },
+    {
+      "id": "s4-final-bahasa-inggris-tk-b-q04",
+      "n": 4,
+      "prompt": "Which statement is correct?",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": "A number that has 2 ones and 1 ten is 21.",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "The number that comes four steps after twenty-three is twenty-seven.",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Twenty-five is an even number.",
+          "images": []
+        }
+      ],
+      "answer": "b",
+      "status": "ok"
+    },
+    {
+      "id": "s4-final-bahasa-inggris-tk-b-q05",
+      "n": 5,
+      "prompt": "Ella is sick and her teeth hurt. She eats food using a spoon. She does not chew the food. What food is Ella eating?",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": "Porridge",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Fried chicken",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Bread",
+          "images": []
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s4-final-bahasa-inggris-tk-b-q06",
+      "n": 6,
+      "prompt": "I am made of vegetables. I am fresh and healthy. I am not cooked. Who am I?",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": "Vegetable soup",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Satay",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Salad",
+          "images": []
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    },
+    {
+      "id": "s4-final-bahasa-inggris-tk-b-q07",
+      "n": 7,
+      "prompt": "Which food is a spring roll?",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": null,
+          "images": [
+            "/soal/s4-final-bahasa-inggris-tk-b/q07-a.webp"
+          ]
+        },
+        {
+          "key": "b",
+          "text": null,
+          "images": [
+            "/soal/s4-final-bahasa-inggris-tk-b/q07-b.webp"
+          ]
+        },
+        {
+          "key": "c",
+          "text": null,
+          "images": [
+            "/soal/s4-final-bahasa-inggris-tk-b/q07-c.webp"
+          ]
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    },
+    {
+      "id": "s4-final-bahasa-inggris-tk-b-q08",
+      "n": 8,
+      "prompt": "This drink is made from red fruit. It is sweet and healthy. Children like to drink it cold. What is the drink?",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": "Red guava juice",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Ice tea",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Orange juice",
+          "images": []
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s4-final-bahasa-inggris-tk-b-q09",
+      "n": 9,
+      "prompt": "Which transportation has two wheels and no engine?",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": "Bike",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Motorcycle",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Dirt Bike",
+          "images": []
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s4-final-bahasa-inggris-tk-b-q10",
+      "n": 10,
+      "prompt": "Which sentence is not correct?",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": "I ride a fire truck on the road",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "I ride a helicopter on the rails",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "I ride a sailboat on the sea",
+          "images": []
+        }
+      ],
+      "answer": "b",
+      "status": "ok"
+    },
+    {
+      "id": "s4-final-bahasa-inggris-tk-b-q11",
+      "n": 11,
+      "prompt": "I am in Jakarta now and I want to go to Australia. Which transportation should I use to arrive the fastest?",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": "Plane",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Train",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Ship",
+          "images": []
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s4-final-bahasa-inggris-tk-b-q12",
+      "n": 12,
+      "prompt": "Ria wants to enjoy the beach in Sulawesi. She starts her trip from home and goes to the airport by taxi. She flies to Sulawesi. To reach the beach, she must go by water. Which transportation does Ria ride during her trip?",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": "Taxi and ship",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Taxi, airplane, and ship",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Car, airplane, and submarine",
+          "images": []
+        }
+      ],
+      "answer": "b",
+      "status": "ok"
+    },
+    {
+      "id": "s4-final-bahasa-inggris-tk-b-q13",
+      "n": 13,
+      "prompt": "Which instruction tells you to stop moving?",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": "Tiptoe",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Sit down",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Run",
+          "images": []
+        }
+      ],
+      "answer": "b",
+      "status": "ok"
+    },
+    {
+      "id": "s4-final-bahasa-inggris-tk-b-q14",
+      "n": 14,
+      "prompt": "Which instruction is correct?",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": "Throw a stone with your eyes",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Catch a cat with your head",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Bend the straw with your hand",
+          "images": []
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    },
+    {
+      "id": "s4-final-bahasa-inggris-tk-b-q15",
+      "n": 15,
+      "prompt": "Doni ties his shoes by …",
+      "images": [
+        "/soal/s4-final-bahasa-inggris-tk-b/q15-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Crouching",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Standing",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Jumping",
+          "images": []
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s4-final-bahasa-inggris-tk-b-q16",
+      "n": 16,
+      "prompt": "Tom is walking in the classroom. He does not look carefully. He spills his friend’s drink by accident. His friend feels sad. What should Tom do?",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": "Run away",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Say hello",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Say sorry",
+          "images": []
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    },
+    {
+      "id": "s4-final-bahasa-inggris-tk-b-q17",
+      "n": 17,
+      "prompt": "Your friend comes to you. He smiles and waves his hand. What should you say?",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": "Hello",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Bye",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Sorry",
+          "images": []
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s4-final-bahasa-inggris-tk-b-q18",
+      "n": 18,
+      "prompt": "Rani is taught by Miss Anna every afternoon. When the lesson is finished, what should Rani say to Miss Anna?",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": "Good afternoon, Miss Anna",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Goodbye, Miss Anna",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Nice to meet you, Miss Anna",
+          "images": []
+        }
+      ],
+      "answer": "b",
+      "status": "ok"
+    },
+    {
+      "id": "s4-final-bahasa-inggris-tk-b-q19",
+      "n": 19,
+      "prompt": "The sky is dark. The moon and stars are in the sky. A child wants to sleep. What should the child say?",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": "Good morning",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Goodbye",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Good night",
+          "images": []
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    },
+    {
+      "id": "s4-final-bahasa-inggris-tk-b-q20",
+      "n": 20,
+      "prompt": "Which sentence is used only when you meet someone for the first time?",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": "Nice to meet you",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Excuse me",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Good morning",
+          "images": []
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    }
+  ]
+}

@@ -1,0 +1,607 @@
+{
+  "id": "s1-penyisihan-matematika-tk-a",
+  "season": 1,
+  "round": "penyisihan",
+  "subject": "matematika",
+  "level": "tk-a",
+  "printed": {
+    "title": "SOAL MATEMATIKA BABAK PENYISIHAN",
+    "level": "TK A SEDERAJAT",
+    "date": "DESEMBER 2024",
+    "raw": [
+      "OLIMPIADE SISWA NASIONAL",
+      "SOAL MATEMATIKA BABAK PENYISIHAN",
+      "TK A SEDERAJAT",
+      "DESEMBER 2024"
+    ]
+  },
+  "layoutSource": "pdf",
+  "answerSource": "pdf",
+  "verified": false,
+  "questionCount": 20,
+  "playableCount": 18,
+  "warnings": [
+    "Q6: option a is empty",
+    "Q16: option c is empty"
+  ],
+  "questions": [
+    {
+      "id": "s1-penyisihan-matematika-tk-a-q01",
+      "n": 1,
+      "prompt": "Berapa jumlah telur pada keranjang berikut?",
+      "images": [
+        "/soal/s1-penyisihan-matematika-tk-a/q01-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "6",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "5",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "7",
+          "images": []
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s1-penyisihan-matematika-tk-a-q02",
+      "n": 2,
+      "prompt": "Berapa jumlah semangka yang ada di berikut?",
+      "images": [
+        "/soal/s1-penyisihan-matematika-tk-a/q02-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "4",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "3",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "2",
+          "images": []
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s1-penyisihan-matematika-tk-a-q03",
+      "n": 3,
+      "prompt": "Berapa jumlah bunga berikut?",
+      "images": [
+        "/soal/s1-penyisihan-matematika-tk-a/q03-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "6",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "7",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "8",
+          "images": []
+        }
+      ],
+      "answer": "b",
+      "status": "ok"
+    },
+    {
+      "id": "s1-penyisihan-matematika-tk-a-q04",
+      "n": 4,
+      "prompt": "Berapa jumlah buah stoberi berikut?",
+      "images": [
+        "/soal/s1-penyisihan-matematika-tk-a/q04-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Satu",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Tiga",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Lima",
+          "images": []
+        }
+      ],
+      "answer": "b",
+      "status": "ok"
+    },
+    {
+      "id": "s1-penyisihan-matematika-tk-a-q05",
+      "n": 5,
+      "prompt": "Jumlah anak ayam berikut ini sebanyak….",
+      "images": [
+        "/soal/s1-penyisihan-matematika-tk-a/q05-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Tiga",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Empat",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Lima",
+          "images": []
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    },
+    {
+      "id": "s1-penyisihan-matematika-tk-a-q06",
+      "n": 6,
+      "prompt": null,
+      "images": [
+        "/soal/s1-penyisihan-matematika-tk-a/q06-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": null,
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": null,
+          "images": [
+            "/soal/s1-penyisihan-matematika-tk-a/q06-b.webp"
+          ]
+        },
+        {
+          "key": "c",
+          "text": null,
+          "images": [
+            "/soal/s1-penyisihan-matematika-tk-a/q06-c.webp"
+          ]
+        }
+      ],
+      "answer": "a",
+      "status": "needs-review"
+    },
+    {
+      "id": "s1-penyisihan-matematika-tk-a-q07",
+      "n": 7,
+      "prompt": null,
+      "images": [
+        "/soal/s1-penyisihan-matematika-tk-a/q07-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": null,
+          "images": [
+            "/soal/s1-penyisihan-matematika-tk-a/q07-a.webp"
+          ]
+        },
+        {
+          "key": "b",
+          "text": null,
+          "images": [
+            "/soal/s1-penyisihan-matematika-tk-a/q07-b.webp"
+          ]
+        },
+        {
+          "key": "c",
+          "text": null,
+          "images": [
+            "/soal/s1-penyisihan-matematika-tk-a/q07-c.webp"
+          ]
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s1-penyisihan-matematika-tk-a-q08",
+      "n": 8,
+      "prompt": null,
+      "images": [
+        "/soal/s1-penyisihan-matematika-tk-a/q08-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "6",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "5",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "4",
+          "images": []
+        }
+      ],
+      "answer": "b",
+      "status": "ok"
+    },
+    {
+      "id": "s1-penyisihan-matematika-tk-a-q09",
+      "n": 9,
+      "prompt": null,
+      "images": [
+        "/soal/s1-penyisihan-matematika-tk-a/q09-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "4",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "3",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "2",
+          "images": []
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    },
+    {
+      "id": "s1-penyisihan-matematika-tk-a-q10",
+      "n": 10,
+      "prompt": null,
+      "images": [
+        "/soal/s1-penyisihan-matematika-tk-a/q10-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "4",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "6",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "3",
+          "images": []
+        }
+      ],
+      "answer": "b",
+      "status": "ok"
+    },
+    {
+      "id": "s1-penyisihan-matematika-tk-a-q11",
+      "n": 11,
+      "prompt": null,
+      "images": [
+        "/soal/s1-penyisihan-matematika-tk-a/q11-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": null,
+          "images": [
+            "/soal/s1-penyisihan-matematika-tk-a/q11-a.webp"
+          ]
+        },
+        {
+          "key": "b",
+          "text": null,
+          "images": [
+            "/soal/s1-penyisihan-matematika-tk-a/q11-b.webp"
+          ]
+        },
+        {
+          "key": "c",
+          "text": null,
+          "images": [
+            "/soal/s1-penyisihan-matematika-tk-a/q11-c.webp"
+          ]
+        }
+      ],
+      "answer": "b",
+      "status": "ok"
+    },
+    {
+      "id": "s1-penyisihan-matematika-tk-a-q12",
+      "n": 12,
+      "prompt": null,
+      "images": [
+        "/soal/s1-penyisihan-matematika-tk-a/q12-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "8",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "7",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "6",
+          "images": []
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s1-penyisihan-matematika-tk-a-q13",
+      "n": 13,
+      "prompt": null,
+      "images": [
+        "/soal/s1-penyisihan-matematika-tk-a/q13-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "9",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "5",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "7",
+          "images": []
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    },
+    {
+      "id": "s1-penyisihan-matematika-tk-a-q14",
+      "n": 14,
+      "prompt": null,
+      "images": [
+        "/soal/s1-penyisihan-matematika-tk-a/q14-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": null,
+          "images": [
+            "/soal/s1-penyisihan-matematika-tk-a/q14-a.webp"
+          ]
+        },
+        {
+          "key": "b",
+          "text": "v",
+          "images": [
+            "/soal/s1-penyisihan-matematika-tk-a/q14-b.webp"
+          ]
+        },
+        {
+          "key": "c",
+          "text": null,
+          "images": [
+            "/soal/s1-penyisihan-matematika-tk-a/q14-c.webp"
+          ]
+        }
+      ],
+      "answer": "b",
+      "status": "ok"
+    },
+    {
+      "id": "s1-penyisihan-matematika-tk-a-q15",
+      "n": 15,
+      "prompt": null,
+      "images": [
+        "/soal/s1-penyisihan-matematika-tk-a/q15-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": null,
+          "images": [
+            "/soal/s1-penyisihan-matematika-tk-a/q15-a.webp"
+          ]
+        },
+        {
+          "key": "b",
+          "text": null,
+          "images": [
+            "/soal/s1-penyisihan-matematika-tk-a/q15-b.webp"
+          ]
+        },
+        {
+          "key": "c",
+          "text": null,
+          "images": [
+            "/soal/s1-penyisihan-matematika-tk-a/q15-c.webp"
+          ]
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    },
+    {
+      "id": "s1-penyisihan-matematika-tk-a-q16",
+      "n": 16,
+      "prompt": "Pensil manakah yang paling panjang?",
+      "images": [
+        "/soal/s1-penyisihan-matematika-tk-a/q16-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": null,
+          "images": [
+            "/soal/s1-penyisihan-matematika-tk-a/q16-a.webp"
+          ]
+        },
+        {
+          "key": "b",
+          "text": null,
+          "images": [
+            "/soal/s1-penyisihan-matematika-tk-a/q16-b.webp"
+          ]
+        },
+        {
+          "key": "c",
+          "text": null,
+          "images": []
+        }
+      ],
+      "answer": "a",
+      "status": "needs-review"
+    },
+    {
+      "id": "s1-penyisihan-matematika-tk-a-q17",
+      "n": 17,
+      "prompt": "Buah mana yang lebih ringan?",
+      "images": [
+        "/soal/s1-penyisihan-matematika-tk-a/q17-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": null,
+          "images": [
+            "/soal/s1-penyisihan-matematika-tk-a/q17-a.webp"
+          ]
+        },
+        {
+          "key": "b",
+          "text": null,
+          "images": [
+            "/soal/s1-penyisihan-matematika-tk-a/q17-b.webp"
+          ]
+        },
+        {
+          "key": "c",
+          "text": null,
+          "images": [
+            "/soal/s1-penyisihan-matematika-tk-a/q17-c.webp"
+          ]
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    },
+    {
+      "id": "s1-penyisihan-matematika-tk-a-q18",
+      "n": 18,
+      "prompt": "Berapa jumlah telur yang ada di penggorengan?",
+      "images": [
+        "/soal/s1-penyisihan-matematika-tk-a/q18-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Dua",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Tiga",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Satu",
+          "images": []
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s1-penyisihan-matematika-tk-a-q19",
+      "n": 19,
+      "prompt": "Berapa jumlah paprika yang ada di toples berikut?",
+      "images": [
+        "/soal/s1-penyisihan-matematika-tk-a/q19-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "3",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "4",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "5",
+          "images": []
+        }
+      ],
+      "answer": "b",
+      "status": "ok"
+    },
+    {
+      "id": "s1-penyisihan-matematika-tk-a-q20",
+      "n": 20,
+      "prompt": "Berapa jumlah ikan yang ada di kolam?",
+      "images": [
+        "/soal/s1-penyisihan-matematika-tk-a/q20-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Empat",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Tiga",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Lima",
+          "images": []
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    }
+  ]
+}

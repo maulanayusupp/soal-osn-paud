@@ -1,0 +1,577 @@
+{
+  "id": "s3-penyisihan-sains-paud",
+  "season": 3,
+  "round": "penyisihan",
+  "subject": "sains",
+  "level": "paud",
+  "printed": {
+    "title": "SOAL SAINS BABAK PENYISIHAN",
+    "level": "PAUD SEDERAJAT",
+    "date": "SEPTEMBER 2025",
+    "raw": [
+      "OLIMPIADE SISWA NASIONAL",
+      "SOAL SAINS BABAK PENYISIHAN",
+      "PAUD SEDERAJAT",
+      "SEPTEMBER 2025"
+    ]
+  },
+  "layoutSource": "docx",
+  "answerSource": "docx",
+  "verified": false,
+  "questionCount": 20,
+  "playableCount": 18,
+  "warnings": [
+    "Q6: no answer highlight found",
+    "Q6: option a is empty",
+    "Q17: no answer highlight found",
+    "Q17: option a is empty"
+  ],
+  "questions": [
+    {
+      "id": "s3-penyisihan-sains-paud-q01",
+      "n": 1,
+      "prompt": "Apa nama bagian tubuh ini?",
+      "images": [
+        "/soal/s3-penyisihan-sains-paud/q01-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Mulut",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Mata",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Tangan",
+          "images": []
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s3-penyisihan-sains-paud-q02",
+      "n": 2,
+      "prompt": "Bagian tubuh pada gambar berikut adalah …",
+      "images": [
+        "/soal/s3-penyisihan-sains-paud/q02-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Telinga",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Hidung",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Kaki",
+          "images": []
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    },
+    {
+      "id": "s3-penyisihan-sains-paud-q03",
+      "n": 3,
+      "prompt": "Manakah di bawah ini yang menunjukkan gambar telinga?",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": null,
+          "images": [
+            "/soal/s3-penyisihan-sains-paud/q03-a.webp"
+          ]
+        },
+        {
+          "key": "b",
+          "text": null,
+          "images": [
+            "/soal/s3-penyisihan-sains-paud/q03-b.webp"
+          ]
+        },
+        {
+          "key": "c",
+          "text": null,
+          "images": [
+            "/soal/s3-penyisihan-sains-paud/q03-c.webp"
+          ]
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s3-penyisihan-sains-paud-q04",
+      "n": 4,
+      "prompt": "Berikut ini bagian tubuh yang ada di wajah, yaitu …",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": null,
+          "images": [
+            "/soal/s3-penyisihan-sains-paud/q04-a.webp"
+          ]
+        },
+        {
+          "key": "b",
+          "text": null,
+          "images": [
+            "/soal/s3-penyisihan-sains-paud/q04-b.webp"
+          ]
+        },
+        {
+          "key": "c",
+          "text": null,
+          "images": [
+            "/soal/s3-penyisihan-sains-paud/q04-c.webp"
+          ]
+        }
+      ],
+      "answer": "b",
+      "status": "ok"
+    },
+    {
+      "id": "s3-penyisihan-sains-paud-q05",
+      "n": 5,
+      "prompt": "Bagian tubuh berikut disebut..",
+      "images": [
+        "/soal/s3-penyisihan-sains-paud/q05-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Hidung",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Mata",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Telinga",
+          "images": []
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s3-penyisihan-sains-paud-q06",
+      "n": 6,
+      "prompt": "Manakah benda yang terasa dingin?",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": null,
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": null,
+          "images": [
+            "/soal/s3-penyisihan-sains-paud/q06-c.webp"
+          ]
+        }
+      ],
+      "answer": null,
+      "status": "needs-review"
+    },
+    {
+      "id": "s3-penyisihan-sains-paud-q07",
+      "n": 7,
+      "prompt": "Es krim terasa …",
+      "images": [
+        "/soal/s3-penyisihan-sains-paud/q07-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Dingin",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Panas",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Hangat",
+          "images": []
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s3-penyisihan-sains-paud-q08",
+      "n": 8,
+      "prompt": "Sup yang baru dimasak terasa …",
+      "images": [
+        "/soal/s3-penyisihan-sains-paud/q08-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Dingin",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Beku",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Panas",
+          "images": []
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    },
+    {
+      "id": "s3-penyisihan-sains-paud-q09",
+      "n": 9,
+      "prompt": "Gambar di bawah ini terasa …",
+      "images": [
+        "/soal/s3-penyisihan-sains-paud/q09-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Beku",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Panas",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Dingin",
+          "images": []
+        }
+      ],
+      "answer": "b",
+      "status": "ok"
+    },
+    {
+      "id": "s3-penyisihan-sains-paud-q10",
+      "n": 10,
+      "prompt": "Gambar di bawah ini adalah buah …",
+      "images": [
+        "/soal/s3-penyisihan-sains-paud/q10-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Semangka",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Pisang",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Apel",
+          "images": []
+        }
+      ],
+      "answer": "b",
+      "status": "ok"
+    },
+    {
+      "id": "s3-penyisihan-sains-paud-q11",
+      "n": 11,
+      "prompt": "Di bawah ini yang merupakan buah apel adalah …",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": null,
+          "images": [
+            "/soal/s3-penyisihan-sains-paud/q11-a.webp"
+          ]
+        },
+        {
+          "key": "b",
+          "text": null,
+          "images": [
+            "/soal/s3-penyisihan-sains-paud/q11-b.webp"
+          ]
+        },
+        {
+          "key": "c",
+          "text": null,
+          "images": [
+            "/soal/s3-penyisihan-sains-paud/q11-c.webp"
+          ]
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s3-penyisihan-sains-paud-q12",
+      "n": 12,
+      "prompt": "Apa nama sayur berikut ini?",
+      "images": [
+        "/soal/s3-penyisihan-sains-paud/q12-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Brokoli",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Jagung",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Tomat",
+          "images": []
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s3-penyisihan-sains-paud-q13",
+      "n": 13,
+      "prompt": "Yang manakah sayur bayam?",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": null,
+          "images": [
+            "/soal/s3-penyisihan-sains-paud/q13-a.webp"
+          ]
+        },
+        {
+          "key": "b",
+          "text": null,
+          "images": [
+            "/soal/s3-penyisihan-sains-paud/q13-b.webp"
+          ]
+        },
+        {
+          "key": "c",
+          "text": null,
+          "images": [
+            "/soal/s3-penyisihan-sains-paud/q13-c.webp"
+          ]
+        }
+      ],
+      "answer": "b",
+      "status": "ok"
+    },
+    {
+      "id": "s3-penyisihan-sains-paud-q14",
+      "n": 14,
+      "prompt": "Buah di bawah ini adalah …",
+      "images": [
+        "/soal/s3-penyisihan-sains-paud/q14-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Anggur",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Melon",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Nanas",
+          "images": []
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    },
+    {
+      "id": "s3-penyisihan-sains-paud-q15",
+      "n": 15,
+      "prompt": "Gambar di bawah ini adalah …",
+      "images": [
+        "/soal/s3-penyisihan-sains-paud/q15-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Kucing",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Kuda",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Bunga",
+          "images": []
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    },
+    {
+      "id": "s3-penyisihan-sains-paud-q16",
+      "n": 16,
+      "prompt": "Apa nama hewan ini?",
+      "images": [
+        "/soal/s3-penyisihan-sains-paud/q16-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Kucing",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Burung",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Kuda",
+          "images": []
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s3-penyisihan-sains-paud-q17",
+      "n": 17,
+      "prompt": "Yang manakah gambar burung?",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": null,
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": null,
+          "images": [
+            "/soal/s3-penyisihan-sains-paud/q17-c.webp"
+          ]
+        }
+      ],
+      "answer": null,
+      "status": "needs-review"
+    },
+    {
+      "id": "s3-penyisihan-sains-paud-q18",
+      "n": 18,
+      "prompt": "Hewan berikut ini adalah …",
+      "images": [
+        "/soal/s3-penyisihan-sains-paud/q18-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Ikan",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Gajah",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Anjing",
+          "images": []
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s3-penyisihan-sains-paud-q19",
+      "n": 19,
+      "prompt": "Air bisa digunakan untuk …",
+      "images": [
+        "/soal/s3-penyisihan-sains-paud/q19-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Minum",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Tidur",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Bermain bola",
+          "images": []
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s3-penyisihan-sains-paud-q20",
+      "n": 20,
+      "prompt": "Kita mandi memakai …",
+      "images": [
+        "/soal/s3-penyisihan-sains-paud/q20-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Air",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Pasir",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Api",
+          "images": []
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    }
+  ]
+}

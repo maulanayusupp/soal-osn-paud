@@ -1,0 +1,560 @@
+{
+  "id": "s3-final-sains-tk-a",
+  "season": 3,
+  "round": "final",
+  "subject": "sains",
+  "level": "tk-a",
+  "printed": {
+    "title": "SOAL SAINS BABAK FINAL",
+    "level": "TK A SEDERAJAT",
+    "date": "OKTOBER 2025",
+    "raw": [
+      "OLIMPIADE SISWA NASIONAL",
+      "SOAL SAINS BABAK FINAL",
+      "TK A SEDERAJAT",
+      "OKTOBER 2025"
+    ]
+  },
+  "layoutSource": "docx",
+  "answerSource": "docx",
+  "verified": false,
+  "questionCount": 20,
+  "playableCount": 19,
+  "warnings": [
+    "Q7: no answer highlight found"
+  ],
+  "questions": [
+    {
+      "id": "s3-final-sains-tk-a-q01",
+      "n": 1,
+      "prompt": "Kita dapat mengetahui warna baju orang lain menggunakan …",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": "Lidah",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Kulit",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Mata",
+          "images": []
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    },
+    {
+      "id": "s3-final-sains-tk-a-q02",
+      "n": 2,
+      "prompt": "Kegiatan berikut yang menggunakan mata dan lidah, kecuali…",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": "Minum susu",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Makan buah",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Bermain bola",
+          "images": []
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    },
+    {
+      "id": "s3-final-sains-tk-a-q03",
+      "n": 3,
+      "prompt": "Kamu bisa merasakan panas dan dingin menggunakan …",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": "Kulit",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Bola mata",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Alis",
+          "images": []
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s3-final-sains-tk-a-q04",
+      "n": 4,
+      "prompt": "Lidah bisa merasakan panas. Apa yang terjadi jika kamu minum minuman yang terlalu panas?",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": "Lidah tidak dapat merasakan rasa manis lagi",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Lidah terasa kebas atau sakit",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Lidah menjadi panjang",
+          "images": []
+        }
+      ],
+      "answer": "b",
+      "status": "ok"
+    },
+    {
+      "id": "s3-final-sains-tk-a-q05",
+      "n": 5,
+      "prompt": "Mengapa matahari bisa digunakan untuk menjemur pakaian?",
+      "images": [
+        "/soal/s3-final-sains-tk-a/q05-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Panas matahari membuat air di pakaian menjadi kering",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Panas matahari membuat pakaian berubah warna",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Panas matahari membuat pakaian lebih berat",
+          "images": []
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s3-final-sains-tk-a-q06",
+      "n": 6,
+      "prompt": "Jika bunga matahari tidak terkena matahari, daun dan bunganya akan …",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": "Tumbuh lebih besar",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Layu atau mati",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Berwarna-warni",
+          "images": []
+        }
+      ],
+      "answer": "b",
+      "status": "ok"
+    },
+    {
+      "id": "s3-final-sains-tk-a-q07",
+      "n": 7,
+      "prompt": "Berikut ini yang bukan manfaat dari matahari adalah …",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": null,
+          "images": [
+            "/soal/s3-final-sains-tk-a/q07-a.webp"
+          ]
+        },
+        {
+          "key": "b",
+          "text": null,
+          "images": [
+            "/soal/s3-final-sains-tk-a/q07-b.webp"
+          ]
+        },
+        {
+          "key": "c",
+          "text": null,
+          "images": [
+            "/soal/s3-final-sains-tk-a/q07-c.webp"
+          ]
+        }
+      ],
+      "answer": null,
+      "status": "needs-review"
+    },
+    {
+      "id": "s3-final-sains-tk-a-q08",
+      "n": 8,
+      "prompt": "Matahari membuat bumi menjadi hangat. Jika matahari tidak ada, manusia akan …",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": "Tetap bisa hidup",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Kedinginan",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Hangat",
+          "images": []
+        }
+      ],
+      "answer": "b",
+      "status": "ok"
+    },
+    {
+      "id": "s3-final-sains-tk-a-q09",
+      "n": 9,
+      "prompt": "Cuaca berikut yang biasanya muncul sebelum pelangi adalah …",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": null,
+          "images": [
+            "/soal/s3-final-sains-tk-a/q09-a.webp"
+          ]
+        },
+        {
+          "key": "b",
+          "text": null,
+          "images": [
+            "/soal/s3-final-sains-tk-a/q09-b.webp"
+          ]
+        },
+        {
+          "key": "c",
+          "text": null,
+          "images": [
+            "/soal/s3-final-sains-tk-a/q09-c.webp"
+          ]
+        }
+      ],
+      "answer": "b",
+      "status": "ok"
+    },
+    {
+      "id": "s3-final-sains-tk-a-q10",
+      "n": 10,
+      "prompt": "Cuaca panas membuat manusia …",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": "Memakai jaket tebal",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Berkeringat",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Kedinginan",
+          "images": []
+        }
+      ],
+      "answer": "b",
+      "status": "ok"
+    },
+    {
+      "id": "s3-final-sains-tk-a-q11",
+      "n": 11,
+      "prompt": "Cuaca dengan ciri-cici Langit gelap, hujan deras, dan angin kencang disebut …",
+      "images": [
+        "/soal/s3-final-sains-tk-a/q11-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Badai",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Hujan ringan",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Berawan",
+          "images": []
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s3-final-sains-tk-a-q12",
+      "n": 12,
+      "prompt": "Langit saat matahari bersinar ditunjukkan pada gambar …",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": null,
+          "images": [
+            "/soal/s3-final-sains-tk-a/q12-a.webp"
+          ]
+        },
+        {
+          "key": "b",
+          "text": null,
+          "images": [
+            "/soal/s3-final-sains-tk-a/q12-b.webp"
+          ]
+        },
+        {
+          "key": "c",
+          "text": null,
+          "images": [
+            "/soal/s3-final-sains-tk-a/q12-c.webp"
+          ]
+        }
+      ],
+      "answer": "b",
+      "status": "ok"
+    },
+    {
+      "id": "s3-final-sains-tk-a-q13",
+      "n": 13,
+      "prompt": "Kayu berasal dari pohon, yang merupakan makhluk hidup. Setelah dipotong, kayu termasuk makhluk …",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": "Tidak hidup",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Hidup",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Mainan",
+          "images": []
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s3-final-sains-tk-a-q14",
+      "n": 14,
+      "prompt": "Berapa jumlah makhluk tidak hidup pada gambar di bawah ini?",
+      "images": [
+        "/soal/s3-final-sains-tk-a/q14-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "6",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "5",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "7",
+          "images": []
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    },
+    {
+      "id": "s3-final-sains-tk-a-q15",
+      "n": 15,
+      "prompt": "Benda yang bisa tumbuh, makan, dan bernapas disebut …",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": "Makhluk hidup",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Makhluk tak hidup",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Air",
+          "images": []
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s3-final-sains-tk-a-q16",
+      "n": 16,
+      "prompt": "Tikus mainan bisa bergerak, tetapi tetap disebut makhluk tak hidup. Mengapa demikian?",
+      "images": [
+        "/soal/s3-final-sains-tk-a/q16-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Karena bisa bergerak",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Karena tidak bisa mengeluarkan suara",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Karena tidak bisa makan dan bernapas",
+          "images": []
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    },
+    {
+      "id": "s3-final-sains-tk-a-q17",
+      "n": 17,
+      "prompt": "Benda di bawah ini termasuk ….",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": "Makhluk hidup",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Makhluk tak hidup",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Benda bertumbuh",
+          "images": [
+            "/soal/s3-final-sains-tk-a/q17-c.webp"
+          ]
+        }
+      ],
+      "answer": "b",
+      "status": "ok"
+    },
+    {
+      "id": "s3-final-sains-tk-a-q18",
+      "n": 18,
+      "prompt": "Jika tanaman tidak disiram dan layu, maka tanaman itu termasuk …",
+      "images": [
+        "/soal/s3-final-sains-tk-a/q18-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Makhluk tak hidup",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Makhluk layu",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Makhluk hidup",
+          "images": []
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    },
+    {
+      "id": "s3-final-sains-tk-a-q19",
+      "n": 19,
+      "prompt": "Jika batu dijatuhkan, ia bergerak. Apakah batu termasuk makhluk hidup?",
+      "images": [
+        "/soal/s3-final-sains-tk-a/q19-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Ya",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Tidak",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Mungkin",
+          "images": []
+        }
+      ],
+      "answer": "b",
+      "status": "ok"
+    },
+    {
+      "id": "s3-final-sains-tk-a-q20",
+      "n": 20,
+      "prompt": "Seekor kucing dan rumput sama-sama makhluk hidup karena keduanya …",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": "Bisa tumbuh",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Bisa bernafas",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Semua benar",
+          "images": []
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    }
+  ]
+}

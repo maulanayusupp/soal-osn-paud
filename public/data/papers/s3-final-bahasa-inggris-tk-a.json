@@ -1,0 +1,575 @@
+{
+  "id": "s3-final-bahasa-inggris-tk-a",
+  "season": 3,
+  "round": "final",
+  "subject": "bahasa-inggris",
+  "level": "tk-a",
+  "printed": {
+    "title": "SOAL BAHASA INGGRIS BABAK FINAL",
+    "level": "TK A SEDERAJAT",
+    "date": "OKTOBER 2025",
+    "raw": [
+      "OLIMPIADE SISWA NASIONAL",
+      "SOAL BAHASA INGGRIS BABAK FINAL",
+      "TK A SEDERAJAT",
+      "OKTOBER 2025"
+    ]
+  },
+  "layoutSource": "docx",
+  "answerSource": "docx",
+  "verified": false,
+  "questionCount": 20,
+  "playableCount": 18,
+  "warnings": [
+    "Q8: option b is empty",
+    "Q13: option a is empty"
+  ],
+  "questions": [
+    {
+      "id": "s3-final-bahasa-inggris-tk-a-q01",
+      "n": 1,
+      "prompt": "What is the number between 15 and 17?",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": "Sixteen",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Nineteen",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Ten",
+          "images": []
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s3-final-bahasa-inggris-tk-a-q02",
+      "n": 2,
+      "prompt": "How many ducks are there?",
+      "images": [
+        "/soal/s3-final-bahasa-inggris-tk-a/q02-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Fifteen",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Thirteen",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Twelve",
+          "images": []
+        }
+      ],
+      "answer": "b",
+      "status": "ok"
+    },
+    {
+      "id": "s3-final-bahasa-inggris-tk-a-q03",
+      "n": 3,
+      "prompt": "What is the smallest number here?",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": "19",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "17",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "16",
+          "images": []
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    },
+    {
+      "id": "s3-final-bahasa-inggris-tk-a-q04",
+      "n": 4,
+      "prompt": "Which spelling is correct for this number?",
+      "images": [
+        "/soal/s3-final-bahasa-inggris-tk-a/q04-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Eghtin",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Eighteen",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Eattiin",
+          "images": []
+        }
+      ],
+      "answer": "b",
+      "status": "ok"
+    },
+    {
+      "id": "s3-final-bahasa-inggris-tk-a-q05",
+      "n": 5,
+      "prompt": "Which one is not a vegetable?",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": "Eggplant",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Lettuce",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Coconut",
+          "images": []
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    },
+    {
+      "id": "s3-final-bahasa-inggris-tk-a-q06",
+      "n": 6,
+      "prompt": "The vegetable below is …",
+      "images": [
+        "/soal/s3-final-bahasa-inggris-tk-a/q06-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Shallot",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Garlic",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Spinach",
+          "images": []
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s3-final-bahasa-inggris-tk-a-q07",
+      "n": 7,
+      "prompt": "I am green, small, and look like a little tree. What am I?",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": null,
+          "images": [
+            "/soal/s3-final-bahasa-inggris-tk-a/q07-a.webp"
+          ]
+        },
+        {
+          "key": "b",
+          "text": "assa",
+          "images": [
+            "/soal/s3-final-bahasa-inggris-tk-a/q07-b.webp"
+          ]
+        },
+        {
+          "key": "c",
+          "text": null,
+          "images": [
+            "/soal/s3-final-bahasa-inggris-tk-a/q07-c.webp"
+          ]
+        }
+      ],
+      "answer": "b",
+      "status": "ok"
+    },
+    {
+      "id": "s3-final-bahasa-inggris-tk-a-q08",
+      "n": 8,
+      "prompt": "The picture below that shows a cauliflower is …",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": null,
+          "images": [
+            "/soal/s3-final-bahasa-inggris-tk-a/q08-a.webp"
+          ]
+        },
+        {
+          "key": "b",
+          "text": null,
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": null,
+          "images": [
+            "/soal/s3-final-bahasa-inggris-tk-a/q08-c.webp"
+          ]
+        }
+      ],
+      "answer": "a",
+      "status": "needs-review"
+    },
+    {
+      "id": "s3-final-bahasa-inggris-tk-a-q09",
+      "n": 9,
+      "prompt": "Which one is not a family member?",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": "Uncle",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Cousin",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Teacher",
+          "images": []
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    },
+    {
+      "id": "s3-final-bahasa-inggris-tk-a-q10",
+      "n": 10,
+      "prompt": "I am a girl. My brother is a …",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": "Girl",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Boy",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Sister",
+          "images": []
+        }
+      ],
+      "answer": "b",
+      "status": "ok"
+    },
+    {
+      "id": "s3-final-bahasa-inggris-tk-a-q11",
+      "n": 11,
+      "prompt": "This is my …",
+      "images": [
+        "/soal/s3-final-bahasa-inggris-tk-a/q11-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Family",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Neighbor",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Aunt",
+          "images": []
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s3-final-bahasa-inggris-tk-a-q12",
+      "n": 12,
+      "prompt": "She is my mother’s sister. She is my …",
+      "images": [
+        "/soal/s3-final-bahasa-inggris-tk-a/q12-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Aunt",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Mother",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Sister",
+          "images": []
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s3-final-bahasa-inggris-tk-a-q13",
+      "n": 13,
+      "prompt": "Which one do you have ten of?",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": null,
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": null,
+          "images": [
+            "/soal/s3-final-bahasa-inggris-tk-a/q13-b.webp"
+          ]
+        },
+        {
+          "key": "c",
+          "text": null,
+          "images": [
+            "/soal/s3-final-bahasa-inggris-tk-a/q13-c.webp"
+          ]
+        }
+      ],
+      "answer": "a",
+      "status": "needs-review"
+    },
+    {
+      "id": "s3-final-bahasa-inggris-tk-a-q14",
+      "n": 14,
+      "prompt": "Which body part helps you to hear?",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": null,
+          "images": [
+            "/soal/s3-final-bahasa-inggris-tk-a/q14-a.webp"
+          ]
+        },
+        {
+          "key": "b",
+          "text": null,
+          "images": [
+            "/soal/s3-final-bahasa-inggris-tk-a/q14-b.webp"
+          ]
+        },
+        {
+          "key": "c",
+          "text": null,
+          "images": [
+            "/soal/s3-final-bahasa-inggris-tk-a/q14-c.webp"
+          ]
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s3-final-bahasa-inggris-tk-a-q15",
+      "n": 15,
+      "prompt": "I have a clean ….",
+      "images": [
+        "/soal/s3-final-bahasa-inggris-tk-a/q15-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Nail",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Toe",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Belly button",
+          "images": []
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s3-final-bahasa-inggris-tk-a-q16",
+      "n": 16,
+      "prompt": "I am hard and white. You use me to chew food. What am I?",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": "Nail",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Tooth",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Chin",
+          "images": []
+        }
+      ],
+      "answer": "b",
+      "status": "ok"
+    },
+    {
+      "id": "s3-final-bahasa-inggris-tk-a-q17",
+      "n": 17,
+      "prompt": "I help my mother … dinner.",
+      "images": [
+        "/soal/s3-final-bahasa-inggris-tk-a/q17-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Cook",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Play",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Sweep",
+          "images": []
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s3-final-bahasa-inggris-tk-a-q18",
+      "n": 18,
+      "prompt": "Which picture shows the activity clapping?",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": "f",
+          "images": [
+            "/soal/s3-final-bahasa-inggris-tk-a/q18-a.webp"
+          ]
+        },
+        {
+          "key": "b",
+          "text": null,
+          "images": [
+            "/soal/s3-final-bahasa-inggris-tk-a/q18-b.webp"
+          ]
+        },
+        {
+          "key": "c",
+          "text": null,
+          "images": [
+            "/soal/s3-final-bahasa-inggris-tk-a/q18-c.webp"
+          ]
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s3-final-bahasa-inggris-tk-a-q19",
+      "n": 19,
+      "prompt": "Which activity uses a pen?",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": null,
+          "images": [
+            "/soal/s3-final-bahasa-inggris-tk-a/q19-a.webp"
+          ]
+        },
+        {
+          "key": "b",
+          "text": null,
+          "images": [
+            "/soal/s3-final-bahasa-inggris-tk-a/q19-b.webp"
+          ]
+        },
+        {
+          "key": "c",
+          "text": null,
+          "images": [
+            "/soal/s3-final-bahasa-inggris-tk-a/q19-c.webp"
+          ]
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s3-final-bahasa-inggris-tk-a-q20",
+      "n": 20,
+      "prompt": "Which one is not a daily activity?",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": "Drink",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Run",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Eraser",
+          "images": []
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    }
+  ]
+}

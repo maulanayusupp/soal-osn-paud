@@ -1,0 +1,563 @@
+{
+  "id": "s2-final-sains-tk-a",
+  "season": 2,
+  "round": "final",
+  "subject": "sains",
+  "level": "tk-a",
+  "printed": {
+    "title": "SOAL SAINS/IPA BABAK FINAL",
+    "level": "TK A SEDERAJAT",
+    "date": "MEI 2025",
+    "raw": [
+      "OLIMPIADE SISWA NASIONAL",
+      "SOAL SAINS/IPA BABAK FINAL",
+      "TK A SEDERAJAT",
+      "MEI 2025"
+    ]
+  },
+  "layoutSource": "pdf",
+  "answerSource": "pdf",
+  "verified": false,
+  "questionCount": 20,
+  "playableCount": 18,
+  "warnings": [
+    "Q5: option a is empty"
+  ],
+  "questions": [
+    {
+      "id": "s2-final-sains-tk-a-q01",
+      "n": 1,
+      "prompt": "Lidah kita bisa merasakan ….",
+      "images": [
+        "/soal/s2-final-sains-tk-a/q01-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Aroma",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Rasa",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Suara",
+          "images": []
+        }
+      ],
+      "answer": "b",
+      "status": "ok"
+    },
+    {
+      "id": "s2-final-sains-tk-a-q02",
+      "n": 2,
+      "prompt": "Kita dapat merasakan bulu kucing yang halus menggunakan …",
+      "images": [
+        "/soal/s2-final-sains-tk-a/q02-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Kulit",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Mata",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Hidung",
+          "images": []
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s2-final-sains-tk-a-q03",
+      "n": 3,
+      "prompt": "Aku menempel di samping kepala. Aku bisa mendengar suara. Aku adalah …",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": "Mata",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Rambut",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Telinga",
+          "images": []
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    },
+    {
+      "id": "s2-final-sains-tk-a-q04",
+      "n": 4,
+      "prompt": "Aku ada di dalam mulut. Aku bisa merasakan manis, asin, dan pahit. Aku adalah …",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": "Gigi",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Lidah",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Bibir",
+          "images": []
+        }
+      ],
+      "answer": "b",
+      "status": "ok"
+    },
+    {
+      "id": "s2-final-sains-tk-a-q05",
+      "n": 5,
+      "prompt": "Pasangan fungsi dan bagian tubuh berikut yang benar adalah ….",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": null,
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": null,
+          "images": [
+            "/soal/s2-final-sains-tk-a/q05-b.webp"
+          ]
+        },
+        {
+          "key": "c",
+          "text": null,
+          "images": [
+            "/soal/s2-final-sains-tk-a/q05-c.webp"
+          ]
+        }
+      ],
+      "answer": "c",
+      "status": "needs-review"
+    },
+    {
+      "id": "s2-final-sains-tk-a-q06",
+      "n": 6,
+      "prompt": "Kita bisa melihat saat …",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": "Menutup mata",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Membuka mata",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Menutup telinga",
+          "images": []
+        }
+      ],
+      "answer": "b",
+      "status": "ok"
+    },
+    {
+      "id": "s2-final-sains-tk-a-q07",
+      "n": 7,
+      "prompt": "Kamu melihat cahaya kembang api dan mendengar suaranya. Indra apa saja yang kamu gunakan?",
+      "images": [
+        "/soal/s2-final-sains-tk-a/q07-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Mata dan telinga",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Telinga dan mulut",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Mata dan kulit",
+          "images": []
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s2-final-sains-tk-a-q08",
+      "n": 8,
+      "prompt": "Bagaimana suara hewan berikut ini?",
+      "images": [
+        "/soal/s2-final-sains-tk-a/q08-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Krik-krik",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Kwek-kwek",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Ssss-ssss",
+          "images": []
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    },
+    {
+      "id": "s2-final-sains-tk-a-q09",
+      "n": 9,
+      "prompt": "Hewan besar di hutan yang mengaum adalah ….",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": ".. c.",
+          "images": [
+            "/soal/s2-final-sains-tk-a/q09-a.webp"
+          ]
+        },
+        {
+          "key": "b",
+          "text": null,
+          "images": [
+            "/soal/s2-final-sains-tk-a/q09-b.webp"
+          ]
+        }
+      ],
+      "answer": "b",
+      "status": "needs-review"
+    },
+    {
+      "id": "s2-final-sains-tk-a-q10",
+      "n": 10,
+      "prompt": "Bagaimana suara hewan – hewan di bawah ini?",
+      "images": [
+        "/soal/s2-final-sains-tk-a/q10-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Cuit-cuit, cek-cek, ngiiing",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Moo, meong-meong, cuit-cuit",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Ngiing, cek-cek, kukuruyuk",
+          "images": []
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s2-final-sains-tk-a-q11",
+      "n": 11,
+      "prompt": "Di malam hari, burung di bawah ini mengeluarkan suara seperti …",
+      "images": [
+        "/soal/s2-final-sains-tk-a/q11-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Hoo-hoo",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Cek-cek",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Krik-krik",
+          "images": []
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s2-final-sains-tk-a-q12",
+      "n": 12,
+      "prompt": "Hewan dengan suara “wrebek-wrebek” adalah …",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": "Burung gagak",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Katak",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Cicak",
+          "images": []
+        }
+      ],
+      "answer": "b",
+      "status": "ok"
+    },
+    {
+      "id": "s2-final-sains-tk-a-q13",
+      "n": 13,
+      "prompt": "Bagaimana suara burung gagak?",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": "Kukuruyuk",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Hii-haaa",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Kraakk-kraakk",
+          "images": []
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    },
+    {
+      "id": "s2-final-sains-tk-a-q14",
+      "n": 14,
+      "prompt": "Suara hewan di bawah ini adalah….",
+      "images": [
+        "/soal/s2-final-sains-tk-a/q14-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Bzzz-bzzz",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Mooo",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Aumm",
+          "images": []
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s2-final-sains-tk-a-q15",
+      "n": 15,
+      "prompt": "Ketika hujan reda dan matahari muncul, kita bisa melihat ….",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": "Kilat",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Pelangi",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Badai",
+          "images": [
+            "/soal/s2-final-sains-tk-a/q15-c.webp"
+          ]
+        }
+      ],
+      "answer": "b",
+      "status": "ok"
+    },
+    {
+      "id": "s2-final-sains-tk-a-q16",
+      "n": 16,
+      "prompt": "Cuaca berawan artinya langit ….",
+      "images": [
+        "/soal/s2-final-sains-tk-a/q16-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Ada banyak awan",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Penuh badai petir",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Tidak ada awan",
+          "images": []
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s2-final-sains-tk-a-q17",
+      "n": 17,
+      "prompt": "Kita menjemur baju saat cuaca ….",
+      "images": [
+        "/soal/s2-final-sains-tk-a/q17-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Cerah",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Hujan badai",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Gerimis",
+          "images": []
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s2-final-sains-tk-a-q18",
+      "n": 18,
+      "prompt": "Manakah di bawah ini yang menunjukkan cuaca berangin?",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": null,
+          "images": [
+            "/soal/s2-final-sains-tk-a/q18-a.webp"
+          ]
+        },
+        {
+          "key": "b",
+          "text": null,
+          "images": [
+            "/soal/s2-final-sains-tk-a/q18-b.webp"
+          ]
+        },
+        {
+          "key": "c",
+          "text": null,
+          "images": [
+            "/soal/s2-final-sains-tk-a/q18-c.webp"
+          ]
+        }
+      ],
+      "answer": "b",
+      "status": "ok"
+    },
+    {
+      "id": "s2-final-sains-tk-a-q19",
+      "n": 19,
+      "prompt": "Manakah di bawah ini yang menunjukkan cuaca bersalju?",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": "Butiran putih turun dari langit dan menutupi tanah",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Matahari bersinar terang di langit",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Hujan turun dan membuat genangan air",
+          "images": []
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s2-final-sains-tk-a-q20",
+      "n": 20,
+      "prompt": "Awan seperti apa yang menunjukkan cuaca mendung?",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": null,
+          "images": [
+            "/soal/s2-final-sains-tk-a/q20-a.webp"
+          ]
+        },
+        {
+          "key": "b",
+          "text": null,
+          "images": [
+            "/soal/s2-final-sains-tk-a/q20-b.webp"
+          ]
+        },
+        {
+          "key": "c",
+          "text": null,
+          "images": [
+            "/soal/s2-final-sains-tk-a/q20-c.webp"
+          ]
+        }
+      ],
+      "answer": "b",
+      "status": "ok"
+    }
+  ]
+}

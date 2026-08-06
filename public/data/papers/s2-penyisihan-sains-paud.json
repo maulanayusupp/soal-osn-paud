@@ -1,0 +1,572 @@
+{
+  "id": "s2-penyisihan-sains-paud",
+  "season": 2,
+  "round": "penyisihan",
+  "subject": "sains",
+  "level": "paud",
+  "printed": {
+    "title": "SOAL SAINS/IPA BABAK PENYISIHAN",
+    "level": "PAUD SEDERAJAT",
+    "date": "MEI 2025",
+    "raw": [
+      "OLIMPIADE SISWA NASIONAL",
+      "SOAL SAINS/IPA BABAK PENYISIHAN",
+      "PAUD SEDERAJAT",
+      "MEI 2025"
+    ]
+  },
+  "layoutSource": "pdf",
+  "answerSource": "pdf",
+  "verified": false,
+  "questionCount": 20,
+  "playableCount": 20,
+  "warnings": [],
+  "questions": [
+    {
+      "id": "s2-penyisihan-sains-paud-q01",
+      "n": 1,
+      "prompt": "Nama bagian tubuh berikut adalah …",
+      "images": [
+        "/soal/s2-penyisihan-sains-paud/q01-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Telinga",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Mata",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Hidung",
+          "images": []
+        }
+      ],
+      "answer": "b",
+      "status": "ok"
+    },
+    {
+      "id": "s2-penyisihan-sains-paud-q02",
+      "n": 2,
+      "prompt": "Bagian tubuh di bawah ini adalah...",
+      "images": [
+        "/soal/s2-penyisihan-sains-paud/q02-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Tangan",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Kaki",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Telinga",
+          "images": []
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    },
+    {
+      "id": "s2-penyisihan-sains-paud-q03",
+      "n": 3,
+      "prompt": "Bagian tubuh berikut adalah ….",
+      "images": [
+        "/soal/s2-penyisihan-sains-paud/q03-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Kaki",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Mulut",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Tangan",
+          "images": []
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s2-penyisihan-sains-paud-q04",
+      "n": 4,
+      "prompt": "Bagian tubuh di bawah ini adalah...",
+      "images": [
+        "/soal/s2-penyisihan-sains-paud/q04-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Rambut",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Mata",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Tangan",
+          "images": []
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    },
+    {
+      "id": "s2-penyisihan-sains-paud-q05",
+      "n": 5,
+      "prompt": "Gambar berikut adalah ….",
+      "images": [
+        "/soal/s2-penyisihan-sains-paud/q05-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Mata",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Hidung",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Tangan",
+          "images": []
+        }
+      ],
+      "answer": "b",
+      "status": "ok"
+    },
+    {
+      "id": "s2-penyisihan-sains-paud-q06",
+      "n": 6,
+      "prompt": "Bagian tubuh di bawah ini adalah...",
+      "images": [
+        "/soal/s2-penyisihan-sains-paud/q06-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Rambut",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Mata",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Mulut",
+          "images": []
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s2-penyisihan-sains-paud-q07",
+      "n": 7,
+      "prompt": "Bagian tubuh berikut adalah …..",
+      "images": [
+        "/soal/s2-penyisihan-sains-paud/q07-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Tangan",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Kaki",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Mulut",
+          "images": []
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    },
+    {
+      "id": "s2-penyisihan-sains-paud-q08",
+      "n": 8,
+      "prompt": "Air es itu terasa …",
+      "images": [
+        "/soal/s2-penyisihan-sains-paud/q08-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Dingin",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Panas",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Hangat",
+          "images": []
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s2-penyisihan-sains-paud-q09",
+      "n": 9,
+      "prompt": "Es krim di mulut terasa...",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": "Panas",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Hangat",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Dingin",
+          "images": [
+            "/soal/s2-penyisihan-sains-paud/q09-c.webp"
+          ]
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    },
+    {
+      "id": "s2-penyisihan-sains-paud-q10",
+      "n": 10,
+      "prompt": "Teh yang baru dimasak terasa...",
+      "images": [
+        "/soal/s2-penyisihan-sains-paud/q10-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Panas",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Dingin",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Sejuk",
+          "images": []
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s2-penyisihan-sains-paud-q11",
+      "n": 11,
+      "prompt": "Api itu terasa ….",
+      "images": [
+        "/soal/s2-penyisihan-sains-paud/q11-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Beku",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Panas",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Dingin",
+          "images": []
+        }
+      ],
+      "answer": "b",
+      "status": "ok"
+    },
+    {
+      "id": "s2-penyisihan-sains-paud-q12",
+      "n": 12,
+      "prompt": "Es batu di tangan terasa...",
+      "images": [
+        "/soal/s2-penyisihan-sains-paud/q12-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Dingin",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Hangat",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Panas",
+          "images": []
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s2-penyisihan-sains-paud-q13",
+      "n": 13,
+      "prompt": "Apa nama buah di bawah ini?",
+      "images": [
+        "/soal/s2-penyisihan-sains-paud/q13-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Pisang",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Mangga",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Jeruk",
+          "images": []
+        }
+      ],
+      "answer": "b",
+      "status": "ok"
+    },
+    {
+      "id": "s2-penyisihan-sains-paud-q14",
+      "n": 14,
+      "prompt": "Apa nama buah berikut?",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": "Buah naga",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Jeruk",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Semangka",
+          "images": []
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s2-penyisihan-sains-paud-q15",
+      "n": 15,
+      "prompt": "Buah di bawah ini adalah ….",
+      "images": [
+        "/soal/s2-penyisihan-sains-paud/q15-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Melon",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Pisang",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Apel",
+          "images": []
+        }
+      ],
+      "answer": "b",
+      "status": "ok"
+    },
+    {
+      "id": "s2-penyisihan-sains-paud-q16",
+      "n": 16,
+      "prompt": "Manakah yang merupakan buah semangka?",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": null,
+          "images": [
+            "/soal/s2-penyisihan-sains-paud/q16-a.webp"
+          ]
+        },
+        {
+          "key": "b",
+          "text": null,
+          "images": [
+            "/soal/s2-penyisihan-sains-paud/q16-b.webp"
+          ]
+        },
+        {
+          "key": "c",
+          "text": null,
+          "images": [
+            "/soal/s2-penyisihan-sains-paud/q16-c.webp"
+          ]
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    },
+    {
+      "id": "s2-penyisihan-sains-paud-q17",
+      "n": 17,
+      "prompt": "Sayuran di bawah ini adalah …",
+      "images": [
+        "/soal/s2-penyisihan-sains-paud/q17-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Brokoli",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Wortel",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Tomat",
+          "images": []
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s2-penyisihan-sains-paud-q18",
+      "n": 18,
+      "prompt": "Apa nama sayuran berikut?",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": "Tomat",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Mangga",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Wortel",
+          "images": [
+            "/soal/s2-penyisihan-sains-paud/q18-c.webp"
+          ]
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    },
+    {
+      "id": "s2-penyisihan-sains-paud-q19",
+      "n": 19,
+      "prompt": "Manakah yang merupakan sayuran terong?",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": null,
+          "images": [
+            "/soal/s2-penyisihan-sains-paud/q19-a.webp"
+          ]
+        },
+        {
+          "key": "b",
+          "text": ".",
+          "images": [
+            "/soal/s2-penyisihan-sains-paud/q19-b.webp"
+          ]
+        },
+        {
+          "key": "c",
+          "text": null,
+          "images": [
+            "/soal/s2-penyisihan-sains-paud/q19-c.webp"
+          ]
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s2-penyisihan-sains-paud-q20",
+      "n": 20,
+      "prompt": "Gambar di bawah ini termasuk dalam kategori...",
+      "images": [
+        "/soal/s2-penyisihan-sains-paud/q20-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Bunga",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Buah – buahan",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Sayuran",
+          "images": []
+        }
+      ],
+      "answer": "b",
+      "status": "ok"
+    }
+  ]
+}

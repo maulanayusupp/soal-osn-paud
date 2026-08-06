@@ -1,0 +1,568 @@
+{
+  "id": "s1-penyisihan-bahasa-inggris-paud",
+  "season": 1,
+  "round": "penyisihan",
+  "subject": "bahasa-inggris",
+  "level": "paud",
+  "printed": {
+    "title": "SOAL BAHASA INGGRIS BABAK PENYISIHAN",
+    "level": "PAUD SEDERAJAT",
+    "date": "DESEMBER 2024",
+    "raw": [
+      "OLIMPIADE SISWA NASIONAL",
+      "SOAL BAHASA INGGRIS BABAK PENYISIHAN",
+      "PAUD SEDERAJAT",
+      "DESEMBER 2024"
+    ]
+  },
+  "layoutSource": "pdf",
+  "answerSource": "pdf",
+  "verified": false,
+  "questionCount": 20,
+  "playableCount": 19,
+  "warnings": [
+    "Q9: option a is empty"
+  ],
+  "questions": [
+    {
+      "id": "s1-penyisihan-bahasa-inggris-paud-q01",
+      "n": 1,
+      "prompt": "What fruit is this?",
+      "images": [
+        "/soal/s1-penyisihan-bahasa-inggris-paud/q01-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Grape",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Banana",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Orange",
+          "images": []
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s1-penyisihan-bahasa-inggris-paud-q02",
+      "n": 2,
+      "prompt": "Complete the word below!",
+      "images": [
+        "/soal/s1-penyisihan-bahasa-inggris-paud/q02-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "O",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "A",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "I",
+          "images": []
+        }
+      ],
+      "answer": "b",
+      "status": "ok"
+    },
+    {
+      "id": "s1-penyisihan-bahasa-inggris-paud-q03",
+      "n": 3,
+      "prompt": "What number is this?",
+      "images": [
+        "/soal/s1-penyisihan-bahasa-inggris-paud/q03-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "One",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Two",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Three",
+          "images": []
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    },
+    {
+      "id": "s1-penyisihan-bahasa-inggris-paud-q04",
+      "n": 4,
+      "prompt": "What fruit is this?",
+      "images": [
+        "/soal/s1-penyisihan-bahasa-inggris-paud/q04-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Apple",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Melon",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Watermelon",
+          "images": []
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    },
+    {
+      "id": "s1-penyisihan-bahasa-inggris-paud-q05",
+      "n": 5,
+      "prompt": "How many balloons are there?",
+      "images": [
+        "/soal/s1-penyisihan-bahasa-inggris-paud/q05-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Two",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Three",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Four",
+          "images": []
+        }
+      ],
+      "answer": "b",
+      "status": "ok"
+    },
+    {
+      "id": "s1-penyisihan-bahasa-inggris-paud-q06",
+      "n": 6,
+      "prompt": "Complete the word below!",
+      "images": [
+        "/soal/s1-penyisihan-bahasa-inggris-paud/q06-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "O",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "I",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "S",
+          "images": []
+        }
+      ],
+      "answer": "b",
+      "status": "ok"
+    },
+    {
+      "id": "s1-penyisihan-bahasa-inggris-paud-q07",
+      "n": 7,
+      "prompt": "What fruit is this?",
+      "images": [
+        "/soal/s1-penyisihan-bahasa-inggris-paud/q07-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Banana",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Orange",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Apple",
+          "images": []
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s1-penyisihan-bahasa-inggris-paud-q08",
+      "n": 8,
+      "prompt": "What number is this?",
+      "images": [
+        "/soal/s1-penyisihan-bahasa-inggris-paud/q08-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "One",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Two",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Three",
+          "images": []
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s1-penyisihan-bahasa-inggris-paud-q09",
+      "n": 9,
+      "prompt": "Complete the word below!",
+      "images": [
+        "/soal/s1-penyisihan-bahasa-inggris-paud/q09-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": null,
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "I",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "O",
+          "images": []
+        }
+      ],
+      "answer": "c",
+      "status": "needs-review"
+    },
+    {
+      "id": "s1-penyisihan-bahasa-inggris-paud-q10",
+      "n": 10,
+      "prompt": "What fruit is this?",
+      "images": [
+        "/soal/s1-penyisihan-bahasa-inggris-paud/q10-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Grape",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Papaya",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Manggo",
+          "images": []
+        }
+      ],
+      "answer": "b",
+      "status": "ok"
+    },
+    {
+      "id": "s1-penyisihan-bahasa-inggris-paud-q11",
+      "n": 11,
+      "prompt": "What number is this?",
+      "images": [
+        "/soal/s1-penyisihan-bahasa-inggris-paud/q11-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "One",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Five",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Two",
+          "images": []
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    },
+    {
+      "id": "s1-penyisihan-bahasa-inggris-paud-q12",
+      "n": 12,
+      "prompt": "What fruit is this?",
+      "images": [
+        "/soal/s1-penyisihan-bahasa-inggris-paud/q12-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Strawberry",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Banana",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Manggo",
+          "images": []
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s1-penyisihan-bahasa-inggris-paud-q13",
+      "n": 13,
+      "prompt": "What number is this?",
+      "images": [
+        "/soal/s1-penyisihan-bahasa-inggris-paud/q13-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Three",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Four",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Five",
+          "images": []
+        }
+      ],
+      "answer": "b",
+      "status": "ok"
+    },
+    {
+      "id": "s1-penyisihan-bahasa-inggris-paud-q14",
+      "n": 14,
+      "prompt": "How much corn is below?",
+      "images": [
+        "/soal/s1-penyisihan-bahasa-inggris-paud/q14-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Four",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Three",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Five",
+          "images": []
+        }
+      ],
+      "answer": "b",
+      "status": "ok"
+    },
+    {
+      "id": "s1-penyisihan-bahasa-inggris-paud-q15",
+      "n": 15,
+      "prompt": "Complete the word below!",
+      "images": [
+        "/soal/s1-penyisihan-bahasa-inggris-paud/q15-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "B",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "A",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "O",
+          "images": []
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s1-penyisihan-bahasa-inggris-paud-q16",
+      "n": 16,
+      "prompt": "What fruit is this?",
+      "images": [
+        "/soal/s1-penyisihan-bahasa-inggris-paud/q16-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Avocado",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Apple",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Orange",
+          "images": []
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s1-penyisihan-bahasa-inggris-paud-q17",
+      "n": 17,
+      "prompt": "How many pandas are there below?",
+      "images": [
+        "/soal/s1-penyisihan-bahasa-inggris-paud/q17-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Three",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Two",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "One",
+          "images": []
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    },
+    {
+      "id": "s1-penyisihan-bahasa-inggris-paud-q18",
+      "n": 18,
+      "prompt": "What fruit is this?",
+      "images": [
+        "/soal/s1-penyisihan-bahasa-inggris-paud/q18-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Papaya",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Melon",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Orange",
+          "images": []
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    },
+    {
+      "id": "s1-penyisihan-bahasa-inggris-paud-q19",
+      "n": 19,
+      "prompt": "Complete the word below!",
+      "images": [
+        "/soal/s1-penyisihan-bahasa-inggris-paud/q19-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "E",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "I",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "A",
+          "images": []
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s1-penyisihan-bahasa-inggris-paud-q20",
+      "n": 20,
+      "prompt": "How many apples are there?",
+      "images": [
+        "/soal/s1-penyisihan-bahasa-inggris-paud/q20-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Two",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "One",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Three",
+          "images": []
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    }
+  ]
+}

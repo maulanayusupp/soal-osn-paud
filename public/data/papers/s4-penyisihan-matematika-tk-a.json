@@ -1,0 +1,601 @@
+{
+  "id": "s4-penyisihan-matematika-tk-a",
+  "season": 4,
+  "round": "penyisihan",
+  "subject": "matematika",
+  "level": "tk-a",
+  "printed": {
+    "title": "SOAL MATEMATIKA BABAK PENYISIHAN",
+    "level": "TK A SEDERAJAT",
+    "date": "JANUARI 2026",
+    "raw": [
+      "OLIMPIADE SISWA NASIONAL",
+      "SOAL MATEMATIKA BABAK PENYISIHAN",
+      "TK A SEDERAJAT",
+      "JANUARI 2026"
+    ]
+  },
+  "layoutSource": "docx",
+  "answerSource": "docx",
+  "verified": false,
+  "questionCount": 20,
+  "playableCount": 18,
+  "warnings": [
+    "Q7: no answer highlight found",
+    "Q7: option a is empty",
+    "Q18: option c is empty"
+  ],
+  "questions": [
+    {
+      "id": "s4-penyisihan-matematika-tk-a-q01",
+      "n": 1,
+      "prompt": "Keju pada gambar di bawah ini memiliki bentuk seperti ….",
+      "images": [
+        "/soal/s4-penyisihan-matematika-tk-a/q01-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Segitiga",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Lingkaran",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Persegi",
+          "images": []
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s4-penyisihan-matematika-tk-a-q02",
+      "n": 2,
+      "prompt": "Bagian pesawat yang memiliki bentuk lingkaran adalah …",
+      "images": [
+        "/soal/s4-penyisihan-matematika-tk-a/q02-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Sayap pesawat",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Roda pesawat",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Badan pesawat",
+          "images": []
+        }
+      ],
+      "answer": "b",
+      "status": "ok"
+    },
+    {
+      "id": "s4-penyisihan-matematika-tk-a-q03",
+      "n": 3,
+      "prompt": "Hitunglah jumlah bunga kuning di bawah ini!",
+      "images": [
+        "/soal/s4-penyisihan-matematika-tk-a/q03-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "2",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "6",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "3",
+          "images": []
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    },
+    {
+      "id": "s4-penyisihan-matematika-tk-a-q04",
+      "n": 4,
+      "prompt": "Berapa hasil pengurangan berikut?",
+      "images": [
+        "/soal/s4-penyisihan-matematika-tk-a/q04-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "2",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "1",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "3",
+          "images": []
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    },
+    {
+      "id": "s4-penyisihan-matematika-tk-a-q05",
+      "n": 5,
+      "prompt": "Pilihlah bentuk yang sesuai dengan bentuk jendela rumah berikut!",
+      "images": [
+        "/soal/s4-penyisihan-matematika-tk-a/q05-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": null,
+          "images": [
+            "/soal/s4-penyisihan-matematika-tk-a/q05-a.webp"
+          ]
+        },
+        {
+          "key": "b",
+          "text": null,
+          "images": [
+            "/soal/s4-penyisihan-matematika-tk-a/q05-b.webp"
+          ]
+        },
+        {
+          "key": "c",
+          "text": null,
+          "images": [
+            "/soal/s4-penyisihan-matematika-tk-a/q05-c.webp"
+          ]
+        }
+      ],
+      "answer": "b",
+      "status": "ok"
+    },
+    {
+      "id": "s4-penyisihan-matematika-tk-a-q06",
+      "n": 6,
+      "prompt": "Angka pada gambar di bawah ini dibaca …",
+      "images": [
+        "/soal/s4-penyisihan-matematika-tk-a/q06-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Tujuh",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Tiga",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Enam",
+          "images": []
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s4-penyisihan-matematika-tk-a-q07",
+      "n": 7,
+      "prompt": "Manakah gambar yang berisi 9 sosis?",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": null,
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": null,
+          "images": [
+            "/soal/s4-penyisihan-matematika-tk-a/q07-c.webp"
+          ]
+        }
+      ],
+      "answer": null,
+      "status": "needs-review"
+    },
+    {
+      "id": "s4-penyisihan-matematika-tk-a-q08",
+      "n": 8,
+      "prompt": "Manakah angka yang dibaca sepuluh?",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": null,
+          "images": [
+            "/soal/s4-penyisihan-matematika-tk-a/q08-a.webp"
+          ]
+        },
+        {
+          "key": "b",
+          "text": null,
+          "images": [
+            "/soal/s4-penyisihan-matematika-tk-a/q08-b.webp"
+          ]
+        },
+        {
+          "key": "c",
+          "text": null,
+          "images": [
+            "/soal/s4-penyisihan-matematika-tk-a/q08-c.webp"
+          ]
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s4-penyisihan-matematika-tk-a-q09",
+      "n": 9,
+      "prompt": "Berapakah hasil pengurangan berikut?",
+      "images": [
+        "/soal/s4-penyisihan-matematika-tk-a/q09-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "8",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "6",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "4",
+          "images": []
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    },
+    {
+      "id": "s4-penyisihan-matematika-tk-a-q10",
+      "n": 10,
+      "prompt": "Hitung hasil pengurangan berikut!",
+      "images": [
+        "/soal/s4-penyisihan-matematika-tk-a/q10-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "1",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "2",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "3",
+          "images": [
+            "/soal/s4-penyisihan-matematika-tk-a/q10-c.webp"
+          ]
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s4-penyisihan-matematika-tk-a-q11",
+      "n": 11,
+      "prompt": "Hitung hasil penjumlahan berikut!",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": null,
+          "images": [
+            "/soal/s4-penyisihan-matematika-tk-a/q11-a.webp"
+          ]
+        },
+        {
+          "key": "b",
+          "text": null,
+          "images": [
+            "/soal/s4-penyisihan-matematika-tk-a/q11-b.webp"
+          ]
+        },
+        {
+          "key": "c",
+          "text": null,
+          "images": [
+            "/soal/s4-penyisihan-matematika-tk-a/q11-c.webp"
+          ]
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    },
+    {
+      "id": "s4-penyisihan-matematika-tk-a-q12",
+      "n": 12,
+      "prompt": "Lengkapi penjumlahan berikut!",
+      "images": [
+        "/soal/s4-penyisihan-matematika-tk-a/q12-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "3",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "2",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "8",
+          "images": []
+        }
+      ],
+      "answer": "b",
+      "status": "ok"
+    },
+    {
+      "id": "s4-penyisihan-matematika-tk-a-q13",
+      "n": 13,
+      "prompt": "Pilih benda yang berbentuk bintang!",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": null,
+          "images": [
+            "/soal/s4-penyisihan-matematika-tk-a/q13-a.webp"
+          ]
+        },
+        {
+          "key": "b",
+          "text": null,
+          "images": [
+            "/soal/s4-penyisihan-matematika-tk-a/q13-b.webp"
+          ]
+        },
+        {
+          "key": "c",
+          "text": null,
+          "images": [
+            "/soal/s4-penyisihan-matematika-tk-a/q13-c.webp"
+          ]
+        }
+      ],
+      "answer": "b",
+      "status": "ok"
+    },
+    {
+      "id": "s4-penyisihan-matematika-tk-a-q14",
+      "n": 14,
+      "prompt": "Mainan yang berbentuk seperti lingkaran adalah ….",
+      "images": [
+        "/soal/s4-penyisihan-matematika-tk-a/q14-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Boneka",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Piano",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Bola",
+          "images": []
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    },
+    {
+      "id": "s4-penyisihan-matematika-tk-a-q15",
+      "n": 15,
+      "prompt": "Pilih kelompok benda dengan warna kuning!",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": null,
+          "images": [
+            "/soal/s4-penyisihan-matematika-tk-a/q15-a.webp"
+          ]
+        },
+        {
+          "key": "b",
+          "text": null,
+          "images": [
+            "/soal/s4-penyisihan-matematika-tk-a/q15-b.webp"
+          ]
+        },
+        {
+          "key": "c",
+          "text": null,
+          "images": [
+            "/soal/s4-penyisihan-matematika-tk-a/q15-c.webp"
+          ]
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s4-penyisihan-matematika-tk-a-q16",
+      "n": 16,
+      "prompt": "Kelompok yang memiliki bentuk sama adalah ….",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": "Kelompok A",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Kelompok B",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Kelompok C",
+          "images": [
+            "/soal/s4-penyisihan-matematika-tk-a/q16-c.webp"
+          ]
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s4-penyisihan-matematika-tk-a-q17",
+      "n": 17,
+      "prompt": "Manakah pensil yang ukurannya sama?",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": null,
+          "images": [
+            "/soal/s4-penyisihan-matematika-tk-a/q17-a.webp"
+          ]
+        },
+        {
+          "key": "b",
+          "text": null,
+          "images": [
+            "/soal/s4-penyisihan-matematika-tk-a/q17-b.webp"
+          ]
+        },
+        {
+          "key": "c",
+          "text": null,
+          "images": [
+            "/soal/s4-penyisihan-matematika-tk-a/q17-c.webp"
+          ]
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s4-penyisihan-matematika-tk-a-q18",
+      "n": 18,
+      "prompt": "Susun angka berikut dari yang terkecil ke terbesar!",
+      "images": [
+        "/soal/s4-penyisihan-matematika-tk-a/q18-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": null,
+          "images": [
+            "/soal/s4-penyisihan-matematika-tk-a/q18-a.webp"
+          ]
+        },
+        {
+          "key": "b",
+          "text": null,
+          "images": [
+            "/soal/s4-penyisihan-matematika-tk-a/q18-b.webp"
+          ]
+        },
+        {
+          "key": "c",
+          "text": null,
+          "images": []
+        }
+      ],
+      "answer": "a",
+      "status": "needs-review"
+    },
+    {
+      "id": "s4-penyisihan-matematika-tk-a-q19",
+      "n": 19,
+      "prompt": "Botol yang memiliki ukuran sama dengan botol C adalah ….….",
+      "images": [
+        "/soal/s4-penyisihan-matematika-tk-a/q19-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Botol B",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Botol A",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Botol A dan B",
+          "images": []
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s4-penyisihan-matematika-tk-a-q20",
+      "n": 20,
+      "prompt": "Manakah urutan angka dari yang terbesar ke terkecil?",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": null,
+          "images": [
+            "/soal/s4-penyisihan-matematika-tk-a/q20-a.webp"
+          ]
+        },
+        {
+          "key": "b",
+          "text": null,
+          "images": [
+            "/soal/s4-penyisihan-matematika-tk-a/q20-b.webp"
+          ]
+        },
+        {
+          "key": "c",
+          "text": null,
+          "images": [
+            "/soal/s4-penyisihan-matematika-tk-a/q20-c.webp"
+          ]
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    }
+  ]
+}

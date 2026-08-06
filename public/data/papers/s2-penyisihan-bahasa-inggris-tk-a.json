@@ -1,0 +1,566 @@
+{
+  "id": "s2-penyisihan-bahasa-inggris-tk-a",
+  "season": 2,
+  "round": "penyisihan",
+  "subject": "bahasa-inggris",
+  "level": "tk-a",
+  "printed": {
+    "title": "SOAL BAHASA INGGRIS BABAK PENYISIHAN",
+    "level": "TK A SEDERAJAT",
+    "date": "MEI 2025",
+    "raw": [
+      "OLIMPIADE SISWA NASIONAL",
+      "SOAL BAHASA INGGRIS BABAK PENYISIHAN",
+      "TK A SEDERAJAT",
+      "MEI 2025"
+    ]
+  },
+  "layoutSource": "pdf",
+  "answerSource": "pdf",
+  "verified": false,
+  "questionCount": 20,
+  "playableCount": 20,
+  "warnings": [],
+  "questions": [
+    {
+      "id": "s2-penyisihan-bahasa-inggris-tk-a-q01",
+      "n": 1,
+      "prompt": "What number is this?",
+      "images": [
+        "/soal/s2-penyisihan-bahasa-inggris-tk-a/q01-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Six",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Seven",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Nine",
+          "images": []
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s2-penyisihan-bahasa-inggris-tk-a-q02",
+      "n": 2,
+      "prompt": "Look at the picture. How many fish can you see?",
+      "images": [
+        "/soal/s2-penyisihan-bahasa-inggris-tk-a/q02-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "2",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "9",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "4",
+          "images": []
+        }
+      ],
+      "answer": "b",
+      "status": "ok"
+    },
+    {
+      "id": "s2-penyisihan-bahasa-inggris-tk-a-q03",
+      "n": 3,
+      "prompt": "What number is this?",
+      "images": [
+        "/soal/s2-penyisihan-bahasa-inggris-tk-a/q03-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Nine",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Ten",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Eight",
+          "images": []
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    },
+    {
+      "id": "s2-penyisihan-bahasa-inggris-tk-a-q04",
+      "n": 4,
+      "prompt": "How many caisim cabbages are in the picture?",
+      "images": [
+        "/soal/s2-penyisihan-bahasa-inggris-tk-a/q04-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "7",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "4",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "15",
+          "images": []
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s2-penyisihan-bahasa-inggris-tk-a-q05",
+      "n": 5,
+      "prompt": "How many fingers are there in the picture?",
+      "images": [
+        "/soal/s2-penyisihan-bahasa-inggris-tk-a/q05-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "13",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "5",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "10",
+          "images": []
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    },
+    {
+      "id": "s2-penyisihan-bahasa-inggris-tk-a-q06",
+      "n": 6,
+      "prompt": "What is the vegetable below?",
+      "images": [
+        "/soal/s2-penyisihan-bahasa-inggris-tk-a/q06-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Water",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Carrot",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Milk",
+          "images": []
+        }
+      ],
+      "answer": "b",
+      "status": "ok"
+    },
+    {
+      "id": "s2-penyisihan-bahasa-inggris-tk-a-q07",
+      "n": 7,
+      "prompt": "What is the vegetable below?",
+      "images": [
+        "/soal/s2-penyisihan-bahasa-inggris-tk-a/q07-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Potato",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Tomato",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Chicken",
+          "images": []
+        }
+      ],
+      "answer": "b",
+      "status": "ok"
+    },
+    {
+      "id": "s2-penyisihan-bahasa-inggris-tk-a-q08",
+      "n": 8,
+      "prompt": "What is the vegetable below?",
+      "images": [
+        "/soal/s2-penyisihan-bahasa-inggris-tk-a/q08-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Potato",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Water",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Corn",
+          "images": []
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    },
+    {
+      "id": "s2-penyisihan-bahasa-inggris-tk-a-q09",
+      "n": 9,
+      "prompt": "What is the vegetable below?",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": "Broccoli",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Banana",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Tomato",
+          "images": [
+            "/soal/s2-penyisihan-bahasa-inggris-tk-a/q09-c.webp"
+          ]
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s2-penyisihan-bahasa-inggris-tk-a-q10",
+      "n": 10,
+      "prompt": "What is the vegetable below?",
+      "images": [
+        "/soal/s2-penyisihan-bahasa-inggris-tk-a/q10-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Corn",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Tomato",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Broccoli",
+          "images": []
+        }
+      ],
+      "answer": "b",
+      "status": "ok"
+    },
+    {
+      "id": "s2-penyisihan-bahasa-inggris-tk-a-q11",
+      "n": 11,
+      "prompt": "What is the vegetable below?",
+      "images": [
+        "/soal/s2-penyisihan-bahasa-inggris-tk-a/q11-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Cucumber",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Corn",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Carrot",
+          "images": []
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s2-penyisihan-bahasa-inggris-tk-a-q12",
+      "n": 12,
+      "prompt": "What is the English word for \"ibu\"?",
+      "images": [
+        "/soal/s2-penyisihan-bahasa-inggris-tk-a/q12-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Father",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Uncle",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Mother",
+          "images": []
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    },
+    {
+      "id": "s2-penyisihan-bahasa-inggris-tk-a-q13",
+      "n": 13,
+      "prompt": "What is the English word for \"ayah\"?",
+      "images": [
+        "/soal/s2-penyisihan-bahasa-inggris-tk-a/q13-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Father",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Mother",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Sister",
+          "images": []
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s2-penyisihan-bahasa-inggris-tk-a-q14",
+      "n": 14,
+      "prompt": "This is my ….",
+      "images": [
+        "/soal/s2-penyisihan-bahasa-inggris-tk-a/q14-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Father",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Brother",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Mother",
+          "images": []
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    },
+    {
+      "id": "s2-penyisihan-bahasa-inggris-tk-a-q15",
+      "n": 15,
+      "prompt": "This is my ….",
+      "images": [
+        "/soal/s2-penyisihan-bahasa-inggris-tk-a/q15-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Father",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Sister",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Mother",
+          "images": []
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s2-penyisihan-bahasa-inggris-tk-a-q16",
+      "n": 16,
+      "prompt": "What is the body part below?",
+      "images": [
+        "/soal/s2-penyisihan-bahasa-inggris-tk-a/q16-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Eyes",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Hands",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Feet",
+          "images": []
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s2-penyisihan-bahasa-inggris-tk-a-q17",
+      "n": 17,
+      "prompt": "What is the body part below?",
+      "images": [
+        "/soal/s2-penyisihan-bahasa-inggris-tk-a/q17-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Mouth",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Nose",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Hand",
+          "images": []
+        }
+      ],
+      "answer": "b",
+      "status": "ok"
+    },
+    {
+      "id": "s2-penyisihan-bahasa-inggris-tk-a-q18",
+      "n": 18,
+      "prompt": "What is the body part below?",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": "Ear",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Eye",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Hand",
+          "images": [
+            "/soal/s2-penyisihan-bahasa-inggris-tk-a/q18-c.webp"
+          ]
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    },
+    {
+      "id": "s2-penyisihan-bahasa-inggris-tk-a-q19",
+      "n": 19,
+      "prompt": "What is the body part below?",
+      "images": [
+        "/soal/s2-penyisihan-bahasa-inggris-tk-a/q19-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Hands",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Foot",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Ears",
+          "images": []
+        }
+      ],
+      "answer": "b",
+      "status": "ok"
+    },
+    {
+      "id": "s2-penyisihan-bahasa-inggris-tk-a-q20",
+      "n": 20,
+      "prompt": "What is the body part below?",
+      "images": [
+        "/soal/s2-penyisihan-bahasa-inggris-tk-a/q20-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Nose",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Hand",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Mouth",
+          "images": []
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    }
+  ]
+}

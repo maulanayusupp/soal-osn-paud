@@ -1,0 +1,562 @@
+{
+  "id": "s2-final-bahasa-inggris-tk-b",
+  "season": 2,
+  "round": "final",
+  "subject": "bahasa-inggris",
+  "level": "tk-b",
+  "printed": {
+    "title": "SOAL BAHASA INGGRIS BABAK FINAL",
+    "level": "TK B SEDERAJAT",
+    "date": "JUNI 2025",
+    "raw": [
+      "OLIMPIADE SISWA NASIONAL",
+      "SOAL BAHASA INGGRIS BABAK FINAL",
+      "TK B SEDERAJAT",
+      "JUNI 2025"
+    ]
+  },
+  "layoutSource": "pdf",
+  "answerSource": "pdf",
+  "verified": false,
+  "questionCount": 20,
+  "playableCount": 18,
+  "warnings": [
+    "Q15: no answer highlight found",
+    "Q19: no answer highlight found"
+  ],
+  "questions": [
+    {
+      "id": "s2-final-bahasa-inggris-tk-b-q01",
+      "n": 1,
+      "prompt": "What number is between twenty-seven and twenty-nine?",
+      "images": [
+        "/soal/s2-final-bahasa-inggris-tk-b/q01-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Twenty-eight",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Thirty",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Twenty-six",
+          "images": []
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s2-final-bahasa-inggris-tk-b-q02",
+      "n": 2,
+      "prompt": "What number is this?",
+      "images": [
+        "/soal/s2-final-bahasa-inggris-tk-b/q02-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Thirteen",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Thirty",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Three One",
+          "images": []
+        }
+      ],
+      "answer": "b",
+      "status": "ok"
+    },
+    {
+      "id": "s2-final-bahasa-inggris-tk-b-q03",
+      "n": 3,
+      "prompt": "Which number comes after twenty-four?",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": "Twenty-three",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Twenty-nine",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Twenty-five",
+          "images": []
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    },
+    {
+      "id": "s2-final-bahasa-inggris-tk-b-q04",
+      "n": 4,
+      "prompt": "Which of the following numbers is twenty-six??",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": null,
+          "images": [
+            "/soal/s2-final-bahasa-inggris-tk-b/q04-a.webp"
+          ]
+        },
+        {
+          "key": "b",
+          "text": null,
+          "images": [
+            "/soal/s2-final-bahasa-inggris-tk-b/q04-b.webp"
+          ]
+        },
+        {
+          "key": "c",
+          "text": null,
+          "images": [
+            "/soal/s2-final-bahasa-inggris-tk-b/q04-c.webp"
+          ]
+        }
+      ],
+      "answer": "b",
+      "status": "ok"
+    },
+    {
+      "id": "s2-final-bahasa-inggris-tk-b-q05",
+      "n": 5,
+      "prompt": "How do you write this number in English?",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": "Twenty-two",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Twelve",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Two two",
+          "images": []
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s2-final-bahasa-inggris-tk-b-q06",
+      "n": 6,
+      "prompt": "Which one is a drink?",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": "Crackers",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Soup",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Juice",
+          "images": []
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    },
+    {
+      "id": "s2-final-bahasa-inggris-tk-b-q07",
+      "n": 7,
+      "prompt": "Bayu is eating a...",
+      "images": [
+        "/soal/s2-final-bahasa-inggris-tk-b/q07-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Sausage",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Fish ball",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Porridge",
+          "images": []
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s2-final-bahasa-inggris-tk-b-q08",
+      "n": 8,
+      "prompt": "What is “tempe” in English?",
+      "images": [
+        "/soal/s2-final-bahasa-inggris-tk-b/q08-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Soya",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Tempeh",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Tofu",
+          "images": []
+        }
+      ],
+      "answer": "b",
+      "status": "ok"
+    },
+    {
+      "id": "s2-final-bahasa-inggris-tk-b-q09",
+      "n": 9,
+      "prompt": "What drink is this?",
+      "images": [
+        "/soal/s2-final-bahasa-inggris-tk-b/q09-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Hot Chocolate",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Coffee",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Soft drink",
+          "images": []
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s2-final-bahasa-inggris-tk-b-q10",
+      "n": 10,
+      "prompt": "Which one is not a drink?",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": "Water",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Milk",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Curry",
+          "images": []
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    },
+    {
+      "id": "s2-final-bahasa-inggris-tk-b-q11",
+      "n": 11,
+      "prompt": "What is the English word for \"mobil pemadam kebakaran\"?",
+      "images": [
+        "/soal/s2-final-bahasa-inggris-tk-b/q11-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Wagon",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Truck",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Fire truck",
+          "images": []
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    },
+    {
+      "id": "s2-final-bahasa-inggris-tk-b-q12",
+      "n": 12,
+      "prompt": "This is a …",
+      "images": [
+        "/soal/s2-final-bahasa-inggris-tk-b/q12-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Police car",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Horse cart",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Rickshaw",
+          "images": []
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    },
+    {
+      "id": "s2-final-bahasa-inggris-tk-b-q13",
+      "n": 13,
+      "prompt": "Which vehicle moves on the water?",
+      "images": [
+        "/soal/s2-final-bahasa-inggris-tk-b/q13-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Boat",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Airplane",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Scooter",
+          "images": []
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s2-final-bahasa-inggris-tk-b-q14",
+      "n": 14,
+      "prompt": "Which vehicle carries sick people to the hospital?",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": "Ship",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Ambulance",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Horse cart",
+          "images": []
+        }
+      ],
+      "answer": "b",
+      "status": "ok"
+    },
+    {
+      "id": "s2-final-bahasa-inggris-tk-b-q15",
+      "n": 15,
+      "prompt": "Which one is a ship?",
+      "images": [],
+      "options": [
+        {
+          "key": "c",
+          "text": "…..…",
+          "images": [
+            "/soal/s2-final-bahasa-inggris-tk-b/q15-c.webp"
+          ]
+        },
+        {
+          "key": "b",
+          "text": null,
+          "images": [
+            "/soal/s2-final-bahasa-inggris-tk-b/q15-b.webp"
+          ]
+        }
+      ],
+      "answer": null,
+      "status": "needs-review"
+    },
+    {
+      "id": "s2-final-bahasa-inggris-tk-b-q16",
+      "n": 16,
+      "prompt": "What shape looks like a slice of pizza?",
+      "images": [
+        "/soal/s2-final-bahasa-inggris-tk-b/q16-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Triangle",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Circle",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Square",
+          "images": []
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s2-final-bahasa-inggris-tk-b-q17",
+      "n": 17,
+      "prompt": "Which shape has no corners?",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": "Triangle",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Square",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Circle",
+          "images": []
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    },
+    {
+      "id": "s2-final-bahasa-inggris-tk-b-q18",
+      "n": 18,
+      "prompt": "The window in the picture has the shape of a...",
+      "images": [
+        "/soal/s2-final-bahasa-inggris-tk-b/q18-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Triangle",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Square",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Rectangle",
+          "images": []
+        }
+      ],
+      "answer": "b",
+      "status": "ok"
+    },
+    {
+      "id": "s2-final-bahasa-inggris-tk-b-q19",
+      "n": 19,
+      "prompt": "Which of the shapes below is not a triangle?",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": null,
+          "images": [
+            "/soal/s2-final-bahasa-inggris-tk-b/q19-a.webp"
+          ]
+        },
+        {
+          "key": "b",
+          "text": null,
+          "images": [
+            "/soal/s2-final-bahasa-inggris-tk-b/q19-b.webp"
+          ]
+        },
+        {
+          "key": "c",
+          "text": null,
+          "images": [
+            "/soal/s2-final-bahasa-inggris-tk-b/q19-c.webp"
+          ]
+        }
+      ],
+      "answer": null,
+      "status": "needs-review"
+    },
+    {
+      "id": "s2-final-bahasa-inggris-tk-b-q20",
+      "n": 20,
+      "prompt": "Which shape is round and looks like an egg?",
+      "images": [
+        "/soal/s2-final-bahasa-inggris-tk-b/q20-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Oval",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Square",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Rectangle",
+          "images": []
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    }
+  ]
+}

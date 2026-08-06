@@ -1,0 +1,544 @@
+{
+  "id": "s4-final-sains-paud",
+  "season": 4,
+  "round": "final",
+  "subject": "sains",
+  "level": "paud",
+  "printed": {
+    "title": "SOAL SAINS/IPA BABAK FINAL",
+    "level": "PAUD SEDERAJAT",
+    "date": "FEBRUARI 2026",
+    "raw": [
+      "OLIMPIADE SISWA NASIONAL",
+      "SOAL SAINS/IPA BABAK FINAL",
+      "PAUD SEDERAJAT",
+      "FEBRUARI 2026"
+    ]
+  },
+  "layoutSource": "pdf",
+  "answerSource": "docx",
+  "verified": false,
+  "questionCount": 20,
+  "playableCount": 20,
+  "warnings": [
+    "answer key read from the .docx (the shipped PDF is the unmarked student copy)"
+  ],
+  "questions": [
+    {
+      "id": "s4-final-sains-paud-q01",
+      "n": 1,
+      "prompt": "Aku ada di ujung jari. Aku keras tetapi kecil. Aku melindungi jari tangan dan kaki. Aku harus dipotong agar tetap rapi. Aku adalah …",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": "Kulit",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Rambut",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Kuku",
+          "images": []
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    },
+    {
+      "id": "s4-final-sains-paud-q02",
+      "n": 2,
+      "prompt": "Bagian tubuh yang dilingkari pada gambar disebut …",
+      "images": [
+        "/soal/s4-final-sains-paud/q02-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Mata kaki",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Tumit",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Betis",
+          "images": []
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s4-final-sains-paud-q03",
+      "n": 3,
+      "prompt": "Ada berapa anggota tubuh manusia pada gambar berikut?",
+      "images": [
+        "/soal/s4-final-sains-paud/q03-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "6",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "7",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "8",
+          "images": []
+        }
+      ],
+      "answer": "b",
+      "status": "ok"
+    },
+    {
+      "id": "s4-final-sains-paud-q04",
+      "n": 4,
+      "prompt": "Manakah pasangan anggota tubuh yang berada pada satu bagian tubuh yang sama?",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": "Betis dan pusar",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Dagu dan pipi",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Tumit dan Pundak",
+          "images": []
+        }
+      ],
+      "answer": "b",
+      "status": "ok"
+    },
+    {
+      "id": "s4-final-sains-paud-q05",
+      "n": 5,
+      "prompt": "Ibu menuang air dari teko yang baru dipanaskan. Benda mana yang sebaiknya tidak langsung dipegang?",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": "Air di dalam teko",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Gagang teko",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Nampan",
+          "images": [
+            "/soal/s4-final-sains-paud/q05-c.webp"
+          ]
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s4-final-sains-paud-q06",
+      "n": 6,
+      "prompt": "Benda manakah yang tidak membuat tangan terasa sejuk?",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": "Air dingin",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Es batu",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Teh hangat",
+          "images": []
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    },
+    {
+      "id": "s4-final-sains-paud-q07",
+      "n": 7,
+      "prompt": "Manakah pasangan yang rasanya berbeda saat disentuh?",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": "Teh hangat dan air hangat",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Air hujan dan susu mendidih",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Es krim dan salju",
+          "images": []
+        }
+      ],
+      "answer": "b",
+      "status": "ok"
+    },
+    {
+      "id": "s4-final-sains-paud-q08",
+      "n": 8,
+      "prompt": "Nico baru saja selesai mandi di sungai. Setelah mandi, ia pulang ke rumah. Di rumah, Nico melihat ibunya berdiri di depan kipas angin dan kakaknya sedang makan mi yang baru saja direbus di meja. Dari cerita tersebut, manakah yang terasa sejuk?",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": "Air sungai dan kipas angin",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Air sungai",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Kipas angina dan mi",
+          "images": []
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s4-final-sains-paud-q09",
+      "n": 9,
+      "prompt": "Brian menjual berbagai buah dan sayuran di pasar. Berdasarkan gambar berikut sayuran manakah yang tidak dijual oleh Brian?",
+      "images": [
+        "/soal/s4-final-sains-paud/q09-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Selederi",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Buncis",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Selada",
+          "images": []
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s4-final-sains-paud-q10",
+      "n": 10,
+      "prompt": "Sebutkan nama sayuran yang tidak berwarna hijau berdasarkan gambar!",
+      "images": [
+        "/soal/s4-final-sains-paud/q10-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Timun, wortel, dan buncis",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Jamur, wortel, dan terong",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Terong, jamur, dan persik",
+          "images": []
+        }
+      ],
+      "answer": "b",
+      "status": "ok"
+    },
+    {
+      "id": "s4-final-sains-paud-q11",
+      "n": 11,
+      "prompt": "Buah berikut tidak tumbuh di pohon, kecuali….",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": "Nanas",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Melon",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Duku",
+          "images": []
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    },
+    {
+      "id": "s4-final-sains-paud-q12",
+      "n": 12,
+      "prompt": "Aku adalah jenis buah-buahan. Tubuhku kecil dan memiliki banyak biji dipermukaan. Aku adalah …",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": "Kiwi",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Buah naga",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Stroberi",
+          "images": []
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    },
+    {
+      "id": "s4-final-sains-paud-q13",
+      "n": 13,
+      "prompt": "Tentukan urutan hewan berdasarkan jumlah kaki, mulai dari yang paling banyak hingga yang paling sedikit!",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": "Belalang, Laba-laba, Unta",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Laba-laba, Komodo, Pinguin",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Bangau, Kuda nil, Merak",
+          "images": []
+        }
+      ],
+      "answer": "b",
+      "status": "ok"
+    },
+    {
+      "id": "s4-final-sains-paud-q14",
+      "n": 14,
+      "prompt": "Aku memiliki batang keras, berdaun hijau, dan bisa bertahan lama. Aku adalah…",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": "Rumput",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Kayu bakar",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Pohon",
+          "images": []
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    },
+    {
+      "id": "s4-final-sains-paud-q15",
+      "n": 15,
+      "prompt": "Berapa jumlah tangkai bunga pada gambar berikut?",
+      "images": [
+        "/soal/s4-final-sains-paud/q15-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "9",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "8",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "10",
+          "images": []
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s4-final-sains-paud-q16",
+      "n": 16,
+      "prompt": "Jejak kaki hewan apakah ini?",
+      "images": [
+        "/soal/s4-final-sains-paud/q16-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Ayam",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Bebek",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Burung hantu",
+          "images": []
+        }
+      ],
+      "answer": "b",
+      "status": "ok"
+    },
+    {
+      "id": "s4-final-sains-paud-q17",
+      "n": 17,
+      "prompt": "Pernyataan berikut yang benar tentang pemanfaatan air adalah …",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": "Air laut bisa diminum oleh manusia",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Banyak sungai yang memiliki air",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Ibu menyiram bunga di kebun dengan air",
+          "images": []
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    },
+    {
+      "id": "s4-final-sains-paud-q18",
+      "n": 18,
+      "prompt": "Jika tanaman tidak disiram selama seminggu, apa yang akan terjadi?",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": "Tanaman tetap segar dan tumbuh tinggi",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Tanaman menjadi layu",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Tanaman bisa berjalan mencari air sendiri",
+          "images": []
+        }
+      ],
+      "answer": "b",
+      "status": "ok"
+    },
+    {
+      "id": "s4-final-sains-paud-q19",
+      "n": 19,
+      "prompt": "Berdasarkan berbagai aktivitas di gambar berikut, yang termasuk manfaat air adalah …",
+      "images": [
+        "/soal/s4-final-sains-paud/q19-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Berenang, mandi, menggosok gigi, dan mencuci tangan",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Menggosok gigi, berenang, dan menerbangkan pesawat",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Mencuci tangan, berenang, dan menggosok gigi",
+          "images": []
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    },
+    {
+      "id": "s4-final-sains-paud-q20",
+      "n": 20,
+      "prompt": "Tanah tidak membutuhkan air untuk minum dan bertumbuh, tapi mengapa air tetap penting untuk tanah?",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": "Agar tanah tidak terbang dan hilang terbawa angin",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Agar tanah tetap memiliki warna cokelat gelap",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Agar tanah lembap, subur, dan bisa membantu tanaman tumbuh",
+          "images": []
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    }
+  ]
+}

@@ -1,0 +1,572 @@
+{
+  "id": "s4-final-bahasa-inggris-paud",
+  "season": 4,
+  "round": "final",
+  "subject": "bahasa-inggris",
+  "level": "paud",
+  "printed": {
+    "title": "SOAL BAHASA INGGRIS BABAK FINAL",
+    "level": "PAUD SEDERAJAT",
+    "date": "FEBRUARI 2026",
+    "raw": [
+      "OLIMPIADE SISWA NASIONAL",
+      "SOAL BAHASA INGGRIS BABAK FINAL",
+      "PAUD SEDERAJAT",
+      "FEBRUARI 2026"
+    ]
+  },
+  "layoutSource": "pdf",
+  "answerSource": "docx",
+  "verified": false,
+  "questionCount": 20,
+  "playableCount": 17,
+  "warnings": [
+    "answer key read from the .docx (the shipped PDF is the unmarked student copy)",
+    "Q7: no answer highlight found",
+    "Q11: no answer highlight found",
+    "Q11: option a is empty",
+    "Q15: no answer highlight found",
+    "Q15: option a is empty"
+  ],
+  "questions": [
+    {
+      "id": "s4-final-bahasa-inggris-paud-q01",
+      "n": 1,
+      "prompt": "Which number is greater than six but smaller than nine?",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": "Five",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Ten",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Eight",
+          "images": []
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    },
+    {
+      "id": "s4-final-bahasa-inggris-paud-q02",
+      "n": 2,
+      "prompt": "How many red balls are there below?",
+      "images": [
+        "/soal/s4-final-bahasa-inggris-paud/q02-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "8",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "6",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "9",
+          "images": []
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    },
+    {
+      "id": "s4-final-bahasa-inggris-paud-q03",
+      "n": 3,
+      "prompt": "How many pairs of shoes are there?",
+      "images": [
+        "/soal/s4-final-bahasa-inggris-paud/q03-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "12",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "6",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "5",
+          "images": []
+        }
+      ],
+      "answer": "b",
+      "status": "ok"
+    },
+    {
+      "id": "s4-final-bahasa-inggris-paud-q04",
+      "n": 4,
+      "prompt": "Which number comes four steps after six?",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": "Ten",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Seven",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Two",
+          "images": []
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s4-final-bahasa-inggris-paud-q05",
+      "n": 5,
+      "prompt": "If you have four pairs, how many objects are there?",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": "Six",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Eight",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Four",
+          "images": []
+        }
+      ],
+      "answer": "b",
+      "status": "ok"
+    },
+    {
+      "id": "s4-final-bahasa-inggris-paud-q06",
+      "n": 6,
+      "prompt": "Rafi has many toys. His favorite toy is a teddy bear. The teddy bear is brown. What color is Rafi’s favorite toy?",
+      "images": [
+        "/soal/s4-final-bahasa-inggris-paud/q06-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Brown",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Colorful",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Blue",
+          "images": []
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s4-final-bahasa-inggris-paud-q07",
+      "n": 7,
+      "prompt": "Which group has more green ribbons than blue ribbons?",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": null,
+          "images": [
+            "/soal/s4-final-bahasa-inggris-paud/q07-a.webp"
+          ]
+        },
+        {
+          "key": "c",
+          "text": null,
+          "images": [
+            "/soal/s4-final-bahasa-inggris-paud/q07-c.webp"
+          ]
+        }
+      ],
+      "answer": null,
+      "status": "needs-review"
+    },
+    {
+      "id": "s4-final-bahasa-inggris-paud-q08",
+      "n": 8,
+      "prompt": "Which color is not on the umbrella?",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": "Rainbow colors",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "White",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Green",
+          "images": [
+            "/soal/s4-final-bahasa-inggris-paud/q08-c.webp"
+          ]
+        }
+      ],
+      "answer": "b",
+      "status": "ok"
+    },
+    {
+      "id": "s4-final-bahasa-inggris-paud-q09",
+      "n": 9,
+      "prompt": "Which of the following animals is bigger than a duck but smaller than a cow, except …",
+      "images": [
+        "/soal/s4-final-bahasa-inggris-paud/q09-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Pig",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Dog",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Frog",
+          "images": []
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    },
+    {
+      "id": "s4-final-bahasa-inggris-paud-q10",
+      "n": 10,
+      "prompt": "Which animal can bark?",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": null,
+          "images": [
+            "/soal/s4-final-bahasa-inggris-paud/q10-a.webp"
+          ]
+        },
+        {
+          "key": "b",
+          "text": null,
+          "images": [
+            "/soal/s4-final-bahasa-inggris-paud/q10-b.webp"
+          ]
+        },
+        {
+          "key": "c",
+          "text": null,
+          "images": [
+            "/soal/s4-final-bahasa-inggris-paud/q10-c.webp"
+          ]
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s4-final-bahasa-inggris-paud-q11",
+      "n": 11,
+      "prompt": "Which animal is a dragonfly?",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": null,
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": null,
+          "images": [
+            "/soal/s4-final-bahasa-inggris-paud/q11-b.webp"
+          ]
+        },
+        {
+          "key": "c",
+          "text": null,
+          "images": [
+            "/soal/s4-final-bahasa-inggris-paud/q11-c.webp"
+          ]
+        }
+      ],
+      "answer": null,
+      "status": "needs-review"
+    },
+    {
+      "id": "s4-final-bahasa-inggris-paud-q12",
+      "n": 12,
+      "prompt": "Which action uses your hands?",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": "Walk",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Jump",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Clap",
+          "images": []
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    },
+    {
+      "id": "s4-final-bahasa-inggris-paud-q13",
+      "n": 13,
+      "prompt": "William takes paper and bends it into two parts. What is William doing?",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": "Tearing",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Folding",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Cutting",
+          "images": []
+        }
+      ],
+      "answer": "b",
+      "status": "ok"
+    },
+    {
+      "id": "s4-final-bahasa-inggris-paud-q14",
+      "n": 14,
+      "prompt": "Zaya is on his hands and knees. He moves slowly on the floor. What is Zaya doing?",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": "Walking",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Jumping",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Crawling",
+          "images": []
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    },
+    {
+      "id": "s4-final-bahasa-inggris-paud-q15",
+      "n": 15,
+      "prompt": "“Touch your hair.” Which picture shows the correct action?",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": null,
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": null,
+          "images": [
+            "/soal/s4-final-bahasa-inggris-paud/q15-b.webp"
+          ]
+        },
+        {
+          "key": "c",
+          "text": null,
+          "images": [
+            "/soal/s4-final-bahasa-inggris-paud/q15-c.webp"
+          ]
+        }
+      ],
+      "answer": null,
+      "status": "needs-review"
+    },
+    {
+      "id": "s4-final-bahasa-inggris-paud-q16",
+      "n": 16,
+      "prompt": "Evelyn is __________ the door to move it away from her.",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": "Pulling",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Carrying",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Pushing",
+          "images": []
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    },
+    {
+      "id": "s4-final-bahasa-inggris-paud-q17",
+      "n": 17,
+      "prompt": "Eve wants to bring her lunch, water bottle, and book together. What should she use?",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": null,
+          "images": [
+            "/soal/s4-final-bahasa-inggris-paud/q17-a.webp"
+          ]
+        },
+        {
+          "key": "b",
+          "text": null,
+          "images": [
+            "/soal/s4-final-bahasa-inggris-paud/q17-b.webp"
+          ]
+        },
+        {
+          "key": "c",
+          "text": null,
+          "images": [
+            "/soal/s4-final-bahasa-inggris-paud/q17-c.webp"
+          ]
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    },
+    {
+      "id": "s4-final-bahasa-inggris-paud-q18",
+      "n": 18,
+      "prompt": "Lily hugs her __________ when she goes to sleep.",
+      "images": [
+        "/soal/s4-final-bahasa-inggris-paud/q18-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Bolster",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Ball",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Doll",
+          "images": []
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    },
+    {
+      "id": "s4-final-bahasa-inggris-paud-q19",
+      "n": 19,
+      "prompt": "Lucy reads quietly before sleeping. What object does she use?",
+      "images": [
+        "/soal/s4-final-bahasa-inggris-paud/q19-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Pillow",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Doll",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Storybook",
+          "images": []
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    },
+    {
+      "id": "s4-final-bahasa-inggris-paud-q20",
+      "n": 20,
+      "prompt": "Choose the picture that shows a pencil sharpener!",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": null,
+          "images": [
+            "/soal/s4-final-bahasa-inggris-paud/q20-a.webp"
+          ]
+        },
+        {
+          "key": "b",
+          "text": null,
+          "images": [
+            "/soal/s4-final-bahasa-inggris-paud/q20-b.webp"
+          ]
+        },
+        {
+          "key": "c",
+          "text": null,
+          "images": [
+            "/soal/s4-final-bahasa-inggris-paud/q20-c.webp"
+          ]
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    }
+  ]
+}

@@ -1,0 +1,579 @@
+{
+  "id": "s2-penyisihan-sains-tk-b",
+  "season": 2,
+  "round": "penyisihan",
+  "subject": "sains",
+  "level": "tk-b",
+  "printed": {
+    "title": "SOAL SAINS/IPA BABAK PENYISIHAN",
+    "level": "TK B SEDERAJAT",
+    "date": "MEI 2025",
+    "raw": [
+      "OLIMPIADE SISWA NASIONAL",
+      "SOAL SAINS/IPA BABAK PENYISIHAN",
+      "TK B SEDERAJAT",
+      "MEI 2025"
+    ]
+  },
+  "layoutSource": "pdf",
+  "answerSource": "pdf",
+  "verified": false,
+  "questionCount": 20,
+  "playableCount": 17,
+  "warnings": [
+    "Q1: no answer highlight found",
+    "Q5: option a is empty",
+    "Q12: no answer highlight found",
+    "Q12: option a is empty"
+  ],
+  "questions": [
+    {
+      "id": "s2-penyisihan-sains-tk-b-q01",
+      "n": 1,
+      "prompt": "Kita berlari menggunakan …..",
+      "images": [
+        "/soal/s2-penyisihan-sains-tk-b/q01-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Kaki",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Tangan",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Rambut",
+          "images": []
+        }
+      ],
+      "answer": null,
+      "status": "needs-review"
+    },
+    {
+      "id": "s2-penyisihan-sains-tk-b-q02",
+      "n": 2,
+      "prompt": "Kita dapat menggenggam remot dengan ….",
+      "images": [
+        "/soal/s2-penyisihan-sains-tk-b/q02-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Mata",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Telinga",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Tangan",
+          "images": []
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    },
+    {
+      "id": "s2-penyisihan-sains-tk-b-q03",
+      "n": 3,
+      "prompt": "Bagian tubuh untuk menyimpan makanan disebut …",
+      "images": [
+        "/soal/s2-penyisihan-sains-tk-b/q03-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Tangan",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Perut",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Lengan",
+          "images": []
+        }
+      ],
+      "answer": "b",
+      "status": "ok"
+    },
+    {
+      "id": "s2-penyisihan-sains-tk-b-q04",
+      "n": 4,
+      "prompt": "Bagian tubuh yang digunakan untuk mengunyah makanan adalah …",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": "Gigi",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Hidung",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Telinga",
+          "images": [
+            "/soal/s2-penyisihan-sains-tk-b/q04-c.webp"
+          ]
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s2-penyisihan-sains-tk-b-q05",
+      "n": 5,
+      "prompt": "Bagian tubuh yang digunakan untuk mendengar adalah ….",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": null,
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": null,
+          "images": [
+            "/soal/s2-penyisihan-sains-tk-b/q05-b.webp"
+          ]
+        },
+        {
+          "key": "c",
+          "text": null,
+          "images": [
+            "/soal/s2-penyisihan-sains-tk-b/q05-c.webp"
+          ]
+        }
+      ],
+      "answer": "b",
+      "status": "needs-review"
+    },
+    {
+      "id": "s2-penyisihan-sains-tk-b-q06",
+      "n": 6,
+      "prompt": "Bagian tubuh berikut adalah ….",
+      "images": [
+        "/soal/s2-penyisihan-sains-tk-b/q06-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Kepala",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Tangan",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Badan",
+          "images": []
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s2-penyisihan-sains-tk-b-q07",
+      "n": 7,
+      "prompt": "Lihat gambar kerbau berikut! Kerbau termasuk ….",
+      "images": [
+        "/soal/s2-penyisihan-sains-tk-b/q07-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Benda tidak hidup",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Makhluk hidup",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Mainan",
+          "images": []
+        }
+      ],
+      "answer": "b",
+      "status": "ok"
+    },
+    {
+      "id": "s2-penyisihan-sains-tk-b-q08",
+      "n": 8,
+      "prompt": "Batu termasuk ….",
+      "images": [
+        "/soal/s2-penyisihan-sains-tk-b/q08-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Benda tidak hidup",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Makhluk hidup",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Hewan",
+          "images": []
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s2-penyisihan-sains-tk-b-q09",
+      "n": 9,
+      "prompt": "Pilihlah yang termasuk makhluk hidup!",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": null,
+          "images": [
+            "/soal/s2-penyisihan-sains-tk-b/q09-a.webp"
+          ]
+        },
+        {
+          "key": "b",
+          "text": null,
+          "images": [
+            "/soal/s2-penyisihan-sains-tk-b/q09-b.webp"
+          ]
+        },
+        {
+          "key": "c",
+          "text": null,
+          "images": [
+            "/soal/s2-penyisihan-sains-tk-b/q09-c.webp"
+          ]
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    },
+    {
+      "id": "s2-penyisihan-sains-tk-b-q10",
+      "n": 10,
+      "prompt": "Di mana tempat tinggal ikan berikut?",
+      "images": [
+        "/soal/s2-penyisihan-sains-tk-b/q10-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Di pohon",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Di air",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Di pasir",
+          "images": []
+        }
+      ],
+      "answer": "b",
+      "status": "ok"
+    },
+    {
+      "id": "s2-penyisihan-sains-tk-b-q11",
+      "n": 11,
+      "prompt": "Di mana tupai biasanya tinggal?",
+      "images": [
+        "/soal/s2-penyisihan-sains-tk-b/q11-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Di darat",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Di laut",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Di air",
+          "images": []
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s2-penyisihan-sains-tk-b-q12",
+      "n": 12,
+      "prompt": "Hewan mana yang tinggal di darat?",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": null,
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": null,
+          "images": [
+            "/soal/s2-penyisihan-sains-tk-b/q12-b.webp"
+          ]
+        },
+        {
+          "key": "c",
+          "text": null,
+          "images": [
+            "/soal/s2-penyisihan-sains-tk-b/q12-c.webp"
+          ]
+        }
+      ],
+      "answer": null,
+      "status": "needs-review"
+    },
+    {
+      "id": "s2-penyisihan-sains-tk-b-q13",
+      "n": 13,
+      "prompt": "Di mana kuda laut hidup?",
+      "images": [
+        "/soal/s2-penyisihan-sains-tk-b/q13-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Di darat",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Di air",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Di langit",
+          "images": []
+        }
+      ],
+      "answer": "b",
+      "status": "ok"
+    },
+    {
+      "id": "s2-penyisihan-sains-tk-b-q14",
+      "n": 14,
+      "prompt": "Di mana tempat tinggal monyet?",
+      "images": [
+        "/soal/s2-penyisihan-sains-tk-b/q14-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Di laut",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Di air",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Di darat",
+          "images": []
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    },
+    {
+      "id": "s2-penyisihan-sains-tk-b-q15",
+      "n": 15,
+      "prompt": "Gurita tinggal di ….",
+      "images": [
+        "/soal/s2-penyisihan-sains-tk-b/q15-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Air",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Udara",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Darat",
+          "images": []
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s2-penyisihan-sains-tk-b-q16",
+      "n": 16,
+      "prompt": "Dimanakah ikan buntal hidup?",
+      "images": [
+        "/soal/s2-penyisihan-sains-tk-b/q16-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Di pohon",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Di air",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Di darat",
+          "images": []
+        }
+      ],
+      "answer": "b",
+      "status": "ok"
+    },
+    {
+      "id": "s2-penyisihan-sains-tk-b-q17",
+      "n": 17,
+      "prompt": "Andi bermain saat …",
+      "images": [
+        "/soal/s2-penyisihan-sains-tk-b/q17-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Siang hari",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Malam har",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Tengah malam",
+          "images": []
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s2-penyisihan-sains-tk-b-q18",
+      "n": 18,
+      "prompt": "Kakak dan adik sedang merawat tanaman saat ….",
+      "images": [
+        "/soal/s2-penyisihan-sains-tk-b/q18-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Malam hari",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Pagi hari",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Tengah malam",
+          "images": []
+        }
+      ],
+      "answer": "b",
+      "status": "ok"
+    },
+    {
+      "id": "s2-penyisihan-sains-tk-b-q19",
+      "n": 19,
+      "prompt": "Bulan dan bintang muncul saat …",
+      "images": [
+        "/soal/s2-penyisihan-sains-tk-b/q19-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Malam hari",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Pagi hari",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Siang hari",
+          "images": []
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s2-penyisihan-sains-tk-b-q20",
+      "n": 20,
+      "prompt": "Matahari muncul saat ….",
+      "images": [
+        "/soal/s2-penyisihan-sains-tk-b/q20-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Malam hari",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Tengah malam",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Pagi hari",
+          "images": []
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    }
+  ]
+}

@@ -1,0 +1,530 @@
+{
+  "id": "s4-final-sains-tk-b",
+  "season": 4,
+  "round": "final",
+  "subject": "sains",
+  "level": "tk-b",
+  "printed": {
+    "title": "SOAL SAINS/IPA BABAK FINAL",
+    "level": "TK B SEDERAJAT",
+    "date": "FEBRUARI 2026",
+    "raw": [
+      "OLIMPIADE SISWA NASIONAL",
+      "SOAL SAINS/IPA BABAK FINAL",
+      "TK B SEDERAJAT",
+      "FEBRUARI 2026"
+    ]
+  },
+  "layoutSource": "pdf",
+  "answerSource": "docx",
+  "verified": false,
+  "questionCount": 20,
+  "playableCount": 20,
+  "warnings": [
+    "answer key read from the .docx (the shipped PDF is the unmarked student copy)"
+  ],
+  "questions": [
+    {
+      "id": "s4-final-sains-tk-b-q01",
+      "n": 1,
+      "prompt": "Tubuh kita bisa membungkuk. Bagian tubuh manakah yang membantu tubuh melakukan gerakan tersebut?",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": "Leher",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Pundak",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Punggung",
+          "images": []
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    },
+    {
+      "id": "s4-final-sains-tk-b-q02",
+      "n": 2,
+      "prompt": "Aku adalah bagian tubuh yang digunakan untuk menyangga leher serta penghubung antara lengan dan tubuh bagian atas. Aku memiliki ukuran yang cukup lebar. Aku adalah …",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": "Pundak",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Punggung",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Pinggang",
+          "images": []
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s4-final-sains-tk-b-q03",
+      "n": 3,
+      "prompt": "Pernyataan berikut yang benar mengenai fungsi kelopak mata adalah …",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": "Terletak di bagian luar depan bola mata",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Membantu tidur dan bangun saat malam hari",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Membantu membuka dan menutup mata",
+          "images": []
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    },
+    {
+      "id": "s4-final-sains-tk-b-q04",
+      "n": 4,
+      "prompt": "Kulit menutupi hampir seluruh bagian tubuh manusia. Mengapa demikian?",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": "Karena tubuh akan terlihat jelek dan runtuh jika tidak ada kulit",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Agar bagian tubuh tetap menyatu dan tidak jatuh",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Untuk melindungi tubuh dari benda tajam, panas, dan kotoran",
+          "images": []
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    },
+    {
+      "id": "s4-final-sains-tk-b-q05",
+      "n": 5,
+      "prompt": "Berikut ini, manfaat dari air dan matahari bagi makhluk hidup adalah …",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": "Membuat karpet bersih dan kering",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Membantu tanaman tumbuh",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Membuat manusia bisa tidur nyenyak",
+          "images": []
+        }
+      ],
+      "answer": "b",
+      "status": "ok"
+    },
+    {
+      "id": "s4-final-sains-tk-b-q06",
+      "n": 6,
+      "prompt": "Budi menanam bunga, selalu disiram dan dijemur di teras. Jika Budi tidak melakukan salah satu perawatan tersebut, bunga menjadi layu. Kesimpulan yang paling tepat mengenai manfaat air dan matahari dari cerita di atas adalah …",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": "Budi tidak boleh malas merawat bunga",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Matahari paling penting untuk pertumbuhan bunga, sementara air tidak terlalu penting",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Air dan matahari sama-sama penting bagi pertumbuhan bunga",
+          "images": []
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    },
+    {
+      "id": "s4-final-sains-tk-b-q07",
+      "n": 7,
+      "prompt": "Siput hidup di tempat yang lembap karena kulitnya mudah kering. Namun mengapa siput tetap membutuhkan matahari?",
+      "images": [
+        "/soal/s4-final-sains-tk-b/q07-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Matahari membantu kulit siput selalu kering",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Matahari membantu siput menghangatkan tubuh",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Matahari membantu rumah siput selalu kering dan tidak lembap",
+          "images": []
+        }
+      ],
+      "answer": "b",
+      "status": "ok"
+    },
+    {
+      "id": "s4-final-sains-tk-b-q08",
+      "n": 8,
+      "prompt": "Isilah titik-titik berikut dengan jawaban yang paling tepat! Manusia membutuhkan ….. untuk membantu ….. hasil panen padi agar dapat disimpan lebih lama.",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": "Air, membasahi",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Matahari, menumbuhkan",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Matahari, mengeringkan",
+          "images": []
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    },
+    {
+      "id": "s4-final-sains-tk-b-q09",
+      "n": 9,
+      "prompt": "Benda berikut dapat mencair atau meleleh, kecuali ….",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": "Kapur barus",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Lilin",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Mentega",
+          "images": []
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s4-final-sains-tk-b-q10",
+      "n": 10,
+      "prompt": "Manakah yang tidak mengalami perubahan bentuk?",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": "Es krim yang diletakkan di rak sepatu pada malam hari",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Kayu yang dibakar untuk menghangatkan diri",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Air yang diletakkan di meja pada siang hari",
+          "images": []
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    },
+    {
+      "id": "s4-final-sains-tk-b-q11",
+      "n": 11,
+      "prompt": "Cokelat yang awalnya keras menjadi lembek setelah diletakkan di meja pada siang hari. Hal ini terjadi karena …",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": "Cokelat menerima panas dari lingkungan",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Cokelat berubah karena disentuh meja",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Cokelat terkena udara panas dan sentuhan meja disiang hari",
+          "images": []
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s4-final-sains-tk-b-q12",
+      "n": 12,
+      "prompt": "Ibu menuangkan air ke dalam wadah, lalu meletakkannya di dalam kulkas. Beberapa waktu kemudian, air tersebut menjadi keras dan dingin. Hal ini menandakan bahwa es batu sudah siap digunakan. Berdasarkan cerita di atas, perubahan wujud benda yang terjadi adalah …",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": "Dari cair menjadi dingin",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Dari cair menjadi padat",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Dari cair menjadi uap es",
+          "images": []
+        }
+      ],
+      "answer": "b",
+      "status": "ok"
+    },
+    {
+      "id": "s4-final-sains-tk-b-q13",
+      "n": 13,
+      "prompt": "Aktivitas manusia berkurang pada malam hari karena …",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": "Langit gelap",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Banyak orang beristirahat",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Udara sangat dingin dan berdebu",
+          "images": []
+        }
+      ],
+      "answer": "b",
+      "status": "ok"
+    },
+    {
+      "id": "s4-final-sains-tk-b-q14",
+      "n": 14,
+      "prompt": "Perbedaan aktivitas siang dan malam dipengaruhi oleh …",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": "Keberadaan matahari",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Warna langit",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Banyaknya manusia",
+          "images": []
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s4-final-sains-tk-b-q15",
+      "n": 15,
+      "prompt": "Saat matahari terbit, Ciya bangun tidur, mandi, sarapan, dan bersiap ke sekolah. Di sekolah, Ciya belajar dan bermain bersama teman-temannya. Saat matahari terbenam, Ciya pulang ke rumah, makan malam, lalu tidur. Berdasarkan cerita tersebut, pada waktu apa Ciya melakukan kegiatan paling banyak?",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": "Malam hari",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Setelah matahari terbenam",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Pagi dan siang hari",
+          "images": []
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    },
+    {
+      "id": "s4-final-sains-tk-b-q16",
+      "n": 16,
+      "prompt": "Pekerjaan berikut yang lebih sering dilakukan saat malam hari adalah …",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": "Petani menanam padi",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Nelayan menangkap ikan",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Pedagang es keliling",
+          "images": []
+        }
+      ],
+      "answer": "b",
+      "status": "ok"
+    },
+    {
+      "id": "s4-final-sains-tk-b-q17",
+      "n": 17,
+      "prompt": "Menghemat air berarti …",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": "Menggunakan air sebanyak-banyaknya",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Menggunakan air secukupnya sesuai kebutuhan",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Menggunakan setetes air untuk setiap kegiatan",
+          "images": []
+        }
+      ],
+      "answer": "b",
+      "status": "ok"
+    },
+    {
+      "id": "s4-final-sains-tk-b-q18",
+      "n": 18,
+      "prompt": "Setiap kali hari ulang tahunnya, Giya selalu berkumpul dan makan bersama keluarganya. Selain itu, Giya juga menanam satu pohon di halaman rumahnya setiap ulang tahun. Orang tua Giya mengajarkannya bahwa menanam pohon dapat membuat udara lebih segar dan lingkungan menjadi lebih sehat. Kebiasaan ini terus dilakukan Giya setiap tahun. Berdasarkan cerita di atas, kebiasaan menjaga lingkungan yang dilakukan oleh Giya adalah …",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": "Berkumpul dan makan bersama keluarga",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Menanam satu pohon setiap bulan",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Menanam satu pohon di halaman rumah setiap tahun",
+          "images": []
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    },
+    {
+      "id": "s4-final-sains-tk-b-q19",
+      "n": 19,
+      "prompt": "Setiap kali hari ulang tahunnya, Giya selalu berkumpul dan makan bersama keluarganya. Selain itu, Giya juga menanam satu pohon di halaman rumahnya setiap ulang tahun. Orang tua Giya mengajarkannya bahwa menanam pohon dapat membuat udara lebih segar dan lingkungan menjadi lebih sehat. Kebiasaan ini terus dilakukan Giya setiap tahun. Berdasarkan cerita tentang Giya, apa manfaat menanam pohon?",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": "Udara menjadi lebih segar dan lingkungan lebih sehat",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Tanah tidak mudah longsor",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Halaman rumah tidak mudah banjir",
+          "images": []
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s4-final-sains-tk-b-q20",
+      "n": 20,
+      "prompt": "Giya memiliki kebiasaan menanam pohon setiap tahun untuk menjaga lingkungan. Kebiasaan berikut yang berlawanan dengan kebiasaan Giya adalah …",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": "Membuang sampah sembarangan di hutan",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Menebang pohon tanpa menanam kembali",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Menyiram pohon setiap 30 menit sekali",
+          "images": []
+        }
+      ],
+      "answer": "b",
+      "status": "ok"
+    }
+  ]
+}

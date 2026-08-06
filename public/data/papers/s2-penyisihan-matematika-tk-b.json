@@ -1,0 +1,573 @@
+{
+  "id": "s2-penyisihan-matematika-tk-b",
+  "season": 2,
+  "round": "penyisihan",
+  "subject": "matematika",
+  "level": "tk-b",
+  "printed": {
+    "title": "SOAL MATEMATIKA BABAK PENYISIHAN",
+    "level": "TK B SEDERAJAT",
+    "date": "MEI 2025",
+    "raw": [
+      "OLIMPIADE SISWA NASIONAL",
+      "SOAL MATEMATIKA BABAK PENYISIHAN",
+      "TK B SEDERAJAT",
+      "MEI 2025"
+    ]
+  },
+  "layoutSource": "pdf",
+  "answerSource": "pdf",
+  "verified": false,
+  "questionCount": 20,
+  "playableCount": 18,
+  "warnings": [
+    "Q7: no answer highlight found",
+    "Q7: option a is empty"
+  ],
+  "questions": [
+    {
+      "id": "s2-penyisihan-matematika-tk-b-q01",
+      "n": 1,
+      "prompt": "Angka di bawah ini dibaca ….",
+      "images": [
+        "/soal/s2-penyisihan-matematika-tk-b/q01-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Sebelas",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Tiga",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Limabelas",
+          "images": []
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s2-penyisihan-matematika-tk-b-q02",
+      "n": 2,
+      "prompt": "Hitunglah jumlah bunga pada gambar di bawah ini!",
+      "images": [
+        "/soal/s2-penyisihan-matematika-tk-b/q02-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "8",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "14",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "9",
+          "images": []
+        }
+      ],
+      "answer": "b",
+      "status": "ok"
+    },
+    {
+      "id": "s2-penyisihan-matematika-tk-b-q03",
+      "n": 3,
+      "prompt": "Manakah angka di bawah ini yang menunjukkan angka dua belas?",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": ".",
+          "images": [
+            "/soal/s2-penyisihan-matematika-tk-b/q03-a.webp"
+          ]
+        },
+        {
+          "key": "b",
+          "text": "..",
+          "images": [
+            "/soal/s2-penyisihan-matematika-tk-b/q03-b.webp"
+          ]
+        },
+        {
+          "key": "c",
+          "text": null,
+          "images": [
+            "/soal/s2-penyisihan-matematika-tk-b/q03-c.webp"
+          ]
+        }
+      ],
+      "answer": "b",
+      "status": "ok"
+    },
+    {
+      "id": "s2-penyisihan-matematika-tk-b-q04",
+      "n": 4,
+      "prompt": "Angka di bawah ini dibaca ….",
+      "images": [
+        "/soal/s2-penyisihan-matematika-tk-b/q04-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Sebelas",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Sembilan",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Tiga belas",
+          "images": []
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    },
+    {
+      "id": "s2-penyisihan-matematika-tk-b-q05",
+      "n": 5,
+      "prompt": "Berapa hasil dari penjumlahan berikut?",
+      "images": [
+        "/soal/s2-penyisihan-matematika-tk-b/q05-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "14",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "11",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "9",
+          "images": []
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s2-penyisihan-matematika-tk-b-q06",
+      "n": 6,
+      "prompt": "Selesaikan penjumlahan berikut!",
+      "images": [
+        "/soal/s2-penyisihan-matematika-tk-b/q06-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "11",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "10",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "13",
+          "images": []
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    },
+    {
+      "id": "s2-penyisihan-matematika-tk-b-q07",
+      "n": 7,
+      "prompt": "Selesaikan penjumlahan berikut!",
+      "images": [
+        "/soal/s2-penyisihan-matematika-tk-b/q07-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": null,
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": null,
+          "images": [
+            "/soal/s2-penyisihan-matematika-tk-b/q07-c.webp"
+          ]
+        }
+      ],
+      "answer": null,
+      "status": "needs-review"
+    },
+    {
+      "id": "s2-penyisihan-matematika-tk-b-q08",
+      "n": 8,
+      "prompt": "Selesaikan pengurangan berikut!",
+      "images": [
+        "/soal/s2-penyisihan-matematika-tk-b/q08-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "9",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "4",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "6",
+          "images": []
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s2-penyisihan-matematika-tk-b-q09",
+      "n": 9,
+      "prompt": "Selesaikan pengurangan berikut!",
+      "images": [
+        "/soal/s2-penyisihan-matematika-tk-b/q09-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": null,
+          "images": [
+            "/soal/s2-penyisihan-matematika-tk-b/q09-a.webp"
+          ]
+        },
+        {
+          "key": "b",
+          "text": null,
+          "images": [
+            "/soal/s2-penyisihan-matematika-tk-b/q09-b.webp"
+          ]
+        },
+        {
+          "key": "c",
+          "text": null,
+          "images": [
+            "/soal/s2-penyisihan-matematika-tk-b/q09-c.webp"
+          ]
+        }
+      ],
+      "answer": "b",
+      "status": "ok"
+    },
+    {
+      "id": "s2-penyisihan-matematika-tk-b-q10",
+      "n": 10,
+      "prompt": "Selesaikan pengurangan berikut!",
+      "images": [
+        "/soal/s2-penyisihan-matematika-tk-b/q10-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "15",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "9",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "10",
+          "images": []
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    },
+    {
+      "id": "s2-penyisihan-matematika-tk-b-q11",
+      "n": 11,
+      "prompt": "Jam dinding di bawah ini memiliki bentuk seperti....",
+      "images": [
+        "/soal/s2-penyisihan-matematika-tk-b/q11-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Lingkaran",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Persegi",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Segitiga",
+          "images": []
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s2-penyisihan-matematika-tk-b-q12",
+      "n": 12,
+      "prompt": "Hewan di bawah ini memiliki bentuk seperti ….",
+      "images": [
+        "/soal/s2-penyisihan-matematika-tk-b/q12-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Lingkaran",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Persegi",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Bintang",
+          "images": []
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    },
+    {
+      "id": "s2-penyisihan-matematika-tk-b-q13",
+      "n": 13,
+      "prompt": "Di bawah ini yang memiliki bentuk segitiga adalah …",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": "… c.",
+          "images": [
+            "/soal/s2-penyisihan-matematika-tk-b/q13-a.webp"
+          ]
+        },
+        {
+          "key": "b",
+          "text": null,
+          "images": [
+            "/soal/s2-penyisihan-matematika-tk-b/q13-b.webp"
+          ]
+        }
+      ],
+      "answer": "a",
+      "status": "needs-review"
+    },
+    {
+      "id": "s2-penyisihan-matematika-tk-b-q14",
+      "n": 14,
+      "prompt": "Pohon mana yang paling rendah?",
+      "images": [
+        "/soal/s2-penyisihan-matematika-tk-b/q14-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Pohon A",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Pohon A dan B",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Pohon B",
+          "images": []
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    },
+    {
+      "id": "s2-penyisihan-matematika-tk-b-q15",
+      "n": 15,
+      "prompt": "Buah manakah yang lebih berat?",
+      "images": [
+        "/soal/s2-penyisihan-matematika-tk-b/q15-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Apel",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Persik",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Sama berat",
+          "images": []
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s2-penyisihan-matematika-tk-b-q16",
+      "n": 16,
+      "prompt": "Adik memiliki tinggi badan yang lebih.... daripada kakak.",
+      "images": [
+        "/soal/s2-penyisihan-matematika-tk-b/q16-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Tinggi",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Pendek",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Berat",
+          "images": []
+        }
+      ],
+      "answer": "b",
+      "status": "ok"
+    },
+    {
+      "id": "s2-penyisihan-matematika-tk-b-q17",
+      "n": 17,
+      "prompt": "Ani bangun tidur di …. hari.",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": "Malam",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Sore",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Pagi",
+          "images": [
+            "/soal/s2-penyisihan-matematika-tk-b/q17-c.webp"
+          ]
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    },
+    {
+      "id": "s2-penyisihan-matematika-tk-b-q18",
+      "n": 18,
+      "prompt": "Berapa jumlah lilin pada gambar berikut?",
+      "images": [
+        "/soal/s2-penyisihan-matematika-tk-b/q18-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "10",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "13",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "5",
+          "images": []
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s2-penyisihan-matematika-tk-b-q19",
+      "n": 19,
+      "prompt": "Selesaikan pengurangan berikut!",
+      "images": [
+        "/soal/s2-penyisihan-matematika-tk-b/q19-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "7",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "8",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "10",
+          "images": []
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    },
+    {
+      "id": "s2-penyisihan-matematika-tk-b-q20",
+      "n": 20,
+      "prompt": "Berapa buah jeruk yang ada pada gambar berikut?",
+      "images": [
+        "/soal/s2-penyisihan-matematika-tk-b/q20-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "11",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "6",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "15",
+          "images": []
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    }
+  ]
+}

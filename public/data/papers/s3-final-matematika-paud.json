@@ -1,0 +1,606 @@
+{
+  "id": "s3-final-matematika-paud",
+  "season": 3,
+  "round": "final",
+  "subject": "matematika",
+  "level": "paud",
+  "printed": {
+    "title": "SOAL MATEMATIKA BABAK FINAL",
+    "level": "PAUD SEDERAJAT",
+    "date": "OKTOBER 2025",
+    "raw": [
+      "OLIMPIADE SISWA NASIONAL",
+      "SOAL MATEMATIKA BABAK FINAL",
+      "PAUD SEDERAJAT",
+      "OKTOBER 2025"
+    ]
+  },
+  "layoutSource": "docx",
+  "answerSource": "docx",
+  "verified": false,
+  "questionCount": 20,
+  "playableCount": 18,
+  "warnings": [
+    "Q9: no answer highlight found",
+    "Q9: option a is empty",
+    "Q19: no answer highlight found",
+    "Q19: option a is empty"
+  ],
+  "questions": [
+    {
+      "id": "s3-final-matematika-paud-q01",
+      "n": 1,
+      "prompt": "Angka manakah yang tidak ada pada deret berikut?",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": "3 dan 8",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "8 dan 4",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "4 dan 8",
+          "images": []
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    },
+    {
+      "id": "s3-final-matematika-paud-q02",
+      "n": 2,
+      "prompt": "Ada berapa kelereng di dalam lingkaran berikut?",
+      "images": [
+        "/soal/s3-final-matematika-paud/q02-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "6",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "7",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "10",
+          "images": [
+            "/soal/s3-final-matematika-paud/q02-c.webp"
+          ]
+        }
+      ],
+      "answer": "b",
+      "status": "ok"
+    },
+    {
+      "id": "s3-final-matematika-paud-q03",
+      "n": 3,
+      "prompt": "Angka yang tepat untuk melengkapi bagian yang kosong adalah...",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": "4 dan 5",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "5 dan 1",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "5 dan 4",
+          "images": []
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    },
+    {
+      "id": "s3-final-matematika-paud-q04",
+      "n": 4,
+      "prompt": "Hitunglah bunga di bawah ini!",
+      "images": [
+        "/soal/s3-final-matematika-paud/q04-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "9",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "8",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "7",
+          "images": []
+        }
+      ],
+      "answer": "b",
+      "status": "ok"
+    },
+    {
+      "id": "s3-final-matematika-paud-q05",
+      "n": 5,
+      "prompt": "Selesaikan penjumlahan di bawah ini!",
+      "images": [
+        "/soal/s3-final-matematika-paud/q05-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "10",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "9",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "4",
+          "images": []
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s3-final-matematika-paud-q06",
+      "n": 6,
+      "prompt": "Selesaikan penjumlahan berikut!",
+      "images": [
+        "/soal/s3-final-matematika-paud/q06-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": null,
+          "images": [
+            "/soal/s3-final-matematika-paud/q06-a.webp"
+          ]
+        },
+        {
+          "key": "b",
+          "text": null,
+          "images": [
+            "/soal/s3-final-matematika-paud/q06-b.webp"
+          ]
+        },
+        {
+          "key": "c",
+          "text": null,
+          "images": [
+            "/soal/s3-final-matematika-paud/q06-c.webp"
+          ]
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    },
+    {
+      "id": "s3-final-matematika-paud-q07",
+      "n": 7,
+      "prompt": "Penjumlahan berikut yang hasilnya 7 adalah …",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": null,
+          "images": [
+            "/soal/s3-final-matematika-paud/q07-a.webp"
+          ]
+        },
+        {
+          "key": "b",
+          "text": null,
+          "images": [
+            "/soal/s3-final-matematika-paud/q07-b.webp"
+          ]
+        },
+        {
+          "key": "c",
+          "text": null,
+          "images": [
+            "/soal/s3-final-matematika-paud/q07-c.webp",
+            "/soal/s3-final-matematika-paud/q07-c-2.webp"
+          ]
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    },
+    {
+      "id": "s3-final-matematika-paud-q08",
+      "n": 8,
+      "prompt": "Hitung hasil penjumlahan di bawah ini!",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": "8",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "9",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "10",
+          "images": []
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s3-final-matematika-paud-q09",
+      "n": 9,
+      "prompt": "Selesaikan pengurangan berikut!",
+      "images": [
+        "/soal/s3-final-matematika-paud/q09-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": null,
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": null,
+          "images": [
+            "/soal/s3-final-matematika-paud/q09-c.webp"
+          ]
+        }
+      ],
+      "answer": null,
+      "status": "needs-review"
+    },
+    {
+      "id": "s3-final-matematika-paud-q10",
+      "n": 10,
+      "prompt": "Berapa hasil pengurangan berikut …",
+      "images": [
+        "/soal/s3-final-matematika-paud/q10-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "4",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "6",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "3",
+          "images": [
+            "/soal/s3-final-matematika-paud/q10-c.webp"
+          ]
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    },
+    {
+      "id": "s3-final-matematika-paud-q11",
+      "n": 11,
+      "prompt": "Hitunglah hasil pengurangan berikut!",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": "4",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "5",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "6",
+          "images": []
+        }
+      ],
+      "answer": "b",
+      "status": "ok"
+    },
+    {
+      "id": "s3-final-matematika-paud-q12",
+      "n": 12,
+      "prompt": "Potongan pizza memiliki bentuk yang mirip dengan …",
+      "images": [
+        "/soal/s3-final-matematika-paud/q12-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": null,
+          "images": [
+            "/soal/s3-final-matematika-paud/q12-a.webp"
+          ]
+        },
+        {
+          "key": "b",
+          "text": null,
+          "images": [
+            "/soal/s3-final-matematika-paud/q12-b.webp"
+          ]
+        },
+        {
+          "key": "c",
+          "text": null,
+          "images": [
+            "/soal/s3-final-matematika-paud/q12-c.webp"
+          ]
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s3-final-matematika-paud-q13",
+      "n": 13,
+      "prompt": "Kelompok benda manakah yang semuanya berbentuk persegi?",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": null,
+          "images": [
+            "/soal/s3-final-matematika-paud/q13-a.webp"
+          ]
+        },
+        {
+          "key": "b",
+          "text": null,
+          "images": [
+            "/soal/s3-final-matematika-paud/q13-b.webp"
+          ]
+        },
+        {
+          "key": "c",
+          "text": null,
+          "images": [
+            "/soal/s3-final-matematika-paud/q13-c.webp"
+          ]
+        }
+      ],
+      "answer": "b",
+      "status": "ok"
+    },
+    {
+      "id": "s3-final-matematika-paud-q14",
+      "n": 14,
+      "prompt": "Gambar manakah yang menunjukkan semua benda berjumlah 7?",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": null,
+          "images": [
+            "/soal/s3-final-matematika-paud/q14-a.webp"
+          ]
+        },
+        {
+          "key": "b",
+          "text": null,
+          "images": [
+            "/soal/s3-final-matematika-paud/q14-b.webp"
+          ]
+        },
+        {
+          "key": "c",
+          "text": null,
+          "images": [
+            "/soal/s3-final-matematika-paud/q14-c.webp"
+          ]
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s3-final-matematika-paud-q15",
+      "n": 15,
+      "prompt": "Kelompok mana yang memiliki jumlah sama?",
+      "images": [
+        "/soal/s3-final-matematika-paud/q15-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Kelompok A dan C",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Kelompok A dan B",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Kelompok B dan C",
+          "images": []
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    },
+    {
+      "id": "s3-final-matematika-paud-q16",
+      "n": 16,
+      "prompt": "Ada berapa bentuk segitiga pada gambar di bawah ini?",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": "7",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "8",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "6",
+          "images": [
+            "/soal/s3-final-matematika-paud/q16-c.webp",
+            "/soal/s3-final-matematika-paud/q16-c-2.webp"
+          ]
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s3-final-matematika-paud-q17",
+      "n": 17,
+      "prompt": "Gambar selanjutnya dari pola berikut adalah …",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": "eg",
+          "images": [
+            "/soal/s3-final-matematika-paud/q17-a.webp"
+          ]
+        },
+        {
+          "key": "b",
+          "text": null,
+          "images": [
+            "/soal/s3-final-matematika-paud/q17-b.webp"
+          ]
+        },
+        {
+          "key": "c",
+          "text": null,
+          "images": [
+            "/soal/s3-final-matematika-paud/q17-c.webp"
+          ]
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s3-final-matematika-paud-q18",
+      "n": 18,
+      "prompt": "Lengkapilah pola berikut ini!",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": null,
+          "images": [
+            "/soal/s3-final-matematika-paud/q18-a.webp"
+          ]
+        },
+        {
+          "key": "b",
+          "text": null,
+          "images": [
+            "/soal/s3-final-matematika-paud/q18-b.webp"
+          ]
+        },
+        {
+          "key": "c",
+          "text": null,
+          "images": [
+            "/soal/s3-final-matematika-paud/q18-c.webp"
+          ]
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s3-final-matematika-paud-q19",
+      "n": 19,
+      "prompt": "Benda di bawah ini yang memiliki bentuk seperti lingkaran dan bisa menggelinding adalah…",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": null,
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": null,
+          "images": [
+            "/soal/s3-final-matematika-paud/q19-b.webp"
+          ]
+        },
+        {
+          "key": "c",
+          "text": null,
+          "images": [
+            "/soal/s3-final-matematika-paud/q19-c.webp"
+          ]
+        }
+      ],
+      "answer": null,
+      "status": "needs-review"
+    },
+    {
+      "id": "s3-final-matematika-paud-q20",
+      "n": 20,
+      "prompt": "Gambarkan pola berikutnya!",
+      "images": [
+        "/soal/s3-final-matematika-paud/q20-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": null,
+          "images": [
+            "/soal/s3-final-matematika-paud/q20-a.webp"
+          ]
+        },
+        {
+          "key": "b",
+          "text": null,
+          "images": [
+            "/soal/s3-final-matematika-paud/q20-b.webp"
+          ]
+        },
+        {
+          "key": "c",
+          "text": null,
+          "images": [
+            "/soal/s3-final-matematika-paud/q20-c.webp"
+          ]
+        }
+      ],
+      "answer": "b",
+      "status": "ok"
+    }
+  ]
+}

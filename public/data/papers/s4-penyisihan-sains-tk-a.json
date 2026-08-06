@@ -1,0 +1,590 @@
+{
+  "id": "s4-penyisihan-sains-tk-a",
+  "season": 4,
+  "round": "penyisihan",
+  "subject": "sains",
+  "level": "tk-a",
+  "printed": {
+    "title": "SOAL SAINS/IPA BABAK PENYISIHAN",
+    "level": "TK A SEDERAJAT",
+    "date": "JANUARI 2026",
+    "raw": [
+      "OLIMPIADE SISWA NASIONAL",
+      "SOAL SAINS/IPA BABAK PENYISIHAN",
+      "TK A SEDERAJAT",
+      "JANUARI 2026"
+    ]
+  },
+  "layoutSource": "docx",
+  "answerSource": "docx",
+  "verified": false,
+  "questionCount": 20,
+  "playableCount": 20,
+  "warnings": [],
+  "questions": [
+    {
+      "id": "s4-penyisihan-sains-tk-a-q01",
+      "n": 1,
+      "prompt": "Bagian tubuh apa yang digunakan untuk merasakan rasa es krim?",
+      "images": [
+        "/soal/s4-penyisihan-sains-tk-a/q01-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Tangan",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Rambut",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Lidah",
+          "images": []
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    },
+    {
+      "id": "s4-penyisihan-sains-tk-a-q02",
+      "n": 2,
+      "prompt": "Manakah gambar berikut yang menunjukkan fungsi hidung?",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": null,
+          "images": [
+            "/soal/s4-penyisihan-sains-tk-a/q02-a.webp"
+          ]
+        },
+        {
+          "key": "b",
+          "text": null,
+          "images": [
+            "/soal/s4-penyisihan-sains-tk-a/q02-b.webp"
+          ]
+        },
+        {
+          "key": "c",
+          "text": null,
+          "images": [
+            "/soal/s4-penyisihan-sains-tk-a/q02-c.webp"
+          ]
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s4-penyisihan-sains-tk-a-q03",
+      "n": 3,
+      "prompt": "Telinga digunakan untuk ….",
+      "images": [
+        "/soal/s4-penyisihan-sains-tk-a/q03-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Membaca",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Mendengar",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Menulis",
+          "images": []
+        }
+      ],
+      "answer": "b",
+      "status": "ok"
+    },
+    {
+      "id": "s4-penyisihan-sains-tk-a-q04",
+      "n": 4,
+      "prompt": "Kulit digunakan untuk merasakan ….",
+      "images": [
+        "/soal/s4-penyisihan-sains-tk-a/q04-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Sentuhan",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Suara",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Bau",
+          "images": []
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s4-penyisihan-sains-tk-a-q05",
+      "n": 5,
+      "prompt": "Tumbuhan membutuhkan matahari untuk ….",
+      "images": [
+        "/soal/s4-penyisihan-sains-tk-a/q05-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Tidur",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Berjalan",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Tumbuh",
+          "images": []
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    },
+    {
+      "id": "s4-penyisihan-sains-tk-a-q06",
+      "n": 6,
+      "prompt": "Dengan adanya matahari, bumi menjadi ….",
+      "images": [
+        "/soal/s4-penyisihan-sains-tk-a/q06-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Terang",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Dingin",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Gelap",
+          "images": []
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s4-penyisihan-sains-tk-a-q07",
+      "n": 7,
+      "prompt": "Kegiatan berikut yang memanfaatkan sinar matahari, kecuali…",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": null,
+          "images": [
+            "/soal/s4-penyisihan-sains-tk-a/q07-a.webp"
+          ]
+        },
+        {
+          "key": "b",
+          "text": null,
+          "images": [
+            "/soal/s4-penyisihan-sains-tk-a/q07-b.webp"
+          ]
+        },
+        {
+          "key": "c",
+          "text": null,
+          "images": [
+            "/soal/s4-penyisihan-sains-tk-a/q07-c.webp"
+          ]
+        }
+      ],
+      "answer": "b",
+      "status": "ok"
+    },
+    {
+      "id": "s4-penyisihan-sains-tk-a-q08",
+      "n": 8,
+      "prompt": "Matahari dapat digunakan untuk ….",
+      "images": [
+        "/soal/s4-penyisihan-sains-tk-a/q08-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Menanam pohon",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Menjemur pakaian",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Mencuci kendaraan",
+          "images": []
+        }
+      ],
+      "answer": "b",
+      "status": "ok"
+    },
+    {
+      "id": "s4-penyisihan-sains-tk-a-q09",
+      "n": 9,
+      "prompt": "Jika langit gelap dan turun air dari langit, cuacanya adalah ….",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": "Hujan",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Cerah",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Mendung",
+          "images": [
+            "/soal/s4-penyisihan-sains-tk-a/q09-c.webp"
+          ]
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s4-penyisihan-sains-tk-a-q10",
+      "n": 10,
+      "prompt": "Cuaca saat banyak awan di langit disebut ….",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": "Cuaca hujan",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Cuaca hujan petir",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Cuaca berawan",
+          "images": [
+            "/soal/s4-penyisihan-sains-tk-a/q10-c.webp"
+          ]
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    },
+    {
+      "id": "s4-penyisihan-sains-tk-a-q11",
+      "n": 11,
+      "prompt": "Rara dan keluarga melakukan piknik saat cuaca ….",
+      "images": [
+        "/soal/s4-penyisihan-sains-tk-a/q11-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Cerah",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Mendung",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Hujan petir",
+          "images": []
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s4-penyisihan-sains-tk-a-q12",
+      "n": 12,
+      "prompt": "Gambar manakah yang menunjukkan cuaca cerah?",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": null,
+          "images": [
+            "/soal/s4-penyisihan-sains-tk-a/q12-a.webp"
+          ]
+        },
+        {
+          "key": "b",
+          "text": null,
+          "images": [
+            "/soal/s4-penyisihan-sains-tk-a/q12-b.webp"
+          ]
+        },
+        {
+          "key": "c",
+          "text": null,
+          "images": [
+            "/soal/s4-penyisihan-sains-tk-a/q12-c.webp"
+          ]
+        }
+      ],
+      "answer": "b",
+      "status": "ok"
+    },
+    {
+      "id": "s4-penyisihan-sains-tk-a-q13",
+      "n": 13,
+      "prompt": "Air merupakan …",
+      "images": [
+        "/soal/s4-penyisihan-sains-tk-a/q13-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Benda hidup",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Benda mati",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Mainan",
+          "images": []
+        }
+      ],
+      "answer": "b",
+      "status": "ok"
+    },
+    {
+      "id": "s4-penyisihan-sains-tk-a-q14",
+      "n": 14,
+      "prompt": "Manakah di bawah ini yang merupakan makhluk hidup?",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": null,
+          "images": [
+            "/soal/s4-penyisihan-sains-tk-a/q14-a.webp"
+          ]
+        },
+        {
+          "key": "b",
+          "text": "iujyhtg",
+          "images": [
+            "/soal/s4-penyisihan-sains-tk-a/q14-b.webp"
+          ]
+        },
+        {
+          "key": "c",
+          "text": null,
+          "images": [
+            "/soal/s4-penyisihan-sains-tk-a/q14-c.webp"
+          ]
+        }
+      ],
+      "answer": "b",
+      "status": "ok"
+    },
+    {
+      "id": "s4-penyisihan-sains-tk-a-q15",
+      "n": 15,
+      "prompt": "Tanaman merupakan ….",
+      "images": [
+        "/soal/s4-penyisihan-sains-tk-a/q15-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Makhluk hidup",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Mainan",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Benda mati",
+          "images": []
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s4-penyisihan-sains-tk-a-q16",
+      "n": 16,
+      "prompt": "Manakah yang merupakan benda mati?",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": null,
+          "images": [
+            "/soal/s4-penyisihan-sains-tk-a/q16-a.webp"
+          ]
+        },
+        {
+          "key": "b",
+          "text": null,
+          "images": [
+            "/soal/s4-penyisihan-sains-tk-a/q16-b.webp"
+          ]
+        },
+        {
+          "key": "c",
+          "text": "dsa",
+          "images": [
+            "/soal/s4-penyisihan-sains-tk-a/q16-c.webp"
+          ]
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    },
+    {
+      "id": "s4-penyisihan-sains-tk-a-q17",
+      "n": 17,
+      "prompt": "Kebiasaan hidup sehat yang dilakukan sebelum makan adalah ….",
+      "images": [
+        "/soal/s4-penyisihan-sains-tk-a/q17-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Mencuci tangan",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Bermain",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Tidur",
+          "images": []
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s4-penyisihan-sains-tk-a-q18",
+      "n": 18,
+      "prompt": "Agar tubuh tetap bersih, kita perlu ….",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": "Berlari",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Menonton",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Mandi",
+          "images": [
+            "/soal/s4-penyisihan-sains-tk-a/q18-c.webp"
+          ]
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    },
+    {
+      "id": "s4-penyisihan-sains-tk-a-q19",
+      "n": 19,
+      "prompt": "Salah satu kebiasaan hidup sehat adalah ….",
+      "images": [
+        "/soal/s4-penyisihan-sains-tk-a/q19-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Mengotori lingkungan",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Membuang sampah pada tempatnya",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Membuang sampah sembarangan",
+          "images": []
+        }
+      ],
+      "answer": "b",
+      "status": "ok"
+    },
+    {
+      "id": "s4-penyisihan-sains-tk-a-q20",
+      "n": 20,
+      "prompt": "Ruangan yang bersih ditunjukkan oleh gambar ….",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": null,
+          "images": [
+            "/soal/s4-penyisihan-sains-tk-a/q20-a.webp"
+          ]
+        },
+        {
+          "key": "b",
+          "text": null,
+          "images": [
+            "/soal/s4-penyisihan-sains-tk-a/q20-b.webp"
+          ]
+        },
+        {
+          "key": "c",
+          "text": null,
+          "images": [
+            "/soal/s4-penyisihan-sains-tk-a/q20-c.webp"
+          ]
+        }
+      ],
+      "answer": "b",
+      "status": "ok"
+    }
+  ]
+}

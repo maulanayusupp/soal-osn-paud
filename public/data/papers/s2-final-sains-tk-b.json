@@ -1,0 +1,574 @@
+{
+  "id": "s2-final-sains-tk-b",
+  "season": 2,
+  "round": "final",
+  "subject": "sains",
+  "level": "tk-b",
+  "printed": {
+    "title": "SOAL SAINS/IPA BABAK FINAL",
+    "level": "TK B SEDERAJAT",
+    "date": "JUNI 2025",
+    "raw": [
+      "OLIMPIADE SISWA NASIONAL",
+      "SOAL SAINS/IPA BABAK FINAL",
+      "TK B SEDERAJAT",
+      "JUNI 2025"
+    ]
+  },
+  "layoutSource": "pdf",
+  "answerSource": "pdf",
+  "verified": false,
+  "questionCount": 20,
+  "playableCount": 15,
+  "warnings": [
+    "Q4: no answer highlight found",
+    "Q6: no answer highlight found",
+    "Q12: no answer highlight found",
+    "Q13: no answer highlight found",
+    "Q13: option a is empty",
+    "Q18: no answer highlight found"
+  ],
+  "questions": [
+    {
+      "id": "s2-final-sains-tk-b-q01",
+      "n": 1,
+      "prompt": "Ketika mencuci piring, kita harus bisa memegang dan menyikat piring. Bagian tubuh apa yang kita butuhkan?",
+      "images": [
+        "/soal/s2-final-sains-tk-b/q01-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Tangan",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Mata",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Sarung tangan",
+          "images": []
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s2-final-sains-tk-b-q02",
+      "n": 2,
+      "prompt": "Ibu sedang bercerita, tapi kamu menutup telinga. Apa yang terjadi?",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": "Suara ibu jadi tidak terdengar dengan jelas",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Suara ibu terdengar jelas",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Suara ibu semakin lantang",
+          "images": []
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s2-final-sains-tk-b-q03",
+      "n": 3,
+      "prompt": "Jari kaki membantu kita saat …",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": "Berdiri dan berjalan",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Makan dan minum",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Menggengam dan berbicara",
+          "images": []
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s2-final-sains-tk-b-q04",
+      "n": 4,
+      "prompt": "Bagian wajah yang membantu menunjukkan ekspresi marah, sedih, atau senang adalah ….",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": null,
+          "images": [
+            "/soal/s2-final-sains-tk-b/q04-a.webp"
+          ]
+        },
+        {
+          "key": "b",
+          "text": null,
+          "images": [
+            "/soal/s2-final-sains-tk-b/q04-b.webp"
+          ]
+        },
+        {
+          "key": "c",
+          "text": null,
+          "images": [
+            "/soal/s2-final-sains-tk-b/q04-c.webp"
+          ]
+        }
+      ],
+      "answer": null,
+      "status": "needs-review"
+    },
+    {
+      "id": "s2-final-sains-tk-b-q05",
+      "n": 5,
+      "prompt": "Saat kamu mendengar cerita dan melihat gambar di buku, bagian tubuh apa yang kamu gunakan?",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": "Telinga dan mata",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Hidung dan tangan",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Kaki dan jari",
+          "images": []
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s2-final-sains-tk-b-q06",
+      "n": 6,
+      "prompt": "Manakah yang tidak perlu makan dan minum?",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": null,
+          "images": [
+            "/soal/s2-final-sains-tk-b/q06-a.webp"
+          ]
+        },
+        {
+          "key": "b",
+          "text": null,
+          "images": [
+            "/soal/s2-final-sains-tk-b/q06-b.webp"
+          ]
+        },
+        {
+          "key": "c",
+          "text": null,
+          "images": [
+            "/soal/s2-final-sains-tk-b/q06-c.webp"
+          ]
+        }
+      ],
+      "answer": null,
+      "status": "needs-review"
+    },
+    {
+      "id": "s2-final-sains-tk-b-q07",
+      "n": 7,
+      "prompt": "Benda tak hidup tidak bisa ….",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": "Digunakan",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Bernapas",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Dipindahkan",
+          "images": []
+        }
+      ],
+      "answer": "b",
+      "status": "ok"
+    },
+    {
+      "id": "s2-final-sains-tk-b-q08",
+      "n": 8,
+      "prompt": "Mengapa ikan disebut makhluk hidup?",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": "Karena bisa berenang dan makan",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Karena terbuat dari plastik",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Karena diam di akuarium",
+          "images": []
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s2-final-sains-tk-b-q09",
+      "n": 9,
+      "prompt": "Manakah pasangan yang tepat?",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": null,
+          "images": [
+            "/soal/s2-final-sains-tk-b/q09-a.webp"
+          ]
+        },
+        {
+          "key": "b",
+          "text": null,
+          "images": [
+            "/soal/s2-final-sains-tk-b/q09-b.webp"
+          ]
+        },
+        {
+          "key": "c",
+          "text": null,
+          "images": [
+            "/soal/s2-final-sains-tk-b/q09-c.webp"
+          ]
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    },
+    {
+      "id": "s2-final-sains-tk-b-q10",
+      "n": 10,
+      "prompt": "Iguana bisa bergerak dan tumbuh. Maka iguana adalah …",
+      "images": [
+        "/soal/s2-final-sains-tk-b/q10-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Benda pajangan",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Makhluk hidup",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Makhluk tidak hidup",
+          "images": []
+        }
+      ],
+      "answer": "b",
+      "status": "ok"
+    },
+    {
+      "id": "s2-final-sains-tk-b-q11",
+      "n": 11,
+      "prompt": "Penguin tinggal di tempat yang…",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": "Panas",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Kering",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Dingin dan bersalju",
+          "images": []
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    },
+    {
+      "id": "s2-final-sains-tk-b-q12",
+      "n": 12,
+      "prompt": "Hewan yang dapat tinggal di habitat di bawah ini adalah …",
+      "images": [
+        "/soal/s2-final-sains-tk-b/q12-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": null,
+          "images": [
+            "/soal/s2-final-sains-tk-b/q12-a.webp"
+          ]
+        },
+        {
+          "key": "b",
+          "text": null,
+          "images": [
+            "/soal/s2-final-sains-tk-b/q12-b.webp"
+          ]
+        },
+        {
+          "key": "c",
+          "text": null,
+          "images": [
+            "/soal/s2-final-sains-tk-b/q12-c.webp"
+          ]
+        }
+      ],
+      "answer": null,
+      "status": "needs-review"
+    },
+    {
+      "id": "s2-final-sains-tk-b-q13",
+      "n": 13,
+      "prompt": "Di bawah ini adalah tempat hidup katak, kecuali…",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": null,
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": null,
+          "images": [
+            "/soal/s2-final-sains-tk-b/q13-c.webp"
+          ]
+        }
+      ],
+      "answer": null,
+      "status": "needs-review"
+    },
+    {
+      "id": "s2-final-sains-tk-b-q14",
+      "n": 14,
+      "prompt": "Harimau suka bersembunyi dan berburu di tempat yang banyak pohon. Maka harimau tinggal di...",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": "Hutan",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Rawa-rawa",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Kutub utara",
+          "images": []
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s2-final-sains-tk-b-q15",
+      "n": 15,
+      "prompt": "Kelelawar suka tempat yang gelap dan tenang untuk tidur sambil menggantung. Ia tinggal di …",
+      "images": [
+        "/soal/s2-final-sains-tk-b/q15-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Dasar laut",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Gua",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Rawa-rawa saat malam hari",
+          "images": []
+        }
+      ],
+      "answer": "b",
+      "status": "ok"
+    },
+    {
+      "id": "s2-final-sains-tk-b-q16",
+      "n": 16,
+      "prompt": "Apa yang berbeda antara siang dan malam?",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": "Saat siang langit terang dan saat malam langit gelap",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Saat siang matahari berukuran besar dan saat malam matahari berukuran kecil",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Kita hanya mendengar suara burung di malam hari",
+          "images": []
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s2-final-sains-tk-b-q17",
+      "n": 17,
+      "prompt": "Apa yang kita lihat di malam hari tapi tidak di siang hari?",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": null,
+          "images": [
+            "/soal/s2-final-sains-tk-b/q17-a.webp"
+          ]
+        },
+        {
+          "key": "b",
+          "text": null,
+          "images": [
+            "/soal/s2-final-sains-tk-b/q17-b.webp"
+          ]
+        },
+        {
+          "key": "c",
+          "text": null,
+          "images": [
+            "/soal/s2-final-sains-tk-b/q17-c.webp"
+          ]
+        }
+      ],
+      "answer": "b",
+      "status": "ok"
+    },
+    {
+      "id": "s2-final-sains-tk-b-q18",
+      "n": 18,
+      "prompt": "Aktivitas apa yang biasanya kita lakukan saat malam hari?",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": null,
+          "images": [
+            "/soal/s2-final-sains-tk-b/q18-a.webp"
+          ]
+        },
+        {
+          "key": "b",
+          "text": null,
+          "images": [
+            "/soal/s2-final-sains-tk-b/q18-b.webp"
+          ]
+        },
+        {
+          "key": "c",
+          "text": null,
+          "images": [
+            "/soal/s2-final-sains-tk-b/q18-c.webp"
+          ]
+        }
+      ],
+      "answer": null,
+      "status": "needs-review"
+    },
+    {
+      "id": "s2-final-sains-tk-b-q19",
+      "n": 19,
+      "prompt": "Apa suara yang sering kita dengar di malam hari?",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": "Jangkrik",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Anak-anak bermain",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Suara ayam berkokok",
+          "images": []
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s2-final-sains-tk-b-q20",
+      "n": 20,
+      "prompt": "Bagaimana cara kita tahu hari sudah malam?",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": "Langit menjadi gelap dan bulan mulai terlihat",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Matahari bersinar lebih terang dan tertutup awan hitam",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Warna langit berubah menjadi biru terang",
+          "images": []
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    }
+  ]
+}

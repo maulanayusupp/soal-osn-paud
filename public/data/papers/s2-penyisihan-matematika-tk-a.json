@@ -1,0 +1,606 @@
+{
+  "id": "s2-penyisihan-matematika-tk-a",
+  "season": 2,
+  "round": "penyisihan",
+  "subject": "matematika",
+  "level": "tk-a",
+  "printed": {
+    "title": "SOAL MATEMATIKA BABAK PENYISIHAN",
+    "level": "TK A SEDERAJAT",
+    "date": "MEI 2025",
+    "raw": [
+      "OLIMPIADE SISWA NASIONAL",
+      "SOAL MATEMATIKA BABAK PENYISIHAN",
+      "TK A SEDERAJAT",
+      "MEI 2025"
+    ]
+  },
+  "layoutSource": "pdf",
+  "answerSource": "pdf",
+  "verified": false,
+  "questionCount": 20,
+  "playableCount": 20,
+  "warnings": [],
+  "questions": [
+    {
+      "id": "s2-penyisihan-matematika-tk-a-q01",
+      "n": 1,
+      "prompt": "Angka di bawah ini dibaca ….",
+      "images": [
+        "/soal/s2-penyisihan-matematika-tk-a/q01-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Enam",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Sembilan",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Lima",
+          "images": []
+        }
+      ],
+      "answer": "b",
+      "status": "ok"
+    },
+    {
+      "id": "s2-penyisihan-matematika-tk-a-q02",
+      "n": 2,
+      "prompt": "Berapa jumlah kepiting pada gambar di bawah ini?",
+      "images": [
+        "/soal/s2-penyisihan-matematika-tk-a/q02-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "7",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "9",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "10",
+          "images": []
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s2-penyisihan-matematika-tk-a-q03",
+      "n": 3,
+      "prompt": "Berapa jumlah lebah berikut?",
+      "images": [
+        "/soal/s2-penyisihan-matematika-tk-a/q03-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Sembilan",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Tujuh",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Enam",
+          "images": []
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    },
+    {
+      "id": "s2-penyisihan-matematika-tk-a-q04",
+      "n": 4,
+      "prompt": "Hitunglah wortel di bawah ini!",
+      "images": [
+        "/soal/s2-penyisihan-matematika-tk-a/q04-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "9",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "10",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "6",
+          "images": []
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s2-penyisihan-matematika-tk-a-q05",
+      "n": 5,
+      "prompt": "Manakah yang menunjukkan angka 8?",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": null,
+          "images": [
+            "/soal/s2-penyisihan-matematika-tk-a/q05-a.webp"
+          ]
+        },
+        {
+          "key": "b",
+          "text": null,
+          "images": [
+            "/soal/s2-penyisihan-matematika-tk-a/q05-b.webp"
+          ]
+        },
+        {
+          "key": "c",
+          "text": null,
+          "images": [
+            "/soal/s2-penyisihan-matematika-tk-a/q05-c.webp"
+          ]
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    },
+    {
+      "id": "s2-penyisihan-matematika-tk-a-q06",
+      "n": 6,
+      "prompt": "Selesaikan penjumlahan berikut!",
+      "images": [
+        "/soal/s2-penyisihan-matematika-tk-a/q06-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "6",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "7",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "8",
+          "images": []
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s2-penyisihan-matematika-tk-a-q07",
+      "n": 7,
+      "prompt": "Selesaikan penjumlahan berikut!",
+      "images": [
+        "/soal/s2-penyisihan-matematika-tk-a/q07-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": null,
+          "images": [
+            "/soal/s2-penyisihan-matematika-tk-a/q07-a.webp"
+          ]
+        },
+        {
+          "key": "b",
+          "text": null,
+          "images": [
+            "/soal/s2-penyisihan-matematika-tk-a/q07-b.webp"
+          ]
+        },
+        {
+          "key": "c",
+          "text": null,
+          "images": [
+            "/soal/s2-penyisihan-matematika-tk-a/q07-c.webp"
+          ]
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    },
+    {
+      "id": "s2-penyisihan-matematika-tk-a-q08",
+      "n": 8,
+      "prompt": "Selesaikan penjumlahan berikut!",
+      "images": [
+        "/soal/s2-penyisihan-matematika-tk-a/q08-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "7",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "6",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "9",
+          "images": []
+        }
+      ],
+      "answer": "b",
+      "status": "ok"
+    },
+    {
+      "id": "s2-penyisihan-matematika-tk-a-q09",
+      "n": 9,
+      "prompt": "Selesaikan penjumlahan berikut!",
+      "images": [
+        "/soal/s2-penyisihan-matematika-tk-a/q09-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": null,
+          "images": [
+            "/soal/s2-penyisihan-matematika-tk-a/q09-a.webp"
+          ]
+        },
+        {
+          "key": "b",
+          "text": null,
+          "images": [
+            "/soal/s2-penyisihan-matematika-tk-a/q09-b.webp"
+          ]
+        },
+        {
+          "key": "c",
+          "text": null,
+          "images": [
+            "/soal/s2-penyisihan-matematika-tk-a/q09-c.webp"
+          ]
+        }
+      ],
+      "answer": "b",
+      "status": "ok"
+    },
+    {
+      "id": "s2-penyisihan-matematika-tk-a-q10",
+      "n": 10,
+      "prompt": "Selesaikan pengurangan berikut!",
+      "images": [
+        "/soal/s2-penyisihan-matematika-tk-a/q10-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "3",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "5",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "9",
+          "images": []
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s2-penyisihan-matematika-tk-a-q11",
+      "n": 11,
+      "prompt": "Selesaikan pengurangan berikut!",
+      "images": [
+        "/soal/s2-penyisihan-matematika-tk-a/q11-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "5",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "6",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "8",
+          "images": []
+        }
+      ],
+      "answer": "b",
+      "status": "ok"
+    },
+    {
+      "id": "s2-penyisihan-matematika-tk-a-q12",
+      "n": 12,
+      "prompt": "Selesaikan pengurangan berikut!",
+      "images": [
+        "/soal/s2-penyisihan-matematika-tk-a/q12-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": null,
+          "images": [
+            "/soal/s2-penyisihan-matematika-tk-a/q12-a.webp"
+          ]
+        },
+        {
+          "key": "b",
+          "text": null,
+          "images": [
+            "/soal/s2-penyisihan-matematika-tk-a/q12-b.webp"
+          ]
+        },
+        {
+          "key": "c",
+          "text": null,
+          "images": [
+            "/soal/s2-penyisihan-matematika-tk-a/q12-c.webp"
+          ]
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s2-penyisihan-matematika-tk-a-q13",
+      "n": 13,
+      "prompt": "Selesaikan pengurangan berikut!",
+      "images": [
+        "/soal/s2-penyisihan-matematika-tk-a/q13-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": null,
+          "images": [
+            "/soal/s2-penyisihan-matematika-tk-a/q13-a.webp"
+          ]
+        },
+        {
+          "key": "b",
+          "text": null,
+          "images": [
+            "/soal/s2-penyisihan-matematika-tk-a/q13-b.webp"
+          ]
+        },
+        {
+          "key": "c",
+          "text": null,
+          "images": [
+            "/soal/s2-penyisihan-matematika-tk-a/q13-c.webp"
+          ]
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    },
+    {
+      "id": "s2-penyisihan-matematika-tk-a-q14",
+      "n": 14,
+      "prompt": "Pilihlah bentuk yang menyerupai pancake pada gambar di bawah ini!",
+      "images": [
+        "/soal/s2-penyisihan-matematika-tk-a/q14-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": null,
+          "images": [
+            "/soal/s2-penyisihan-matematika-tk-a/q14-a.webp"
+          ]
+        },
+        {
+          "key": "b",
+          "text": null,
+          "images": [
+            "/soal/s2-penyisihan-matematika-tk-a/q14-b.webp"
+          ]
+        },
+        {
+          "key": "c",
+          "text": null,
+          "images": [
+            "/soal/s2-penyisihan-matematika-tk-a/q14-c.webp"
+          ]
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    },
+    {
+      "id": "s2-penyisihan-matematika-tk-a-q15",
+      "n": 15,
+      "prompt": "Benda pada gambar di bawah ini memiliki bentuk...",
+      "images": [
+        "/soal/s2-penyisihan-matematika-tk-a/q15-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Bintang",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Lingkaran",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Persegi",
+          "images": []
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s2-penyisihan-matematika-tk-a-q16",
+      "n": 16,
+      "prompt": "Jendela pada gambar di bawah ini memiliki bentuk...",
+      "images": [
+        "/soal/s2-penyisihan-matematika-tk-a/q16-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Bintang",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Persegi",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Segitiga",
+          "images": []
+        }
+      ],
+      "answer": "b",
+      "status": "ok"
+    },
+    {
+      "id": "s2-penyisihan-matematika-tk-a-q17",
+      "n": 17,
+      "prompt": "Pilihlah gelas yang memiliki ukuran paling besar dari gambar berikut!",
+      "images": [
+        "/soal/s2-penyisihan-matematika-tk-a/q17-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Gelas C",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Gelas A",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Gelas B",
+          "images": []
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    },
+    {
+      "id": "s2-penyisihan-matematika-tk-a-q18",
+      "n": 18,
+      "prompt": "Pilihlah payung dengan ukuran terkecil dari gambar berikut!",
+      "images": [
+        "/soal/s2-penyisihan-matematika-tk-a/q18-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": null,
+          "images": [
+            "/soal/s2-penyisihan-matematika-tk-a/q18-a.webp"
+          ]
+        },
+        {
+          "key": "b",
+          "text": null,
+          "images": [
+            "/soal/s2-penyisihan-matematika-tk-a/q18-b.webp"
+          ]
+        },
+        {
+          "key": "c",
+          "text": null,
+          "images": [
+            "/soal/s2-penyisihan-matematika-tk-a/q18-c.webp"
+          ]
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s2-penyisihan-matematika-tk-a-q19",
+      "n": 19,
+      "prompt": "Labu memiliki ukuran... dibandingkan tomat.",
+      "images": [
+        "/soal/s2-penyisihan-matematika-tk-a/q19-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Lebih kecil",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Lebih besar",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Sama",
+          "images": []
+        }
+      ],
+      "answer": "b",
+      "status": "ok"
+    },
+    {
+      "id": "s2-penyisihan-matematika-tk-a-q20",
+      "n": 20,
+      "prompt": "Manakah tangga yang paling tinggi?",
+      "images": [
+        "/soal/s2-penyisihan-matematika-tk-a/q20-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Tangga A",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Tangga B",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Tangga C",
+          "images": []
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    }
+  ]
+}

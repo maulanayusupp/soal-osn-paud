@@ -1,0 +1,545 @@
+{
+  "sourceRoot": "/Users/maulana/Downloads/Soal OSN Paud",
+  "papers": [
+    {
+      "id": "s1-penyisihan-bahasa-inggris-paud",
+      "season": 1,
+      "round": "penyisihan",
+      "subject": "bahasa-inggris",
+      "level": "paud",
+      "docx": "/Users/maulana/Downloads/Soal OSN Paud/Soal OSN PAUD-TK Season 1/Soal OSN Bahasa Inggris PAUD.docx",
+      "pdf": "/Users/maulana/Downloads/Soal OSN Paud/Soal OSN PAUD-TK Season 1/Soal OSN Bahasa Inggris PAUD.pdf"
+    },
+    {
+      "id": "s1-penyisihan-bahasa-inggris-tk-a",
+      "season": 1,
+      "round": "penyisihan",
+      "subject": "bahasa-inggris",
+      "level": "tk-a",
+      "docx": "/Users/maulana/Downloads/Soal OSN Paud/Soal OSN PAUD-TK Season 1/Soal OSN Bahasa Inggris TK A.docx",
+      "pdf": "/Users/maulana/Downloads/Soal OSN Paud/Soal OSN PAUD-TK Season 1/Soal OSN Bahasa Inggris TK A.pdf"
+    },
+    {
+      "id": "s1-penyisihan-bahasa-inggris-tk-b",
+      "season": 1,
+      "round": "penyisihan",
+      "subject": "bahasa-inggris",
+      "level": "tk-b",
+      "docx": "/Users/maulana/Downloads/Soal OSN Paud/Soal OSN PAUD-TK Season 1/Soal OSN Bahasa Inggris TK B.docx",
+      "pdf": "/Users/maulana/Downloads/Soal OSN Paud/Soal OSN PAUD-TK Season 1/Soal OSN Bahasa Inggris TK B.pdf"
+    },
+    {
+      "id": "s1-penyisihan-matematika-paud",
+      "season": 1,
+      "round": "penyisihan",
+      "subject": "matematika",
+      "level": "paud",
+      "docx": "/Users/maulana/Downloads/Soal OSN Paud/Soal OSN PAUD-TK Season 1/Soal OSN MTK PAUD.docx",
+      "pdf": "/Users/maulana/Downloads/Soal OSN Paud/Soal OSN PAUD-TK Season 1/Soal OSN MTK PAUD.pdf"
+    },
+    {
+      "id": "s1-penyisihan-matematika-tk-a",
+      "season": 1,
+      "round": "penyisihan",
+      "subject": "matematika",
+      "level": "tk-a",
+      "docx": "/Users/maulana/Downloads/Soal OSN Paud/Soal OSN PAUD-TK Season 1/Soal OSN MTK TK A.docx",
+      "pdf": "/Users/maulana/Downloads/Soal OSN Paud/Soal OSN PAUD-TK Season 1/Soal OSN MTK TK A.pdf"
+    },
+    {
+      "id": "s1-penyisihan-matematika-tk-b",
+      "season": 1,
+      "round": "penyisihan",
+      "subject": "matematika",
+      "level": "tk-b",
+      "docx": "/Users/maulana/Downloads/Soal OSN Paud/Soal OSN PAUD-TK Season 1/Soal OSN MTK TK B.docx",
+      "pdf": "/Users/maulana/Downloads/Soal OSN Paud/Soal OSN PAUD-TK Season 1/Soal OSN MTK TK B.pdf"
+    },
+    {
+      "id": "s2-final-bahasa-inggris-paud",
+      "season": 2,
+      "round": "final",
+      "subject": "bahasa-inggris",
+      "level": "paud",
+      "docx": "/Users/maulana/Downloads/Soal OSN Paud/Soal OSN PAUD-TK Season 2/Babak Final/Soal OSN Bahasa Inggris PAUD.docx",
+      "pdf": "/Users/maulana/Downloads/Soal OSN Paud/Soal OSN PAUD-TK Season 2/Babak Final/Soal OSN Bahasa Inggris PAUD.pdf"
+    },
+    {
+      "id": "s2-final-bahasa-inggris-tk-a",
+      "season": 2,
+      "round": "final",
+      "subject": "bahasa-inggris",
+      "level": "tk-a",
+      "docx": "/Users/maulana/Downloads/Soal OSN Paud/Soal OSN PAUD-TK Season 2/Babak Final/Soal OSN Bahasa Inggris TK A.docx",
+      "pdf": "/Users/maulana/Downloads/Soal OSN Paud/Soal OSN PAUD-TK Season 2/Babak Final/Soal OSN Bahasa Inggris TK A.pdf"
+    },
+    {
+      "id": "s2-final-bahasa-inggris-tk-b",
+      "season": 2,
+      "round": "final",
+      "subject": "bahasa-inggris",
+      "level": "tk-b",
+      "docx": "/Users/maulana/Downloads/Soal OSN Paud/Soal OSN PAUD-TK Season 2/Babak Final/Soal OSN Bahasa Inggris TK B.docx",
+      "pdf": "/Users/maulana/Downloads/Soal OSN Paud/Soal OSN PAUD-TK Season 2/Babak Final/Soal OSN Bahasa Inggris TK B.pdf"
+    },
+    {
+      "id": "s2-final-matematika-paud",
+      "season": 2,
+      "round": "final",
+      "subject": "matematika",
+      "level": "paud",
+      "docx": "/Users/maulana/Downloads/Soal OSN Paud/Soal OSN PAUD-TK Season 2/Babak Final/Soal OSN Matematika PAUD.docx",
+      "pdf": "/Users/maulana/Downloads/Soal OSN Paud/Soal OSN PAUD-TK Season 2/Babak Final/Soal OSN Matematika PAUD.pdf"
+    },
+    {
+      "id": "s2-final-matematika-tk-a",
+      "season": 2,
+      "round": "final",
+      "subject": "matematika",
+      "level": "tk-a",
+      "docx": "/Users/maulana/Downloads/Soal OSN Paud/Soal OSN PAUD-TK Season 2/Babak Final/Soal OSN Matematika TK A.docx",
+      "pdf": "/Users/maulana/Downloads/Soal OSN Paud/Soal OSN PAUD-TK Season 2/Babak Final/Soal OSN Matematika TK A.pdf"
+    },
+    {
+      "id": "s2-final-matematika-tk-b",
+      "season": 2,
+      "round": "final",
+      "subject": "matematika",
+      "level": "tk-b",
+      "docx": "/Users/maulana/Downloads/Soal OSN Paud/Soal OSN PAUD-TK Season 2/Babak Final/Soal OSN Matematika TK B.docx",
+      "pdf": "/Users/maulana/Downloads/Soal OSN Paud/Soal OSN PAUD-TK Season 2/Babak Final/Soal OSN Matematika TK B.pdf"
+    },
+    {
+      "id": "s2-final-sains-paud",
+      "season": 2,
+      "round": "final",
+      "subject": "sains",
+      "level": "paud",
+      "docx": "/Users/maulana/Downloads/Soal OSN Paud/Soal OSN PAUD-TK Season 2/Babak Final/Soal OSN Sains PAUD.docx",
+      "pdf": "/Users/maulana/Downloads/Soal OSN Paud/Soal OSN PAUD-TK Season 2/Babak Final/Soal OSN Sains PAUD.pdf"
+    },
+    {
+      "id": "s2-final-sains-tk-a",
+      "season": 2,
+      "round": "final",
+      "subject": "sains",
+      "level": "tk-a",
+      "docx": "/Users/maulana/Downloads/Soal OSN Paud/Soal OSN PAUD-TK Season 2/Babak Final/Soal OSN Sains TK A.docx",
+      "pdf": "/Users/maulana/Downloads/Soal OSN Paud/Soal OSN PAUD-TK Season 2/Babak Final/Soal OSN Sains TK A.pdf"
+    },
+    {
+      "id": "s2-final-sains-tk-b",
+      "season": 2,
+      "round": "final",
+      "subject": "sains",
+      "level": "tk-b",
+      "docx": "/Users/maulana/Downloads/Soal OSN Paud/Soal OSN PAUD-TK Season 2/Babak Final/Soal OSN Sains TK B.docx",
+      "pdf": "/Users/maulana/Downloads/Soal OSN Paud/Soal OSN PAUD-TK Season 2/Babak Final/Soal OSN Sains TK B.pdf"
+    },
+    {
+      "id": "s2-penyisihan-bahasa-inggris-paud",
+      "season": 2,
+      "round": "penyisihan",
+      "subject": "bahasa-inggris",
+      "level": "paud",
+      "docx": "/Users/maulana/Downloads/Soal OSN Paud/Soal OSN PAUD-TK Season 2/Babak Penyisihan/Soal OSN Bahasa Inggris PAUD.docx",
+      "pdf": "/Users/maulana/Downloads/Soal OSN Paud/Soal OSN PAUD-TK Season 2/Babak Penyisihan/Soal OSN Bahasa Inggris PAUD.pdf"
+    },
+    {
+      "id": "s2-penyisihan-bahasa-inggris-tk-a",
+      "season": 2,
+      "round": "penyisihan",
+      "subject": "bahasa-inggris",
+      "level": "tk-a",
+      "docx": "/Users/maulana/Downloads/Soal OSN Paud/Soal OSN PAUD-TK Season 2/Babak Penyisihan/Soal OSN Bahasa Inggris TK A.docx",
+      "pdf": "/Users/maulana/Downloads/Soal OSN Paud/Soal OSN PAUD-TK Season 2/Babak Penyisihan/Soal OSN Bahasa Inggris TK A.pdf"
+    },
+    {
+      "id": "s2-penyisihan-bahasa-inggris-tk-b",
+      "season": 2,
+      "round": "penyisihan",
+      "subject": "bahasa-inggris",
+      "level": "tk-b",
+      "docx": "/Users/maulana/Downloads/Soal OSN Paud/Soal OSN PAUD-TK Season 2/Babak Penyisihan/Soal OSN Bahasa Inggris TK B.docx",
+      "pdf": "/Users/maulana/Downloads/Soal OSN Paud/Soal OSN PAUD-TK Season 2/Babak Penyisihan/Soal OSN Bahasa Inggris TK B.pdf"
+    },
+    {
+      "id": "s2-penyisihan-matematika-paud",
+      "season": 2,
+      "round": "penyisihan",
+      "subject": "matematika",
+      "level": "paud",
+      "docx": "/Users/maulana/Downloads/Soal OSN Paud/Soal OSN PAUD-TK Season 2/Babak Penyisihan/Soal OSN Matematika PAUD.docx",
+      "pdf": "/Users/maulana/Downloads/Soal OSN Paud/Soal OSN PAUD-TK Season 2/Babak Penyisihan/Soal OSN Matematika PAUD.pdf"
+    },
+    {
+      "id": "s2-penyisihan-matematika-tk-a",
+      "season": 2,
+      "round": "penyisihan",
+      "subject": "matematika",
+      "level": "tk-a",
+      "docx": "/Users/maulana/Downloads/Soal OSN Paud/Soal OSN PAUD-TK Season 2/Babak Penyisihan/Soal OSN Matematika TK A.docx",
+      "pdf": "/Users/maulana/Downloads/Soal OSN Paud/Soal OSN PAUD-TK Season 2/Babak Penyisihan/Soal OSN Matematika TK A.pdf"
+    },
+    {
+      "id": "s2-penyisihan-matematika-tk-b",
+      "season": 2,
+      "round": "penyisihan",
+      "subject": "matematika",
+      "level": "tk-b",
+      "docx": "/Users/maulana/Downloads/Soal OSN Paud/Soal OSN PAUD-TK Season 2/Babak Penyisihan/Soal OSN Matematika TK B.docx",
+      "pdf": "/Users/maulana/Downloads/Soal OSN Paud/Soal OSN PAUD-TK Season 2/Babak Penyisihan/Soal OSN Matematika TK B.pdf"
+    },
+    {
+      "id": "s2-penyisihan-sains-paud",
+      "season": 2,
+      "round": "penyisihan",
+      "subject": "sains",
+      "level": "paud",
+      "docx": "/Users/maulana/Downloads/Soal OSN Paud/Soal OSN PAUD-TK Season 2/Babak Penyisihan/Soal OSN Sains PAUD.docx",
+      "pdf": "/Users/maulana/Downloads/Soal OSN Paud/Soal OSN PAUD-TK Season 2/Babak Penyisihan/Soal OSN Sains PAUD.pdf"
+    },
+    {
+      "id": "s2-penyisihan-sains-tk-a",
+      "season": 2,
+      "round": "penyisihan",
+      "subject": "sains",
+      "level": "tk-a",
+      "docx": "/Users/maulana/Downloads/Soal OSN Paud/Soal OSN PAUD-TK Season 2/Babak Penyisihan/Soal OSN Sains TK A.docx",
+      "pdf": "/Users/maulana/Downloads/Soal OSN Paud/Soal OSN PAUD-TK Season 2/Babak Penyisihan/Soal OSN Sains TK A.pdf"
+    },
+    {
+      "id": "s2-penyisihan-sains-tk-b",
+      "season": 2,
+      "round": "penyisihan",
+      "subject": "sains",
+      "level": "tk-b",
+      "docx": "/Users/maulana/Downloads/Soal OSN Paud/Soal OSN PAUD-TK Season 2/Babak Penyisihan/Soal OSN Sains TK B.docx",
+      "pdf": "/Users/maulana/Downloads/Soal OSN Paud/Soal OSN PAUD-TK Season 2/Babak Penyisihan/Soal OSN Sains TK B.pdf"
+    },
+    {
+      "id": "s3-final-bahasa-inggris-paud",
+      "season": 3,
+      "round": "final",
+      "subject": "bahasa-inggris",
+      "level": "paud",
+      "docx": "/Users/maulana/Downloads/Soal OSN Paud/Soal OSN PAUD-TK Season 3/Babak Final/Soal BF OSN Bahasa Inggris PAUD.docx",
+      "pdf": null
+    },
+    {
+      "id": "s3-final-bahasa-inggris-tk-a",
+      "season": 3,
+      "round": "final",
+      "subject": "bahasa-inggris",
+      "level": "tk-a",
+      "docx": "/Users/maulana/Downloads/Soal OSN Paud/Soal OSN PAUD-TK Season 3/Babak Final/Soal BF OSN Bahasa Inggris TK A.docx",
+      "pdf": null
+    },
+    {
+      "id": "s3-final-bahasa-inggris-tk-b",
+      "season": 3,
+      "round": "final",
+      "subject": "bahasa-inggris",
+      "level": "tk-b",
+      "docx": "/Users/maulana/Downloads/Soal OSN Paud/Soal OSN PAUD-TK Season 3/Babak Final/Soal BF OSN Bahasa Inggris TK B.docx",
+      "pdf": null
+    },
+    {
+      "id": "s3-final-matematika-paud",
+      "season": 3,
+      "round": "final",
+      "subject": "matematika",
+      "level": "paud",
+      "docx": "/Users/maulana/Downloads/Soal OSN Paud/Soal OSN PAUD-TK Season 3/Babak Final/Soal BF OSN Matematika PAUD.docx",
+      "pdf": null
+    },
+    {
+      "id": "s3-final-matematika-tk-a",
+      "season": 3,
+      "round": "final",
+      "subject": "matematika",
+      "level": "tk-a",
+      "docx": "/Users/maulana/Downloads/Soal OSN Paud/Soal OSN PAUD-TK Season 3/Babak Final/Soal BF OSN Matematika TK A.docx",
+      "pdf": null
+    },
+    {
+      "id": "s3-final-matematika-tk-b",
+      "season": 3,
+      "round": "final",
+      "subject": "matematika",
+      "level": "tk-b",
+      "docx": "/Users/maulana/Downloads/Soal OSN Paud/Soal OSN PAUD-TK Season 3/Babak Final/Soal BF OSN Matematika TK B.docx",
+      "pdf": null
+    },
+    {
+      "id": "s3-final-sains-paud",
+      "season": 3,
+      "round": "final",
+      "subject": "sains",
+      "level": "paud",
+      "docx": "/Users/maulana/Downloads/Soal OSN Paud/Soal OSN PAUD-TK Season 3/Babak Final/Soal BF OSN Sains PAUD.docx",
+      "pdf": null
+    },
+    {
+      "id": "s3-final-sains-tk-a",
+      "season": 3,
+      "round": "final",
+      "subject": "sains",
+      "level": "tk-a",
+      "docx": "/Users/maulana/Downloads/Soal OSN Paud/Soal OSN PAUD-TK Season 3/Babak Final/Soal BF OSN Sains TK A.docx",
+      "pdf": null
+    },
+    {
+      "id": "s3-final-sains-tk-b",
+      "season": 3,
+      "round": "final",
+      "subject": "sains",
+      "level": "tk-b",
+      "docx": "/Users/maulana/Downloads/Soal OSN Paud/Soal OSN PAUD-TK Season 3/Babak Final/Soal BF OSN Sains TK B.docx",
+      "pdf": null
+    },
+    {
+      "id": "s3-penyisihan-bahasa-inggris-paud",
+      "season": 3,
+      "round": "penyisihan",
+      "subject": "bahasa-inggris",
+      "level": "paud",
+      "docx": "/Users/maulana/Downloads/Soal OSN Paud/Soal OSN PAUD-TK Season 3/Babak Penyisihan/Soal BP OSN Bahasa Inggris PAUD.docx",
+      "pdf": null
+    },
+    {
+      "id": "s3-penyisihan-bahasa-inggris-tk-a",
+      "season": 3,
+      "round": "penyisihan",
+      "subject": "bahasa-inggris",
+      "level": "tk-a",
+      "docx": "/Users/maulana/Downloads/Soal OSN Paud/Soal OSN PAUD-TK Season 3/Babak Penyisihan/Soal BP OSN Bahasa Inggris TK A.docx",
+      "pdf": null
+    },
+    {
+      "id": "s3-penyisihan-bahasa-inggris-tk-b",
+      "season": 3,
+      "round": "penyisihan",
+      "subject": "bahasa-inggris",
+      "level": "tk-b",
+      "docx": "/Users/maulana/Downloads/Soal OSN Paud/Soal OSN PAUD-TK Season 3/Babak Penyisihan/Soal BP OSN Bahasa Inggris TK B.docx",
+      "pdf": null
+    },
+    {
+      "id": "s3-penyisihan-matematika-paud",
+      "season": 3,
+      "round": "penyisihan",
+      "subject": "matematika",
+      "level": "paud",
+      "docx": "/Users/maulana/Downloads/Soal OSN Paud/Soal OSN PAUD-TK Season 3/Babak Penyisihan/Soal BP OSN Matematika PAUD.docx",
+      "pdf": null
+    },
+    {
+      "id": "s3-penyisihan-matematika-tk-a",
+      "season": 3,
+      "round": "penyisihan",
+      "subject": "matematika",
+      "level": "tk-a",
+      "docx": "/Users/maulana/Downloads/Soal OSN Paud/Soal OSN PAUD-TK Season 3/Babak Penyisihan/Soal BP OSN Matematika TK A.docx",
+      "pdf": null
+    },
+    {
+      "id": "s3-penyisihan-matematika-tk-b",
+      "season": 3,
+      "round": "penyisihan",
+      "subject": "matematika",
+      "level": "tk-b",
+      "docx": "/Users/maulana/Downloads/Soal OSN Paud/Soal OSN PAUD-TK Season 3/Babak Penyisihan/Soal BP OSN Matematika TK B.docx",
+      "pdf": null
+    },
+    {
+      "id": "s3-penyisihan-sains-paud",
+      "season": 3,
+      "round": "penyisihan",
+      "subject": "sains",
+      "level": "paud",
+      "docx": "/Users/maulana/Downloads/Soal OSN Paud/Soal OSN PAUD-TK Season 3/Babak Penyisihan/Soal BP OSN Sains PAUD.docx",
+      "pdf": null
+    },
+    {
+      "id": "s3-penyisihan-sains-tk-a",
+      "season": 3,
+      "round": "penyisihan",
+      "subject": "sains",
+      "level": "tk-a",
+      "docx": "/Users/maulana/Downloads/Soal OSN Paud/Soal OSN PAUD-TK Season 3/Babak Penyisihan/Soal BP OSN Sains TK A.docx",
+      "pdf": null
+    },
+    {
+      "id": "s3-penyisihan-sains-tk-b",
+      "season": 3,
+      "round": "penyisihan",
+      "subject": "sains",
+      "level": "tk-b",
+      "docx": "/Users/maulana/Downloads/Soal OSN Paud/Soal OSN PAUD-TK Season 3/Babak Penyisihan/Soal BP OSN Sains TK B.docx",
+      "pdf": null
+    },
+    {
+      "id": "s4-final-bahasa-inggris-paud",
+      "season": 4,
+      "round": "final",
+      "subject": "bahasa-inggris",
+      "level": "paud",
+      "docx": "/Users/maulana/Downloads/Soal OSN Paud/Soal OSN PAUD-TK Season 4/Babak Final/Soal BF OSN Bahasa Inggris PAUD.docx",
+      "pdf": "/Users/maulana/Downloads/Soal OSN Paud/Soal OSN PAUD-TK Season 4/Babak Final/Soal BF OSN Bahasa Inggris PAUD.pdf"
+    },
+    {
+      "id": "s4-final-bahasa-inggris-tk-a",
+      "season": 4,
+      "round": "final",
+      "subject": "bahasa-inggris",
+      "level": "tk-a",
+      "docx": "/Users/maulana/Downloads/Soal OSN Paud/Soal OSN PAUD-TK Season 4/Babak Final/Soal BF OSN Bahasa Inggris TK A.docx",
+      "pdf": "/Users/maulana/Downloads/Soal OSN Paud/Soal OSN PAUD-TK Season 4/Babak Final/Soal BF OSN Bahasa Inggris TK A.pdf"
+    },
+    {
+      "id": "s4-final-bahasa-inggris-tk-b",
+      "season": 4,
+      "round": "final",
+      "subject": "bahasa-inggris",
+      "level": "tk-b",
+      "docx": "/Users/maulana/Downloads/Soal OSN Paud/Soal OSN PAUD-TK Season 4/Babak Final/Soal BF OSN Bahasa Inggris TK B.docx",
+      "pdf": "/Users/maulana/Downloads/Soal OSN Paud/Soal OSN PAUD-TK Season 4/Babak Final/Soal BF OSN Bahasa Inggris TK B.pdf"
+    },
+    {
+      "id": "s4-final-matematika-paud",
+      "season": 4,
+      "round": "final",
+      "subject": "matematika",
+      "level": "paud",
+      "docx": "/Users/maulana/Downloads/Soal OSN Paud/Soal OSN PAUD-TK Season 4/Babak Final/Soal BF OSN Matematika PAUD.docx",
+      "pdf": "/Users/maulana/Downloads/Soal OSN Paud/Soal OSN PAUD-TK Season 4/Babak Final/Soal BF OSN Matematika PAUD.pdf"
+    },
+    {
+      "id": "s4-final-matematika-tk-a",
+      "season": 4,
+      "round": "final",
+      "subject": "matematika",
+      "level": "tk-a",
+      "docx": "/Users/maulana/Downloads/Soal OSN Paud/Soal OSN PAUD-TK Season 4/Babak Final/Soal BF OSN Matematika TK A.docx",
+      "pdf": "/Users/maulana/Downloads/Soal OSN Paud/Soal OSN PAUD-TK Season 4/Babak Final/Soal BF OSN Matematika TK A.pdf"
+    },
+    {
+      "id": "s4-final-matematika-tk-b",
+      "season": 4,
+      "round": "final",
+      "subject": "matematika",
+      "level": "tk-b",
+      "docx": "/Users/maulana/Downloads/Soal OSN Paud/Soal OSN PAUD-TK Season 4/Babak Final/Soal BF OSN Matematika TK B.docx",
+      "pdf": "/Users/maulana/Downloads/Soal OSN Paud/Soal OSN PAUD-TK Season 4/Babak Final/Soal BF OSN Matematika TK B.pdf"
+    },
+    {
+      "id": "s4-final-sains-paud",
+      "season": 4,
+      "round": "final",
+      "subject": "sains",
+      "level": "paud",
+      "docx": "/Users/maulana/Downloads/Soal OSN Paud/Soal OSN PAUD-TK Season 4/Babak Final/Soal BF OSN Sains IPA PAUD.docx",
+      "pdf": "/Users/maulana/Downloads/Soal OSN Paud/Soal OSN PAUD-TK Season 4/Babak Final/Soal BF OSN Sains IPA PAUD.pdf"
+    },
+    {
+      "id": "s4-final-sains-tk-a",
+      "season": 4,
+      "round": "final",
+      "subject": "sains",
+      "level": "tk-a",
+      "docx": "/Users/maulana/Downloads/Soal OSN Paud/Soal OSN PAUD-TK Season 4/Babak Final/Soal BF OSN Sains IPA TK A.docx",
+      "pdf": "/Users/maulana/Downloads/Soal OSN Paud/Soal OSN PAUD-TK Season 4/Babak Final/Soal BF OSN Sains IPA TK A.pdf"
+    },
+    {
+      "id": "s4-final-sains-tk-b",
+      "season": 4,
+      "round": "final",
+      "subject": "sains",
+      "level": "tk-b",
+      "docx": "/Users/maulana/Downloads/Soal OSN Paud/Soal OSN PAUD-TK Season 4/Babak Final/Soal BF OSN Sains IPA TK B.docx",
+      "pdf": "/Users/maulana/Downloads/Soal OSN Paud/Soal OSN PAUD-TK Season 4/Babak Final/Soal BF OSN Sains IPA TK B.pdf"
+    },
+    {
+      "id": "s4-penyisihan-bahasa-inggris-paud",
+      "season": 4,
+      "round": "penyisihan",
+      "subject": "bahasa-inggris",
+      "level": "paud",
+      "docx": "/Users/maulana/Downloads/Soal OSN Paud/Soal OSN PAUD-TK Season 4/Babak Penyisihan/Soal BP OSN Bahasa Inggris PAUD.docx",
+      "pdf": null
+    },
+    {
+      "id": "s4-penyisihan-bahasa-inggris-tk-a",
+      "season": 4,
+      "round": "penyisihan",
+      "subject": "bahasa-inggris",
+      "level": "tk-a",
+      "docx": "/Users/maulana/Downloads/Soal OSN Paud/Soal OSN PAUD-TK Season 4/Babak Penyisihan/Soal BP OSN Bahasa Inggris TK A.docx",
+      "pdf": null
+    },
+    {
+      "id": "s4-penyisihan-bahasa-inggris-tk-b",
+      "season": 4,
+      "round": "penyisihan",
+      "subject": "bahasa-inggris",
+      "level": "tk-b",
+      "docx": "/Users/maulana/Downloads/Soal OSN Paud/Soal OSN PAUD-TK Season 4/Babak Penyisihan/Soal BP OSN Bahasa Inggris TK B.docx",
+      "pdf": null
+    },
+    {
+      "id": "s4-penyisihan-matematika-paud",
+      "season": 4,
+      "round": "penyisihan",
+      "subject": "matematika",
+      "level": "paud",
+      "docx": "/Users/maulana/Downloads/Soal OSN Paud/Soal OSN PAUD-TK Season 4/Babak Penyisihan/Soal BP OSN Matematika PAUD.docx",
+      "pdf": null
+    },
+    {
+      "id": "s4-penyisihan-matematika-tk-a",
+      "season": 4,
+      "round": "penyisihan",
+      "subject": "matematika",
+      "level": "tk-a",
+      "docx": "/Users/maulana/Downloads/Soal OSN Paud/Soal OSN PAUD-TK Season 4/Babak Penyisihan/Soal BP OSN Matematika TK A.docx",
+      "pdf": null
+    },
+    {
+      "id": "s4-penyisihan-matematika-tk-b",
+      "season": 4,
+      "round": "penyisihan",
+      "subject": "matematika",
+      "level": "tk-b",
+      "docx": "/Users/maulana/Downloads/Soal OSN Paud/Soal OSN PAUD-TK Season 4/Babak Penyisihan/Soal BP OSN Matematika TK B.docx",
+      "pdf": null
+    },
+    {
+      "id": "s4-penyisihan-sains-paud",
+      "season": 4,
+      "round": "penyisihan",
+      "subject": "sains",
+      "level": "paud",
+      "docx": "/Users/maulana/Downloads/Soal OSN Paud/Soal OSN PAUD-TK Season 4/Babak Penyisihan/Soal BP OSN Sains IPA PAUD.docx",
+      "pdf": null
+    },
+    {
+      "id": "s4-penyisihan-sains-tk-a",
+      "season": 4,
+      "round": "penyisihan",
+      "subject": "sains",
+      "level": "tk-a",
+      "docx": "/Users/maulana/Downloads/Soal OSN Paud/Soal OSN PAUD-TK Season 4/Babak Penyisihan/Soal BP OSN Sains IPA TK A.docx",
+      "pdf": null
+    },
+    {
+      "id": "s4-penyisihan-sains-tk-b",
+      "season": 4,
+      "round": "penyisihan",
+      "subject": "sains",
+      "level": "tk-b",
+      "docx": "/Users/maulana/Downloads/Soal OSN Paud/Soal OSN PAUD-TK Season 4/Babak Penyisihan/Soal BP OSN Sains IPA TK B.docx",
+      "pdf": null
+    }
+  ]
+}

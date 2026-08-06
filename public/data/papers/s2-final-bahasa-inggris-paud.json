@@ -1,0 +1,586 @@
+{
+  "id": "s2-final-bahasa-inggris-paud",
+  "season": 2,
+  "round": "final",
+  "subject": "bahasa-inggris",
+  "level": "paud",
+  "printed": {
+    "title": "SOAL BAHASA INGGRIS BABAK FINAL",
+    "level": "PAUD SEDERAJAT",
+    "date": "JUNI 2025",
+    "raw": [
+      "OLIMPIADE SISWA NASIONAL",
+      "SOAL BAHASA INGGRIS BABAK FINAL",
+      "PAUD SEDERAJAT",
+      "JUNI 2025"
+    ]
+  },
+  "layoutSource": "pdf",
+  "answerSource": "pdf",
+  "verified": false,
+  "questionCount": 20,
+  "playableCount": 19,
+  "warnings": [
+    "Q11: option b is empty"
+  ],
+  "questions": [
+    {
+      "id": "s2-final-bahasa-inggris-paud-q01",
+      "n": 1,
+      "prompt": "What is the English word for this number?",
+      "images": [
+        "/soal/s2-final-bahasa-inggris-paud/q01-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Eight",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Seven",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Nine",
+          "images": []
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    },
+    {
+      "id": "s2-final-bahasa-inggris-paud-q02",
+      "n": 2,
+      "prompt": "Which one is NOT correct?",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": null,
+          "images": [
+            "/soal/s2-final-bahasa-inggris-paud/q02-a.webp"
+          ]
+        },
+        {
+          "key": "b",
+          "text": null,
+          "images": [
+            "/soal/s2-final-bahasa-inggris-paud/q02-b.webp"
+          ]
+        },
+        {
+          "key": "c",
+          "text": null,
+          "images": [
+            "/soal/s2-final-bahasa-inggris-paud/q02-c.webp"
+          ]
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s2-final-bahasa-inggris-paud-q03",
+      "n": 3,
+      "prompt": "What number comes after \"seven\"?",
+      "images": [
+        "/soal/s2-final-bahasa-inggris-paud/q03-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Six",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Eight",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Nine",
+          "images": []
+        }
+      ],
+      "answer": "b",
+      "status": "ok"
+    },
+    {
+      "id": "s2-final-bahasa-inggris-paud-q04",
+      "n": 4,
+      "prompt": "What comes before \"five\"?",
+      "images": [
+        "/soal/s2-final-bahasa-inggris-paud/q04-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Four",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Six",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Seven",
+          "images": []
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s2-final-bahasa-inggris-paud-q05",
+      "n": 5,
+      "prompt": "Which one is NOT a number from 1 to 8?",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": "One",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Nine",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Six",
+          "images": []
+        }
+      ],
+      "answer": "b",
+      "status": "ok"
+    },
+    {
+      "id": "s2-final-bahasa-inggris-paud-q06",
+      "n": 6,
+      "prompt": "Which one is the correct English word for \"kuning\"?",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": "Green",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Pink",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Yellow",
+          "images": []
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    },
+    {
+      "id": "s2-final-bahasa-inggris-paud-q07",
+      "n": 7,
+      "prompt": "What color starts with the letter “P”?",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": "Pink",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Punk",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Pen",
+          "images": []
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s2-final-bahasa-inggris-paud-q08",
+      "n": 8,
+      "prompt": "Which one is the correct pair?",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": null,
+          "images": [
+            "/soal/s2-final-bahasa-inggris-paud/q08-a.webp"
+          ]
+        },
+        {
+          "key": "b",
+          "text": null,
+          "images": [
+            "/soal/s2-final-bahasa-inggris-paud/q08-b.webp"
+          ]
+        },
+        {
+          "key": "c",
+          "text": null,
+          "images": [
+            "/soal/s2-final-bahasa-inggris-paud/q08-c.webp"
+          ]
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    },
+    {
+      "id": "s2-final-bahasa-inggris-paud-q09",
+      "n": 9,
+      "prompt": "How many fruits are orange in color?",
+      "images": [
+        "/soal/s2-final-bahasa-inggris-paud/q09-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Seven",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Six",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Five",
+          "images": []
+        }
+      ],
+      "answer": "b",
+      "status": "ok"
+    },
+    {
+      "id": "s2-final-bahasa-inggris-paud-q10",
+      "n": 10,
+      "prompt": "What color is this bird?",
+      "images": [
+        "/soal/s2-final-bahasa-inggris-paud/q10-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Green",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Yellow",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Blue",
+          "images": []
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    },
+    {
+      "id": "s2-final-bahasa-inggris-paud-q11",
+      "n": 11,
+      "prompt": "Which one is a turtle?",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": null,
+          "images": [
+            "/soal/s2-final-bahasa-inggris-paud/q11-a.webp"
+          ]
+        },
+        {
+          "key": "b",
+          "text": null,
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": null,
+          "images": [
+            "/soal/s2-final-bahasa-inggris-paud/q11-c.webp"
+          ]
+        }
+      ],
+      "answer": "b",
+      "status": "needs-review"
+    },
+    {
+      "id": "s2-final-bahasa-inggris-paud-q12",
+      "n": 12,
+      "prompt": "What animals are there in this picture?",
+      "images": [
+        "/soal/s2-final-bahasa-inggris-paud/q12-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Giraffe, monkey, lion, tiger",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Giraffe, deer, snake, tiger",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Giraffe, elephant, lion, tiger",
+          "images": []
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s2-final-bahasa-inggris-paud-q13",
+      "n": 13,
+      "prompt": "Which one animal has long ears?",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": null,
+          "images": [
+            "/soal/s2-final-bahasa-inggris-paud/q13-a.webp"
+          ]
+        },
+        {
+          "key": "b",
+          "text": null,
+          "images": [
+            "/soal/s2-final-bahasa-inggris-paud/q13-b.webp"
+          ]
+        },
+        {
+          "key": "c",
+          "text": null,
+          "images": [
+            "/soal/s2-final-bahasa-inggris-paud/q13-c.webp"
+          ]
+        }
+      ],
+      "answer": "b",
+      "status": "ok"
+    },
+    {
+      "id": "s2-final-bahasa-inggris-paud-q14",
+      "n": 14,
+      "prompt": "What animal says \"oink\"?",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": null,
+          "images": [
+            "/soal/s2-final-bahasa-inggris-paud/q14-a.webp"
+          ]
+        },
+        {
+          "key": "b",
+          "text": null,
+          "images": [
+            "/soal/s2-final-bahasa-inggris-paud/q14-b.webp"
+          ]
+        },
+        {
+          "key": "c",
+          "text": null,
+          "images": [
+            "/soal/s2-final-bahasa-inggris-paud/q14-c.webp"
+          ]
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    },
+    {
+      "id": "s2-final-bahasa-inggris-paud-q15",
+      "n": 15,
+      "prompt": "What animal is this?",
+      "images": [
+        "/soal/s2-final-bahasa-inggris-paud/q15-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Snake",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Worms",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Ant",
+          "images": []
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s2-final-bahasa-inggris-paud-q16",
+      "n": 16,
+      "prompt": "What fruit starts with the letter G?",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": "Group",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Grape",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Girl",
+          "images": []
+        }
+      ],
+      "answer": "b",
+      "status": "ok"
+    },
+    {
+      "id": "s2-final-bahasa-inggris-paud-q17",
+      "n": 17,
+      "prompt": "Which one is the Pineapple?",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": null,
+          "images": [
+            "/soal/s2-final-bahasa-inggris-paud/q17-a.webp"
+          ]
+        },
+        {
+          "key": "b",
+          "text": null,
+          "images": [
+            "/soal/s2-final-bahasa-inggris-paud/q17-b.webp"
+          ]
+        },
+        {
+          "key": "c",
+          "text": null,
+          "images": [
+            "/soal/s2-final-bahasa-inggris-paud/q17-c.webp"
+          ]
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    },
+    {
+      "id": "s2-final-bahasa-inggris-paud-q18",
+      "n": 18,
+      "prompt": "What fruit are there in this picture?",
+      "images": [
+        "/soal/s2-final-bahasa-inggris-paud/q18-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Jackfruit",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Starfruit",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Snakefruit",
+          "images": []
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s2-final-bahasa-inggris-paud-q19",
+      "n": 19,
+      "prompt": "Which fruit has a yellow color?",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": null,
+          "images": [
+            "/soal/s2-final-bahasa-inggris-paud/q19-a.webp"
+          ]
+        },
+        {
+          "key": "b",
+          "text": null,
+          "images": [
+            "/soal/s2-final-bahasa-inggris-paud/q19-b.webp"
+          ]
+        },
+        {
+          "key": "c",
+          "text": null,
+          "images": [
+            "/soal/s2-final-bahasa-inggris-paud/q19-c.webp"
+          ]
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s2-final-bahasa-inggris-paud-q20",
+      "n": 20,
+      "prompt": "What fruits are in this picture?",
+      "images": [
+        "/soal/s2-final-bahasa-inggris-paud/q20-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Papaya, apple, strawberry, pear, banana",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Papaya, banana, avocado, strawberry, mangosteen",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Papaya, mangosteen, starfruit, strawberry, pear",
+          "images": []
+        }
+      ],
+      "answer": "b",
+      "status": "ok"
+    }
+  ]
+}

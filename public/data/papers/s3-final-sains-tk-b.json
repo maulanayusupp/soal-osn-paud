@@ -1,0 +1,572 @@
+{
+  "id": "s3-final-sains-tk-b",
+  "season": 3,
+  "round": "final",
+  "subject": "sains",
+  "level": "tk-b",
+  "printed": {
+    "title": "SOAL SAINS BABAK FINAL",
+    "level": "TK B SEDERAJAT",
+    "date": "OKTOBER 2025",
+    "raw": [
+      "OLIMPIADE SISWA NASIONAL",
+      "SOAL SAINS BABAK FINAL",
+      "TK B SEDERAJAT",
+      "OKTOBER 2025"
+    ]
+  },
+  "layoutSource": "docx",
+  "answerSource": "docx",
+  "verified": false,
+  "questionCount": 20,
+  "playableCount": 16,
+  "warnings": [
+    "Q5: no answer highlight found",
+    "Q5: option a is empty",
+    "Q14: no answer highlight found",
+    "Q16: option a is empty",
+    "Q17: no answer highlight found"
+  ],
+  "questions": [
+    {
+      "id": "s3-final-sains-tk-b-q01",
+      "n": 1,
+      "prompt": "Apa fungsi dari bagian tubuh berikut?",
+      "images": [
+        "/soal/s3-final-sains-tk-b/q01-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Menekuk dan meluruskan kaki",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Memutar kaki",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Tidak memiliki fungsi",
+          "images": []
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s3-final-sains-tk-b-q02",
+      "n": 2,
+      "prompt": "Aku bisa bergerak, menekuk, dan menyentuh benda. Aku ada di ujung tangan. Aku adalah …",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": "Siku",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Pundak",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Jari",
+          "images": []
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    },
+    {
+      "id": "s3-final-sains-tk-b-q03",
+      "n": 3,
+      "prompt": "Bagian tubuh manakah yang membantu melindungi mata dari debu, air, dan kotoran?",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": "Bulu wajah",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Bulu mata",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Bola mata",
+          "images": []
+        }
+      ],
+      "answer": "b",
+      "status": "ok"
+    },
+    {
+      "id": "s3-final-sains-tk-b-q04",
+      "n": 4,
+      "prompt": "Saat menyapu lantai, bagian tubuh yang paling banyak digunakan adalah…",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": "Kaki dan mulut",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Tangan dan telinga",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Kaki dan tangan",
+          "images": []
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    },
+    {
+      "id": "s3-final-sains-tk-b-q05",
+      "n": 5,
+      "prompt": "Di bawah ini, akibat jika tidak ada air, kecuali …",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": null,
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": null,
+          "images": [
+            "/soal/s3-final-sains-tk-b/q05-b.webp"
+          ]
+        },
+        {
+          "key": "c",
+          "text": null,
+          "images": [
+            "/soal/s3-final-sains-tk-b/q05-c.webp"
+          ]
+        }
+      ],
+      "answer": null,
+      "status": "needs-review"
+    },
+    {
+      "id": "s3-final-sains-tk-b-q06",
+      "n": 6,
+      "prompt": "Mengapa tanaman membutuhkan matahari?",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": "Agar dapat tumbuh dengan baik",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Agar bisa menari ditaman",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Agar bisa berjalan",
+          "images": []
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s3-final-sains-tk-b-q07",
+      "n": 7,
+      "prompt": "Air yang mengalir di sungai berguna untuk…",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": "Membuang sampah",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Sumber air panas",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Memberi air pada tumbuhan",
+          "images": []
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    },
+    {
+      "id": "s3-final-sains-tk-b-q08",
+      "n": 8,
+      "prompt": "Tanaman milik Cindy tumbuh dengan subur dan memiliki bunga yang indah karena…",
+      "images": [
+        "/soal/s3-final-sains-tk-b/q08-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Mendapatkan sinar matahari dan air yang cukup",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Selalu dinyanyikan oleh teman-temannya",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Selalu ditutup rapat agar tidak terlihat",
+          "images": []
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s3-final-sains-tk-b-q09",
+      "n": 9,
+      "prompt": "Katak hidup di…",
+      "images": [
+        "/soal/s3-final-sains-tk-b/q09-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Darat",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Air",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Darat dan air",
+          "images": []
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    },
+    {
+      "id": "s3-final-sains-tk-b-q10",
+      "n": 10,
+      "prompt": "Hewan yang hanya dapat hidup di laut adalah…",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": null,
+          "images": [
+            "/soal/s3-final-sains-tk-b/q10-a.webp"
+          ]
+        },
+        {
+          "key": "b",
+          "text": null,
+          "images": [
+            "/soal/s3-final-sains-tk-b/q10-b.webp"
+          ]
+        },
+        {
+          "key": "c",
+          "text": null,
+          "images": [
+            "/soal/s3-final-sains-tk-b/q10-c.webp"
+          ]
+        }
+      ],
+      "answer": "b",
+      "status": "ok"
+    },
+    {
+      "id": "s3-final-sains-tk-b-q11",
+      "n": 11,
+      "prompt": "Hewan yang tinggal di sarang berikut adalah…",
+      "images": [
+        "/soal/s3-final-sains-tk-b/q11-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Kelelawar",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Burung merpati",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Burung merak",
+          "images": []
+        }
+      ],
+      "answer": "b",
+      "status": "ok"
+    },
+    {
+      "id": "s3-final-sains-tk-b-q12",
+      "n": 12,
+      "prompt": "Bebek dapat berenang di air dan berjalan di darat. Maka tempat tinggal bebek ada di...",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": "Kolam dan daratan berlumpur",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Dalam sungai",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Gua yang lembab",
+          "images": []
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s3-final-sains-tk-b-q13",
+      "n": 13,
+      "prompt": "Ayah menanam sayur di kebun saat matahari bersinar, karena…",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": "Matahari memberikan cahaya dan panas yang dibutuhkan tanaman",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Tanaman dapat menari saat ada matahari",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Matahari membuat tanaman kering dan mati",
+          "images": []
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s3-final-sains-tk-b-q14",
+      "n": 14,
+      "prompt": "Kegiatan yang dapat dilakukan saat malam hari adalah…",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": null,
+          "images": [
+            "/soal/s3-final-sains-tk-b/q14-a.webp"
+          ]
+        },
+        {
+          "key": "b",
+          "text": null,
+          "images": [
+            "/soal/s3-final-sains-tk-b/q14-b.webp"
+          ]
+        },
+        {
+          "key": "c",
+          "text": null,
+          "images": [
+            "/soal/s3-final-sains-tk-b/q14-c.webp"
+          ]
+        }
+      ],
+      "answer": null,
+      "status": "needs-review"
+    },
+    {
+      "id": "s3-final-sains-tk-b-q15",
+      "n": 15,
+      "prompt": "Aktivitas berikut biasanya dilakukan saat …",
+      "images": [
+        "/soal/s3-final-sains-tk-b/q15-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Pagi hari",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Tengah malam",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Pagi, siang, dan malam hari",
+          "images": []
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    },
+    {
+      "id": "s3-final-sains-tk-b-q16",
+      "n": 16,
+      "prompt": "Suasana mana yang biasa kita lihat saat malam?",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": null,
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": null,
+          "images": [
+            "/soal/s3-final-sains-tk-b/q16-b.webp"
+          ]
+        },
+        {
+          "key": "c",
+          "text": null,
+          "images": [
+            "/soal/s3-final-sains-tk-b/q16-c.webp"
+          ]
+        }
+      ],
+      "answer": "a",
+      "status": "needs-review"
+    },
+    {
+      "id": "s3-final-sains-tk-b-q17",
+      "n": 17,
+      "prompt": "Akibat yang ditimbulkan jika kita terus membuang sampah sembarangan, kecuali…",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": null,
+          "images": [
+            "/soal/s3-final-sains-tk-b/q17-a.webp"
+          ]
+        },
+        {
+          "key": "b",
+          "text": null,
+          "images": [
+            "/soal/s3-final-sains-tk-b/q17-b.webp"
+          ]
+        },
+        {
+          "key": "c",
+          "text": null,
+          "images": [
+            "/soal/s3-final-sains-tk-b/q17-c.webp"
+          ]
+        }
+      ],
+      "answer": null,
+      "status": "needs-review"
+    },
+    {
+      "id": "s3-final-sains-tk-b-q18",
+      "n": 18,
+      "prompt": "Lisa ingin membuang bungkus permen, tetapi tidak ada tempat sampah di sekitarnya. Apa yang sebaiknya Lisa lakukan?",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": "Menyimpan dan membuang bungkus permen di rumah",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Membuang bungkus permen di jalan",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Melempar bungkus permen ke teman",
+          "images": []
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s3-final-sains-tk-b-q19",
+      "n": 19,
+      "prompt": "Hal di bawah ini merupakan contoh dari …",
+      "images": [
+        "/soal/s3-final-sains-tk-b/q19-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Penghematan air",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Penggunaan air",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Pemborosan air",
+          "images": []
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    },
+    {
+      "id": "s3-final-sains-tk-b-q20",
+      "n": 20,
+      "prompt": "Kamar Buna terang karena sinar matahari, tetapi lampunya masih menyala. Apa yang sebaiknya Buna lakukan?",
+      "images": [
+        "/soal/s3-final-sains-tk-b/q20-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Menutup tirai jendela dan membiarkan lampu tetap menyala",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Menambah lampu lagi agar lebih terang",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Mematikan lampu",
+          "images": []
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    }
+  ]
+}

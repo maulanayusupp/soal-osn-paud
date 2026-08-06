@@ -1,0 +1,581 @@
+{
+  "id": "s3-penyisihan-bahasa-inggris-tk-a",
+  "season": 3,
+  "round": "penyisihan",
+  "subject": "bahasa-inggris",
+  "level": "tk-a",
+  "printed": {
+    "title": "SOAL BAHASA INGGRIS BABAK PENYISIHAN",
+    "level": "TK A SEDERAJAT",
+    "date": "SEPTEMBER 2025",
+    "raw": [
+      "OLIMPIADE SISWA NASIONAL",
+      "SOAL BAHASA INGGRIS BABAK PENYISIHAN",
+      "TK A SEDERAJAT",
+      "SEPTEMBER 2025"
+    ]
+  },
+  "layoutSource": "docx",
+  "answerSource": "docx",
+  "verified": false,
+  "questionCount": 20,
+  "playableCount": 17,
+  "warnings": [
+    "Q4: no answer highlight found",
+    "Q4: option b is empty",
+    "Q7: option b is empty",
+    "Q9: no answer highlight found"
+  ],
+  "questions": [
+    {
+      "id": "s3-penyisihan-bahasa-inggris-tk-a-q01",
+      "n": 1,
+      "prompt": "Which number comes after 8?",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": "Nine",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Six",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Seven",
+          "images": []
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s3-penyisihan-bahasa-inggris-tk-a-q02",
+      "n": 2,
+      "prompt": "Count the balls below!",
+      "images": [
+        "/soal/s3-penyisihan-bahasa-inggris-tk-a/q02-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Five",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Six",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Seven",
+          "images": []
+        }
+      ],
+      "answer": "b",
+      "status": "ok"
+    },
+    {
+      "id": "s3-penyisihan-bahasa-inggris-tk-a-q03",
+      "n": 3,
+      "prompt": "What is this number?",
+      "images": [
+        "/soal/s3-penyisihan-bahasa-inggris-tk-a/q03-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Seven",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Ten",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Six",
+          "images": []
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s3-penyisihan-bahasa-inggris-tk-a-q04",
+      "n": 4,
+      "prompt": "Choose the picture with 10 fruits!",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": null,
+          "images": [
+            "/soal/s3-penyisihan-bahasa-inggris-tk-a/q04-a.webp"
+          ]
+        },
+        {
+          "key": "b",
+          "text": null,
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": null,
+          "images": [
+            "/soal/s3-penyisihan-bahasa-inggris-tk-a/q04-c.webp"
+          ]
+        }
+      ],
+      "answer": null,
+      "status": "needs-review"
+    },
+    {
+      "id": "s3-penyisihan-bahasa-inggris-tk-a-q05",
+      "n": 5,
+      "prompt": "What vegetable is this?",
+      "images": [
+        "/soal/s3-penyisihan-bahasa-inggris-tk-a/q05-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Carrot",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Tomato",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Cucumber",
+          "images": []
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s3-penyisihan-bahasa-inggris-tk-a-q06",
+      "n": 6,
+      "prompt": "The vegetable below is …",
+      "images": [
+        "/soal/s3-penyisihan-bahasa-inggris-tk-a/q06-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Tomato",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Carrot",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Broccoli",
+          "images": []
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    },
+    {
+      "id": "s3-penyisihan-bahasa-inggris-tk-a-q07",
+      "n": 7,
+      "prompt": "Choose the corn!",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": null,
+          "images": [
+            "/soal/s3-penyisihan-bahasa-inggris-tk-a/q07-a.webp"
+          ]
+        },
+        {
+          "key": "b",
+          "text": null,
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": null,
+          "images": [
+            "/soal/s3-penyisihan-bahasa-inggris-tk-a/q07-c.webp"
+          ]
+        }
+      ],
+      "answer": "a",
+      "status": "needs-review"
+    },
+    {
+      "id": "s3-penyisihan-bahasa-inggris-tk-a-q08",
+      "n": 8,
+      "prompt": "What is the name of this vegetable?",
+      "images": [
+        "/soal/s3-penyisihan-bahasa-inggris-tk-a/q08-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Carrot",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Broccoli",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Cucumber",
+          "images": []
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    },
+    {
+      "id": "s3-penyisihan-bahasa-inggris-tk-a-q09",
+      "n": 9,
+      "prompt": "Which one is your sister?",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": null,
+          "images": [
+            "/soal/s3-penyisihan-bahasa-inggris-tk-a/q09-a.webp"
+          ]
+        },
+        {
+          "key": "b",
+          "text": null,
+          "images": [
+            "/soal/s3-penyisihan-bahasa-inggris-tk-a/q09-b.webp"
+          ]
+        },
+        {
+          "key": "c",
+          "text": null,
+          "images": [
+            "/soal/s3-penyisihan-bahasa-inggris-tk-a/q09-c.webp"
+          ]
+        }
+      ],
+      "answer": null,
+      "status": "needs-review"
+    },
+    {
+      "id": "s3-penyisihan-bahasa-inggris-tk-a-q10",
+      "n": 10,
+      "prompt": "Who is this?",
+      "images": [
+        "/soal/s3-penyisihan-bahasa-inggris-tk-a/q10-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Mother",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Father",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Brother",
+          "images": []
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s3-penyisihan-bahasa-inggris-tk-a-q11",
+      "n": 11,
+      "prompt": "This is my ….",
+      "images": [
+        "/soal/s3-penyisihan-bahasa-inggris-tk-a/q11-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Mother",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Sister",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Father",
+          "images": []
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    },
+    {
+      "id": "s3-penyisihan-bahasa-inggris-tk-a-q12",
+      "n": 12,
+      "prompt": "What is the English word for ‘kakek’?",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": "Sister",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Grandfather",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Mother",
+          "images": [
+            "/soal/s3-penyisihan-bahasa-inggris-tk-a/q12-c.webp"
+          ]
+        }
+      ],
+      "answer": "b",
+      "status": "ok"
+    },
+    {
+      "id": "s3-penyisihan-bahasa-inggris-tk-a-q13",
+      "n": 13,
+      "prompt": "What is this?",
+      "images": [
+        "/soal/s3-penyisihan-bahasa-inggris-tk-a/q13-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Nose",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Hand",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Eye",
+          "images": []
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    },
+    {
+      "id": "s3-penyisihan-bahasa-inggris-tk-a-q14",
+      "n": 14,
+      "prompt": "This is my …",
+      "images": [
+        "/soal/s3-penyisihan-bahasa-inggris-tk-a/q14-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Hand",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Nose",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Hair",
+          "images": []
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s3-penyisihan-bahasa-inggris-tk-a-q15",
+      "n": 15,
+      "prompt": "Which picture is the nose?",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": null,
+          "images": [
+            "/soal/s3-penyisihan-bahasa-inggris-tk-a/q15-a.webp"
+          ]
+        },
+        {
+          "key": "b",
+          "text": null,
+          "images": [
+            "/soal/s3-penyisihan-bahasa-inggris-tk-a/q15-b.webp"
+          ]
+        },
+        {
+          "key": "c",
+          "text": null,
+          "images": [
+            "/soal/s3-penyisihan-bahasa-inggris-tk-a/q15-c.webp"
+          ]
+        }
+      ],
+      "answer": "b",
+      "status": "ok"
+    },
+    {
+      "id": "s3-penyisihan-bahasa-inggris-tk-a-q16",
+      "n": 16,
+      "prompt": "I have thick …",
+      "images": [
+        "/soal/s3-penyisihan-bahasa-inggris-tk-a/q16-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Hair",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Hand",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Nose",
+          "images": []
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s3-penyisihan-bahasa-inggris-tk-a-q17",
+      "n": 17,
+      "prompt": "What is the boy doing?",
+      "images": [
+        "/soal/s3-penyisihan-bahasa-inggris-tk-a/q17-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Eat",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Sleep",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Play",
+          "images": []
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s3-penyisihan-bahasa-inggris-tk-a-q18",
+      "n": 18,
+      "prompt": "The children … with toys.",
+      "images": [
+        "/soal/s3-penyisihan-bahasa-inggris-tk-a/q18-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Eat",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Play",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Drink",
+          "images": []
+        }
+      ],
+      "answer": "b",
+      "status": "ok"
+    },
+    {
+      "id": "s3-penyisihan-bahasa-inggris-tk-a-q19",
+      "n": 19,
+      "prompt": "What do you do at night?",
+      "images": [
+        "/soal/s3-penyisihan-bahasa-inggris-tk-a/q19-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Sleep",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Eat",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Drink",
+          "images": []
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s3-penyisihan-bahasa-inggris-tk-a-q20",
+      "n": 20,
+      "prompt": "You … water when you are thirsty.",
+      "images": [
+        "/soal/s3-penyisihan-bahasa-inggris-tk-a/q20-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Eat",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Play",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Drink",
+          "images": []
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    }
+  ]
+}

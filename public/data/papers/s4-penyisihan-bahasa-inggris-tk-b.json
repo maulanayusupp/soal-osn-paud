@@ -1,0 +1,596 @@
+{
+  "id": "s4-penyisihan-bahasa-inggris-tk-b",
+  "season": 4,
+  "round": "penyisihan",
+  "subject": "bahasa-inggris",
+  "level": "tk-b",
+  "printed": {
+    "title": "SOAL BAHASA INGGRIS BABAK PENYISIHAN",
+    "level": "TK B SEDERAJAT",
+    "date": "JANUARI 2026",
+    "raw": [
+      "OLIMPIADE SISWA NASIONAL",
+      "SOAL BAHASA INGGRIS BABAK PENYISIHAN",
+      "TK B SEDERAJAT",
+      "JANUARI 2026"
+    ]
+  },
+  "layoutSource": "docx",
+  "answerSource": "docx",
+  "verified": false,
+  "questionCount": 20,
+  "playableCount": 18,
+  "warnings": [
+    "Q3: no answer highlight found",
+    "Q3: option a is empty",
+    "Q12: no answer highlight found",
+    "Q12: option a is empty"
+  ],
+  "questions": [
+    {
+      "id": "s4-penyisihan-bahasa-inggris-tk-b-q01",
+      "n": 1,
+      "prompt": "This number is ….",
+      "images": [
+        "/soal/s4-penyisihan-bahasa-inggris-tk-b/q01-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Eleven",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Ten",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "One one",
+          "images": []
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s4-penyisihan-bahasa-inggris-tk-b-q02",
+      "n": 2,
+      "prompt": "Count all the chickens in the picture!",
+      "images": [
+        "/soal/s4-penyisihan-bahasa-inggris-tk-b/q02-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "13",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "12",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "14",
+          "images": []
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    },
+    {
+      "id": "s4-penyisihan-bahasa-inggris-tk-b-q03",
+      "n": 3,
+      "prompt": "Select number 15!",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": null,
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": null,
+          "images": [
+            "/soal/s4-penyisihan-bahasa-inggris-tk-b/q03-c.webp"
+          ]
+        }
+      ],
+      "answer": null,
+      "status": "needs-review"
+    },
+    {
+      "id": "s4-penyisihan-bahasa-inggris-tk-b-q04",
+      "n": 4,
+      "prompt": "The candles make the number ….",
+      "images": [
+        "/soal/s4-penyisihan-bahasa-inggris-tk-b/q04-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Zero one",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Ten",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Twelve",
+          "images": []
+        }
+      ],
+      "answer": "b",
+      "status": "ok"
+    },
+    {
+      "id": "s4-penyisihan-bahasa-inggris-tk-b-q05",
+      "n": 5,
+      "prompt": "What does John eat?",
+      "images": [
+        "/soal/s4-penyisihan-bahasa-inggris-tk-b/q05-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Noodle",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Meatball",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Rice",
+          "images": []
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s4-penyisihan-bahasa-inggris-tk-b-q06",
+      "n": 6,
+      "prompt": "Which picture shows a pizza?",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": null,
+          "images": [
+            "/soal/s4-penyisihan-bahasa-inggris-tk-b/q06-a.webp"
+          ]
+        },
+        {
+          "key": "b",
+          "text": null,
+          "images": [
+            "/soal/s4-penyisihan-bahasa-inggris-tk-b/q06-b.webp"
+          ]
+        },
+        {
+          "key": "c",
+          "text": "asdf",
+          "images": [
+            "/soal/s4-penyisihan-bahasa-inggris-tk-b/q06-c.webp"
+          ]
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    },
+    {
+      "id": "s4-penyisihan-bahasa-inggris-tk-b-q07",
+      "n": 7,
+      "prompt": "What is Ryan drinking?",
+      "images": [
+        "/soal/s4-penyisihan-bahasa-inggris-tk-b/q07-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Juice",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Milk",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Tea",
+          "images": []
+        }
+      ],
+      "answer": "b",
+      "status": "ok"
+    },
+    {
+      "id": "s4-penyisihan-bahasa-inggris-tk-b-q08",
+      "n": 8,
+      "prompt": "Which one is the water bottle?",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": null,
+          "images": [
+            "/soal/s4-penyisihan-bahasa-inggris-tk-b/q08-a.webp"
+          ]
+        },
+        {
+          "key": "b",
+          "text": null,
+          "images": [
+            "/soal/s4-penyisihan-bahasa-inggris-tk-b/q08-b.webp"
+          ]
+        },
+        {
+          "key": "c",
+          "text": null,
+          "images": [
+            "/soal/s4-penyisihan-bahasa-inggris-tk-b/q08-c.webp"
+          ]
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s4-penyisihan-bahasa-inggris-tk-b-q09",
+      "n": 9,
+      "prompt": "What is this transportation?",
+      "images": [
+        "/soal/s4-penyisihan-bahasa-inggris-tk-b/q09-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Bus",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Car",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Plane",
+          "images": []
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s4-penyisihan-bahasa-inggris-tk-b-q10",
+      "n": 10,
+      "prompt": "Which picture shows a car?",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": null,
+          "images": [
+            "/soal/s4-penyisihan-bahasa-inggris-tk-b/q10-a.webp"
+          ]
+        },
+        {
+          "key": "b",
+          "text": null,
+          "images": [
+            "/soal/s4-penyisihan-bahasa-inggris-tk-b/q10-b.webp"
+          ]
+        },
+        {
+          "key": "c",
+          "text": null,
+          "images": [
+            "/soal/s4-penyisihan-bahasa-inggris-tk-b/q10-c.webp"
+          ]
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s4-penyisihan-bahasa-inggris-tk-b-q11",
+      "n": 11,
+      "prompt": "Which picture shows a child riding a bicycle?",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": null,
+          "images": [
+            "/soal/s4-penyisihan-bahasa-inggris-tk-b/q11-a.webp"
+          ]
+        },
+        {
+          "key": "b",
+          "text": null,
+          "images": [
+            "/soal/s4-penyisihan-bahasa-inggris-tk-b/q11-b.webp"
+          ]
+        },
+        {
+          "key": "c",
+          "text": null,
+          "images": [
+            "/soal/s4-penyisihan-bahasa-inggris-tk-b/q11-c.webp"
+          ]
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    },
+    {
+      "id": "s4-penyisihan-bahasa-inggris-tk-b-q12",
+      "n": 12,
+      "prompt": "Which one below is a means of transportation?",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": null,
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": null,
+          "images": [
+            "/soal/s4-penyisihan-bahasa-inggris-tk-b/q12-b.webp"
+          ]
+        },
+        {
+          "key": "c",
+          "text": null,
+          "images": [
+            "/soal/s4-penyisihan-bahasa-inggris-tk-b/q12-c.webp"
+          ]
+        }
+      ],
+      "answer": null,
+      "status": "needs-review"
+    },
+    {
+      "id": "s4-penyisihan-bahasa-inggris-tk-b-q13",
+      "n": 13,
+      "prompt": "What shape is this trampoline?",
+      "images": [
+        "/soal/s4-penyisihan-bahasa-inggris-tk-b/q13-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Triangle",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Square",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Circle",
+          "images": []
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    },
+    {
+      "id": "s4-penyisihan-bahasa-inggris-tk-b-q14",
+      "n": 14,
+      "prompt": "What shape is this?",
+      "images": [
+        "/soal/s4-penyisihan-bahasa-inggris-tk-b/q14-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Square",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Circle",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Star",
+          "images": []
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s4-penyisihan-bahasa-inggris-tk-b-q15",
+      "n": 15,
+      "prompt": "Which food is shaped like a triangle?",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": null,
+          "images": [
+            "/soal/s4-penyisihan-bahasa-inggris-tk-b/q15-a.webp"
+          ]
+        },
+        {
+          "key": "b",
+          "text": null,
+          "images": [
+            "/soal/s4-penyisihan-bahasa-inggris-tk-b/q15-b.webp"
+          ]
+        },
+        {
+          "key": "c",
+          "text": null,
+          "images": [
+            "/soal/s4-penyisihan-bahasa-inggris-tk-b/q15-c.webp"
+          ]
+        }
+      ],
+      "answer": "b",
+      "status": "ok"
+    },
+    {
+      "id": "s4-penyisihan-bahasa-inggris-tk-b-q16",
+      "n": 16,
+      "prompt": "Which shape is a circle?",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": null,
+          "images": [
+            "/soal/s4-penyisihan-bahasa-inggris-tk-b/q16-a.webp"
+          ]
+        },
+        {
+          "key": "b",
+          "text": null,
+          "images": [
+            "/soal/s4-penyisihan-bahasa-inggris-tk-b/q16-b.webp"
+          ]
+        },
+        {
+          "key": "c",
+          "text": null,
+          "images": [
+            "/soal/s4-penyisihan-bahasa-inggris-tk-b/q16-c.webp"
+          ]
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s4-penyisihan-bahasa-inggris-tk-b-q17",
+      "n": 17,
+      "prompt": "What do you say when you leave your teacher?",
+      "images": [
+        "/soal/s4-penyisihan-bahasa-inggris-tk-b/q17-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Good morning",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Hello",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Good bye",
+          "images": []
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    },
+    {
+      "id": "s4-penyisihan-bahasa-inggris-tk-b-q18",
+      "n": 18,
+      "prompt": "What do you say when you meet a friend?",
+      "images": [
+        "/soal/s4-penyisihan-bahasa-inggris-tk-b/q18-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Hello",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Good night",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Bye",
+          "images": []
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s4-penyisihan-bahasa-inggris-tk-b-q19",
+      "n": 19,
+      "prompt": "Choose the picture for ‘Good night!",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": null,
+          "images": [
+            "/soal/s4-penyisihan-bahasa-inggris-tk-b/q19-a.webp"
+          ]
+        },
+        {
+          "key": "b",
+          "text": null,
+          "images": [
+            "/soal/s4-penyisihan-bahasa-inggris-tk-b/q19-b.webp"
+          ]
+        },
+        {
+          "key": "c",
+          "text": null,
+          "images": [
+            "/soal/s4-penyisihan-bahasa-inggris-tk-b/q19-c.webp"
+          ]
+        }
+      ],
+      "answer": "b",
+      "status": "ok"
+    },
+    {
+      "id": "s4-penyisihan-bahasa-inggris-tk-b-q20",
+      "n": 20,
+      "prompt": "What do you say when you wake up?",
+      "images": [
+        "/soal/s4-penyisihan-bahasa-inggris-tk-b/q20-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Good morning",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Good night",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Good afternoon",
+          "images": []
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    }
+  ]
+}

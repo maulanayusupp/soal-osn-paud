@@ -1,0 +1,552 @@
+{
+  "id": "s4-final-bahasa-inggris-tk-a",
+  "season": 4,
+  "round": "final",
+  "subject": "bahasa-inggris",
+  "level": "tk-a",
+  "printed": {
+    "title": "SOAL BAHASA INGGRIS BABAK FINAL",
+    "level": "TK A SEDERAJAT",
+    "date": "FEBRUARI 2026",
+    "raw": [
+      "OLIMPIADE SISWA NASIONAL",
+      "SOAL BAHASA INGGRIS BABAK FINAL",
+      "TK A SEDERAJAT",
+      "FEBRUARI 2026"
+    ]
+  },
+  "layoutSource": "pdf",
+  "answerSource": "docx",
+  "verified": false,
+  "questionCount": 20,
+  "playableCount": 18,
+  "warnings": [
+    "answer key read from the .docx (the shipped PDF is the unmarked student copy)",
+    "Q6: no answer highlight found",
+    "Q6: option a is empty",
+    "Q14: no answer highlight found",
+    "Q14: option a is empty"
+  ],
+  "questions": [
+    {
+      "id": "s4-final-bahasa-inggris-tk-a-q01",
+      "n": 1,
+      "prompt": "Which word is spelled correctly?",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": "Oneteen",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Eleven",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Elevain",
+          "images": []
+        }
+      ],
+      "answer": "b",
+      "status": "ok"
+    },
+    {
+      "id": "s4-final-bahasa-inggris-tk-a-q02",
+      "n": 2,
+      "prompt": "Which statement is correct?",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": "Eleven is smaller than ten",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Thirteen is between ten and twelve",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Twenty is bigger than nineteen",
+          "images": []
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    },
+    {
+      "id": "s4-final-bahasa-inggris-tk-a-q03",
+      "n": 3,
+      "prompt": "What number comes three steps before seventeen?",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": "Twenty",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Fifteen",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Fourteen",
+          "images": []
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    },
+    {
+      "id": "s4-final-bahasa-inggris-tk-a-q04",
+      "n": 4,
+      "prompt": "How many balloons is Samuel not holding?",
+      "images": [
+        "/soal/s4-final-bahasa-inggris-tk-a/q04-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Ten",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Twelve",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Twenty-two",
+          "images": []
+        }
+      ],
+      "answer": "b",
+      "status": "ok"
+    },
+    {
+      "id": "s4-final-bahasa-inggris-tk-a-q05",
+      "n": 5,
+      "prompt": "Which word matches this instruction? “Open and close your hands again and again.”",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": "Clap",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Throw",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Pull",
+          "images": []
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s4-final-bahasa-inggris-tk-a-q06",
+      "n": 6,
+      "prompt": "Choose the picture that shows a resting activity!",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": null,
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": null,
+          "images": [
+            "/soal/s4-final-bahasa-inggris-tk-a/q06-b.webp"
+          ]
+        },
+        {
+          "key": "c",
+          "text": null,
+          "images": [
+            "/soal/s4-final-bahasa-inggris-tk-a/q06-c.webp"
+          ]
+        }
+      ],
+      "answer": null,
+      "status": "needs-review"
+    },
+    {
+      "id": "s4-final-bahasa-inggris-tk-a-q07",
+      "n": 7,
+      "prompt": "Which action matches the instruction below? “Do not walk. Do not sit. Stay on your feet.”",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": "Run",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Stand",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Crawling",
+          "images": []
+        }
+      ],
+      "answer": "b",
+      "status": "ok"
+    },
+    {
+      "id": "s4-final-bahasa-inggris-tk-a-q08",
+      "n": 8,
+      "prompt": "Which sentence tells the child to jump?",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": "Move your body up",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Be very quiet",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Put your hands down",
+          "images": []
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s4-final-bahasa-inggris-tk-a-q09",
+      "n": 9,
+      "prompt": "Rafi lives with his father, mother, and sister. Who is Rafi’s sister?",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": "A boy",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "A girl",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "A parent",
+          "images": []
+        }
+      ],
+      "answer": "b",
+      "status": "ok"
+    },
+    {
+      "id": "s4-final-bahasa-inggris-tk-a-q10",
+      "n": 10,
+      "prompt": "Lucas has one mother and one father. What are they called together?",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": "Parents",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Sister",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Grandparents",
+          "images": []
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s4-final-bahasa-inggris-tk-a-q11",
+      "n": 11,
+      "prompt": "Hi, my name is Evelyn. I am the first child in my family. I have a younger brother. We live together with our father and mother. Based on the story above, which statement is not correct?",
+      "images": [
+        "/soal/s4-final-bahasa-inggris-tk-a/q11-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Evelyn does not have parents.",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Evelyn does not have a younger sister.",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Evelyn live with their parents.",
+          "images": []
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s4-final-bahasa-inggris-tk-a-q12",
+      "n": 12,
+      "prompt": "Hi, my name is Evelyn. I am the first child in my family. I have a younger brother. We live together with our father and mother. Who is the man in Evelyn’s family?",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": "Father and mother",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Father and brother",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Brother and sister",
+          "images": [
+            "/soal/s4-final-bahasa-inggris-tk-a/q12-c.webp"
+          ]
+        }
+      ],
+      "answer": "b",
+      "status": "ok"
+    },
+    {
+      "id": "s4-final-bahasa-inggris-tk-a-q13",
+      "n": 13,
+      "prompt": "Which body part comes in two?",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": "Eyebrows",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Belly button",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Chin",
+          "images": []
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s4-final-bahasa-inggris-tk-a-q14",
+      "n": 14,
+      "prompt": "Which body part is on the foot?",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": null,
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": null,
+          "images": [
+            "/soal/s4-final-bahasa-inggris-tk-a/q14-b.webp"
+          ]
+        },
+        {
+          "key": "c",
+          "text": null,
+          "images": [
+            "/soal/s4-final-bahasa-inggris-tk-a/q14-c.webp"
+          ]
+        }
+      ],
+      "answer": null,
+      "status": "needs-review"
+    },
+    {
+      "id": "s4-final-bahasa-inggris-tk-a-q15",
+      "n": 15,
+      "prompt": "Which sentence is correct?",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": "We see with our nose",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "We taste with our tongue",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "We crawl using our elbows",
+          "images": []
+        }
+      ],
+      "answer": "b",
+      "status": "ok"
+    },
+    {
+      "id": "s4-final-bahasa-inggris-tk-a-q16",
+      "n": 16,
+      "prompt": "I am part of your leg. I help your leg bend. I am above your foot. Who am I?",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": "Hip",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Knee",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Big toe",
+          "images": []
+        }
+      ],
+      "answer": "b",
+      "status": "ok"
+    },
+    {
+      "id": "s4-final-bahasa-inggris-tk-a-q17",
+      "n": 17,
+      "prompt": "Eva is in the playground. She runs, jumps, and laughs. What is Eva doing?",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": "Chewing",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Playing",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Ironing",
+          "images": []
+        }
+      ],
+      "answer": "b",
+      "status": "ok"
+    },
+    {
+      "id": "s4-final-bahasa-inggris-tk-a-q18",
+      "n": 18,
+      "prompt": "Look at the pictures. Which one shows a child choosing clothes?",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": null,
+          "images": [
+            "/soal/s4-final-bahasa-inggris-tk-a/q18-a.webp"
+          ]
+        },
+        {
+          "key": "b",
+          "text": null,
+          "images": [
+            "/soal/s4-final-bahasa-inggris-tk-a/q18-b.webp"
+          ]
+        },
+        {
+          "key": "c",
+          "text": null,
+          "images": [
+            "/soal/s4-final-bahasa-inggris-tk-a/q18-c.webp"
+          ]
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s4-final-bahasa-inggris-tk-a-q19",
+      "n": 19,
+      "prompt": "Which activity makes your body feel full?",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": "Telling a story",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Having a meal",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Tidying up the room",
+          "images": []
+        }
+      ],
+      "answer": "b",
+      "status": "ok"
+    },
+    {
+      "id": "s4-final-bahasa-inggris-tk-a-q20",
+      "n": 20,
+      "prompt": "Sofia sits on the floor with her toys. She puts the toys back in the box. She makes her room clean and neat. Sofia smiles when she finishes. Based on the story above, what activity is Sofia doing?",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": "Playing with her toys",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Taking toys out",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Tidying up the room",
+          "images": []
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    }
+  ]
+}

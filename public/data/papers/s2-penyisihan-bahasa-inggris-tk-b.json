@@ -1,0 +1,566 @@
+{
+  "id": "s2-penyisihan-bahasa-inggris-tk-b",
+  "season": 2,
+  "round": "penyisihan",
+  "subject": "bahasa-inggris",
+  "level": "tk-b",
+  "printed": {
+    "title": "SOAL BAHASA INGGRIS BABAK PENYISIHAN",
+    "level": "TK B SEDERAJAT",
+    "date": "MEI 2025",
+    "raw": [
+      "OLIMPIADE SISWA NASIONAL",
+      "SOAL BAHASA INGGRIS BABAK PENYISIHAN",
+      "TK B SEDERAJAT",
+      "MEI 2025"
+    ]
+  },
+  "layoutSource": "pdf",
+  "answerSource": "pdf",
+  "verified": false,
+  "questionCount": 20,
+  "playableCount": 20,
+  "warnings": [],
+  "questions": [
+    {
+      "id": "s2-penyisihan-bahasa-inggris-tk-b-q01",
+      "n": 1,
+      "prompt": "What number is this?",
+      "images": [
+        "/soal/s2-penyisihan-bahasa-inggris-tk-b/q01-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Ten",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Eleven",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Nine",
+          "images": []
+        }
+      ],
+      "answer": "b",
+      "status": "ok"
+    },
+    {
+      "id": "s2-penyisihan-bahasa-inggris-tk-b-q02",
+      "n": 2,
+      "prompt": "Count the corns!",
+      "images": [
+        "/soal/s2-penyisihan-bahasa-inggris-tk-b/q02-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "9",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "14",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "4",
+          "images": []
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s2-penyisihan-bahasa-inggris-tk-b-q03",
+      "n": 3,
+      "prompt": "Count the fish below!",
+      "images": [
+        "/soal/s2-penyisihan-bahasa-inggris-tk-b/q03-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "10",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "5",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "12",
+          "images": []
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    },
+    {
+      "id": "s2-penyisihan-bahasa-inggris-tk-b-q04",
+      "n": 4,
+      "prompt": "Count the banana below!",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": "6",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "9",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "10",
+          "images": [
+            "/soal/s2-penyisihan-bahasa-inggris-tk-b/q04-c.webp"
+          ]
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s2-penyisihan-bahasa-inggris-tk-b-q05",
+      "n": 5,
+      "prompt": "What number is this?",
+      "images": [
+        "/soal/s2-penyisihan-bahasa-inggris-tk-b/q05-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Ten",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Fifteen",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Twelve",
+          "images": []
+        }
+      ],
+      "answer": "b",
+      "status": "ok"
+    },
+    {
+      "id": "s2-penyisihan-bahasa-inggris-tk-b-q06",
+      "n": 6,
+      "prompt": "How many strawberries are in the picture?",
+      "images": [
+        "/soal/s2-penyisihan-bahasa-inggris-tk-b/q06-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "12",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "10",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "6",
+          "images": []
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s2-penyisihan-bahasa-inggris-tk-b-q07",
+      "n": 7,
+      "prompt": "Count the Sunflowers!",
+      "images": [
+        "/soal/s2-penyisihan-bahasa-inggris-tk-b/q07-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "10",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "7",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "14",
+          "images": []
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    },
+    {
+      "id": "s2-penyisihan-bahasa-inggris-tk-b-q08",
+      "n": 8,
+      "prompt": "What drink is this?",
+      "images": [
+        "/soal/s2-penyisihan-bahasa-inggris-tk-b/q08-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Milk",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Water",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Tea",
+          "images": []
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s2-penyisihan-bahasa-inggris-tk-b-q09",
+      "n": 9,
+      "prompt": "What drink is this?",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": "Tea",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Juice",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Water",
+          "images": [
+            "/soal/s2-penyisihan-bahasa-inggris-tk-b/q09-c.webp"
+          ]
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    },
+    {
+      "id": "s2-penyisihan-bahasa-inggris-tk-b-q10",
+      "n": 10,
+      "prompt": "What food is this?",
+      "images": [
+        "/soal/s2-penyisihan-bahasa-inggris-tk-b/q10-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Bread",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Rice",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Noodles",
+          "images": []
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    },
+    {
+      "id": "s2-penyisihan-bahasa-inggris-tk-b-q11",
+      "n": 11,
+      "prompt": "What food is this?",
+      "images": [
+        "/soal/s2-penyisihan-bahasa-inggris-tk-b/q11-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Rice",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Pizza",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Donut",
+          "images": []
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s2-penyisihan-bahasa-inggris-tk-b-q12",
+      "n": 12,
+      "prompt": "What food is this?",
+      "images": [
+        "/soal/s2-penyisihan-bahasa-inggris-tk-b/q12-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Ice",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Donut",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Fried chicken",
+          "images": []
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    },
+    {
+      "id": "s2-penyisihan-bahasa-inggris-tk-b-q13",
+      "n": 13,
+      "prompt": "This is a …",
+      "images": [
+        "/soal/s2-penyisihan-bahasa-inggris-tk-b/q13-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Food",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Drink",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Cat",
+          "images": []
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s2-penyisihan-bahasa-inggris-tk-b-q14",
+      "n": 14,
+      "prompt": "This is a …",
+      "images": [
+        "/soal/s2-penyisihan-bahasa-inggris-tk-b/q14-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Bus",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Train",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Car",
+          "images": []
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s2-penyisihan-bahasa-inggris-tk-b-q15",
+      "n": 15,
+      "prompt": "This is a …",
+      "images": [
+        "/soal/s2-penyisihan-bahasa-inggris-tk-b/q15-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Bicycle",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Car",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Train",
+          "images": []
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    },
+    {
+      "id": "s2-penyisihan-bahasa-inggris-tk-b-q16",
+      "n": 16,
+      "prompt": "This is a …",
+      "images": [
+        "/soal/s2-penyisihan-bahasa-inggris-tk-b/q16-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Plane",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Bike",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Car",
+          "images": []
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s2-penyisihan-bahasa-inggris-tk-b-q17",
+      "n": 17,
+      "prompt": "This is a …",
+      "images": [
+        "/soal/s2-penyisihan-bahasa-inggris-tk-b/q17-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Bike",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Car",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Plane",
+          "images": []
+        }
+      ],
+      "answer": "b",
+      "status": "ok"
+    },
+    {
+      "id": "s2-penyisihan-bahasa-inggris-tk-b-q18",
+      "n": 18,
+      "prompt": "How many pumpkins are below?",
+      "images": [
+        "/soal/s2-penyisihan-bahasa-inggris-tk-b/q18-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "9",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "10",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "14",
+          "images": []
+        }
+      ],
+      "answer": "b",
+      "status": "ok"
+    },
+    {
+      "id": "s2-penyisihan-bahasa-inggris-tk-b-q19",
+      "n": 19,
+      "prompt": "What shape is this?",
+      "images": [
+        "/soal/s2-penyisihan-bahasa-inggris-tk-b/q19-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Square",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Circle",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Triangle",
+          "images": []
+        }
+      ],
+      "answer": "b",
+      "status": "ok"
+    },
+    {
+      "id": "s2-penyisihan-bahasa-inggris-tk-b-q20",
+      "n": 20,
+      "prompt": "What shape is this?",
+      "images": [
+        "/soal/s2-penyisihan-bahasa-inggris-tk-b/q20-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Circle",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Triangle",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Square",
+          "images": []
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    }
+  ]
+}

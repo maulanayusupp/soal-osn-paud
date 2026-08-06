@@ -1,0 +1,588 @@
+{
+  "id": "s3-penyisihan-matematika-tk-b",
+  "season": 3,
+  "round": "penyisihan",
+  "subject": "matematika",
+  "level": "tk-b",
+  "printed": {
+    "title": "SOAL MATEMATIKA BABAK PENYISIHAN",
+    "level": "TK B SEDERAJAT",
+    "date": "SEPTEMBER 2025",
+    "raw": [
+      "OLIMPIADE SISWA NASIONAL",
+      "SOAL MATEMATIKA BABAK PENYISIHAN",
+      "TK B SEDERAJAT",
+      "SEPTEMBER 2025"
+    ]
+  },
+  "layoutSource": "docx",
+  "answerSource": "docx",
+  "verified": false,
+  "questionCount": 20,
+  "playableCount": 20,
+  "warnings": [],
+  "questions": [
+    {
+      "id": "s3-penyisihan-matematika-tk-b-q01",
+      "n": 1,
+      "prompt": "Berapakah jumlah hewan di bawah ini?",
+      "images": [
+        "/soal/s3-penyisihan-matematika-tk-b/q01-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "15",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "14",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "10",
+          "images": []
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s3-penyisihan-matematika-tk-b-q02",
+      "n": 2,
+      "prompt": "Jumlah mainan berikut adalah ….",
+      "images": [
+        "/soal/s3-penyisihan-matematika-tk-b/q02-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "13",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "11",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "12",
+          "images": []
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    },
+    {
+      "id": "s3-penyisihan-matematika-tk-b-q03",
+      "n": 3,
+      "prompt": "Angka berikut di baca ….",
+      "images": [
+        "/soal/s3-penyisihan-matematika-tk-b/q03-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Satu satu",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Sebelas",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Sepuluh",
+          "images": []
+        }
+      ],
+      "answer": "b",
+      "status": "ok"
+    },
+    {
+      "id": "s3-penyisihan-matematika-tk-b-q04",
+      "n": 4,
+      "prompt": "Angka berikut yang dibaca empat belas adalah …",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": null,
+          "images": [
+            "/soal/s3-penyisihan-matematika-tk-b/q04-a.webp"
+          ]
+        },
+        {
+          "key": "b",
+          "text": null,
+          "images": [
+            "/soal/s3-penyisihan-matematika-tk-b/q04-b.webp"
+          ]
+        },
+        {
+          "key": "c",
+          "text": null,
+          "images": [
+            "/soal/s3-penyisihan-matematika-tk-b/q04-c.webp"
+          ]
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    },
+    {
+      "id": "s3-penyisihan-matematika-tk-b-q05",
+      "n": 5,
+      "prompt": "Selesaikan penjumlahan berikut!",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": "11",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "13",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "10",
+          "images": []
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s3-penyisihan-matematika-tk-b-q06",
+      "n": 6,
+      "prompt": "Hasil penjumlahan berikut adalah …",
+      "images": [
+        "/soal/s3-penyisihan-matematika-tk-b/q06-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "50",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "16",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "15",
+          "images": []
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    },
+    {
+      "id": "s3-penyisihan-matematika-tk-b-q07",
+      "n": 7,
+      "prompt": "Hitunglah balok maninan di bawah ini!",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": "n",
+          "images": [
+            "/soal/s3-penyisihan-matematika-tk-b/q07-a.webp"
+          ]
+        },
+        {
+          "key": "b",
+          "text": null,
+          "images": [
+            "/soal/s3-penyisihan-matematika-tk-b/q07-b.webp"
+          ]
+        },
+        {
+          "key": "c",
+          "text": null,
+          "images": [
+            "/soal/s3-penyisihan-matematika-tk-b/q07-c.webp"
+          ]
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s3-penyisihan-matematika-tk-b-q08",
+      "n": 8,
+      "prompt": "Berapakah hasil penjumlahan berikut?",
+      "images": [
+        "/soal/s3-penyisihan-matematika-tk-b/q08-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "12",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "14",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "13",
+          "images": []
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    },
+    {
+      "id": "s3-penyisihan-matematika-tk-b-q09",
+      "n": 9,
+      "prompt": "Tentukan hasil pengurangan di bawah ini!",
+      "images": [
+        "/soal/s3-penyisihan-matematika-tk-b/q09-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "12",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "11",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "13",
+          "images": []
+        }
+      ],
+      "answer": "b",
+      "status": "ok"
+    },
+    {
+      "id": "s3-penyisihan-matematika-tk-b-q10",
+      "n": 10,
+      "prompt": "Lengkapilah hasil pengurangan berikut!",
+      "images": [
+        "/soal/s3-penyisihan-matematika-tk-b/q10-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "10",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "12",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "9",
+          "images": []
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s3-penyisihan-matematika-tk-b-q11",
+      "n": 11,
+      "prompt": "Berapa hasil pengurangan berikut?",
+      "images": [
+        "/soal/s3-penyisihan-matematika-tk-b/q11-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "6",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "9",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "8",
+          "images": []
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    },
+    {
+      "id": "s3-penyisihan-matematika-tk-b-q12",
+      "n": 12,
+      "prompt": "Hitunglah pengurangan berikut!",
+      "images": [
+        "/soal/s3-penyisihan-matematika-tk-b/q12-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "8",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "15",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "11",
+          "images": []
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s3-penyisihan-matematika-tk-b-q13",
+      "n": 13,
+      "prompt": "Kue manakah yang memiliki bentuk lingkaran?",
+      "images": [],
+      "options": [
+        {
+          "key": "a",
+          "text": null,
+          "images": [
+            "/soal/s3-penyisihan-matematika-tk-b/q13-a.webp"
+          ]
+        },
+        {
+          "key": "b",
+          "text": null,
+          "images": [
+            "/soal/s3-penyisihan-matematika-tk-b/q13-b.webp"
+          ]
+        },
+        {
+          "key": "c",
+          "text": null,
+          "images": [
+            "/soal/s3-penyisihan-matematika-tk-b/q13-c.webp"
+          ]
+        }
+      ],
+      "answer": "b",
+      "status": "ok"
+    },
+    {
+      "id": "s3-penyisihan-matematika-tk-b-q14",
+      "n": 14,
+      "prompt": "Nama bentuk di bawah ini adalah …",
+      "images": [
+        "/soal/s3-penyisihan-matematika-tk-b/q14-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Lingkaran",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Segitiga",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Persegi",
+          "images": []
+        }
+      ],
+      "answer": "c",
+      "status": "ok"
+    },
+    {
+      "id": "s3-penyisihan-matematika-tk-b-q15",
+      "n": 15,
+      "prompt": "Bentuk mana yang sama dengan bentuk hewan di bawah ini?",
+      "images": [
+        "/soal/s3-penyisihan-matematika-tk-b/q15-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": null,
+          "images": [
+            "/soal/s3-penyisihan-matematika-tk-b/q15-a.webp"
+          ]
+        },
+        {
+          "key": "b",
+          "text": null,
+          "images": [
+            "/soal/s3-penyisihan-matematika-tk-b/q15-b.webp"
+          ]
+        },
+        {
+          "key": "c",
+          "text": null,
+          "images": [
+            "/soal/s3-penyisihan-matematika-tk-b/q15-c.webp"
+          ]
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s3-penyisihan-matematika-tk-b-q16",
+      "n": 16,
+      "prompt": "Potongan pizza berikut memiliki bentuk seperti …",
+      "images": [
+        "/soal/s3-penyisihan-matematika-tk-b/q16-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Segitiga",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Segiempat",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Lingkaran",
+          "images": []
+        }
+      ],
+      "answer": "a",
+      "status": "ok"
+    },
+    {
+      "id": "s3-penyisihan-matematika-tk-b-q17",
+      "n": 17,
+      "prompt": "Buah manakah yang lebih ringan?",
+      "images": [
+        "/soal/s3-penyisihan-matematika-tk-b/q17-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Kelapa",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Nanas",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Berat kedua buah sama",
+          "images": []
+        }
+      ],
+      "answer": "b",
+      "status": "ok"
+    },
+    {
+      "id": "s3-penyisihan-matematika-tk-b-q18",
+      "n": 18,
+      "prompt": "Mainan yang memiliki ukuran paling besar adalah …",
+      "images": [
+        "/soal/s3-penyisihan-matematika-tk-b/q18-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": null,
+          "images": [
+            "/soal/s3-penyisihan-matematika-tk-b/q18-a.webp"
+          ]
+        },
+        {
+          "key": "b",
+          "text": null,
+          "images": [
+            "/soal/s3-penyisihan-matematika-tk-b/q18-b.webp"
+          ]
+        },
+        {
+          "key": "c",
+          "text": null,
+          "images": [
+            "/soal/s3-penyisihan-matematika-tk-b/q18-c.webp"
+          ]
+        }
+      ],
+      "answer": "b",
+      "status": "ok"
+    },
+    {
+      "id": "s3-penyisihan-matematika-tk-b-q19",
+      "n": 19,
+      "prompt": "Ranting mana yang memiliki ukuran paling panjang?",
+      "images": [
+        "/soal/s3-penyisihan-matematika-tk-b/q19-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Ranting D",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Ranting E",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Ranting F",
+          "images": []
+        }
+      ],
+      "answer": "b",
+      "status": "ok"
+    },
+    {
+      "id": "s3-penyisihan-matematika-tk-b-q20",
+      "n": 20,
+      "prompt": "Dasi mana yang memiliki ukuran lebih pendek?",
+      "images": [
+        "/soal/s3-penyisihan-matematika-tk-b/q20-stem.webp"
+      ],
+      "options": [
+        {
+          "key": "a",
+          "text": "Dasi E",
+          "images": []
+        },
+        {
+          "key": "b",
+          "text": "Dasi D",
+          "images": []
+        },
+        {
+          "key": "c",
+          "text": "Keduanya memiliki ukuran sama pendek",
+          "images": []
+        }
+      ],
+      "answer": "b",
+      "status": "ok"
+    }
+  ]
+}
