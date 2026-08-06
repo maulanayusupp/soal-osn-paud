@@ -80,7 +80,7 @@
       },
       "private": {
         "title": "Data stays on the device",
-        "body": "Practice history lives in your own browser. No accounts, no trackers, nothing sent to a server."
+        "body": "Practice history lives in your own browser. No accounts, and no score is sent to a server."
       },
       "bilingual": {
         "title": "Two languages",
@@ -273,7 +273,7 @@
     "table": {
       "caption": "Counted from the site's own content",
       "papers": "Papers imported",
-      "playable": "Questions shown",
+      "playable": "Questions ready to answer",
       "seasons": "Seasons covered"
     },
     "sections": [
@@ -318,7 +318,9 @@
           "This site asks for no name, no age, no email address and no personal data at all, from either the child or the adult.",
           "Practice records are kept only in the browser storage of the device in use, and can be deleted at any time from the practice page."
         ],
-        "list": []
+        "list": [
+          "Anonymous visit statistics are collected through Vercel Analytics — no cookies, no cross-site tracking. Details on the privacy page."
+        ]
       },
       {
         "heading": "Accessibility",
@@ -345,14 +347,14 @@
     "hero": {
       "eyebrow": "Privacy",
       "title": "We collect nothing",
-      "lead": "The short version: no accounts, no trackers, and nothing sent to a server of ours."
+      "lead": "The short version: no accounts, no ads, and no practice content sent anywhere."
     },
     "updated": "Updated August 2026",
     "sections": [
       {
         "heading": "What is collected",
         "body": [
-          "Nothing. This site has no sign-up form, runs no analytics, and stores no visitor data on a server."
+          "No personal data. This site has no sign-up form and stores no visitor data on a server of ours. The anonymous visit statistics are described below."
         ],
         "list": []
       },
@@ -372,6 +374,17 @@
           "The clear button on the practice page removes it immediately. Clearing site data in your browser settings removes it too."
         ],
         "list": []
+      },
+      {
+        "heading": "Visit statistics",
+        "body": [
+          "This site uses Vercel Web Analytics and Speed Insights to see which pages are opened and how quickly they load. Both run only on the deployed site, never during development.",
+          "Neither uses cookies, and neither follows you to other sites. What is recorded is the page address, the referring page, and coarse device and country information — with no identifier that could pick a person out."
+        ],
+        "list": [
+          "No practice content is sent: which paper, which answers and which score all stay on your device.",
+          "No name, email address or personal data goes with it."
+        ]
       },
       {
         "heading": "Third parties",

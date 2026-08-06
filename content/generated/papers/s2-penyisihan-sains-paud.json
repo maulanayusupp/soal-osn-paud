@@ -392,7 +392,9 @@
         {
           "key": "c",
           "text": "Semangka",
-          "images": []
+          "images": [
+            "/soal/s2-penyisihan-sains-paud/q14-c.webp"
+          ]
         }
       ],
       "answer": "a",

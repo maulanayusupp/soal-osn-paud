@@ -32,7 +32,7 @@ if (!paperId) {
 const perSheet = rest.includes('--per') ? Number(rest[rest.indexOf('--per') + 1]) : 10
 
 const paper = JSON.parse(
-  await readFile(join(root, 'public', 'data', 'papers', `${paperId}.json`), 'utf8'),
+  await readFile(join(root, 'content', 'generated', 'papers', `${paperId}.json`), 'utf8'),
 )
 
 function escapeXml(value) {

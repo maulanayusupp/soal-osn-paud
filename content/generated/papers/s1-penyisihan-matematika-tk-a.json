@@ -19,9 +19,8 @@
   "answerSource": "pdf",
   "verified": false,
   "questionCount": 20,
-  "playableCount": 18,
+  "playableCount": 19,
   "warnings": [
-    "Q6: option a is empty",
     "Q16: option c is empty"
   ],
   "questions": [
@@ -171,7 +170,9 @@
         {
           "key": "a",
           "text": null,
-          "images": []
+          "images": [
+            "/soal/s1-penyisihan-matematika-tk-a/q06-a.webp"
+          ]
         },
         {
           "key": "b",
@@ -189,7 +190,7 @@
         }
       ],
       "answer": "a",
-      "status": "needs-review"
+      "status": "ok"
     },
     {
       "id": "s1-penyisihan-matematika-tk-a-q07",

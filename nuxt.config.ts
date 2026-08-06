@@ -11,7 +11,7 @@ const siteUrl = process.env.NUXT_PUBLIC_SITE_URL || 'https://kancil-pintar.verce
 // the sitemap has to be told about them. Reading the generated catalogue here
 // keeps the sitemap and the question bank from ever disagreeing — both come out
 // of scripts/import-papers.mjs.
-const catalogPath = fileURLToPath(new URL('./public/data/catalog.json', import.meta.url))
+const catalogPath = fileURLToPath(new URL('./content/generated/catalog.json', import.meta.url))
 const paperIds: string[] = (() => {
   try {
     const catalog = JSON.parse(readFileSync(catalogPath, 'utf8')) as {
@@ -126,6 +126,9 @@ export default defineNuxtConfig({
     public: {
       siteUrl,
       contactEmail: process.env.NUXT_PUBLIC_CONTACT_EMAIL || 'maulanayusupp@gmail.com',
+      // Vercel sets VERCEL=1 on its builders, so analytics switch themselves on
+      // when deployed and stay off on a laptop without any manual flag.
+      analyticsEnabled: Boolean(process.env.VERCEL),
     },
   },
 

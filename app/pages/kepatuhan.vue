@@ -45,7 +45,7 @@ usePageSeo(
           </tr>
           <tr>
             <th scope="row">{{ $t('compliance.table.playable') }}</th>
-            <td>{{ totals.playable }}</td>
+            <td>{{ totals.questions }}</td>
           </tr>
           <tr>
             <th scope="row">{{ $t('compliance.table.seasons') }}</th>

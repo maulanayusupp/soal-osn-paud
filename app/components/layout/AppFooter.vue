@@ -91,12 +91,18 @@ const year = new Date().getFullYear()
   }
 
   &__email {
-    display: inline-flex;
+    display: flex;
     align-items: center;
     gap: 0.5rem;
     font-weight: 600;
     text-decoration: none;
-    word-break: break-all;
+    // Break at the dots and @, never mid-word — see the note in kontak.vue.
+    overflow-wrap: anywhere;
+    word-break: normal;
+
+    :deep(svg) {
+      flex: none;
+    }
 
     &:hover {
       text-decoration: underline;

@@ -83,11 +83,20 @@ defineProps<{ question: Question; position: number; total: number }>()
     align-items: center;
     gap: 1rem;
     margin-top: 1.25rem;
+    // Without this the flex line refuses to shrink below its content and a wide
+    // strip of artwork pushes straight out of the card, which clips it.
+    min-width: 0;
   }
 
   &__image {
+    // Both dimensions are capped. Height alone was not enough: a wide strip
+    // ("3 + 1 = ▢") sized to a 15rem height is far wider than a phone, and the
+    // card's overflow rule then cut the right-hand side clean off.
     max-height: 15rem;
+    max-width: 100%;
     width: auto;
+    height: auto;
+    object-fit: contain;
     border-radius: $radius-md;
 
     @include respond-to('md') {

@@ -122,7 +122,9 @@
         {
           "key": "c",
           "text": "4 dan 5",
-          "images": []
+          "images": [
+            "/soal/s2-final-matematika-paud/q04-c.webp"
+          ]
         }
       ],
       "answer": "c",

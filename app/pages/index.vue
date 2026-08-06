@@ -28,7 +28,7 @@ const { root } = useReveal()
 
 <template>
   <div ref="root">
-    <HomeHero :questions="totals?.playable ?? 0" :papers="totals?.papers ?? 0" />
+    <HomeHero :questions="totals?.questions ?? 0" :papers="totals?.papers ?? 0" />
 
     <section class="section container">
       <SectionHeading

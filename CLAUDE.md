@@ -15,8 +15,11 @@ the clever mouse-deer of Indonesian folk tales, who is also the mascot.
 - **Not the organiser.** Independent, personal project. Not affiliated with,
   sponsored by, or endorsed by the OSN organisers — stated in the footer of
   every page and on `/kepatuhan`.
-- **No accounts, no ads, no analytics.** Practice history lives in the visitor's
-  own `localStorage`. Nothing is uploaded.
+- **No accounts, no ads.** Practice history lives in the visitor's own
+  `localStorage` and is never uploaded. Vercel Web Analytics + Speed Insights run
+  **on the deployed site only** (`analyticsEnabled` is keyed off the `VERCEL` env
+  var) — cookie-free, no cross-site tracking, and no practice content leaves the
+  device. Documented on `/privasi` and `/kepatuhan`.
 - **Aesthetic:** *paper jungle* — warm recycled-paper background, cut-paper
   cards with hairline ink borders and chunky offset shadows, leaf green / sun
   amber / river blue with a berry accent. Light theme only.
@@ -82,6 +85,7 @@ app/
                           #   useSoundEffects
   config/                 # STRUCTURE, not text: brand, navigation, practice
   layouts/default.vue     # skip link + header + <slot> + footer
+  plugins/                # vercel-analytics.client.ts (deployed builds only)
   pages/                  # index, latihan/index, latihan/[paper], tentang,
                           #   kontak, kepatuhan, privasi, ketentuan
   services/               # catalog, practice (engine), progress
@@ -90,8 +94,8 @@ app/
 content/
   sources.json            # inventory of the source papers on disk (generated)
   overrides/<id>.json     # optional hand corrections, applied on import
-i18n/locales/{id,en}.json # ALL user-facing text (251 keys each)
-public/data/              # catalog.json + papers/<id>.json (generated)
+  generated/              # catalog.json + papers/<id>.json — imported, not served
+i18n/locales/{id,en}.json # ALL user-facing text (257 keys each)
 public/soal/<id>/*.webp   # question illustrations (generated)
 scripts/                  # import pipeline, proof sheets, favicons, og, i18n check
 assets/favicon-source.svg # favicon source of truth
@@ -111,9 +115,14 @@ tags: `<BaseButton>`, `<MascotKancil>`, `<PracticeStage>`.
 - **The practice engine is framework-free.** `services/practice.service.ts` is
   plain TypeScript (scoring, bands, seeded shuffle). `usePractice()` is the thin
   reactive wrapper that also writes the finished session to local storage.
-- **Question data is fetched, not bundled.** 1,200 questions would otherwise ship
-  in the client bundle. `public/data/catalog.json` is small and loaded once; a
-  paper's JSON is fetched only when it is opened.
+- **Question data is imported, not fetched.** It lives in `content/generated/`
+  (deliberately *not* `public/`) and is pulled in by `catalog.service.ts`: the
+  catalogue as a plain import, the papers through `import.meta.glob`, which Vite
+  splits into one lazily-loaded chunk each. It used to sit in `public/` behind
+  `$fetch('/data/…')`, which worked in production and silently failed in dev —
+  Vite serves `public/` there, so the server-side fetch found nothing and every
+  count on the page rendered as a convincing zero. Importing makes a missing file
+  a build error instead.
 - **Scores are encouragement, not assessment.** `SCORE_BANDS` picks the mascot's
   reaction and the closing message. Never present a band as a grade.
 
@@ -133,9 +142,10 @@ printed page does.** Everything is therefore read off the rendered page.
 | Key erasure | The highlight is painted white **before** the pictures are cut, so it can never leak into what the child sees. |
 | Season 4 finals | The shipped PDF is the clean student copy with no key at all. The key is read from a second render of the `.docx`, then merged by question number. |
 | Papers with no PDF | Season 3 and Season 4's Babak Penyisihan ship `.docx` only. **LibreOffice** converts them. Word 365 for Mac no longer answers AppleScript `save as` (-1708), and Pages reflows the floating pictures so badly it loses half the highlights — both verified, both rejected. |
+| Crop height | A picture may only be cut short by prose in the **lower 40%** of its box. Its box carries wide transparent margins, so the paragraph it overlaps sits near its foot; clipping at any text run higher up sliced options down to a fragment — half an umbrella, the tip of a finger. That bug produced 61 truncated crops before it was caught. |
 | Held-back questions | A question whose key or options could not be read in full is written to the JSON with `status: "needs-review"` and **never served**. A half-read question is worse for a five-year-old than a missing one. |
 
-**Current state: 1,142 of 1,200 questions across all 60 papers are served.** The
+**Current state: 1,146 of 1,200 questions across all 60 papers are served.** The
 remainder are questions the original paper left unmarked — spot-checked against
 the printed pages, not assumed. Re-running `pnpm soal:import` is safe and
 idempotent; `content/overrides/<id>.json` lets a human correction win over the
@@ -213,7 +223,7 @@ persists in `localStorage` (`SOUND_STORAGE_KEY`).
   configured through `i18n.pages` in `nuxt.config`. Keys there are page file
   paths relative to `app/pages` without the extension (`latihan/index`).
 - Keys mirror page/section structure. **Keep ID and EN in lockstep** — same keys,
-  same interpolation placeholders (**251 keys each**). `pnpm i18n:check` verifies
+  same interpolation placeholders (**257 keys each**). `pnpm i18n:check` verifies
   both and exits non-zero on drift.
 - Legal/compliance prose is stored as an **array of sections** and read through
   `useLocalizedSections()`, so a section cannot quietly go missing from one
@@ -255,8 +265,10 @@ persists in `localStorage` (`SOUND_STORAGE_KEY`).
    resolved, the question stays `needs-review` and out of the app.
 7. **Never leak the answer key into an image.** The highlight is erased from the
    raster before any crop is written.
-8. **Privacy by default.** No analytics, no accounts, no upload of results. New
-   third-party calls go on the privacy and compliance pages first.
+8. **Privacy by default.** No accounts, and no practice result ever leaves the
+   device. Analytics are limited to anonymous page views on the deployed site.
+   Any new third-party call goes on the privacy and compliance pages **in the
+   same commit** that adds it.
 9. **Respect the source.** The papers are third-party material used for study.
    Keep the non-affiliation notice and the takedown offer on every relevant page,
    and never ship the organiser's logo.

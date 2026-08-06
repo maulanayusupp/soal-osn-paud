@@ -5,23 +5,25 @@ must also update `CLAUDE.md`, the compliance pages, and both locales.
 
 ## Content quality
 
-- [ ] **Review the 58 held-back questions.** They sit in
+- [ ] **Review the 54 held-back questions.** They sit in
       `public/data/papers/*.json` with `status: "needs-review"`. Spot-checking
       says most are questions the original paper simply never marked. Everything
       recoverable from the .docx has already been recovered by
       `node scripts/recover-keys.mjs --write`; what remains needs a human to read
       the printed page and add `content/overrides/<id>.json` by hand.
 - [ ] **Human spot-check every paper.** `node scripts/audit-papers.mjs` already
-      verifies coverage, integrity, assets, and 872 answer keys against the Word
-      XML with no disagreements — but 269 picture-option keys cannot be checked
+      verifies coverage, integrity, assets, and 873 answer keys against the Word
+      XML with no disagreements — but 273 picture-option keys cannot be checked
       that way and only a sample has been read by eye. `pnpm soal:proof <paper-id>`
       renders a sheet per paper for that. Mark a paper `"verified": true` in its
       override file once checked.
 - [ ] Strip the last of the drafting noise. A handful of options still carry
       keyboard-mash from the source ("assa", "ijuhyt") next to their picture; the
       vowel-ratio filter in `import-papers.mjs` catches most but not all.
-- [ ] Some option images are cropped tighter than the printed original where a
-      floating picture overlapped the following line. Worth an eye.
+- [ ] 18 crops are still very small. Most are legitimate (solid colour squares
+      for the pattern questions, printed sums), but a couple look tight —
+      `s2-final-matematika-tk-a` Q12 and `s3-final-bahasa-inggris-tk-a` Q15 are
+      the ones to look at.
 
 ## Features
 
@@ -57,9 +59,12 @@ must also update `CLAUDE.md`, the compliance pages, and both locales.
 
 ## Deployment
 
-- [ ] Not deployed yet. `NUXT_PUBLIC_SITE_URL` defaults to
-      `https://kancil-pintar.vercel.app`; set it to the real host before the
-      first deploy, or the canonical and OG URLs will point at the wrong place.
+- [ ] `NUXT_PUBLIC_SITE_URL` defaults to `https://kancil-pintar.vercel.app`. If
+      the site ever moves, set it, or the canonical and OG URLs point at the
+      wrong host.
+- [ ] Vercel Analytics and Speed Insights are wired up and switch on only when
+      `VERCEL` is set in the environment, so they stay silent locally. Confirm
+      data appears in the dashboard after the next deploy.
 - [ ] Verify link previews after deploying (WhatsApp / Facebook / X) — OG tags
       are server-rendered and `og:image` is an absolute https PNG, so it should
       work without a JS-executing crawler.

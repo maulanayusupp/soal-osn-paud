@@ -156,7 +156,7 @@ let skippedKeyChecks = 0
 
 for (const source of papers) {
   const paper = JSON.parse(
-    await readFile(join(root, 'public', 'data', 'papers', `${source.id}.json`), 'utf8'),
+    await readFile(join(root, 'content', 'generated', 'papers', `${source.id}.json`), 'utf8'),
   )
   questionTotal += paper.questionCount
   const served = paper.questions.filter((q) => q.status === 'ok')

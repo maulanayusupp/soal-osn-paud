@@ -87,7 +87,7 @@ let stillOpen = 0
 
 for (const source of sources.papers) {
   const paper = JSON.parse(
-    await readFile(join(root, 'public', 'data', 'papers', `${source.id}.json`), 'utf8'),
+    await readFile(join(root, 'content', 'generated', 'papers', `${source.id}.json`), 'utf8'),
   )
   const open = paper.questions.filter((question) => !question.answer)
   if (!open.length) continue

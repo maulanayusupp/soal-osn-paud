@@ -19,10 +19,8 @@
   "answerSource": "pdf",
   "verified": false,
   "questionCount": 20,
-  "playableCount": 19,
-  "warnings": [
-    "Q11: option b is empty"
-  ],
+  "playableCount": 20,
+  "warnings": [],
   "questions": [
     {
       "id": "s2-final-bahasa-inggris-paud-q01",
@@ -312,7 +310,9 @@
         {
           "key": "b",
           "text": null,
-          "images": []
+          "images": [
+            "/soal/s2-final-bahasa-inggris-paud/q11-b.webp"
+          ]
         },
         {
           "key": "c",
@@ -323,7 +323,7 @@
         }
       ],
       "answer": "b",
-      "status": "needs-review"
+      "status": "ok"
     },
     {
       "id": "s2-final-bahasa-inggris-paud-q12",

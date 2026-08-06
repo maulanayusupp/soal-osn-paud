@@ -26,7 +26,11 @@ withDefaults(
 <style scoped lang="scss">
 .card {
   position: relative;
-  overflow: hidden;
+  // `hidden` would clip the accent strip to the rounded corner correctly, but it
+  // also silently cut off any artwork wider than the card. `clip` keeps the
+  // corner tidy while still letting the browser report the overflow, and the
+  // images themselves are now capped so nothing needs clipping.
+  overflow: clip;
   padding: 1.4rem;
   @include paper;
 

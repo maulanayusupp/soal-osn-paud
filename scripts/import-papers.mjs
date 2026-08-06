@@ -3,13 +3,13 @@
 //
 //   content/sources.json             (what exists on disk)
 //     + content/overrides/*.json     (human corrections, always win)
-//        -> public/data/papers/<id>.json   (one file per paper)
-//        -> public/data/catalog.json       (index the app boots from)
+//        -> content/generated/papers/<id>.json  (one file per paper)
+//        -> content/generated/catalog.json      (index the app boots from)
 //        -> public/soal/<id>/*.webp        (the illustrations)
 //
 // Run: pnpm soal:import [--only <id-prefix>] [--force]
 //
-// The pipeline is deliberately re-runnable: delete public/data + public/soal and
+// The pipeline is deliberately re-runnable: delete content/generated + public/soal and
 // run it again and you get the same output, because every decision comes from
 // the paper itself, not from anything typed by hand.
 //
@@ -33,7 +33,7 @@ import { questionSlug } from './lib/paper-id.mjs'
 
 const root = resolve(dirname(fileURLToPath(import.meta.url)), '..')
 const CACHE = join(root, '.import-cache')
-const DATA_OUT = join(root, 'public', 'data', 'papers')
+const DATA_OUT = join(root, 'content', 'generated', 'papers')
 const IMAGE_OUT = join(root, 'public', 'soal')
 
 /** Padding around a cropped illustration, in xml units. */
@@ -74,11 +74,19 @@ function cropBox(images, page, markerNodes) {
   let bottom = Math.max(...images.map((i) => i.top + i.height)) + CROP_PADDING
 
   const artTop = Math.min(...images.map((i) => i.top))
+  const artHeight = Math.max(...images.map((i) => i.top + i.height)) - artTop
+  // Only prose in the LOWER PART of the picture's box may cut it short. A
+  // picture's box carries wide transparent margins, so the paragraph it
+  // overlaps sits near its foot; a text run higher up is drawn over the artwork
+  // itself, and clipping there sliced options down to a fragment — half an
+  // umbrella, the tip of a finger.
+  const clipFloor = artTop + Math.max(40, artHeight * 0.6)
+
   for (const node of page.texts) {
     // The "18." a picture straddles is the very reason it was assigned here —
     // clipping at it would slice the illustration in half. Only prose counts.
     if (markerNodes.has(node)) continue
-    if (node.top > artTop + 15 && node.top < bottom) bottom = Math.min(bottom, node.top - 2)
+    if (node.top > clipFloor && node.top < bottom) bottom = Math.min(bottom, node.top - 2)
   }
 
   return {
@@ -400,7 +408,7 @@ await closePages()
 
 // The catalog is rewritten wholesale only on a full run; a --only run patches it.
 if (only) {
-  const path = join(root, 'public', 'data', 'catalog.json')
+  const path = join(root, 'content', 'generated', 'catalog.json')
   const previous = (await exists(path)) ? JSON.parse(await readFile(path, 'utf8')) : { papers: [] }
   const byId = new Map(previous.papers.map((p) => [p.id, p]))
   for (const entry of catalog) byId.set(entry.id, entry)
@@ -409,9 +417,9 @@ if (only) {
 }
 
 catalog.sort((a, b) => a.id.localeCompare(b.id))
-await mkdir(join(root, 'public', 'data'), { recursive: true })
+await mkdir(join(root, 'content', 'generated'), { recursive: true })
 await writeFile(
-  join(root, 'public', 'data', 'catalog.json'),
+  join(root, 'content', 'generated', 'catalog.json'),
   `${JSON.stringify(
     {
       generatedFrom: 'scripts/import-papers.mjs',

@@ -252,7 +252,9 @@
       "id": "s3-final-matematika-tk-b-q09",
       "n": 9,
       "prompt": "Perhatikan soal di bawah ini. Dari semua pengurangan berikut, ada berapa yang hasilnya",
-      "images": [],
+      "images": [
+        "/soal/s3-final-matematika-tk-b/q09-stem.webp"
+      ],
       "options": [
         {
           "key": "a",

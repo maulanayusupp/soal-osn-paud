@@ -80,7 +80,7 @@
       },
       "private": {
         "title": "Data tetap di perangkat",
-        "body": "Riwayat latihan disimpan di browser sendiri. Tidak ada akun, tidak ada pelacak, tidak ada yang dikirim ke server."
+        "body": "Riwayat latihan disimpan di browser sendiri. Tidak ada akun dan tidak ada nilai yang dikirim ke server."
       },
       "bilingual": {
         "title": "Dua bahasa",
@@ -273,7 +273,7 @@
     "table": {
       "caption": "Angka langsung dari isi situs",
       "papers": "Berkas soal termuat",
-      "playable": "Soal ditampilkan",
+      "playable": "Soal siap dikerjakan",
       "seasons": "Musim tercakup"
     },
     "sections": [
@@ -318,7 +318,9 @@
           "Situs ini tidak meminta nama, umur, alamat surel, atau data pribadi apa pun dari anak maupun orang tua.",
           "Catatan latihan disimpan hanya di penyimpanan browser perangkat yang dipakai, dan bisa dihapus kapan saja dari halaman latihan."
         ],
-        "list": []
+        "list": [
+          "Statistik kunjungan yang anonim dikumpulkan lewat Vercel Analytics — tanpa cookie, tanpa pelacakan lintas situs. Rinciannya ada di halaman privasi."
+        ]
       },
       {
         "heading": "Aksesibilitas",
@@ -345,14 +347,14 @@
     "hero": {
       "eyebrow": "Privasi",
       "title": "Kami tidak mengumpulkan apa pun",
-      "lead": "Ringkasnya: tidak ada akun, tidak ada pelacak, tidak ada data yang dikirim ke server kami."
+      "lead": "Ringkasnya: tidak ada akun, tidak ada iklan, dan tidak ada isi latihan yang dikirim ke mana pun."
     },
     "updated": "Diperbarui Agustus 2026",
     "sections": [
       {
         "heading": "Data yang dikumpulkan",
         "body": [
-          "Tidak ada. Situs ini tidak memiliki formulir pendaftaran, tidak memasang alat analitik, dan tidak menyimpan data pengunjung di server."
+          "Tidak ada data pribadi. Situs ini tidak punya formulir pendaftaran dan tidak menyimpan data pengunjung di server kami. Statistik kunjungan yang anonim dijelaskan di bawah."
         ],
         "list": []
       },
@@ -372,6 +374,17 @@
           "Tombol hapus catatan pada halaman latihan menghapusnya seketika. Membersihkan data situs lewat pengaturan browser juga menghapus semuanya."
         ],
         "list": []
+      },
+      {
+        "heading": "Statistik kunjungan",
+        "body": [
+          "Situs ini memakai Vercel Web Analytics dan Speed Insights untuk mengetahui halaman mana yang dibuka dan seberapa cepat halaman termuat. Keduanya hanya aktif pada situs yang sudah tayang, tidak saat pengembangan.",
+          "Layanan ini tidak memakai cookie dan tidak mengikuti Anda ke situs lain. Yang tercatat adalah alamat halaman, halaman perujuk, serta jenis perangkat dan negara secara kasar — tanpa penanda yang bisa dipakai mengenali seseorang."
+        ],
+        "list": [
+          "Tidak ada isi latihan yang dikirim: berkas yang dikerjakan, jawaban, dan nilai tetap di perangkat Anda.",
+          "Tidak ada nama, surel, atau data pribadi yang ikut terkirim."
+        ]
       },
       {
         "heading": "Layanan pihak ketiga",

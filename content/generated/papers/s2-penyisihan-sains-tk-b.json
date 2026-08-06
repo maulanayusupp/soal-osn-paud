@@ -19,10 +19,9 @@
   "answerSource": "pdf",
   "verified": false,
   "questionCount": 20,
-  "playableCount": 18,
+  "playableCount": 19,
   "warnings": [
-    "Q1: no answer highlight found",
-    "Q5: option a is empty"
+    "Q1: no answer highlight found"
   ],
   "questions": [
     {
@@ -142,7 +141,9 @@
         {
           "key": "a",
           "text": null,
-          "images": []
+          "images": [
+            "/soal/s2-penyisihan-sains-tk-b/q05-a.webp"
+          ]
         },
         {
           "key": "b",
@@ -160,7 +161,7 @@
         }
       ],
       "answer": "b",
-      "status": "needs-review"
+      "status": "ok"
     },
     {
       "id": "s2-penyisihan-sains-tk-b-q06",

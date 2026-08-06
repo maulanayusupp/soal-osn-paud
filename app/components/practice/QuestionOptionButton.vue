@@ -122,6 +122,8 @@ const state = computed(() => {
     max-height: 7.5rem;
     max-width: 100%;
     width: auto;
+    height: auto;
+    object-fit: contain;
     border-radius: $radius-sm;
 
     @include respond-to('sm') {

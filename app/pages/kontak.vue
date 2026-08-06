@@ -122,12 +122,22 @@ usePageSeo(
   }
 
   &__email {
-    display: inline-flex;
+    display: flex;
     align-items: center;
     gap: 0.5rem;
     font-weight: 700;
     text-decoration: none;
-    word-break: break-all;
+    // An address is long and has no spaces. `break-all` used to cut it mid-word
+    // ("…gmail.c / om"); this breaks it at the dots and @ instead, and lets the
+    // font shrink a little on a narrow column rather than splitting at all.
+    font-size: clamp(0.85rem, 0.72rem + 0.6vw, 1rem);
+    line-break: anywhere;
+    overflow-wrap: anywhere;
+    word-break: normal;
+
+    :deep(svg) {
+      flex: none;
+    }
   }
 
   &__note,
