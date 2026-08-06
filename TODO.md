@@ -5,7 +5,7 @@ must also update `CLAUDE.md`, the compliance pages, and both locales.
 
 ## Content quality
 
-- [ ] **Review the 80 held-back questions.** They sit in
+- [ ] **Review the 86 held-back questions.** They sit in
       `public/data/papers/*.json` with `status: "needs-review"`. Most are
       questions the original paper never marked an answer for; a handful lost an
       option to an unusual layout. Fix by adding `content/overrides/<id>.json`

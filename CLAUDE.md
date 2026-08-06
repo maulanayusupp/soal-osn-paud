@@ -132,7 +132,7 @@ printed page does.** Everything is therefore read off the rendered page.
 | Papers with no PDF | Season 3 and Season 4's Babak Penyisihan ship `.docx` only. **LibreOffice** converts them. Word 365 for Mac no longer answers AppleScript `save as` (-1708), and Pages reflows the floating pictures so badly it loses half the highlights — both verified, both rejected. |
 | Held-back questions | A question whose key or options could not be read in full is written to the JSON with `status: "needs-review"` and **never served**. A half-read question is worse for a five-year-old than a missing one. |
 
-**Current state: 1,120 of 1,200 questions across all 60 papers are served.** The
+**Current state: 1,114 of 1,200 questions across all 60 papers are served.** The
 remainder are mostly questions the original paper left unmarked. Re-running
 `pnpm soal:import` is safe and idempotent; `content/overrides/<id>.json` lets a
 human correction win over the extractor.
