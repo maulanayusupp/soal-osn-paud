@@ -36,7 +36,12 @@ the clever mouse-deer of Indonesian folk tales, who is also the mascot.
 | Favicons   | `favicons` 7.3.1 (build-time script)                |
 | OG image   | `sharp` 0.35.3 (build-time script, raster PNG)      |
 | Import     | poppler (`pdftohtml`, `pdftoppm`) + LibreOffice     |
+| Typecheck  | `vue-tsc` 3.3 on **TypeScript 5.9** (see note)       |
 | Node       | ≥ 20.11                                             |
+
+> TypeScript is pinned to `5.x` on purpose: `vue-tsc` 3.3 resolves
+> `typescript/lib/tsc`, which TypeScript 7's native port no longer exports, so
+> `pnpm typecheck` dies at startup on `typescript@7`.
 
 ## Commands
 

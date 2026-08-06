@@ -112,11 +112,6 @@ export default defineNuxtConfig({
       privasi: { id: '/privasi', en: '/privacy' },
       ketentuan: { id: '/ketentuan', en: '/terms' },
     },
-    bundle: {
-      // Silences the v10 optimize-directive advisory; we use $t/useI18n, not v-t.
-      optimizeTranslationDirective: false,
-    },
-
     experimental: {
       // Lets @nuxtjs/i18n own the localized head tags (hreflang alternates,
       // canonical, og:locale) instead of the app assembling them by hand — and
@@ -136,7 +131,6 @@ export default defineNuxtConfig({
     css: {
       preprocessorOptions: {
         scss: {
-          api: 'modern-compiler',
           additionalData: `@use "${scssShared}" as *;`,
         },
       },

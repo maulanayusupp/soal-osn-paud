@@ -4,9 +4,9 @@ const { locale, locales } = useI18n()
 const switchLocalePath = useSwitchLocalePath()
 
 const options = computed(() =>
-  (locales.value as { code: string; name: string }[]).map((entry) => ({
+  locales.value.map((entry) => ({
     code: entry.code,
-    name: entry.name,
+    name: entry.name ?? entry.code,
     short: entry.code.toUpperCase(),
     to: switchLocalePath(entry.code),
   })),

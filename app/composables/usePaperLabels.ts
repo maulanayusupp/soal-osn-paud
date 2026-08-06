@@ -6,7 +6,10 @@
 // only ever changes in the locale files.
 // =============================================================================
 import { LEVEL_ICON, SUBJECT_ICON } from '~/config/practice.config'
-import type { CatalogEntry, Level, Round, Subject } from '~/types'
+import type { CatalogEntry, Level, Paper, Round, Subject } from '~/types'
+
+/** The four fields a title needs — shared by a catalogue entry and a full paper. */
+type Describable = Pick<CatalogEntry | Paper, 'subject' | 'level' | 'round' | 'season'>
 
 export function usePaperLabels() {
   const { t } = useI18n()
@@ -20,11 +23,11 @@ export function usePaperLabels() {
   const levelIcon = (level: Level) => LEVEL_ICON[level]
 
   /** "Matematika · PAUD" — the two things a parent picks by. */
-  const shortTitle = (paper: CatalogEntry) =>
+  const shortTitle = (paper: Describable) =>
     `${subjectLabel(paper.subject)} · ${levelLabel(paper.level)}`
 
   /** The full description used as a page title and card subtitle. */
-  const fullTitle = (paper: CatalogEntry) =>
+  const fullTitle = (paper: Describable) =>
     t('paper.fullTitle', {
       subject: subjectLabel(paper.subject),
       level: levelLabel(paper.level),
