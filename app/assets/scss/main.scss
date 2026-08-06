@@ -1,0 +1,11 @@
+// =============================================================================
+// The single global stylesheet. Everything else is scoped to a component.
+//
+// Partials pulled in here must @use 'variables'/'mixins' themselves — the
+// nuxt.config injection only reaches Vite entry files, not @use-loaded partials.
+// =============================================================================
+@use 'tokens';
+@use 'reset';
+@use 'typography';
+@use 'base';
+@use 'utilities';

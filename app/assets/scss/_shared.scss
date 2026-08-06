@@ -1,0 +1,9 @@
+// =============================================================================
+// Injected into every component's <style lang="scss"> by nuxt.config
+// (vite.css.preprocessorOptions.scss.additionalData).
+//
+// It must only ever forward things that emit NO CSS — otherwise every component
+// would ship its own copy.
+// =============================================================================
+@forward 'variables';
+@forward 'mixins';

@@ -1,0 +1,52 @@
+// =============================================================================
+// A deliberately small utility set. Anything used more than a few times becomes
+// a component instead.
+// =============================================================================
+@use 'variables' as *;
+@use 'mixins' as *;
+
+.container {
+  @include container;
+}
+
+.container-narrow {
+  @include container($container-narrow);
+}
+
+.section {
+  @include section-padding;
+}
+
+.visually-hidden {
+  @include visually-hidden;
+}
+
+.stack {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.stack-lg {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+// Fade-and-rise on scroll, driven by the useReveal composable.
+.reveal {
+  opacity: 1;
+
+  @include motion-safe {
+    opacity: 0;
+    transform: translateY(18px);
+    transition:
+      opacity $duration-slow $ease-out,
+      transform $duration-slow $ease-out;
+
+    &.is-revealed {
+      opacity: 1;
+      transform: none;
+    }
+  }
+}

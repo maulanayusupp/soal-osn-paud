@@ -1,0 +1,56 @@
+// =============================================================================
+// Page chrome: the paper backdrop, links, focus, selection.
+// =============================================================================
+@use 'variables' as *;
+@use 'mixins' as *;
+
+body {
+  background-color: var(--c-paper);
+  background-image: var(--grad-paper);
+  // A faint speckle so the "paper" reads as paper rather than flat beige.
+  background-attachment: fixed;
+}
+
+::selection {
+  background: var(--c-sun-soft);
+  color: var(--c-ink);
+}
+
+:focus-visible {
+  @include focus-ring;
+}
+
+a {
+  color: var(--c-leaf-deep);
+  text-decoration-thickness: 2px;
+  text-underline-offset: 3px;
+  transition: color $duration-fast $ease-out;
+
+  &:hover {
+    color: var(--c-berry);
+  }
+}
+
+// The skip link stays out of the way until it is focused.
+.skip-link {
+  position: absolute;
+  top: 0.5rem;
+  left: 50%;
+  transform: translate(-50%, -220%);
+  z-index: z('overlay');
+  padding: 0.6rem 1.2rem;
+  border-radius: $radius-pill;
+  background: var(--c-ink);
+  color: var(--c-paper);
+  font-weight: 700;
+  text-decoration: none;
+  transition: transform $duration-base $ease-bounce;
+
+  &:focus {
+    transform: translate(-50%, 0);
+  }
+}
+
+.app-main {
+  min-height: 60vh;
+}

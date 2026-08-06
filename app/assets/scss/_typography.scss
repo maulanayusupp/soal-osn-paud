@@ -1,0 +1,68 @@
+// =============================================================================
+// Type scale. Rounded display face for headings and anything a child reads;
+// a highly legible body face for the parent-facing prose.
+// =============================================================================
+@use 'variables' as *;
+@use 'mixins' as *;
+
+body {
+  font-family: var(--font-body);
+  font-size: clamp(1rem, 0.96rem + 0.2vw, 1.075rem);
+  color: var(--c-ink);
+}
+
+h1,
+h2,
+h3,
+h4,
+.h1,
+.h2,
+.h3 {
+  font-family: var(--font-display);
+  font-weight: 800;
+  line-height: 1.12;
+  letter-spacing: -0.01em;
+  color: var(--c-ink);
+}
+
+h1,
+.h1 {
+  font-size: clamp(2.1rem, 1.55rem + 2.6vw, 3.5rem);
+}
+
+h2,
+.h2 {
+  font-size: clamp(1.65rem, 1.35rem + 1.4vw, 2.4rem);
+}
+
+h3,
+.h3 {
+  font-size: clamp(1.2rem, 1.08rem + 0.55vw, 1.5rem);
+}
+
+h4 {
+  font-size: 1.05rem;
+  font-weight: 700;
+}
+
+p {
+  color: var(--c-ink-soft);
+}
+
+strong {
+  font-weight: 700;
+  color: var(--c-ink);
+}
+
+small {
+  font-size: 0.85rem;
+}
+
+.lead {
+  font-size: clamp(1.05rem, 1rem + 0.35vw, 1.22rem);
+  color: var(--c-ink-soft);
+}
+
+.eyebrow {
+  @include eyebrow;
+}

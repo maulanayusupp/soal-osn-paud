@@ -1,0 +1,58 @@
+// =============================================================================
+// Runtime design tokens.
+//
+// The palette is "paper jungle": warm recycled paper, leaf green, sunlight
+// amber and river blue, with a berry accent. It is built for a five-year-old
+// reading over a parent's shoulder — high contrast ink on warm paper, colour
+// used to mean something (right / wrong / progress) rather than to decorate.
+//
+// Every colour in the app comes from here. No component may hard-code a hex.
+// =============================================================================
+:root {
+  // --- Brand ---------------------------------------------------------------
+  --c-leaf: #2f9e63;
+  --c-leaf-deep: #1f7a4a;
+  --c-leaf-soft: #d6f0e0;
+  --c-sun: #f6a821;
+  --c-sun-soft: #ffeccb;
+  --c-river: #3d8ddd;
+  --c-river-soft: #d9eaff;
+  --c-berry: #e2497f;
+  --c-berry-soft: #ffdfeb;
+
+  // --- Paper & ink ---------------------------------------------------------
+  --c-paper: #fff8ec;
+  --c-paper-deep: #f8ecd8;
+  --c-surface: #ffffff;
+  --c-surface-quiet: #fffaf2;
+  --c-ink: #23301f;
+  --c-ink-soft: #6b7a63;
+  --c-ink-line: #23301f;
+  --c-ink-line-soft: #c9d2c2;
+
+  // --- Meaning -------------------------------------------------------------
+  --c-correct: var(--c-leaf);
+  --c-correct-soft: var(--c-leaf-soft);
+  --c-wrong: #d8543f;
+  --c-wrong-soft: #ffe2db;
+  --c-focus: #1f7a4a;
+
+  // --- Subjects ------------------------------------------------------------
+  // Each subject keeps one colour across the whole app, so a child learns to
+  // recognise "the green one" before they can read the label.
+  --c-subject-matematika: #3d8ddd;
+  --c-subject-sains: #2f9e63;
+  --c-subject-bahasa-inggris: #e2497f;
+
+  // --- Gradients -----------------------------------------------------------
+  --grad-brand: linear-gradient(100deg, var(--c-leaf) 0%, var(--c-river) 55%, var(--c-berry) 100%);
+  --grad-sun: linear-gradient(150deg, var(--c-sun) 0%, #ffd166 100%);
+  --grad-paper: radial-gradient(120% 90% at 50% 0%, #fffdf7 0%, var(--c-paper) 60%);
+
+  // --- Type ----------------------------------------------------------------
+  --font-display: 'Baloo 2', 'Trebuchet MS', system-ui, sans-serif;
+  --font-body: 'Nunito', system-ui, -apple-system, 'Segoe UI', sans-serif;
+
+  // --- Sizing --------------------------------------------------------------
+  --header-height: 4.5rem;
+}

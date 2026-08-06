@@ -1,0 +1,49 @@
+// =============================================================================
+// Build-time values. Anything that can change at runtime (colour, theme) lives
+// in _tokens.scss as a CSS custom property instead.
+// =============================================================================
+
+// --- Layout -----------------------------------------------------------------
+$container-max: 1140px;
+$container-narrow: 760px;
+$gutter: 1.25rem;
+$gutter-lg: 2rem;
+
+// --- Radii ------------------------------------------------------------------
+// Generous and uneven: the whole look is cut-paper, not boxes.
+$radius-sm: 0.65rem;
+$radius-md: 1.1rem;
+$radius-lg: 1.75rem;
+$radius-xl: 2.5rem;
+$radius-pill: 999px;
+
+// --- Breakpoints ------------------------------------------------------------
+$breakpoints: (
+  'sm': 480px,
+  'md': 720px,
+  'lg': 980px,
+  'xl': 1200px,
+);
+
+// --- Elevation --------------------------------------------------------------
+// Soft, warm shadows — never neutral grey, which reads as clinical.
+$shadow-sm: 0 2px 0 rgba(58, 42, 23, 0.09);
+$shadow-md: 0 6px 0 rgba(58, 42, 23, 0.1), 0 12px 26px rgba(58, 42, 23, 0.09);
+$shadow-lg: 0 10px 0 rgba(58, 42, 23, 0.09), 0 26px 50px rgba(58, 42, 23, 0.13);
+
+// --- Motion -----------------------------------------------------------------
+$ease-bounce: cubic-bezier(0.34, 1.56, 0.64, 1);
+$ease-out: cubic-bezier(0.22, 1, 0.36, 1);
+$duration-fast: 140ms;
+$duration-base: 260ms;
+$duration-slow: 520ms;
+
+// --- Stacking ---------------------------------------------------------------
+$layers: (
+  'base': 1,
+  'raised': 10,
+  'sticky': 100,
+  'header': 200,
+  'overlay': 300,
+  'toast': 400,
+);

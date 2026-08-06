@@ -1,0 +1,482 @@
+{
+  "nav": {
+    "practice": "Practice",
+    "about": "About",
+    "contact": "Contact",
+    "compliance": "Compliance",
+    "privacy": "Privacy",
+    "terms": "Terms",
+    "menu": "Open menu",
+    "primaryLabel": "Primary navigation",
+    "footerLabel": "Footer navigation",
+    "languageLabel": "Choose a language",
+    "skipToContent": "Skip to content",
+    "startPractice": "Start practising"
+  },
+  "footer": {
+    "tagline": "OSN practice questions for PAUD, TK A and TK B — with Kancil along for company.",
+    "notAffiliated": "This is a personal site for home study. It is not affiliated with, sponsored by, or endorsed by the {organiser} organisers.",
+    "pages": "Pages",
+    "contact": "Contact",
+    "rights": "Made for learning together at home."
+  },
+  "home": {
+    "seo": {
+      "title": "OSN Practice Questions for PAUD, TK A & TK B",
+      "description": "Practise OSN PAUD and TK questions: maths, science and English. Free, no ads, no account, and the answer is shown straight away."
+    },
+    "hero": {
+      "eyebrow": "Learning, but playful",
+      "titleLead": "Practise together with",
+      "titleAccent": "Kancil",
+      "lead": "{questions} questions from {papers} OSN practice papers for PAUD, TK A and TK B. Your child answers, and Kancil says right away whether it was right.",
+      "primaryCta": "Start practising",
+      "secondaryCta": "What is this?",
+      "mascotAlt": "Kancil, this site's mascot, waiting quietly",
+      "points": {
+        "free": "Completely free",
+        "noAds": "No ads",
+        "offlineData": "No account"
+      }
+    },
+    "levels": {
+      "eyebrow": "First things first",
+      "title": "Match it to your child's group",
+      "lead": "A TK B paper in front of a PAUD child is not a challenge, it is discouraging. Start with the right group.",
+      "cta": "See the papers"
+    },
+    "steps": {
+      "eyebrow": "How it works",
+      "title": "Three steps, that's it",
+      "lead": "Built to be used side by side: the child taps, the grown-up reads the question aloud.",
+      "pick": {
+        "title": "Pick a paper",
+        "body": "Filter by age group, subject, season and round."
+      },
+      "answer": {
+        "title": "Answer one at a time",
+        "body": "One question per screen. As soon as a choice is made, the correct one is marked."
+      },
+      "repeat": {
+        "title": "Repeat as often as you like",
+        "body": "Run it again in the same order or shuffled. No timer, and no score sent anywhere."
+      }
+    },
+    "features": {
+      "eyebrow": "What's inside",
+      "title": "What you get",
+      "realPapers": {
+        "title": "From the real papers",
+        "body": "Questions and pictures are read from the circulating OSN PAUD and TK practice papers, not rewritten."
+      },
+      "instantFeedback": {
+        "title": "The answer is shown at once",
+        "body": "The moment a choice is made, the correct option is marked — so a mistake can be talked about there and then."
+      },
+      "pictures": {
+        "title": "Mostly pictures",
+        "body": "Most PAUD questions are pictures, because children this age cannot read fluently yet."
+      },
+      "private": {
+        "title": "Data stays on the device",
+        "body": "Practice history lives in your own browser. No accounts, no trackers, nothing sent to a server."
+      },
+      "bilingual": {
+        "title": "Two languages",
+        "body": "The interface is in Indonesian and English. Question content stays in its original language."
+      },
+      "free": {
+        "title": "Free and open",
+        "body": "No subscription, no ads, and nothing locked behind a paywall."
+      }
+    },
+    "stats": {
+      "papers": "Papers",
+      "questions": "Questions ready to answer",
+      "seasons": "Seasons",
+      "subjects": "Subjects",
+      "note": "These numbers are counted from what is actually on this site, not targets or estimates. Some questions are deliberately held back when the original paper carries no answer key for them."
+    },
+    "cta": {
+      "title": "Ready to try one paper?",
+      "lead": "About ten minutes together, with nothing to sign up for.",
+      "button": "Start now"
+    }
+  },
+  "level": {
+    "paud": "PAUD",
+    "tk-a": "TK A",
+    "tk-b": "TK B",
+    "age": {
+      "paud": "Usually 3–4 years",
+      "tk-a": "Usually 4–5 years",
+      "tk-b": "Usually 5–6 years"
+    }
+  },
+  "subject": {
+    "matematika": "Maths",
+    "sains": "Science",
+    "bahasa-inggris": "English"
+  },
+  "round": {
+    "penyisihan": "Qualifying round",
+    "final": "Final round"
+  },
+  "paper": {
+    "season": "Season {n}",
+    "fullTitle": "{subject} {level} — {round}, Season {season}",
+    "questionCount": "{n} questions",
+    "best": "Best {score}",
+    "backToList": "Back to the list",
+    "heldBack": "{n} of the {total} questions on this paper are not shown, because their answer key or their options could not be read in full from the original.",
+    "sourceNote": "Questions and pictures come from publicly circulating {organiser} practice papers, used here for study.",
+    "seoDescription": "Work through {title} online, one question per screen, with the answer marked straight away."
+  },
+  "filters": {
+    "level": "Age group",
+    "subject": "Subject",
+    "season": "Season",
+    "round": "Round",
+    "allLevels": "All",
+    "allSubjects": "All",
+    "allSeasons": "All",
+    "allRounds": "All",
+    "resultCount": "{n} papers found",
+    "reset": "Reset"
+  },
+  "practice": {
+    "seo": {
+      "title": "Choose a practice paper",
+      "description": "Every OSN PAUD, TK A and TK B paper on this site, ready to work through in the browser."
+    },
+    "hero": {
+      "eyebrow": "Question bank",
+      "title": "Choose a practice paper",
+      "lead": "Filter by age group and subject, then work through it right here."
+    },
+    "noMatchTitle": "Nothing matches yet",
+    "noMatchBody": "Try loosening one of the filters above.",
+    "questionOf": "Question {n} of {total}",
+    "lookAtPicture": "Look at the picture below",
+    "imageAlt": "Illustration for question {n}",
+    "optionCorrect": "Correct answer",
+    "optionWrong": "The option chosen, which was not correct",
+    "progressLabel": "Progress through the paper",
+    "tally": "{correct} of {total}",
+    "pickOne": "Pick one answer!",
+    "feedbackCorrect": "That's right! Well done.",
+    "feedbackWrong": "Not quite. Have a look at the green one.",
+    "nextQuestion": "Next question",
+    "seeResult": "See the result",
+    "emptyTitle": "This paper is not ready yet",
+    "emptyBody": "None of the questions on this paper could be read in full from the original.",
+    "mascotAlt": "Kancil cheering at the result",
+    "resultDetail": "{correct} right out of {total} questions",
+    "tryAgain": "Go again",
+    "shuffleAgain": "Shuffle the order",
+    "pickAnother": "Pick another paper",
+    "resultNote": "This number is only a practice note kept on this device. It is not an official assessment and it is not compared with anyone else.",
+    "band": {
+      "great": {
+        "eyebrow": "Nicely done",
+        "headline": "Lots of them right!"
+      },
+      "good": {
+        "eyebrow": "Keep practising",
+        "headline": "Getting there — go again"
+      },
+      "keep-going": {
+        "eyebrow": "That's alright",
+        "headline": "Learning takes a little time"
+      }
+    }
+  },
+  "progress": {
+    "title": "Kept on this device",
+    "summary": "{sessions} sessions finished across {papers} papers, {accuracy} answered correctly.",
+    "clear": "Clear the record"
+  },
+  "about": {
+    "seo": {
+      "title": "About Kancil Pintar",
+      "description": "Kancil Pintar is a personal site for practising OSN PAUD and TK questions at home."
+    },
+    "hero": {
+      "eyebrow": "About",
+      "title": "Built for studying at home",
+      "lead": "A personal project: turning a stack of practice papers into something a child can work through on a screen, without printing anything."
+    },
+    "mascotAlt": "Kancil, this site's mascot",
+    "mascot": {
+      "title": "Why a kancil?",
+      "body": "The kancil, or mouse-deer, is the clever one in Indonesian folk tales — not the biggest or the fastest, but the one who thinks. Good company for a child working out an answer."
+    },
+    "sections": [
+      {
+        "heading": "Why this exists",
+        "body": [
+          "The OSN practice papers for PAUD and TK circulate as Word documents and PDFs. That is fine for printing, but awkward when a child wants to work through them again and again.",
+          "This site rebuilds those papers as one question per screen, with the answer marked straight away so it can be talked about on the spot."
+        ],
+        "list": []
+      },
+      {
+        "heading": "Who it is for",
+        "body": [
+          "Children from PAUD through TK B, working alongside a parent or teacher. Most questions are pictures, but the wording still needs reading aloud."
+        ],
+        "list": []
+      },
+      {
+        "heading": "How the questions are prepared",
+        "body": [
+          "The questions, options and pictures are read off the printed pages of the original files and rebuilt as structured data.",
+          "The answer key comes from the coloured highlight the original files already carry — it is read, not guessed."
+        ],
+        "list": [
+          "Pictures are cut from the printed page rather than redrawn.",
+          "The answer highlight is erased from the pictures before they are shown.",
+          "Questions that could not be read in full are recorded, but not shown."
+        ]
+      },
+      {
+        "heading": "Where it stops",
+        "body": [
+          "This site does not run a competition and does not speak for anyone. What it offers is practice material — not predicted questions, and not a promise of any result.",
+          "If an answer looks wrong to you, say so on the contact page and it will be checked against the original."
+        ],
+        "list": []
+      }
+    ],
+    "disclaimer": "Kancil Pintar is not affiliated with the {organiser} organisers, is not sponsored by them, and has no official relationship with them.",
+    "facts": {
+      "papers": "Papers",
+      "questions": "Questions shown",
+      "withheld": "Questions held back"
+    },
+    "cta": "Try the practice"
+  },
+  "compliance": {
+    "seo": {
+      "title": "Compliance and content sources",
+      "description": "Where the questions come from, affiliation status, how data is handled, and the limits of what this site claims."
+    },
+    "hero": {
+      "eyebrow": "Compliance",
+      "title": "What this site claims, and what it does not",
+      "lead": "This page is updated whenever a rule, a feature or the content of the site changes."
+    },
+    "disclaimer": "Kancil Pintar is a personal project. It is not affiliated with, sponsored by, or endorsed by the {organiser} organisers. No certification, accreditation or award is claimed anywhere on this site.",
+    "updated": "Updated August 2026",
+    "table": {
+      "caption": "Counted from the site's own content",
+      "papers": "Papers imported",
+      "questions": "Questions read",
+      "playable": "Questions shown",
+      "withheld": "Questions held back",
+      "seasons": "Seasons covered"
+    },
+    "sections": [
+      {
+        "heading": "Where the content comes from",
+        "body": [
+          "The questions, options and pictures come from publicly circulating OSN PAUD and TK practice papers, distributed as Word and PDF files. That material is not our work.",
+          "It is used here for study, free of charge. If you hold the rights to it and object, send a message from the contact page and the material will be taken down."
+        ],
+        "list": []
+      },
+      {
+        "heading": "How the answer key is decided",
+        "body": [
+          "The original files mark the correct option with a coloured highlight. That mark is what is read, option by option, off the printed page."
+        ],
+        "list": [
+          "No highlight means the question is not shown.",
+          "An ambiguous highlight means the question is not shown.",
+          "Options that could not be read in full mean the question is not shown.",
+          "The highlight is erased from the pictures before they are displayed, so it cannot give the answer away."
+        ]
+      },
+      {
+        "heading": "Accuracy",
+        "body": [
+          "The content is checked by comparing the rebuilt questions against the original pages, but not every question has been reviewed one by one by a person.",
+          "The key here therefore follows the original file, including where the original is itself mistaken. Corrections are very welcome."
+        ],
+        "list": []
+      },
+      {
+        "heading": "Scores and assessment",
+        "body": [
+          "A session's score is simply the number of correct answers divided by the number of questions. It is not an official mark, not a ranking, and not compared with other users.",
+          "No claim is made that practising here improves anyone's chances in any competition."
+        ],
+        "list": []
+      },
+      {
+        "heading": "Data and children",
+        "body": [
+          "This site asks for no name, no age, no email address and no personal data at all, from either the child or the adult.",
+          "Practice records are kept only in the browser storage of the device in use, and can be deleted at any time from the practice page."
+        ],
+        "list": []
+      },
+      {
+        "heading": "Accessibility",
+        "body": [
+          "The site uses semantic landmarks, high contrast, a skip link, and honours the operating system's reduced-motion setting.",
+          "No formal WCAG audit has been carried out, so no conformance level is claimed here."
+        ],
+        "list": []
+      },
+      {
+        "heading": "Changes",
+        "body": [
+          "Any change to a code rule, a feature or the content must update this page and both interface languages in the same change."
+        ],
+        "list": []
+      }
+    ]
+  },
+  "privacy": {
+    "seo": {
+      "title": "Privacy policy",
+      "description": "No accounts, no ads, no analytics. Practice records stay on your own device."
+    },
+    "hero": {
+      "eyebrow": "Privacy",
+      "title": "We collect nothing",
+      "lead": "The short version: no accounts, no trackers, and nothing sent to a server of ours."
+    },
+    "updated": "Updated August 2026",
+    "sections": [
+      {
+        "heading": "What is collected",
+        "body": [
+          "Nothing. This site has no sign-up form, runs no analytics, and stores no visitor data on a server."
+        ],
+        "list": []
+      },
+      {
+        "heading": "What is stored on your device",
+        "body": [
+          "Two things live in your browser's local storage, and never leave the device:"
+        ],
+        "list": [
+          "Practice session history: which paper, how many correct, and when.",
+          "Your interface language preference."
+        ]
+      },
+      {
+        "heading": "Deleting it",
+        "body": [
+          "The clear button on the practice page removes it immediately. Clearing site data in your browser settings removes it too."
+        ],
+        "list": []
+      },
+      {
+        "heading": "Third parties",
+        "body": [
+          "The typefaces on this site load from Google Fonts, so your browser contacts Google's servers when a page loads.",
+          "Beyond that, no third-party service is called from these pages."
+        ],
+        "list": []
+      },
+      {
+        "heading": "Contact",
+        "body": [
+          "The contact form opens your own email application. No message passes through a server of ours. What you do send by email is of course readable by us as the recipient."
+        ],
+        "list": []
+      },
+      {
+        "heading": "Children",
+        "body": [
+          "The site is meant to be used by a child together with an adult. Since no data is collected, no child's data is held by us either."
+        ],
+        "list": []
+      }
+    ]
+  },
+  "terms": {
+    "seo": {
+      "title": "Terms of use",
+      "description": "Simple terms for using Kancil Pintar."
+    },
+    "hero": {
+      "eyebrow": "Terms",
+      "title": "Terms of use",
+      "lead": "A free site, offered as it is, made in good faith."
+    },
+    "updated": "Updated August 2026",
+    "sections": [
+      {
+        "heading": "Using the site",
+        "body": [
+          "You are free to use this site at home or in a classroom. No permission is needed and nothing is charged."
+        ],
+        "list": []
+      },
+      {
+        "heading": "No warranty",
+        "body": [
+          "The site is provided as it is. We try to keep it accurate, but we do not guarantee that every question or answer key is free of error.",
+          "It may change or stop at any time, without notice."
+        ],
+        "list": []
+      },
+      {
+        "heading": "Rights in the question material",
+        "body": [
+          "Rights in the questions and pictures remain with their respective owners. This site claims no ownership of that material.",
+          "Takedown requests will be honoured — see the compliance page."
+        ],
+        "list": []
+      },
+      {
+        "heading": "Limits of liability",
+        "body": [
+          "Use of this site is at your own risk. We are not liable for any loss arising from its use."
+        ],
+        "list": []
+      }
+    ]
+  },
+  "contact": {
+    "seo": {
+      "title": "Contact",
+      "description": "Send a correction, a question, or a takedown request by email."
+    },
+    "hero": {
+      "eyebrow": "Contact",
+      "title": "Spotted a mistake? Do tell",
+      "lead": "Especially an answer key that looks wrong to you — it will be checked against the original file."
+    },
+    "form": {
+      "name": "Name (optional)",
+      "topic": "Topic",
+      "message": "Message",
+      "send": "Open my email app",
+      "hint": "This button drafts the message in your own email application. Nothing is sent until you press send there."
+    },
+    "topics": {
+      "question": "A question",
+      "correction": "A correction to a question or answer",
+      "takedown": "A takedown request",
+      "other": "Something else"
+    },
+    "direct": {
+      "title": "Email directly",
+      "body": "If the form beside this does not work on your device, just send a normal email to the address above."
+    },
+    "privacyNote": "This form sends nothing to any server. It only copies what you typed into your device's email application."
+  },
+  "error": {
+    "notFoundTitle": "Page not found",
+    "notFoundBody": "Kancil looked everywhere, but this page is not here. The link may have changed.",
+    "generalTitle": "Something went wrong",
+    "generalBody": "An unexpected error occurred. Try reloading the page.",
+    "home": "Go home",
+    "practice": "Go to the practice list"
+  }
+}

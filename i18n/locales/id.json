@@ -1,0 +1,482 @@
+{
+  "nav": {
+    "practice": "Latihan",
+    "about": "Tentang",
+    "contact": "Kontak",
+    "compliance": "Kepatuhan",
+    "privacy": "Privasi",
+    "terms": "Ketentuan",
+    "menu": "Buka menu",
+    "primaryLabel": "Navigasi utama",
+    "footerLabel": "Navigasi footer",
+    "languageLabel": "Pilih bahasa",
+    "skipToContent": "Lompat ke konten",
+    "startPractice": "Mulai latihan"
+  },
+  "footer": {
+    "tagline": "Latihan soal OSN untuk PAUD, TK A dan TK B — ditemani si Kancil.",
+    "notAffiliated": "Situs ini dibuat perorangan untuk belajar di rumah dan tidak berafiliasi dengan, tidak disponsori, dan tidak diakui secara resmi oleh penyelenggara {organiser}.",
+    "pages": "Halaman",
+    "contact": "Kontak",
+    "rights": "Dibuat untuk belajar bersama di rumah."
+  },
+  "home": {
+    "seo": {
+      "title": "Latihan Soal OSN PAUD, TK A & TK B",
+      "description": "Latihan soal OSN PAUD dan TK: matematika, sains, dan bahasa Inggris. Gratis, tanpa iklan, tanpa akun, dan jawaban langsung ditunjukkan."
+    },
+    "hero": {
+      "eyebrow": "Belajar sambil bermain",
+      "titleLead": "Latihan soal bareng",
+      "titleAccent": "si Kancil",
+      "lead": "{questions} soal dari {papers} berkas latihan OSN PAUD, TK A dan TK B. Anak menjawab, Kancil langsung memberi tahu benar atau belum.",
+      "primaryCta": "Mulai latihan",
+      "secondaryCta": "Apa ini?",
+      "mascotAlt": "Kancil, maskot situs ini, sedang menunggu dengan tenang",
+      "points": {
+        "free": "Gratis sepenuhnya",
+        "noAds": "Tanpa iklan",
+        "offlineData": "Tanpa akun"
+      }
+    },
+    "levels": {
+      "eyebrow": "Pilih dulu",
+      "title": "Sesuaikan dengan usia anak",
+      "lead": "Soal TK B untuk anak PAUD bukan tantangan, tapi bikin patah semangat. Mulailah dari kelompok yang pas.",
+      "cta": "Lihat soalnya"
+    },
+    "steps": {
+      "eyebrow": "Cara pakainya",
+      "title": "Tiga langkah, selesai",
+      "lead": "Dirancang untuk dipakai berdua: anak menekan tombol, orang tua membacakan soal.",
+      "pick": {
+        "title": "Pilih berkas soal",
+        "body": "Saring berdasarkan kelompok usia, mata pelajaran, musim, dan babak."
+      },
+      "answer": {
+        "title": "Jawab satu per satu",
+        "body": "Satu soal satu layar. Setelah memilih, jawaban yang benar langsung ditandai."
+      },
+      "repeat": {
+        "title": "Ulangi sesuka hati",
+        "body": "Ulangi dengan urutan sama atau diacak. Tidak ada batas waktu dan tidak ada nilai yang dikirim ke mana pun."
+      }
+    },
+    "features": {
+      "eyebrow": "Isinya",
+      "title": "Apa yang ada di dalam",
+      "realPapers": {
+        "title": "Dari berkas soal asli",
+        "body": "Soal dan gambar diambil langsung dari berkas latihan OSN PAUD dan TK yang beredar, bukan ditulis ulang."
+      },
+      "instantFeedback": {
+        "title": "Jawaban langsung terlihat",
+        "body": "Begitu anak memilih, pilihan yang benar ditandai — supaya yang keliru bisa langsung dibicarakan."
+      },
+      "pictures": {
+        "title": "Banyak gambar",
+        "body": "Sebagian besar soal PAUD berupa gambar, karena anak seusia ini belum lancar membaca."
+      },
+      "private": {
+        "title": "Data tetap di perangkat",
+        "body": "Riwayat latihan disimpan di browser sendiri. Tidak ada akun, tidak ada pelacak, tidak ada yang dikirim ke server."
+      },
+      "bilingual": {
+        "title": "Dua bahasa",
+        "body": "Antarmuka tersedia dalam Bahasa Indonesia dan Inggris. Isi soal tetap dalam bahasa aslinya."
+      },
+      "free": {
+        "title": "Gratis dan terbuka",
+        "body": "Tidak ada langganan, tidak ada iklan, dan tidak ada fitur yang dikunci."
+      }
+    },
+    "stats": {
+      "papers": "Berkas soal",
+      "questions": "Soal siap dikerjakan",
+      "seasons": "Musim",
+      "subjects": "Mata pelajaran",
+      "note": "Angka di atas dihitung langsung dari isi situs ini, bukan target atau perkiraan. Sebagian soal sengaja tidak ditampilkan bila kunci jawabannya tidak tertera pada berkas aslinya."
+    },
+    "cta": {
+      "title": "Siap mencoba satu berkas?",
+      "lead": "Sekitar sepuluh menit bersama, tanpa perlu mendaftar apa pun.",
+      "button": "Mulai sekarang"
+    }
+  },
+  "level": {
+    "paud": "PAUD",
+    "tk-a": "TK A",
+    "tk-b": "TK B",
+    "age": {
+      "paud": "Umumnya 3–4 tahun",
+      "tk-a": "Umumnya 4–5 tahun",
+      "tk-b": "Umumnya 5–6 tahun"
+    }
+  },
+  "subject": {
+    "matematika": "Matematika",
+    "sains": "Sains / IPA",
+    "bahasa-inggris": "Bahasa Inggris"
+  },
+  "round": {
+    "penyisihan": "Babak Penyisihan",
+    "final": "Babak Final"
+  },
+  "paper": {
+    "season": "Musim {n}",
+    "fullTitle": "{subject} {level} — {round}, Musim {season}",
+    "questionCount": "{n} soal",
+    "best": "Terbaik {score}",
+    "backToList": "Kembali ke daftar",
+    "heldBack": "{n} dari {total} soal pada berkas ini tidak ditampilkan karena kunci jawaban atau pilihannya tidak terbaca utuh dari berkas aslinya.",
+    "sourceNote": "Soal dan gambar berasal dari berkas latihan {organiser} yang beredar untuk umum, dipakai di sini untuk keperluan belajar.",
+    "seoDescription": "Kerjakan {title} secara daring, satu soal per layar, dengan jawaban yang langsung ditandai."
+  },
+  "filters": {
+    "level": "Kelompok usia",
+    "subject": "Mata pelajaran",
+    "season": "Musim",
+    "round": "Babak",
+    "allLevels": "Semua",
+    "allSubjects": "Semua",
+    "allSeasons": "Semua",
+    "allRounds": "Semua",
+    "resultCount": "{n} berkas ditemukan",
+    "reset": "Atur ulang"
+  },
+  "practice": {
+    "seo": {
+      "title": "Pilih berkas latihan",
+      "description": "Daftar berkas soal OSN PAUD, TK A dan TK B yang bisa dikerjakan langsung di browser."
+    },
+    "hero": {
+      "eyebrow": "Bank soal",
+      "title": "Pilih berkas latihan",
+      "lead": "Saring sesuai kelompok usia dan mata pelajaran, lalu kerjakan langsung di sini."
+    },
+    "noMatchTitle": "Belum ada yang cocok",
+    "noMatchBody": "Coba longgarkan salah satu pilihan saringan di atas.",
+    "questionOf": "Soal {n} dari {total}",
+    "lookAtPicture": "Perhatikan gambar berikut",
+    "imageAlt": "Gambar untuk soal nomor {n}",
+    "optionCorrect": "Jawaban benar",
+    "optionWrong": "Jawaban yang dipilih, kurang tepat",
+    "progressLabel": "Kemajuan pengerjaan",
+    "tally": "{correct} dari {total}",
+    "pickOne": "Pilih satu jawaban ya!",
+    "feedbackCorrect": "Betul! Hebat.",
+    "feedbackWrong": "Belum tepat. Lihat yang bertanda hijau ya.",
+    "nextQuestion": "Soal berikutnya",
+    "seeResult": "Lihat hasil",
+    "emptyTitle": "Berkas ini belum bisa dikerjakan",
+    "emptyBody": "Tidak ada soal pada berkas ini yang terbaca utuh dari sumbernya.",
+    "mascotAlt": "Kancil ikut senang melihat hasilnya",
+    "resultDetail": "{correct} benar dari {total} soal",
+    "tryAgain": "Ulangi lagi",
+    "shuffleAgain": "Acak urutannya",
+    "pickAnother": "Pilih berkas lain",
+    "resultNote": "Angka ini hanya catatan latihan di perangkat ini. Bukan penilaian resmi dan tidak dibandingkan dengan siapa pun.",
+    "band": {
+      "great": {
+        "eyebrow": "Kerja bagus",
+        "headline": "Wah, banyak yang benar!"
+      },
+      "good": {
+        "eyebrow": "Terus berlatih",
+        "headline": "Sudah lumayan, ayo coba lagi"
+      },
+      "keep-going": {
+        "eyebrow": "Tidak apa-apa",
+        "headline": "Belajar itu memang butuh waktu"
+      }
+    }
+  },
+  "progress": {
+    "title": "Catatan di perangkat ini",
+    "summary": "{sessions} sesi selesai pada {papers} berkas, {accuracy} jawaban benar.",
+    "clear": "Hapus catatan"
+  },
+  "about": {
+    "seo": {
+      "title": "Tentang Kancil Pintar",
+      "description": "Kancil Pintar adalah situs latihan soal OSN PAUD dan TK yang dibuat perorangan untuk belajar di rumah."
+    },
+    "hero": {
+      "eyebrow": "Tentang",
+      "title": "Dibuat untuk belajar di rumah",
+      "lead": "Sebuah proyek pribadi: mengubah setumpuk berkas soal latihan menjadi sesuatu yang bisa dikerjakan anak sendiri, di layar, tanpa perlu mencetak."
+    },
+    "mascotAlt": "Kancil, maskot situs ini",
+    "mascot": {
+      "title": "Kenapa Kancil?",
+      "body": "Kancil adalah tokoh cerita rakyat Indonesia yang terkenal cerdik — bukan yang terbesar atau tercepat, tapi yang paling suka berpikir. Rasanya pas untuk menemani anak yang sedang belajar mencari jawaban."
+    },
+    "sections": [
+      {
+        "heading": "Kenapa situs ini ada",
+        "body": [
+          "Berkas soal latihan OSN untuk PAUD dan TK beredar dalam bentuk dokumen Word dan PDF. Formatnya bagus untuk dicetak, tapi merepotkan kalau anak ingin mengerjakannya berulang kali.",
+          "Situs ini menyusun ulang berkas-berkas itu menjadi satu soal per layar, dengan jawaban yang langsung ditandai supaya bisa dibahas saat itu juga."
+        ],
+        "list": []
+      },
+      {
+        "heading": "Untuk siapa",
+        "body": [
+          "Anak PAUD sampai TK B, dikerjakan bersama orang tua atau guru. Sebagian besar soal berupa gambar, tetapi kalimat soalnya tetap perlu dibacakan."
+        ],
+        "list": []
+      },
+      {
+        "heading": "Bagaimana soalnya disiapkan",
+        "body": [
+          "Soal, pilihan jawaban, dan gambar dibaca langsung dari halaman berkas aslinya, lalu disusun ulang menjadi data terstruktur.",
+          "Kunci jawaban diambil dari tanda sorot berwarna yang memang sudah ada pada berkas aslinya — bukan hasil menebak."
+        ],
+        "list": [
+          "Gambar dipotong dari halaman cetak, bukan digambar ulang.",
+          "Tanda sorot kunci jawaban dihapus dari gambar sebelum ditampilkan.",
+          "Soal yang tidak terbaca utuh disimpan sebagai catatan, tetapi tidak ditampilkan."
+        ]
+      },
+      {
+        "heading": "Batasnya",
+        "body": [
+          "Situs ini bukan penyelenggara lomba dan tidak mewakili siapa pun. Isinya adalah bahan latihan, bukan prediksi soal dan bukan jaminan hasil.",
+          "Bila ada jawaban yang menurut Anda keliru, kabari lewat halaman kontak — akan diperiksa terhadap berkas aslinya."
+        ],
+        "list": []
+      }
+    ],
+    "disclaimer": "Kancil Pintar tidak berafiliasi dengan penyelenggara {organiser}, tidak disponsori, dan tidak memiliki hubungan resmi apa pun dengannya.",
+    "facts": {
+      "papers": "Berkas soal",
+      "questions": "Soal siap dikerjakan",
+      "withheld": "Soal ditahan"
+    },
+    "cta": "Coba latihannya"
+  },
+  "compliance": {
+    "seo": {
+      "title": "Kepatuhan dan sumber konten",
+      "description": "Sumber soal, status afiliasi, penanganan data, dan batas dari apa yang situs ini klaim."
+    },
+    "hero": {
+      "eyebrow": "Kepatuhan",
+      "title": "Apa yang situs ini klaim, dan tidak",
+      "lead": "Halaman ini diperbarui setiap kali ada perubahan aturan, fitur, atau isi situs."
+    },
+    "disclaimer": "Kancil Pintar adalah proyek pribadi. Tidak berafiliasi dengan, tidak disponsori oleh, dan tidak diakui secara resmi oleh penyelenggara {organiser}. Tidak ada sertifikasi, akreditasi, atau penghargaan yang diklaim di mana pun pada situs ini.",
+    "updated": "Diperbarui Agustus 2026",
+    "table": {
+      "caption": "Angka langsung dari isi situs",
+      "papers": "Berkas soal termuat",
+      "questions": "Soal terbaca",
+      "playable": "Soal ditampilkan",
+      "withheld": "Soal ditahan",
+      "seasons": "Musim tercakup"
+    },
+    "sections": [
+      {
+        "heading": "Asal konten",
+        "body": [
+          "Soal, pilihan jawaban, dan gambar berasal dari berkas latihan OSN PAUD dan TK yang beredar untuk umum dalam format Word dan PDF. Materi itu bukan karya kami.",
+          "Materi dipakai di sini untuk keperluan belajar tanpa memungut biaya. Bila Anda pemegang hak atas materi tersebut dan keberatan, kirim pesan lewat halaman kontak dan materi terkait akan diturunkan."
+        ],
+        "list": []
+      },
+      {
+        "heading": "Bagaimana kunci jawaban ditentukan",
+        "body": [
+          "Berkas asli menandai jawaban benar dengan sorot warna. Tanda itulah yang dibaca, per pilihan, langsung dari halaman cetaknya."
+        ],
+        "list": [
+          "Bila tidak ada tanda sorot, soal tidak ditampilkan.",
+          "Bila tanda sorot ambigu, soal tidak ditampilkan.",
+          "Bila pilihan jawaban tidak terbaca utuh, soal tidak ditampilkan.",
+          "Tanda sorot dihapus dari gambar sebelum ditampilkan, supaya tidak membocorkan jawaban."
+        ]
+      },
+      {
+        "heading": "Ketepatan",
+        "body": [
+          "Isi situs diperiksa dengan membandingkan hasil olahan terhadap halaman aslinya, tetapi belum setiap soal diperiksa satu per satu oleh manusia.",
+          "Karena itu kunci jawaban di sini mengikuti berkas aslinya, termasuk bila berkas aslinya sendiri keliru. Laporan koreksi sangat dihargai."
+        ],
+        "list": []
+      },
+      {
+        "heading": "Nilai dan penilaian",
+        "body": [
+          "Skor akhir sesi hanyalah jumlah jawaban benar dibagi jumlah soal. Itu bukan nilai resmi, bukan peringkat, dan tidak dibandingkan dengan pengguna lain.",
+          "Tidak ada klaim bahwa berlatih di sini meningkatkan peluang pada lomba mana pun."
+        ],
+        "list": []
+      },
+      {
+        "heading": "Data dan anak",
+        "body": [
+          "Situs ini tidak meminta nama, umur, alamat surel, atau data pribadi apa pun dari anak maupun orang tua.",
+          "Catatan latihan disimpan hanya di penyimpanan browser perangkat yang dipakai, dan bisa dihapus kapan saja dari halaman latihan."
+        ],
+        "list": []
+      },
+      {
+        "heading": "Aksesibilitas",
+        "body": [
+          "Situs ini memakai penanda semantik, kontras yang tinggi, tautan lompat, dan menghormati pengaturan kurangi gerak pada sistem operasi.",
+          "Belum ada audit WCAG formal, sehingga tidak ada tingkat kesesuaian yang diklaim di sini."
+        ],
+        "list": []
+      },
+      {
+        "heading": "Perubahan",
+        "body": [
+          "Setiap perubahan aturan kode, fitur, atau isi wajib memperbarui halaman ini beserta kedua bahasa antarmuka pada perubahan yang sama."
+        ],
+        "list": []
+      }
+    ]
+  },
+  "privacy": {
+    "seo": {
+      "title": "Kebijakan privasi",
+      "description": "Tidak ada akun, tidak ada iklan, tidak ada analitik. Catatan latihan disimpan di perangkat Anda sendiri."
+    },
+    "hero": {
+      "eyebrow": "Privasi",
+      "title": "Kami tidak mengumpulkan apa pun",
+      "lead": "Ringkasnya: tidak ada akun, tidak ada pelacak, tidak ada data yang dikirim ke server kami."
+    },
+    "updated": "Diperbarui Agustus 2026",
+    "sections": [
+      {
+        "heading": "Data yang dikumpulkan",
+        "body": [
+          "Tidak ada. Situs ini tidak memiliki formulir pendaftaran, tidak memasang alat analitik, dan tidak menyimpan data pengunjung di server."
+        ],
+        "list": []
+      },
+      {
+        "heading": "Data yang disimpan di perangkat Anda",
+        "body": [
+          "Dua hal disimpan di penyimpanan lokal browser Anda, dan tidak pernah meninggalkan perangkat:"
+        ],
+        "list": [
+          "Riwayat sesi latihan: berkas yang dikerjakan, jumlah benar, dan waktunya.",
+          "Pilihan bahasa antarmuka."
+        ]
+      },
+      {
+        "heading": "Menghapus data",
+        "body": [
+          "Tombol hapus catatan pada halaman latihan menghapusnya seketika. Membersihkan data situs lewat pengaturan browser juga menghapus semuanya."
+        ],
+        "list": []
+      },
+      {
+        "heading": "Layanan pihak ketiga",
+        "body": [
+          "Huruf yang dipakai situs ini dimuat dari Google Fonts, sehingga browser Anda menghubungi server Google saat memuat halaman.",
+          "Selain itu tidak ada layanan pihak ketiga yang dipanggil dari halaman ini."
+        ],
+        "list": []
+      },
+      {
+        "heading": "Kontak",
+        "body": [
+          "Formulir kontak di situs ini membuka aplikasi surel Anda sendiri. Tidak ada pesan yang melewati server kami. Isi surel yang Anda kirim tentu bisa kami baca sebagai penerima."
+        ],
+        "list": []
+      },
+      {
+        "heading": "Anak-anak",
+        "body": [
+          "Situs ini ditujukan untuk dipakai anak bersama orang dewasa. Karena tidak ada data yang dikumpulkan, tidak ada pula data anak yang tersimpan pada kami."
+        ],
+        "list": []
+      }
+    ]
+  },
+  "terms": {
+    "seo": {
+      "title": "Ketentuan penggunaan",
+      "description": "Ketentuan sederhana untuk memakai Kancil Pintar."
+    },
+    "hero": {
+      "eyebrow": "Ketentuan",
+      "title": "Ketentuan penggunaan",
+      "lead": "Situs gratis, dipakai apa adanya, dan dibuat dengan niat baik."
+    },
+    "updated": "Diperbarui Agustus 2026",
+    "sections": [
+      {
+        "heading": "Pemakaian",
+        "body": [
+          "Situs ini boleh dipakai bebas untuk belajar di rumah maupun di kelas. Tidak perlu izin khusus dan tidak dipungut biaya."
+        ],
+        "list": []
+      },
+      {
+        "heading": "Tanpa jaminan",
+        "body": [
+          "Situs disediakan apa adanya. Kami berusaha agar isinya tepat, tetapi tidak menjamin setiap soal maupun kunci jawaban bebas dari kekeliruan.",
+          "Situs bisa berubah atau berhenti kapan saja tanpa pemberitahuan."
+        ],
+        "list": []
+      },
+      {
+        "heading": "Hak atas materi soal",
+        "body": [
+          "Hak atas soal dan gambar tetap pada pemiliknya masing-masing. Situs ini tidak mengklaim kepemilikan atas materi tersebut.",
+          "Permintaan penurunan materi akan dipenuhi, lihat halaman kepatuhan."
+        ],
+        "list": []
+      },
+      {
+        "heading": "Batas tanggung jawab",
+        "body": [
+          "Pemakaian situs ini sepenuhnya menjadi tanggung jawab pengguna. Kami tidak bertanggung jawab atas kerugian yang timbul dari pemakaiannya."
+        ],
+        "list": []
+      }
+    ]
+  },
+  "contact": {
+    "seo": {
+      "title": "Kontak",
+      "description": "Kirim koreksi soal, pertanyaan, atau permintaan penurunan materi lewat surel."
+    },
+    "hero": {
+      "eyebrow": "Kontak",
+      "title": "Ada yang keliru? Kabari ya",
+      "lead": "Terutama bila ada kunci jawaban yang menurut Anda salah — akan diperiksa terhadap berkas aslinya."
+    },
+    "form": {
+      "name": "Nama (boleh dikosongkan)",
+      "topic": "Topik",
+      "message": "Pesan",
+      "send": "Buka aplikasi surel",
+      "hint": "Tombol ini menyiapkan pesan di aplikasi surel Anda sendiri. Tidak ada yang terkirim sebelum Anda menekan kirim di sana."
+    },
+    "topics": {
+      "question": "Pertanyaan",
+      "correction": "Koreksi soal atau jawaban",
+      "takedown": "Permintaan penurunan materi",
+      "other": "Lainnya"
+    },
+    "direct": {
+      "title": "Surel langsung",
+      "body": "Bila formulir di samping tidak berfungsi di perangkat Anda, kirim saja surel biasa ke alamat di atas."
+    },
+    "privacyNote": "Formulir ini tidak mengirim data ke server mana pun. Isinya hanya disalin ke aplikasi surel di perangkat Anda."
+  },
+  "error": {
+    "notFoundTitle": "Halaman tidak ditemukan",
+    "notFoundBody": "Kancil sudah mencari ke mana-mana, tapi halaman ini tidak ada. Mungkin tautannya sudah berubah.",
+    "generalTitle": "Ada yang bermasalah",
+    "generalBody": "Terjadi kesalahan tak terduga. Coba muat ulang halaman ini.",
+    "home": "Ke beranda",
+    "practice": "Ke daftar latihan"
+  }
+}
