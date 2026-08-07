@@ -191,7 +191,13 @@
       }
     },
     "soundOn": "Nyalakan suara",
-    "soundOff": "Matikan suara"
+    "soundOff": "Matikan suara",
+    "leave": {
+      "title": "Keluar dari latihan?",
+      "body": "Jawaban yang sudah dikerjakan pada berkas ini akan hilang kalau keluar sekarang.",
+      "stay": "Lanjut mengerjakan",
+      "go": "Ya, keluar"
+    }
   },
   "progress": {
     "title": "Catatan di perangkat ini",

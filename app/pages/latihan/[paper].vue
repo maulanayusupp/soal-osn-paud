@@ -33,6 +33,9 @@ usePageSeo(
   () => heading.value,
   () => t('paper.seoDescription', { title: heading.value }),
 )
+
+// Asks before an unfinished paper is abandoned; armed by PracticeStage.
+const { asking, leave, stay } = useLeaveGuard()
 </script>
 
 <template>
@@ -56,6 +59,17 @@ usePageSeo(
 
       <p class="page__source">{{ $t('paper.sourceNote', { organiser: SOURCE.organiser }) }}</p>
     </div>
+
+    <ConfirmDialog
+      :open="asking"
+      danger
+      :title="$t('practice.leave.title')"
+      :body="$t('practice.leave.body')"
+      :cancel-label="$t('practice.leave.stay')"
+      :confirm-label="$t('practice.leave.go')"
+      @cancel="stay"
+      @confirm="leave"
+    />
   </div>
 </template>
 

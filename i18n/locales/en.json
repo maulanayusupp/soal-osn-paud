@@ -191,7 +191,13 @@
       }
     },
     "soundOn": "Turn sound on",
-    "soundOff": "Turn sound off"
+    "soundOff": "Turn sound off",
+    "leave": {
+      "title": "Leave this practice?",
+      "body": "The answers given on this paper will be lost if you leave now.",
+      "stay": "Keep going",
+      "go": "Yes, leave"
+    }
   },
   "progress": {
     "title": "Kept on this device",

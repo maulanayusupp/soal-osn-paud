@@ -7,10 +7,12 @@
  * own state so the two can never disagree.
  */
 import { playableQuestions } from '~/services/catalog.service'
+import { scrollToElement } from '~/utils/scroll'
 import type { MascotMood, OptionKey, Paper } from '~/types'
 
 const props = defineProps<{ paper: Paper }>()
 const { t } = useI18n()
+const stage = ref<HTMLElement | null>(null)
 
 const questions = computed(() => playableQuestions(props.paper))
 const practice = usePractice(props.paper.id, questions)
@@ -52,10 +54,48 @@ function onChoose(key: OptionKey) {
   if (wasCorrect.value) sound.playCorrect()
   else sound.playWrong()
 }
+
+/**
+ * Go back to the top of the question after moving on.
+ *
+ * "Next" sits at the bottom of the card, so on a phone the tap happens well
+ * below the fold — and the next question then renders above the viewport,
+ * leaving the child looking at its answer buttons with no question in sight.
+ * `nextTick` so the new question is in the DOM before we measure it.
+ */
+async function showQuestionFromTop() {
+  await nextTick()
+  scrollToElement(stage.value)
+}
+
+function onNext() {
+  next()
+  // Also on the last one: the result panel replaces the question, and its
+  // headline is at the top of the same block the button sat below.
+  void showQuestionFromTop()
+}
+
+function onRestart(options: { shuffle: boolean }) {
+  restart(options)
+  void showQuestionFromTop()
+}
+
+/**
+ * A part-answered paper arms the leave guard, so tapping a menu item by mistake
+ * asks first. Finishing or answering nothing disarms it — there is nothing left
+ * to lose at that point.
+ */
+const inProgress = usePracticeInProgress()
+watchEffect(() => {
+  inProgress.value = practice.attempts.value.length > 0 && phase.value !== 'finished'
+})
+onBeforeUnmount(() => {
+  inProgress.value = false
+})
 </script>
 
 <template>
-  <div class="stage">
+  <div ref="stage" class="stage">
     <!-- Playing --------------------------------------------------------- -->
     <template v-if="phase !== 'finished' && current">
       <div class="stage__bar">
@@ -104,7 +144,7 @@ function onChoose(key: OptionKey) {
           class="stage__next"
           size="lg"
           variant="primary"
-          @click="next"
+          @click="onNext"
         >
           {{ isLast ? $t('practice.seeResult') : $t('practice.nextQuestion') }}
           <template #icon-right><BaseIcon name="arrowRight" :size="18" /></template>
@@ -128,8 +168,8 @@ function onChoose(key: OptionKey) {
       :total="total"
       :band="band"
       :shuffled="shuffled"
-      @again="restart({ shuffle: false })"
-      @shuffle="restart({ shuffle: true })"
+      @again="onRestart({ shuffle: false })"
+      @shuffle="onRestart({ shuffle: true })"
     />
   </div>
 </template>

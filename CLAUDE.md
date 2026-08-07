@@ -73,7 +73,8 @@ app/
   assets/scss/            # design system (see §Styling)
   components/             # auto-imported by FILENAME (pathPrefix: false)
     base/                 # BaseIcon, BaseButton, BaseCard, BaseBadge
-    common/               # PageHero, SectionHeading, InfoNote, LegalDocument
+    common/               # PageHero, SectionHeading, InfoNote, LegalDocument,
+                          #   ConfirmDialog (native <dialog>)
     layout/               # AppHeader, AppFooter, BrandLogo, LanguageSwitcher
     mascot/               # MascotKancil (inline animated SVG)
     home/                 # HomeHero, LevelPicker, HowItWorks, FeatureGrid, CtaBand
@@ -82,7 +83,7 @@ app/
                           #   PaperCard, PaperFilters
   composables/            # usePractice, useProgress, usePaperLabels, usePageSeo,
                           #   useFormat, useReveal, useLocalizedSections,
-                          #   useSoundEffects
+                          #   useSoundEffects, useLeaveGuard
   config/                 # STRUCTURE, not text: brand, navigation, practice
   layouts/default.vue     # skip link + header + <slot> + footer
   plugins/                # vercel-analytics.client.ts (deployed builds only)
@@ -90,12 +91,12 @@ app/
                           #   kontak, kepatuhan, privasi, ketentuan
   services/               # catalog, practice (engine), progress
   types/index.ts          # shared domain types
-  utils/iconPaths.ts      # SVG path registry
+  utils/                  # iconPaths (SVG registry), scroll
 content/
   sources.json            # inventory of the source papers on disk (generated)
   overrides/<id>.json     # optional hand corrections, applied on import
   generated/              # catalog.json + papers/<id>.json — imported, not served
-i18n/locales/{id,en}.json # ALL user-facing text (257 keys each)
+i18n/locales/{id,en}.json # ALL user-facing text (261 keys each)
 public/soal/<id>/*.webp   # question illustrations (generated)
 scripts/                  # import pipeline, proof sheets, favicons, og, i18n check
 assets/favicon-source.svg # favicon source of truth
@@ -194,6 +195,27 @@ which is precisely why `prefers-reduced-motion` switches it off globally without
 the component knowing anything about it. `PracticeStage` derives the mood from
 session state rather than setting it by hand, so the two cannot disagree.
 
+## Session behaviour on a phone
+
+Two rules that only matter on a small screen, and both came from watching the
+thing be used:
+
+- **Advancing scrolls back to the question.** "Next" is at the foot of the card,
+  so the tap happens below the fold; without this the next question renders
+  above the viewport and the child is left staring at answer buttons with no
+  question in sight. `scrollToElement()` offsets by `--header-height` (the
+  header is sticky and would otherwise cover the target) and honours
+  `prefers-reduced-motion`. It fires on the last question too, so the result
+  panel's headline is what comes into view.
+- **Leaving a part-answered paper asks first.** A session lives only in memory,
+  and the menu sits directly above the question, so a mistaken tap is easy.
+  `useLeaveGuard()` covers both exits: `onBeforeRouteLeave` for in-app
+  navigation, which gets the app's own `ConfirmDialog`, and `beforeunload` for
+  closing or reloading the tab, where the browser insists on its own wording.
+  `PracticeStage` arms it through `usePracticeInProgress()` — shared state
+  rather than a prop, since the component that knows and the component that
+  guards are not parent and child. It disarms on finishing and on unmount.
+
 ## Sound
 
 `useSoundEffects()` synthesises the right/wrong tones with the Web Audio API
@@ -223,7 +245,7 @@ persists in `localStorage` (`SOUND_STORAGE_KEY`).
   configured through `i18n.pages` in `nuxt.config`. Keys there are page file
   paths relative to `app/pages` without the extension (`latihan/index`).
 - Keys mirror page/section structure. **Keep ID and EN in lockstep** — same keys,
-  same interpolation placeholders (**257 keys each**). `pnpm i18n:check` verifies
+  same interpolation placeholders (**261 keys each**). `pnpm i18n:check` verifies
   both and exits non-zero on drift.
 - Legal/compliance prose is stored as an **array of sections** and read through
   `useLocalizedSections()`, so a section cannot quietly go missing from one
