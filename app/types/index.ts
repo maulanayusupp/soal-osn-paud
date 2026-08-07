@@ -1,9 +1,9 @@
 // =============================================================================
 // Shared domain types.
 //
-// These mirror what scripts/import-papers.mjs writes into public/data — that
-// pipeline is the single source of truth for question content, and these types
-// are the contract the app reads it through.
+// These mirror what scripts/import-papers.mjs writes into content/generated —
+// that pipeline is the single source of truth for question content, and these
+// types are the contract the app reads it through.
 // =============================================================================
 
 export type Subject = 'matematika' | 'sains' | 'bahasa-inggris'

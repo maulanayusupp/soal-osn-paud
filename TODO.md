@@ -6,7 +6,7 @@ must also update `CLAUDE.md`, the compliance pages, and both locales.
 ## Content quality
 
 - [ ] **Review the 54 held-back questions.** They sit in
-      `public/data/papers/*.json` with `status: "needs-review"`. Spot-checking
+      `content/generated/papers/*.json` with `status: "needs-review"`. Spot-checking
       says most are questions the original paper simply never marked. Everything
       recoverable from the .docx has already been recovered by
       `node scripts/recover-keys.mjs --write`; what remains needs a human to read
@@ -26,6 +26,9 @@ must also update `CLAUDE.md`, the compliance pages, and both locales.
       the ones to look at.
 
 ## Features
+
+- [x] Filters are kept in the URL, so back-navigation from a paper returns to
+      the same narrowed list.
 
 - [ ] **Read-aloud button.** Web Speech API on the question prompt (id-ID and
       en-US voices) — the biggest single win for pre-readers.

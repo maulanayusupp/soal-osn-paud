@@ -4,6 +4,7 @@ import type { Level, PaperFilter, Round, Subject } from '~/types'
 
 const { t } = useI18n()
 const route = useRoute()
+const router = useRouter()
 
 const { data: catalog } = await useAsyncData('catalog', fetchCatalog)
 
@@ -15,6 +16,27 @@ const filter = ref<PaperFilter>({
   season: route.query.season ? Number(route.query.season) : 'all',
   round: (route.query.round as Round) ?? 'all',
 })
+
+/**
+ * Keep the chosen filters in the URL.
+ *
+ * Without this, narrowing to "TK A / Sains", opening a paper and pressing back
+ * dumps you at the unfiltered list again — with 60 papers, that means finding
+ * your place a second time. `replace` so filtering does not fill the history
+ * with entries the back button has to walk through.
+ */
+watch(
+  filter,
+  (value) => {
+    const query: Record<string, string> = {}
+    if (value.level !== 'all') query.level = value.level
+    if (value.subject !== 'all') query.subject = value.subject
+    if (value.season !== 'all') query.season = String(value.season)
+    if (value.round !== 'all') query.round = value.round
+    router.replace({ query })
+  },
+  { deep: true },
+)
 
 const papers = computed(() => catalog.value?.papers ?? [])
 const seasons = computed(() => seasonsIn(papers.value))

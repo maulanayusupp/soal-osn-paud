@@ -58,7 +58,7 @@ pnpm i18n:check     # ID/EN key + placeholder parity (fails loudly on drift)
 pnpm typecheck      # vue-tsc type check
 
 node scripts/scan-sources.mjs   # re-index the source papers on disk
-pnpm soal:import                # rebuild public/data + public/soal from them
+pnpm soal:import                # rebuild content/generated + public/soal from them
 pnpm soal:proof <paper-id>      # render a visual proof sheet of one paper
 node scripts/audit-papers.mjs   # audit the data against the sources (see below)
 node scripts/recover-keys.mjs   # recover missed keys from the .docx (--write)

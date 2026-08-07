@@ -42,11 +42,6 @@ export async function fetchPaper(id: string): Promise<Paper> {
   return (await load()).default
 }
 
-/** Every paper id the bank holds — used to enumerate routes. */
-export function knownPaperIds(): string[] {
-  return [...paperLoaders.keys()].sort()
-}
-
 /**
  * The questions a child is actually given: everything the importer resolved
  * completely, in printed order. A question missing its answer key or an option

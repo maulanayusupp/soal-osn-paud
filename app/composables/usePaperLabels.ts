@@ -17,14 +17,9 @@ export function usePaperLabels() {
   const levelLabel = (level: Level) => t(`level.${level}`)
   const subjectLabel = (subject: Subject) => t(`subject.${subject}`)
   const roundLabel = (round: Round) => t(`round.${round}`)
-  const seasonLabel = (season: number) => t('paper.season', { n: season })
 
   const subjectIcon = (subject: Subject) => SUBJECT_ICON[subject]
   const levelIcon = (level: Level) => LEVEL_ICON[level]
-
-  /** "Matematika · PAUD" — the two things a parent picks by. */
-  const shortTitle = (paper: Describable) =>
-    `${subjectLabel(paper.subject)} · ${levelLabel(paper.level)}`
 
   /** The full description used as a page title and card subtitle. */
   const fullTitle = (paper: Describable) =>
@@ -39,10 +34,8 @@ export function usePaperLabels() {
     levelLabel,
     subjectLabel,
     roundLabel,
-    seasonLabel,
     subjectIcon,
     levelIcon,
-    shortTitle,
     fullTitle,
   }
 }
