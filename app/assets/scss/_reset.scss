@@ -11,6 +11,14 @@
   margin: 0;
 }
 
+// A modal <dialog> is centred by the UA stylesheet's `margin: auto` against
+// `inset: 0` — which the blanket reset above wipes out, dropping every dialog
+// into the top-left corner. Put it back rather than centring each dialog by
+// hand, or the next one will land in the corner too.
+dialog {
+  margin: auto;
+}
+
 html {
   -webkit-text-size-adjust: 100%;
   scroll-behavior: smooth;

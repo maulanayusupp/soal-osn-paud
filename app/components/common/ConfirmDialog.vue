@@ -65,6 +65,9 @@ function onClose() {
   padding: 0;
   border: 0;
   background: transparent;
+  // Centred by the UA's `margin: auto`, which _reset.scss restores after the
+  // blanket margin reset. Kept `visible` so the card's drop shadow is not
+  // clipped — the scrolling lives on the card instead.
   overflow: visible;
 
   &::backdrop {
@@ -78,6 +81,11 @@ function onClose() {
     gap: 0.6rem;
     padding: 1.75rem 1.5rem;
     text-align: center;
+    // Scrolls inside itself on a short screen (a phone in landscape) rather
+    // than running off the top and bottom.
+    max-height: calc(100dvh - 2rem);
+    overflow-y: auto;
+    overscroll-behavior: contain;
     @include paper($radius-xl);
   }
 
