@@ -33,6 +33,18 @@ const {
   restart,
 } = practice
 
+/**
+ * True when every option is a picture and none carries words.
+ *
+ * Those lay out as a grid rather than a stack: three full-width pictures are two
+ * phone screens of scrolling on their own, and a child choosing between pictures
+ * compares them far more easily side by side — which is how the printed paper
+ * sets them out too.
+ */
+const pictureOnly = computed(
+  () => current.value?.options.every((option) => option.images.length && !option.text) ?? false,
+)
+
 const mood = computed<MascotMood>(() => {
   if (phase.value === 'finished') return score.value >= 55 ? 'cheer' : 'idle'
   if (phase.value === 'revealed') return wasCorrect.value ? 'cheer' : 'oops'
@@ -116,7 +128,7 @@ onBeforeUnmount(() => {
       <BaseCard class="stage__card">
         <QuestionCard :question="current" :position="position" :total="total" />
 
-        <div class="stage__options">
+        <div class="stage__options" :class="{ 'stage__options--gallery': pictureOnly }">
           <QuestionOptionButton
             v-for="option in current.options"
             :key="option.key"
@@ -125,12 +137,13 @@ onBeforeUnmount(() => {
             :chosen="chosen === option.key"
             :correct="current.answer === option.key"
             :disabled="phase === 'revealed'"
+            :compact="pictureOnly"
             @click="onChoose(option.key)"
           />
         </div>
       </BaseCard>
 
-      <div class="stage__foot">
+      <div class="stage__foot" :class="{ 'stage__foot--pinned': phase === 'revealed' }">
         <div class="stage__mascot">
           <MascotKancil :mood="mood" :size="120" />
           <p class="stage__says" aria-live="polite">
@@ -180,6 +193,10 @@ onBeforeUnmount(() => {
   flex-direction: column;
   gap: 1.5rem;
 
+  @include respond-below('md') {
+    gap: 0.85rem;
+  }
+
   &__bar {
     display: flex;
     align-items: center;
@@ -220,12 +237,29 @@ onBeforeUnmount(() => {
 
   &__card {
     padding-block: 1.75rem;
+
+    @include respond-below('md') {
+      padding: 1rem 0.85rem 1.25rem;
+    }
   }
 
   &__options {
     display: grid;
     gap: 0.8rem;
     margin-top: 1.75rem;
+
+    @include respond-below('md') {
+      gap: 0.6rem;
+      margin-top: 1.1rem;
+    }
+  }
+
+  // Picture-only options sit two across on a phone. Stacked, they were the
+  // single biggest cause of scrolling in the app.
+  &__options--gallery {
+    @include respond-below('md') {
+      grid-template-columns: 1fr 1fr;
+    }
   }
 
   &__foot {
@@ -235,6 +269,31 @@ onBeforeUnmount(() => {
     justify-content: space-between;
     gap: 1rem;
 
+    @include respond-below('sm') {
+      gap: 0.55rem;
+    }
+  }
+
+  /**
+   * Once an answer is showing, the "next" bar pins itself to the bottom of a
+   * phone screen.
+   *
+   * Otherwise the child has to scroll down past three answers to continue, and
+   * then gets scrolled back up for the new question — down, up, down, up for
+   * twenty questions. Pinned, the button is under the thumb the moment the
+   * answer appears. It only pins once there is something to press: while the
+   * question is still open, that space belongs to the question.
+   */
+  &__foot--pinned {
+    @include respond-below('md') {
+      position: sticky;
+      bottom: 0;
+      z-index: z('sticky');
+      padding: 0.6rem 0.25rem calc(0.6rem + env(safe-area-inset-bottom, 0px));
+      background: linear-gradient(to bottom, rgba(255, 248, 236, 0.75), var(--c-paper) 35%);
+      border-top: 2px solid var(--c-ink-line-soft);
+      backdrop-filter: blur(6px);
+    }
   }
 
   // On a phone the "next" button is the thing being reached for, so it gets the
@@ -249,6 +308,15 @@ onBeforeUnmount(() => {
     display: flex;
     align-items: center;
     gap: 0.85rem;
+
+    // Kancil is company, not content — she gives up the room on a phone.
+    @include respond-below('sm') {
+      gap: 0.6rem;
+
+      :deep(.mascot) {
+        width: 74px;
+      }
+    }
   }
 
   &__says {
@@ -257,6 +325,10 @@ onBeforeUnmount(() => {
     font-weight: 700;
     color: var(--c-ink);
     max-width: 22ch;
+
+    @include respond-below('sm') {
+      font-size: 0.95rem;
+    }
   }
 
   &__empty {

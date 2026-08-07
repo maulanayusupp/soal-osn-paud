@@ -77,9 +77,19 @@ const { asking, leave, stay } = useLeaveGuard()
 .page {
   padding-block: 1.75rem 2rem;
 
+  // Everything above the question is chrome. On a phone it was costing most of
+  // a screen before the child saw anything to answer.
+  @include respond-below('md') {
+    padding-block: 0.85rem 1.25rem;
+  }
+
   &__inner {
     display: grid;
     gap: 1.25rem;
+
+    @include respond-below('md') {
+      gap: 0.75rem;
+    }
   }
 
   &__back {
@@ -95,15 +105,31 @@ const { asking, leave, stay } = useLeaveGuard()
   &__eyebrow {
     @include eyebrow;
     margin-bottom: 0.4rem;
+
+    @include respond-below('md') {
+      margin-bottom: 0.15rem;
+      font-size: 0.68rem;
+    }
   }
 
   &__title {
     font-size: clamp(1.5rem, 1.25rem + 1.2vw, 2.1rem);
+
+    // The paper's name matters far less than the question once you are in it,
+    // so on a phone it becomes a label rather than a headline.
+    @include respond-below('md') {
+      font-size: 1.05rem;
+      line-height: 1.25;
+    }
   }
 
   &__source {
     font-size: 0.82rem;
     color: var(--c-ink-soft);
+
+    @include respond-below('md') {
+      font-size: 0.72rem;
+    }
   }
 }
 </style>

@@ -19,8 +19,10 @@ const props = withDefaults(
     chosen?: boolean
     correct?: boolean
     disabled?: boolean
+    /** Grid layout: letter above the picture, so it fits a narrow phone cell. */
+    compact?: boolean
   }>(),
-  { revealed: false, chosen: false, correct: false, disabled: false },
+  { revealed: false, chosen: false, correct: false, disabled: false, compact: false },
 )
 
 const state = computed(() => {
@@ -34,7 +36,10 @@ const state = computed(() => {
 <template>
   <button
     class="option"
-    :class="[`option--${state}`, { 'option--picture': option.images.length }]"
+    :class="[
+      `option--${state}`,
+      { 'option--picture': option.images.length, 'option--compact': compact },
+    ]"
     type="button"
     :disabled="disabled"
     :aria-pressed="chosen"
@@ -182,6 +187,43 @@ const state = computed(() => {
 
   &--muted {
     opacity: 0.55;
+  }
+
+  // --- Grid cell -----------------------------------------------------------
+  // Two of these sit across a phone, so the letter moves above the picture and
+  // the picture gets the full width of the cell.
+  &--compact {
+    @include respond-below('md') {
+      flex-direction: column;
+      align-items: stretch;
+      gap: 0.4rem;
+      min-height: 0;
+      padding: 0.55rem 0.5rem 0.65rem;
+
+      .option__key {
+        width: 1.9rem;
+        height: 1.9rem;
+        font-size: 0.95rem;
+      }
+
+      .option__body {
+        justify-content: center;
+      }
+
+      .option__image {
+        // No min-height on the cell: grid rows already stretch to match, so a
+        // pair of short pictures costs only the room they actually need.
+        max-height: 7.5rem;
+      }
+
+      .option__mark {
+        position: absolute;
+        top: 0.5rem;
+        right: 0.5rem;
+        width: 1.6rem;
+        height: 1.6rem;
+      }
+    }
   }
 
   @include motion-safe {

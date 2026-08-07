@@ -29,6 +29,12 @@ must also update `CLAUDE.md`, the compliance pages, and both locales.
 
 - [x] Filters are kept in the URL, so back-navigation from a paper returns to
       the same narrowed list.
+- [x] Mobile: picture options in a 2-up grid, pinned "next" bar, tighter chrome.
+      Measured at 360px, an average question page went from ~1.6 screens to
+      ~1.3. Worth re-measuring if the question card grows.
+- [ ] Verify the mobile layout on a real handset. It was tuned by measuring
+      rendered heights from the image dimensions and the CSS, not by looking at
+      it — no browser was available in the session that built it.
 
 - [ ] **Read-aloud button.** Web Speech API on the question prompt (id-ID and
       en-US voices) — the biggest single win for pre-readers.

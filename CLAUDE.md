@@ -197,8 +197,10 @@ session state rather than setting it by hand, so the two cannot disagree.
 
 ## Session behaviour on a phone
 
-Two rules that only matter on a small screen, and both came from watching the
-thing be used:
+Most of a session happens on a phone held by a parent, so the small screen is
+the primary target rather than an adaptation. Measured at 360px wide, a question
+and its whole page came to roughly 1.6 screens of content; the rules below bring
+that to about 1.3, and mean the child never scrolls to continue.
 
 - **Advancing scrolls back to the question.** "Next" is at the foot of the card,
   so the tap happens below the fold; without this the next question renders
@@ -207,6 +209,19 @@ thing be used:
   header is sticky and would otherwise cover the target) and honours
   `prefers-reduced-motion`. It fires on the last question too, so the result
   panel's headline is what comes into view.
+- **Picture-only options lay out as a grid.** Three full-width pictures stacked
+  were the single biggest source of scrolling in the app; two across a phone
+  halves it, and a child compares pictures far more easily side by side — which
+  is how the printed paper sets them out anyway. `PracticeStage` decides
+  (`pictureOnly`) and passes `compact` to each option, which moves the letter
+  above the picture so the picture gets the full width of a narrow cell.
+- **The "next" bar pins to the bottom of a phone screen once an answer shows.**
+  Otherwise it is scroll down past three answers to continue, then get scrolled
+  back up for the new question — down, up, down, up, twenty times. It pins only
+  in the `revealed` phase: while the question is still open, that space belongs
+  to the question. The sticky containing block is `.stage`, so it settles back
+  into place at the end of the question rather than following you into the site
+  footer.
 - **Leaving a part-answered paper asks first.** A session lives only in memory,
   and the menu sits directly above the question, so a mistaken tap is easy.
   `useLeaveGuard()` covers both exits: `onBeforeRouteLeave` for in-app

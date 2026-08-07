@@ -46,6 +46,10 @@ defineProps<{ question: Question; position: number; total: number }>()
     gap: 0.25rem;
     padding: 0.2rem 0.9rem;
     margin-bottom: 0.9rem;
+
+    @include respond-below('md') {
+      margin-bottom: 0.55rem;
+    }
     border-radius: $radius-pill;
     background: var(--c-sun-soft);
     font-family: var(--font-display);
@@ -86,13 +90,21 @@ defineProps<{ question: Question; position: number; total: number }>()
     // Without this the flex line refuses to shrink below its content and a wide
     // strip of artwork pushes straight out of the card, which clips it.
     min-width: 0;
+
+    @include respond-below('md') {
+      gap: 0.6rem;
+      margin-top: 0.8rem;
+    }
   }
 
   &__image {
     // Both dimensions are capped. Height alone was not enough: a wide strip
     // ("3 + 1 = ▢") sized to a 15rem height is far wider than a phone, and the
     // card's overflow rule then cut the right-hand side clean off.
-    max-height: 15rem;
+    // Capped against the viewport as well as in rem, so the question and its
+    // first answers stay on screen together on a short phone rather than the
+    // picture pushing them below the fold.
+    max-height: min(13rem, 32vh);
     max-width: 100%;
     width: auto;
     height: auto;
