@@ -106,9 +106,11 @@ const { asking, leave, stay } = useLeaveGuard()
     @include eyebrow;
     margin-bottom: 0.4rem;
 
+    // Round and season are already in the heading below it; on a phone the line
+    // is pure repetition, so only the printed date would be new — not worth a
+    // row of a small screen.
     @include respond-below('md') {
-      margin-bottom: 0.15rem;
-      font-size: 0.68rem;
+      display: none;
     }
   }
 

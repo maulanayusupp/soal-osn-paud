@@ -47,8 +47,10 @@ defineProps<{ question: Question; position: number; total: number }>()
     padding: 0.2rem 0.9rem;
     margin-bottom: 0.9rem;
 
+    // The progress rail directly above already reads "1 dari 19", so on a phone
+    // this pill is the same fact twice and the room is better spent.
     @include respond-below('md') {
-      margin-bottom: 0.55rem;
+      display: none;
     }
     border-radius: $radius-pill;
     background: var(--c-sun-soft);
@@ -104,7 +106,7 @@ defineProps<{ question: Question; position: number; total: number }>()
     // Capped against the viewport as well as in rem, so the question and its
     // first answers stay on screen together on a short phone rather than the
     // picture pushing them below the fold.
-    max-height: min(13rem, 32vh);
+    max-height: min(11rem, 26vh);
     max-width: 100%;
     width: auto;
     height: auto;

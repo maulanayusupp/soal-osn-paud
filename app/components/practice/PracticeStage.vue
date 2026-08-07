@@ -289,15 +289,37 @@ onBeforeUnmount(() => {
       position: sticky;
       bottom: 0;
       z-index: z('sticky');
-      padding: 0.6rem 0.25rem calc(0.6rem + env(safe-area-inset-bottom, 0px));
-      background: linear-gradient(to bottom, rgba(255, 248, 236, 0.75), var(--c-paper) 35%);
+      // One row, and as short as it can be: while pinned it floats over the
+      // card, so every millimetre of it is a millimetre of answers hidden.
+      flex-wrap: nowrap;
+      gap: 0.5rem;
+      padding: 0.45rem 0.25rem calc(0.45rem + env(safe-area-inset-bottom, 0px));
+      background: var(--c-paper);
       border-top: 2px solid var(--c-ink-line-soft);
-      backdrop-filter: blur(6px);
+
+      .stage__mascot {
+        gap: 0.45rem;
+        min-width: 0;
+
+        :deep(.mascot) {
+          width: 44px;
+        }
+      }
+
+      .stage__says {
+        font-size: 0.8rem;
+        line-height: 1.25;
+      }
+
+      // Beats the full-width rule below: in the bar it shares the row.
+      .stage__next {
+        flex: 0 0 auto;
+      }
     }
   }
 
-  // On a phone the "next" button is the thing being reached for, so it gets the
-  // full width rather than sitting in whatever gap is left over.
+  // Unpinned — that is, while the question is still open — the button gets the
+  // full width of a phone rather than whatever gap is left over.
   &__next {
     @include respond-below('sm') {
       flex: 1 1 100%;

@@ -143,7 +143,7 @@ printed page does.** Everything is therefore read off the rendered page.
 | Key erasure | The highlight is painted white **before** the pictures are cut, so it can never leak into what the child sees. |
 | Season 4 finals | The shipped PDF is the clean student copy with no key at all. The key is read from a second render of the `.docx`, then merged by question number. |
 | Papers with no PDF | Season 3 and Season 4's Babak Penyisihan ship `.docx` only. **LibreOffice** converts them. Word 365 for Mac no longer answers AppleScript `save as` (-1708), and Pages reflows the floating pictures so badly it loses half the highlights — both verified, both rejected. |
-| Crop height | A picture may only be cut short by prose in the **lower 40%** of its box. Its box carries wide transparent margins, so the paragraph it overlaps sits near its foot; clipping at any text run higher up sliced options down to a fragment — half an umbrella, the tip of a finger. That bug produced 61 truncated crops before it was caught. |
+| Crop edges | A picture may only be trimmed by prose in the **outer fifths** of its box — the lower 40% or the top 20%. Its box carries wide transparent margins, so the paragraph it overlaps sits near its foot; clipping at any text run higher up sliced options down to a fragment — half an umbrella, the tip of a finger. Clipping anywhere further in sliced options down to a fragment; not clipping the top at all baked the descenders of the line above into the picture. |
 | Held-back questions | A question whose key or options could not be read in full is written to the JSON with `status: "needs-review"` and **never served**. A half-read question is worse for a five-year-old than a missing one. |
 
 **Current state: 1,146 of 1,200 questions across all 60 papers are served.** The
@@ -198,9 +198,10 @@ session state rather than setting it by hand, so the two cannot disagree.
 ## Session behaviour on a phone
 
 Most of a session happens on a phone held by a parent, so the small screen is
-the primary target rather than an adaptation. Measured at 360px wide, a question
-and its whole page came to roughly 1.6 screens of content; the rules below bring
-that to about 1.3, and mean the child never scrolls to continue.
+the primary target rather than an adaptation. Measured at 390x760, a question
+and its page came to roughly 1.6 screens of content; the rules below bring the
+average to 0.82, with 1,092 of the 1,146 questions fitting one screen — and the
+child never scrolls to continue.
 
 - **Advancing scrolls back to the question.** "Next" is at the foot of the card,
   so the tap happens below the fold; without this the next question renders
@@ -221,7 +222,12 @@ that to about 1.3, and mean the child never scrolls to continue.
   in the `revealed` phase: while the question is still open, that space belongs
   to the question. The sticky containing block is `.stage`, so it settles back
   into place at the end of the question rather than following you into the site
-  footer.
+  footer. It is one short row — mascot at 44px, feedback, button — because while
+  pinned it floats over the card, and every millimetre of bar is a millimetre of
+  answers hidden.
+- **Anything said twice loses its phone copy.** The "1 / 19" pill repeats the
+  progress rail directly above it, and the paper page's eyebrow repeats its own
+  heading; both are `display: none` below `md`.
 - **Leaving a part-answered paper asks first.** A session lives only in memory,
   and the menu sits directly above the question, so a mistaken tap is easy.
   `useLeaveGuard()` covers both exits: `onBeforeRouteLeave` for in-app

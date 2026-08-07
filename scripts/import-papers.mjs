@@ -69,24 +69,29 @@ function readMasthead(pages, firstQuestion) {
  */
 function cropBox(images, page, markerNodes) {
   const left = Math.min(...images.map((i) => i.left)) - CROP_PADDING
-  const top = Math.min(...images.map((i) => i.top)) - CROP_PADDING
+  let top = Math.min(...images.map((i) => i.top)) - CROP_PADDING
   const right = Math.max(...images.map((i) => i.left + i.width)) + CROP_PADDING
   let bottom = Math.max(...images.map((i) => i.top + i.height)) + CROP_PADDING
 
   const artTop = Math.min(...images.map((i) => i.top))
   const artHeight = Math.max(...images.map((i) => i.top + i.height)) - artTop
-  // Only prose in the LOWER PART of the picture's box may cut it short. A
-  // picture's box carries wide transparent margins, so the paragraph it
-  // overlaps sits near its foot; a text run higher up is drawn over the artwork
-  // itself, and clipping there sliced options down to a fragment — half an
-  // umbrella, the tip of a finger.
+  // A picture's box carries wide transparent margins, so the paragraphs it
+  // overlaps sit at its very top and bottom. Prose in the outer fifths may
+  // therefore trim the crop; prose further in is drawn over the artwork itself,
+  // and cutting there sliced options down to a fragment — half an umbrella, the
+  // tip of a finger.
   const clipFloor = artTop + Math.max(40, artHeight * 0.6)
+  const clipCeiling = artTop + Math.min(30, artHeight * 0.2)
 
   for (const node of page.texts) {
     // The "18." a picture straddles is the very reason it was assigned here —
     // clipping at it would slice the illustration in half. Only prose counts.
     if (markerNodes.has(node)) continue
     if (node.top > clipFloor && node.top < bottom) bottom = Math.min(bottom, node.top - 2)
+    // The line ABOVE the picture, whose descenders the box reaches up over —
+    // without this its bottom sliver is baked into the top of the crop.
+    const nodeBottom = node.top + node.height
+    if (nodeBottom > top && nodeBottom < clipCeiling) top = Math.max(top, nodeBottom + 1)
   }
 
   return {
