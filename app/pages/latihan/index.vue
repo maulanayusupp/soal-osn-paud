@@ -8,22 +8,40 @@ const router = useRouter()
 
 const { data: catalog } = await useAsyncData('catalog', fetchCatalog)
 
-// The level can arrive in the URL (the home page's level doors link straight in),
-// so it is read from the query rather than defaulted blindly.
-const filter = ref<PaperFilter>({
-  level: (route.query.level as Level) ?? 'all',
-  subject: (route.query.subject as Subject) ?? 'all',
-  season: route.query.season ? Number(route.query.season) : 'all',
-  round: (route.query.round as Round) ?? 'all',
-})
+/**
+ * The URL is the single source of truth for the filters.
+ *
+ * The level can arrive in it (the home page's level doors link straight in), and
+ * Vue Router reuses this component when only the query changes — so setup does
+ * not re-run. A one-way filter → URL binding therefore left the list narrowed
+ * while the address bar said otherwise: tapping "Latihan" in the header looked
+ * like it did nothing at all.
+ */
+function readQuery(): PaperFilter {
+  return {
+    level: (route.query.level as Level) ?? 'all',
+    subject: (route.query.subject as Subject) ?? 'all',
+    season: route.query.season ? Number(route.query.season) : 'all',
+    round: (route.query.round as Round) ?? 'all',
+  }
+}
+
+const filter = ref<PaperFilter>(readQuery())
+
+watch(
+  () => route.query,
+  () => {
+    const next = readQuery()
+    // Guard against echoing our own router.replace back into the ref.
+    if (JSON.stringify(next) !== JSON.stringify(filter.value)) filter.value = next
+  },
+)
 
 /**
- * Keep the chosen filters in the URL.
- *
- * Without this, narrowing to "TK A / Sains", opening a paper and pressing back
- * dumps you at the unfiltered list again — with 60 papers, that means finding
- * your place a second time. `replace` so filtering does not fill the history
- * with entries the back button has to walk through.
+ * And the other direction: narrowing the list writes itself into the URL, so
+ * opening a paper and pressing back returns to the same narrowed list rather
+ * than to all 60. `replace` so filtering does not fill the history with entries
+ * the back button has to walk through.
  */
 watch(
   filter,
@@ -33,6 +51,7 @@ watch(
     if (value.subject !== 'all') query.subject = value.subject
     if (value.season !== 'all') query.season = String(value.season)
     if (value.round !== 'all') query.round = value.round
+    if (JSON.stringify(query) === JSON.stringify(route.query)) return
     router.replace({ query })
   },
   { deep: true },

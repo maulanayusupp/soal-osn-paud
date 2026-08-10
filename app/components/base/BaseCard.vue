@@ -26,11 +26,12 @@ withDefaults(
 <style scoped lang="scss">
 .card {
   position: relative;
-  // `hidden` would clip the accent strip to the rounded corner correctly, but it
-  // also silently cut off any artwork wider than the card. `clip` keeps the
-  // corner tidy while still letting the browser report the overflow, and the
-  // images themselves are now capped so nothing needs clipping.
-  overflow: clip;
+  // `hidden`, not `clip`: Safari only understands `clip` from 16.0, and an
+  // unrecognised value drops the whole declaration — on an older iPad the cards
+  // would stop clipping altogether and the accent strip would square off its
+  // rounded corner. The images are capped to the card width anyway, so there is
+  // nothing left for `hidden` to cut.
+  overflow: hidden;
   padding: 1.4rem;
   @include paper;
 

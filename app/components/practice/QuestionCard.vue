@@ -47,10 +47,14 @@ defineProps<{ question: Question; position: number; total: number }>()
     padding: 0.2rem 0.9rem;
     margin-bottom: 0.9rem;
 
-    // The progress rail directly above already reads "1 dari 19", so on a phone
-    // this pill is the same fact twice and the room is better spent.
+    // This pill is the only place the question NUMBER appears. The rail above
+    // reads "4 dari 19" — that is the running score, not the position, and the
+    // two only agree while every answer so far has been right. Hiding this left
+    // a parent reading the tally as "question 4", so it stays; it is only made
+    // smaller.
     @include respond-below('md') {
-      display: none;
+      margin-bottom: 0.5rem;
+      padding: 0.1rem 0.7rem;
     }
     border-radius: $radius-pill;
     background: var(--c-sun-soft);

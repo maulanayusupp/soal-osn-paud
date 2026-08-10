@@ -55,9 +55,24 @@ export function useLeaveGuard() {
   async function leave() {
     const target = pending.value
     pending.value = null
+    if (!target) return
+
     cleared = true
     inProgress.value = false
-    if (target) await router.push(target)
+
+    // `replace`, not `push`. The blocked navigation may well have been the back
+    // gesture, and pushing would add a *forward* entry: history becomes
+    // [list, paper, list] and pressing back walks straight into the paper whose
+    // answers were just thrown away. Replacing drops the abandoned paper from
+    // history instead, so back can never return to a wiped session.
+    const failure = await router.replace(target)
+
+    // A cancelled navigation (a chunk that failed to load, a redirect) would
+    // otherwise leave the visitor on the paper with the guard switched off.
+    if (failure) {
+      cleared = false
+      inProgress.value = true
+    }
   }
 
   function stay() {

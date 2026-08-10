@@ -91,7 +91,9 @@ const year = new Date().getFullYear()
   }
 
   &__email {
-    display: flex;
+    // `inline-flex`: as a block the anchor filled its whole grid column, so on a
+    // phone most of the tap target was empty space beside the address.
+    display: inline-flex;
     align-items: center;
     gap: 0.5rem;
     font-weight: 600;

@@ -5,8 +5,16 @@ const localePath = useLocalePath()
 const open = ref(false)
 const route = useRoute()
 
-// Any navigation closes the mobile menu, including a click on the current page.
-watch(() => route.fullPath, () => { open.value = false })
+// Closing on the tap, not on the route change: a practice session in progress
+// can cancel the navigation to ask "leave this paper?", and a menu that only
+// closed on `fullPath` would then stay open behind the dialog, covering the
+// question the visitor just chose to stay on.
+function closeMenu() {
+  open.value = false
+}
+
+// Still watch the route as well, for navigations that start elsewhere.
+watch(() => route.fullPath, closeMenu)
 </script>
 
 <template>
@@ -32,6 +40,7 @@ watch(() => route.fullPath, () => { open.value = false })
             :key="item.to"
             :to="localePath(item.to)"
             class="header__link"
+            @click="closeMenu"
           >
             {{ $t(`nav.${item.label}`) }}
           </NuxtLink>
@@ -39,7 +48,7 @@ watch(() => route.fullPath, () => { open.value = false })
 
         <div class="header__actions">
           <LanguageSwitcher />
-          <BaseButton :to="localePath('latihan')" size="sm" variant="sun">
+          <BaseButton :to="localePath('latihan')" size="sm" variant="sun" @click="closeMenu">
             {{ $t('nav.startPractice') }}
             <template #icon-right><BaseIcon name="arrowRight" :size="16" /></template>
           </BaseButton>

@@ -81,7 +81,10 @@ function cropBox(images, page, markerNodes) {
   // and cutting there sliced options down to a fragment — half an umbrella, the
   // tip of a finger.
   const clipFloor = artTop + Math.max(40, artHeight * 0.6)
-  const clipCeiling = artTop + Math.min(30, artHeight * 0.2)
+  // `max`, not `min`: a tall picture's transparent margin is tall too, so the
+  // line above it can sit well over 30 units below `artTop`. Capping the window
+  // at 30 let that line straight through and baked it into the crop.
+  const clipCeiling = artTop + Math.max(30, artHeight * 0.2)
 
   for (const node of page.texts) {
     // The "18." a picture straddles is the very reason it was assigned here —

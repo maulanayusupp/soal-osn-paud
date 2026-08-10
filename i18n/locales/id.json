@@ -396,7 +396,7 @@
         "heading": "Layanan pihak ketiga",
         "body": [
           "Huruf yang dipakai situs ini dimuat dari Google Fonts, sehingga browser Anda menghubungi server Google saat memuat halaman.",
-          "Selain itu tidak ada layanan pihak ketiga yang dipanggil dari halaman ini."
+          "Selain Google Fonts dan layanan statistik Vercel yang dijelaskan di atas, tidak ada layanan pihak ketiga lain yang dipanggil dari halaman ini."
         ],
         "list": []
       },

@@ -396,7 +396,7 @@
         "heading": "Third parties",
         "body": [
           "The typefaces on this site load from Google Fonts, so your browser contacts Google's servers when a page loads.",
-          "Beyond that, no third-party service is called from these pages."
+          "Apart from Google Fonts and the Vercel statistics described above, no other third-party service is called from these pages."
         ],
         "list": []
       },

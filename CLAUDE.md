@@ -146,7 +146,7 @@ printed page does.** Everything is therefore read off the rendered page.
 | Crop edges | A picture may only be trimmed by prose in the **outer fifths** of its box — the lower 40% or the top 20%. Its box carries wide transparent margins, so the paragraph it overlaps sits near its foot; clipping at any text run higher up sliced options down to a fragment — half an umbrella, the tip of a finger. Clipping anywhere further in sliced options down to a fragment; not clipping the top at all baked the descenders of the line above into the picture. |
 | Held-back questions | A question whose key or options could not be read in full is written to the JSON with `status: "needs-review"` and **never served**. A half-read question is worse for a five-year-old than a missing one. |
 
-**Current state: 1,146 of 1,200 questions across all 60 papers are served.** The
+**Current state: 1,145 of 1,200 questions across all 60 papers are served.** The
 remainder are questions the original paper left unmarked — spot-checked against
 the printed pages, not assumed. Re-running `pnpm soal:import` is safe and
 idempotent; `content/overrides/<id>.json` lets a human correction win over the
@@ -185,6 +185,12 @@ override. Everything it can currently recover has been recovered.
   `:style` use is passing **CSS custom properties** that scoped SCSS consumes —
   currently `--fill` (ProgressRail), `--card-accent` (BaseCard) and
   `--mascot-size` (MascotKancil).
+- **Put plain declarations before nested media queries.** Sass emits a trailing
+  declaration as a second rule *after* the query; at equal specificity it then
+  wins at every width and silently cancels the responsive value.
+- **`overflow: hidden`, not `clip`.** Safari only understands `clip` from 16.0,
+  and an unknown value drops the whole declaration — the card would stop
+  clipping altogether on an older iPad.
 
 ## The mascot
 
@@ -225,9 +231,10 @@ child never scrolls to continue.
   footer. It is one short row — mascot at 44px, feedback, button — because while
   pinned it floats over the card, and every millimetre of bar is a millimetre of
   answers hidden.
-- **Anything said twice loses its phone copy.** The "1 / 19" pill repeats the
-  progress rail directly above it, and the paper page's eyebrow repeats its own
-  heading; both are `display: none` below `md`.
+- **The paper page's eyebrow is hidden on a phone** — round and season are
+  already in the heading below it. The question-number pill is **not**: the rail
+  beside it shows the running score (`4 dari 19`), not the position, and hiding
+  the pill left a parent reading the tally as the question number.
 - **Leaving a part-answered paper asks first.** A session lives only in memory,
   and the menu sits directly above the question, so a mistaken tap is easy.
   `useLeaveGuard()` covers both exits: `onBeforeRouteLeave` for in-app

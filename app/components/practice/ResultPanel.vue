@@ -127,12 +127,16 @@ const mood = computed(() => (props.band === 'keep-going' ? 'idle' : 'cheer'))
   &__note {
     margin-top: 1.25rem;
     max-width: 46ch;
+    // Declared BEFORE the media query on purpose: Sass emits a trailing
+    // declaration as a second rule after the query, and equal specificity means
+    // the later one wins at every width — which silently cancelled the phone
+    // size below.
+    font-size: 0.86rem;
 
     @include respond-below('md') {
       margin-top: 0.85rem;
       font-size: 0.78rem;
     }
-    font-size: 0.86rem;
   }
 }
 </style>
