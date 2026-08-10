@@ -67,7 +67,6 @@ function play(tones: Tone[]) {
 export function useSoundEffects() {
   // Shared so the header toggle and the practice stage never disagree.
   const muted = useState('sound-muted', () => false)
-  const loaded = ref(false)
 
   onMounted(() => {
     try {
@@ -75,7 +74,6 @@ export function useSoundEffects() {
     } catch {
       /* Storage blocked — default to audible. */
     }
-    loaded.value = true
   })
 
   function persist() {
@@ -101,5 +99,5 @@ export function useSoundEffects() {
     if (!muted.value) play(WRONG)
   }
 
-  return { muted, loaded, toggle, playCorrect, playWrong }
+  return { muted, toggle, playCorrect, playWrong }
 }

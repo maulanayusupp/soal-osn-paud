@@ -6,7 +6,6 @@
 // feedback — a five-year-old cannot hold a list of pending answers in their head,
 // and being told straight away is the part that teaches.
 // =============================================================================
-import { FEEDBACK_MS } from '~/config/practice.config'
 import { bandOf, isCorrect, scoreOf, shuffle, summarise } from '~/services/practice.service'
 import { saveSession } from '~/services/progress.service'
 import type { Attempt, OptionKey, Question, SessionResult } from '~/types'
@@ -39,15 +38,6 @@ export function usePractice(paperId: string, source: Ref<Question[]>) {
     () => phase.value !== 'answering' && Boolean(chosen.value) && current.value?.answer === chosen.value,
   )
 
-  let advanceTimer: ReturnType<typeof setTimeout> | null = null
-
-  function clearTimer() {
-    if (advanceTimer) {
-      clearTimeout(advanceTimer)
-      advanceTimer = null
-    }
-  }
-
   /** Answer the current question. Ignored once it has been answered. */
   function choose(key: OptionKey) {
     if (phase.value !== 'answering' || !current.value) return
@@ -61,7 +51,6 @@ export function usePractice(paperId: string, source: Ref<Question[]>) {
 
   /** Move to the next question, or finish. */
   function next() {
-    clearTimer()
     if (isLast.value) {
       finish()
       return
@@ -79,7 +68,6 @@ export function usePractice(paperId: string, source: Ref<Question[]>) {
 
   /** Start again from question one. Optionally in a new shuffled order. */
   function restart({ shuffle: doShuffle = shuffled.value } = {}) {
-    clearTimer()
     shuffled.value = doShuffle
     // A fresh seed so "acak lagi" really is a different order.
     if (doShuffle) seed.value = Math.floor(Math.random() * 2 ** 31)
@@ -89,8 +77,6 @@ export function usePractice(paperId: string, source: Ref<Question[]>) {
     result.value = null
     phase.value = 'answering'
   }
-
-  onBeforeUnmount(clearTimer)
 
   return {
     // state
@@ -115,6 +101,5 @@ export function usePractice(paperId: string, source: Ref<Question[]>) {
     next,
     finish,
     restart,
-    feedbackMs: FEEDBACK_MS,
   }
 }

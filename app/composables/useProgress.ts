@@ -19,10 +19,6 @@ export function useProgress() {
 
   const summary = computed(() => progressSummary(sessions.value))
 
-  function refresh() {
-    sessions.value = loadSessions()
-  }
-
   function clear() {
     clearSessions()
     sessions.value = []
@@ -32,5 +28,5 @@ export function useProgress() {
     return bestScoreFor(sessions.value, paperId)
   }
 
-  return { sessions, summary, loaded, refresh, clear, bestFor }
+  return { sessions, summary, loaded, clear, bestFor }
 }

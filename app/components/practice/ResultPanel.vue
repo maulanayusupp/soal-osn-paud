@@ -69,6 +69,16 @@ const mood = computed(() => (props.band === 'keep-going' ? 'idle' : 'cheer'))
   gap: 0.5rem;
   padding-block: 2.5rem;
 
+  // The score and the two ways to go again are what this screen is for; on a
+  // phone they should land above the fold rather than below Kancil.
+  @include respond-below('md') {
+    padding-block: 1.4rem;
+
+    :deep(.mascot) {
+      width: 118px;
+    }
+  }
+
   &__eyebrow {
     @include eyebrow;
   }
@@ -107,11 +117,21 @@ const mood = computed(() => (props.band === 'keep-going' ? 'idle' : 'cheer'))
     justify-content: center;
     gap: 0.75rem;
     margin-top: 1.5rem;
+
+    @include respond-below('md') {
+      gap: 0.55rem;
+      margin-top: 1rem;
+    }
   }
 
   &__note {
     margin-top: 1.25rem;
     max-width: 46ch;
+
+    @include respond-below('md') {
+      margin-top: 0.85rem;
+      font-size: 0.78rem;
+    }
     font-size: 0.86rem;
   }
 }

@@ -36,9 +36,6 @@ export const SCORE_BANDS = [
 
 export type ScoreBand = (typeof SCORE_BANDS)[number]['id']
 
-/** How long the "correct!" flourish stays on screen, in milliseconds. */
-export const FEEDBACK_MS = 900
-
 /** localStorage key holding finished sessions. Bump to invalidate old shapes. */
 export const PROGRESS_STORAGE_KEY = 'kancil-progress-v1'
 
