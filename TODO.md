@@ -5,25 +5,29 @@ must also update `CLAUDE.md`, the compliance pages, and both locales.
 
 ## Content quality
 
-- [ ] **Review the 54 held-back questions.** They sit in
+- [ ] **Review the 64 held-back questions.** They sit in
       `content/generated/papers/*.json` with `status: "needs-review"`. Spot-checking
       says most are questions the original paper simply never marked. Everything
       recoverable from the .docx has already been recovered by
-      `node scripts/recover-keys.mjs --write`; what remains needs a human to read
+      `pnpm soal:recover --write`; what remains needs a human to read
       the printed page and add `content/overrides/<id>.json` by hand.
-- [ ] **Human spot-check every paper.** `node scripts/audit-papers.mjs` already
-      verifies coverage, integrity, assets, and 873 answer keys against the Word
-      XML with no disagreements — but 273 picture-option keys cannot be checked
-      that way and only a sample has been read by eye. `pnpm soal:proof <paper-id>`
-      renders a sheet per paper for that. Mark a paper `"verified": true` in its
-      override file once checked.
-- [ ] Strip the last of the drafting noise. A handful of options still carry
-      keyboard-mash from the source ("assa", "ijuhyt") next to their picture; the
-      vowel-ratio filter in `import-papers.mjs` catches most but not all.
-- [ ] 18 crops are still very small. Most are legitimate (solid colour squares
-      for the pattern questions, printed sums), but a couple look tight —
-      `s2-final-matematika-tk-a` Q12 and `s3-final-bahasa-inggris-tk-a` Q15 are
-      the ones to look at.
+- [x] **Verify every served answer key.** Done: 871 agree with the Word XML,
+      1,074 with independent blob analysis, and the 14 confirmed by neither were
+      read against the printed page. No wrong key was found anywhere.
+      `pnpm soal:check` re-runs all of it.
+- [ ] Mark reviewed papers `"verified": true` in their override file, so a future
+      re-import can tell checked papers from unchecked ones.
+- [ ] A handful of options still carry drafting noise ("ascxd", "Dcsa", "Sdefv")
+      beside their picture. They contain vowels, so the filter spares them —
+      deliberately, since tightening it far enough to catch them also catches
+      "Hand", "Dog" and "Two". Cosmetic: picture and key were right in every
+      case reviewed.
+- [ ] Some stems still carry a sliver of the previous picture where the two
+      boxes overlap by more than 40%. The clip is deliberately capped so it can
+      never gut an illustration; going further needs per-pixel masking rather
+      than a rectangle.
+- [ ] A few crops are still tight — `s2-final-matematika-tk-a` Q12 and
+      `s3-final-bahasa-inggris-tk-a` Q15.
 
 ## Features
 
