@@ -162,7 +162,7 @@ const wanted =
     ? new Set(
         JSON.parse(
           await readFile(join(root, '.import-cache', listFile ?? 'unreached.json'), 'utf8'),
-        ).unreached,
+        ).questions,
       )
     : null
 

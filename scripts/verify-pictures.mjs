@@ -144,5 +144,5 @@ for (const [key, s] of byQuestion) console.log(`  ${key} option ${s.key} — ${s
 
 await writeFile(
   join(CACHE, 'picture-suspects.json'),
-  `${JSON.stringify({ unreached: [...byQuestion.keys()] }, null, 2)}\n`,
+  `${JSON.stringify({ questions: [...byQuestion.keys()] }, null, 2)}\n`,
 )

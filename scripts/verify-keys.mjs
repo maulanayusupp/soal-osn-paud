@@ -191,9 +191,7 @@ for (const source of papers) {
     for (const blob of findBlobs(raster, protect)) {
       const onPage = markers.filter((m) => m.page === pageIndex)
       if (!onPage.length) continue
-      // The swatch sits ON the option's line, so its centre is nearest that
-      // marker's top.
-      // A swatch starts within a few units of its marker's top.
+      // A swatch starts within a few units of its own marker's top.
       const sameLine = onPage.filter((m) => Math.abs(m.top - blob.topY) <= 12)
       if (!sameLine.length) continue
 
@@ -235,5 +233,5 @@ for (const k of unreached) console.log(`  ${k}`)
 // Written out so review-sheet.mjs can lay exactly these in front of a human.
 await writeFile(
   join(CACHE, 'unreached.json'),
-  `${JSON.stringify({ unreached, disagreements }, null, 2)}\n`,
+  `${JSON.stringify({ questions: unreached, disagreements }, null, 2)}\n`,
 )
