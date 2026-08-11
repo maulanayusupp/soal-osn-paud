@@ -57,11 +57,13 @@ pnpm og             # regenerate public/og-image.png
 pnpm i18n:check     # ID/EN key + placeholder parity (fails loudly on drift)
 pnpm typecheck      # vue-tsc type check
 
-node scripts/scan-sources.mjs   # re-index the source papers on disk
+pnpm soal:scan <source-root>    # re-index the source papers on disk
 pnpm soal:import                # rebuild content/generated + public/soal from them
-pnpm soal:proof <paper-id>      # render a visual proof sheet of one paper
-node scripts/audit-papers.mjs   # audit the data against the sources (see below)
-node scripts/recover-keys.mjs   # recover missed keys from the .docx (--write)
+pnpm soal:check                 # audit + both key verifiers — run after any
+                                #   pipeline change (see §Verifying the bank)
+pnpm soal:recover               # recover missed keys from the .docx (--write)
+pnpm soal:review --unreached    # review sheets for whatever the checks missed
+pnpm soal:proof <paper-id>      # visual proof sheet for one paper
 ```
 
 ## Directory map (Nuxt 4 `app/` srcDir)
@@ -144,30 +146,42 @@ printed page does.** Everything is therefore read off the rendered page.
 | Season 4 finals | The shipped PDF is the clean student copy with no key at all. The key is read from a second render of the `.docx`, then merged by question number. |
 | Papers with no PDF | Season 3 and Season 4's Babak Penyisihan ship `.docx` only. **LibreOffice** converts them. Word 365 for Mac no longer answers AppleScript `save as` (-1708), and Pages reflows the floating pictures so badly it loses half the highlights — both verified, both rejected. |
 | Crop edges | A picture may only be trimmed by prose in the **outer fifths** of its box — the lower 40% or the top 20%. Its box carries wide transparent margins, so the paragraph it overlaps sits near its foot; clipping at any text run higher up sliced options down to a fragment — half an umbrella, the tip of a finger. Clipping anywhere further in sliced options down to a fragment; not clipping the top at all baked the descenders of the line above into the picture. |
+| Overlapping pictures | Where two picture boxes overlap, the lower one's crop carries a sliver of the upper one's artwork. It is clipped below the overlapping neighbour, capped so at least 60% of the picture survives — chasing the fragment any harder guts the illustration. |
+| Degenerate boxes | poppler reports some mirrored placements with a NEGATIVE width or height. Flipped back to their real extent, not discarded: left alone such a box wins the nearest-marker contest and then crops to nothing, so the option it claimed loses its picture. |
+| Drafting noise | Options carry leftover keyboard-mash. The test is **no vowels at all**, never a low ratio — a quarter-vowel threshold deletes "Strawberry", "Black" and "Twenty". It only runs where the option also has a picture, so it cannot empty one. A picture-less option that is nothing but a short vowel-free scrap ("ff") makes the question incomplete instead, so it is held back rather than served with a stray for an answer. |
 | Held-back questions | A question whose key or options could not be read in full is written to the JSON with `status: "needs-review"` and **never served**. A half-read question is worse for a five-year-old than a missing one. |
 
-**Current state: 1,145 of 1,200 questions across all 60 papers are served.** The
+**Current state: 1,136 of 1,200 questions across all 60 papers are served.** The
 remainder are questions the original paper left unmarked — spot-checked against
 the printed pages, not assumed. Re-running `pnpm soal:import` is safe and
 idempotent; `content/overrides/<id>.json` lets a human correction win over the
 extractor.
 
-### Auditing it
+### Verifying the bank
 
-`node scripts/audit-papers.mjs` checks the finished data against the sources by
-routes the importer never used, and is the thing to run after touching the
-pipeline:
+Three checks, each reaching something the others cannot. `pnpm soal:check` runs
+all three; run it after touching the pipeline.
 
-| Check | How |
-| ----- | --- |
-| Coverage | Question numbers printed in the source, counted with `pdftotext`, against what was extracted. Catches a paper silently truncated at question 20. |
-| Answer keys | The ordered triple of option texts is located in the **Word XML** and the highlight read from the markup — a path that shares no code with the pixel reader. 872 of the served questions are comparable this way; all 872 agree. |
-| Integrity | Every served question: 3+ options, exactly one answer, that answer on offer, no empty option, wording or a picture present. |
-| Assets | Every referenced image exists; no duplicates within a question; no orphans on disk. |
+| Script | Asks |
+| ------ | ---- |
+| `audit-papers` | Does the data agree with the sources? Coverage from `pdftotext`, keys from the **Word XML**, plus integrity and asset checks. |
+| `verify-keys` | Independent second opinion on every key: finds the highlight **blobs** and reports which marker each sits on, rather than sampling a strip beside each marker. Reaches the picture options the Word XML cannot. |
+| `verify-pictures` | Is the artwork under letter "b" the artwork printed beside b? Both key checks assume the option assignment is right; this is the only one that tests it. |
 
-`node scripts/recover-keys.mjs [--write]` goes the other way: for a question the
-pixel reader could not resolve, it looks the key up in the Word XML and writes an
-override. Everything it can currently recover has been recovered.
+The first two share `scripts/lib/docx-key.mjs`; nothing re-implements it.
+
+Whatever the checks cannot confirm goes to `pnpm soal:review`, which lays the
+questions out with their options and the key that was read. `soal:recover` goes
+the other way: for a question the pixel reader could not resolve, it looks the
+key up in the Word XML and writes an override.
+
+Two false-alarm modes cost real time and are worth not rediscovering:
+
+- **Anchor a highlight blob on its top edge, not its centre.** Word draws the
+  swatch over the whole line box, so the centre sits half a line low — half the
+  line spacing — making "nearest marker" a coin flip. 40 phantom disagreements.
+- **Side-by-side options share one top**, so y cannot separate them; they must be
+  told apart by x.
 
 ## Styling (SCSS, no inline CSS — hard rule)
 
@@ -206,7 +220,7 @@ session state rather than setting it by hand, so the two cannot disagree.
 Most of a session happens on a phone held by a parent, so the small screen is
 the primary target rather than an adaptation. Measured at 390x760, a question
 and its page came to roughly 1.6 screens of content; the rules below bring the
-average to 0.82, with 1,092 of the 1,146 questions fitting one screen — and the
+average to 0.82, with the large majority of questions fitting one screen — and the
 child never scrolls to continue.
 
 - **Advancing scrolls back to the question.** "Next" is at the foot of the card,
