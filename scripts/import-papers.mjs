@@ -67,7 +67,7 @@ function readMasthead(pages, firstQuestion) {
  * us stop the crop just above the first line of type the picture swallowed —
  * without it, half a sentence gets baked into the illustration.
  */
-function cropBox(images, page, markerNodes) {
+function cropBox(images, page, markerNodes, others = []) {
   const left = Math.min(...images.map((i) => i.left)) - CROP_PADDING
   let top = Math.min(...images.map((i) => i.top)) - CROP_PADDING
   const right = Math.max(...images.map((i) => i.left + i.width)) + CROP_PADDING
@@ -85,6 +85,19 @@ function cropBox(images, page, markerNodes) {
   // line above it can sit well over 30 units below `artTop`. Capping the window
   // at 30 let that line straight through and baked it into the crop.
   const clipCeiling = artTop + Math.max(30, artHeight * 0.2)
+
+  // A neighbouring picture whose box OVERLAPS this one leaves a sliver of its
+  // artwork along the top of the crop — on Season 3 maths, question 5 carried
+  // the foot of question 4's tree. Clip below it, but only while at least 60% of
+  // this picture survives, so an overlap that deep is left alone rather than
+  // gutting the illustration.
+  const keepFrom = artTop + artHeight * 0.4
+  for (const other of others) {
+    const otherBottom = other.top + other.height
+    if (otherBottom <= top || otherBottom >= keepFrom) continue
+    if (other.top >= artTop) continue
+    top = Math.max(top, otherBottom + 1)
+  }
 
   for (const node of page.texts) {
     // The "18." a picture straddles is the very reason it was assigned here —
@@ -280,9 +293,11 @@ async function importPaper(source, overrides) {
         const suffix = parts.length ? `-${parts.length + 1}` : ''
         const name =
           band.role === 'stem' ? `${slug}-stem${suffix}.webp` : `${slug}-${band.key}${suffix}.webp`
+        const mine = new Set(group.images)
+        const others = pages[group.pageIndex].images.filter((image) => !mine.has(image))
         const written = await writeCrop(
           raster,
-          cropBox(group.images, pages[group.pageIndex], markerNodes),
+          cropBox(group.images, pages[group.pageIndex], markerNodes, others),
           join(imageDir, name),
         )
         if (written) parts.push({ src: `/soal/${source.id}/${name}`, ...written })
