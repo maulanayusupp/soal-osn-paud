@@ -221,7 +221,9 @@
       "id": "s3-final-matematika-tk-b-q08",
       "n": 8,
       "prompt": "Berapa hasil penjumlahan berikut?",
-      "images": [],
+      "images": [
+        "/soal/s3-final-matematika-tk-b/q08-stem.webp"
+      ],
       "options": [
         {
           "key": "a",
@@ -269,9 +271,7 @@
         {
           "key": "c",
           "text": "6",
-          "images": [
-            "/soal/s3-final-matematika-tk-b/q09-c.webp"
-          ]
+          "images": []
         }
       ],
       "answer": "a",
@@ -281,7 +281,9 @@
       "id": "s3-final-matematika-tk-b-q10",
       "n": 10,
       "prompt": "Berapa nilai dari kue berikut?",
-      "images": [],
+      "images": [
+        "/soal/s3-final-matematika-tk-b/q10-stem.webp"
+      ],
       "options": [
         {
           "key": "a",
@@ -323,9 +325,7 @@
         {
           "key": "c",
           "text": "16",
-          "images": [
-            "/soal/s3-final-matematika-tk-b/q11-c.webp"
-          ]
+          "images": []
         }
       ],
       "answer": "a",
@@ -335,7 +335,9 @@
       "id": "s3-final-matematika-tk-b-q12",
       "n": 12,
       "prompt": "Hasil dari operasi bilangan berikut adalah …",
-      "images": [],
+      "images": [
+        "/soal/s3-final-matematika-tk-b/q12-stem.webp"
+      ],
       "options": [
         {
           "key": "a",
@@ -407,8 +409,7 @@
           "key": "c",
           "text": null,
           "images": [
-            "/soal/s3-final-matematika-tk-b/q14-c.webp",
-            "/soal/s3-final-matematika-tk-b/q14-c-2.webp"
+            "/soal/s3-final-matematika-tk-b/q14-c.webp"
           ]
         }
       ],
@@ -419,7 +420,9 @@
       "id": "s3-final-matematika-tk-b-q15",
       "n": 15,
       "prompt": "Pilihlah gambar yang tepat untuk melanjutkan pola berikut!",
-      "images": [],
+      "images": [
+        "/soal/s3-final-matematika-tk-b/q15-stem.webp"
+      ],
       "options": [
         {
           "key": "a",

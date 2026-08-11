@@ -450,6 +450,55 @@ export function assignImages(pages, questions) {
   })
 
   splitSideBySideRows(bands)
+  reclaimNextStemPictures(questions)
+}
+
+/**
+ * Give back a picture that is really the NEXT question's stem.
+ *
+ * A question's last option band runs all the way down to the next question's
+ * number, and these pictures carry deep transparent margins — so a stem picture
+ * printed above its own "5." can have its centre land 30-odd units earlier,
+ * inside question 4's option c. The look-ahead that catches this for pictures
+ * sitting *on* a marker line is far too small for one this tall.
+ *
+ * The tell is that the picture reaches *past* the next question's number: no
+ * option's artwork does that. Only claimed when the next question has no stem
+ * picture of its own, so nothing is ever stolen from a question that already
+ * has one.
+ */
+function reclaimNextStemPictures(questions) {
+  questions.forEach((question, index) => {
+    const next = questions[index + 1]
+    if (!next) return
+
+    const options = question.bands.filter((band) => band.role === 'option')
+    const last = options[options.length - 1]
+    const nextStem = next.bands.find((band) => band.role === 'stem')
+    if (!last || !nextStem) return
+    if (nextStem.imageGroups?.length) return
+
+    for (const group of last.imageGroups ?? []) {
+      if (group.pageIndex !== next.start.page) continue
+      const moving = group.images.filter(
+        (image) => image.top + image.height > next.start.top && image.top < next.start.top,
+      )
+      if (!moving.length) continue
+
+      group.images = group.images.filter((image) => !moving.includes(image))
+      nextStem.imageGroups ??= []
+      let target = nextStem.imageGroups.find((g) => g.pageIndex === group.pageIndex)
+      if (!target) {
+        target = { pageIndex: group.pageIndex, images: [] }
+        nextStem.imageGroups.push(target)
+      }
+      target.images.push(...moving)
+    }
+
+    if (last.imageGroups) {
+      last.imageGroups = last.imageGroups.filter((group) => group.images.length)
+    }
+  })
 }
 
 /**

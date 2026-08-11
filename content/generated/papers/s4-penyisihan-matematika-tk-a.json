@@ -296,9 +296,7 @@
         {
           "key": "c",
           "text": "3",
-          "images": [
-            "/soal/s4-penyisihan-matematika-tk-a/q10-c.webp"
-          ]
+          "images": []
         }
       ],
       "answer": "a",
@@ -308,7 +306,9 @@
       "id": "s4-penyisihan-matematika-tk-a-q11",
       "n": 11,
       "prompt": "Hitung hasil penjumlahan berikut!",
-      "images": [],
+      "images": [
+        "/soal/s4-penyisihan-matematika-tk-a/q11-stem.webp"
+      ],
       "options": [
         {
           "key": "a",
@@ -470,9 +470,7 @@
         {
           "key": "c",
           "text": "Kelompok C",
-          "images": [
-            "/soal/s4-penyisihan-matematika-tk-a/q16-c.webp"
-          ]
+          "images": []
         }
       ],
       "answer": "a",
@@ -482,7 +480,9 @@
       "id": "s4-penyisihan-matematika-tk-a-q17",
       "n": 17,
       "prompt": "Manakah pensil yang ukurannya sama?",
-      "images": [],
+      "images": [
+        "/soal/s4-penyisihan-matematika-tk-a/q17-stem.webp"
+      ],
       "options": [
         {
           "key": "a",

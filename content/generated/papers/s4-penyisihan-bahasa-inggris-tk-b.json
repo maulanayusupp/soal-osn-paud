@@ -19,8 +19,10 @@
   "answerSource": "docx",
   "verified": false,
   "questionCount": 20,
-  "playableCount": 19,
-  "warnings": [],
+  "playableCount": 18,
+  "warnings": [
+    "Q10: option c is empty"
+  ],
   "questions": [
     {
       "id": "s4-penyisihan-bahasa-inggris-tk-b-q01",
@@ -293,19 +295,19 @@
         {
           "key": "c",
           "text": null,
-          "images": [
-            "/soal/s4-penyisihan-bahasa-inggris-tk-b/q10-c.webp"
-          ]
+          "images": []
         }
       ],
       "answer": "a",
-      "status": "ok"
+      "status": "needs-review"
     },
     {
       "id": "s4-penyisihan-bahasa-inggris-tk-b-q11",
       "n": 11,
       "prompt": "Which picture shows a child riding a bicycle?",
-      "images": [],
+      "images": [
+        "/soal/s4-penyisihan-bahasa-inggris-tk-b/q11-stem.webp"
+      ],
       "options": [
         {
           "key": "a",

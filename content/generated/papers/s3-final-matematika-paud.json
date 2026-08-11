@@ -19,8 +19,11 @@
   "answerSource": "docx",
   "verified": false,
   "questionCount": 20,
-  "playableCount": 19,
-  "warnings": [],
+  "playableCount": 17,
+  "warnings": [
+    "Q17: option c is empty",
+    "Q18: option c is empty"
+  ],
   "questions": [
     {
       "id": "s3-final-matematika-paud-q01",
@@ -68,9 +71,7 @@
         {
           "key": "c",
           "text": "10",
-          "images": [
-            "/soal/s3-final-matematika-paud/q02-c.webp"
-          ]
+          "images": []
         }
       ],
       "answer": "b",
@@ -80,7 +81,9 @@
       "id": "s3-final-matematika-paud-q03",
       "n": 3,
       "prompt": "Angka yang tepat untuk melengkapi bagian yang kosong adalah...",
-      "images": [],
+      "images": [
+        "/soal/s3-final-matematika-paud/q03-stem.webp"
+      ],
       "options": [
         {
           "key": "a",
@@ -212,8 +215,7 @@
           "key": "c",
           "text": "ff",
           "images": [
-            "/soal/s3-final-matematika-paud/q07-c.webp",
-            "/soal/s3-final-matematika-paud/q07-c-2.webp"
+            "/soal/s3-final-matematika-paud/q07-c.webp"
           ]
         }
       ],
@@ -224,7 +226,9 @@
       "id": "s3-final-matematika-paud-q08",
       "n": 8,
       "prompt": "Hitung hasil penjumlahan di bawah ini!",
-      "images": [],
+      "images": [
+        "/soal/s3-final-matematika-paud/q08-stem.webp"
+      ],
       "options": [
         {
           "key": "a",
@@ -292,9 +296,7 @@
         {
           "key": "c",
           "text": "3",
-          "images": [
-            "/soal/s3-final-matematika-paud/q10-c.webp"
-          ]
+          "images": []
         }
       ],
       "answer": "c",
@@ -304,7 +306,9 @@
       "id": "s3-final-matematika-paud-q11",
       "n": 11,
       "prompt": "Hitunglah hasil pengurangan berikut!",
-      "images": [],
+      "images": [
+        "/soal/s3-final-matematika-paud/q11-stem.webp"
+      ],
       "options": [
         {
           "key": "a",
@@ -467,8 +471,7 @@
           "key": "c",
           "text": "6",
           "images": [
-            "/soal/s3-final-matematika-paud/q16-c.webp",
-            "/soal/s3-final-matematika-paud/q16-c-2.webp"
+            "/soal/s3-final-matematika-paud/q16-c.webp"
           ]
         }
       ],
@@ -479,7 +482,9 @@
       "id": "s3-final-matematika-paud-q17",
       "n": 17,
       "prompt": "Gambar selanjutnya dari pola berikut adalah …",
-      "images": [],
+      "images": [
+        "/soal/s3-final-matematika-paud/q17-stem.webp"
+      ],
       "options": [
         {
           "key": "a",
@@ -498,19 +503,19 @@
         {
           "key": "c",
           "text": null,
-          "images": [
-            "/soal/s3-final-matematika-paud/q17-c.webp"
-          ]
+          "images": []
         }
       ],
       "answer": "a",
-      "status": "ok"
+      "status": "needs-review"
     },
     {
       "id": "s3-final-matematika-paud-q18",
       "n": 18,
       "prompt": "Lengkapilah pola berikut ini!",
-      "images": [],
+      "images": [
+        "/soal/s3-final-matematika-paud/q18-stem.webp"
+      ],
       "options": [
         {
           "key": "a",
@@ -529,19 +534,19 @@
         {
           "key": "c",
           "text": null,
-          "images": [
-            "/soal/s3-final-matematika-paud/q18-c.webp"
-          ]
+          "images": []
         }
       ],
       "answer": "a",
-      "status": "ok"
+      "status": "needs-review"
     },
     {
       "id": "s3-final-matematika-paud-q19",
       "n": 19,
       "prompt": "Benda di bawah ini yang memiliki bentuk seperti lingkaran dan bisa menggelinding adalah…",
-      "images": [],
+      "images": [
+        "/soal/s3-final-matematika-paud/q19-stem.webp"
+      ],
       "options": [
         {
           "key": "a",

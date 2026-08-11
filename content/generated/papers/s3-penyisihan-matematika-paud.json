@@ -142,7 +142,9 @@
       "id": "s3-penyisihan-matematika-paud-q05",
       "n": 5,
       "prompt": "Pilih angka yang tepat untuk mengisi bagian yang kosong!",
-      "images": [],
+      "images": [
+        "/soal/s3-penyisihan-matematika-paud/q05-stem.webp"
+      ],
       "options": [
         {
           "key": "a",
@@ -216,9 +218,7 @@
         {
           "key": "c",
           "text": "1",
-          "images": [
-            "/soal/s3-penyisihan-matematika-paud/q07-c.webp"
-          ]
+          "images": []
         }
       ],
       "answer": "a",
@@ -228,7 +228,9 @@
       "id": "s3-penyisihan-matematika-paud-q08",
       "n": 8,
       "prompt": "Lengkapi hasil penjumlahan berikut!",
-      "images": [],
+      "images": [
+        "/soal/s3-penyisihan-matematika-paud/q08-stem.webp"
+      ],
       "options": [
         {
           "key": "a",
@@ -243,9 +245,7 @@
         {
           "key": "c",
           "text": "4",
-          "images": [
-            "/soal/s3-penyisihan-matematika-paud/q08-c.webp"
-          ]
+          "images": []
         }
       ],
       "answer": "c",
@@ -255,7 +255,9 @@
       "id": "s3-penyisihan-matematika-paud-q09",
       "n": 9,
       "prompt": "Hitunglah hasil penjumlahan berikut!",
-      "images": [],
+      "images": [
+        "/soal/s3-penyisihan-matematika-paud/q09-stem.webp"
+      ],
       "options": [
         {
           "key": "a",
@@ -270,9 +272,7 @@
         {
           "key": "c",
           "text": "5",
-          "images": [
-            "/soal/s3-penyisihan-matematika-paud/q09-c.webp"
-          ]
+          "images": []
         }
       ],
       "answer": "b",
@@ -282,7 +282,9 @@
       "id": "s3-penyisihan-matematika-paud-q10",
       "n": 10,
       "prompt": "Berapa hasil dari penjumlahan berikut?",
-      "images": [],
+      "images": [
+        "/soal/s3-penyisihan-matematika-paud/q10-stem.webp"
+      ],
       "options": [
         {
           "key": "a",
@@ -324,9 +326,7 @@
         {
           "key": "c",
           "text": "3",
-          "images": [
-            "/soal/s3-penyisihan-matematika-paud/q11-c.webp"
-          ]
+          "images": []
         }
       ],
       "answer": "a",
@@ -336,7 +336,9 @@
       "id": "s3-penyisihan-matematika-paud-q12",
       "n": 12,
       "prompt": "Selesaikan pengurangan berikut!",
-      "images": [],
+      "images": [
+        "/soal/s3-penyisihan-matematika-paud/q12-stem.webp"
+      ],
       "options": [
         {
           "key": "a",
@@ -378,9 +380,7 @@
         {
           "key": "c",
           "text": "2",
-          "images": [
-            "/soal/s3-penyisihan-matematika-paud/q13-c.webp"
-          ]
+          "images": []
         }
       ],
       "answer": "c",
@@ -390,7 +390,9 @@
       "id": "s3-penyisihan-matematika-paud-q14",
       "n": 14,
       "prompt": "Berapa hasil dari pengurangan berikut?",
-      "images": [],
+      "images": [
+        "/soal/s3-penyisihan-matematika-paud/q14-stem.webp"
+      ],
       "options": [
         {
           "key": "a",

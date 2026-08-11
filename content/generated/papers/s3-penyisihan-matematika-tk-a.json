@@ -196,7 +196,9 @@
       "id": "s3-penyisihan-matematika-tk-a-q07",
       "n": 7,
       "prompt": "Lengkapi hasil penjumlahan berikut!",
-      "images": [],
+      "images": [
+        "/soal/s3-penyisihan-matematika-tk-a/q07-stem.webp"
+      ],
       "options": [
         {
           "key": "a",
@@ -211,9 +213,7 @@
         {
           "key": "c",
           "text": "8",
-          "images": [
-            "/soal/s3-penyisihan-matematika-tk-a/q07-c.webp"
-          ]
+          "images": []
         }
       ],
       "answer": "a",
@@ -223,7 +223,9 @@
       "id": "s3-penyisihan-matematika-tk-a-q08",
       "n": 8,
       "prompt": "Tentukan hasil penjumlahan berikut!",
-      "images": [],
+      "images": [
+        "/soal/s3-penyisihan-matematika-tk-a/q08-stem.webp"
+      ],
       "options": [
         {
           "key": "a",
@@ -485,9 +487,7 @@
         {
           "key": "c",
           "text": "3 – 2 – 1",
-          "images": [
-            "/soal/s3-penyisihan-matematika-tk-a/q17-c.webp"
-          ]
+          "images": []
         }
       ],
       "answer": "a",
@@ -497,7 +497,9 @@
       "id": "s3-penyisihan-matematika-tk-a-q18",
       "n": 18,
       "prompt": "Urutkan angka berikut dari yang terbesar hingga terkecil!",
-      "images": [],
+      "images": [
+        "/soal/s3-penyisihan-matematika-tk-a/q18-stem.webp"
+      ],
       "options": [
         {
           "key": "a",
@@ -553,7 +555,9 @@
       "id": "s3-penyisihan-matematika-tk-a-q20",
       "n": 20,
       "prompt": "Hitunglah jumlah ikan di bawah ini!",
-      "images": [],
+      "images": [
+        "/soal/s3-penyisihan-matematika-tk-a/q20-stem.webp"
+      ],
       "options": [
         {
           "key": "a",

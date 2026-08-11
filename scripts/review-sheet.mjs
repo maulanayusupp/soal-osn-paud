@@ -22,6 +22,8 @@ const OUT = join(root, '.import-cache', 'review')
 const args = process.argv.slice(2)
 const perSheet = args.includes('--per') ? Number(args[args.indexOf('--per') + 1]) : 6
 const only = args.includes('--only') ? args[args.indexOf('--only') + 1] : null
+// `--unreached` narrows to the questions verify-keys.mjs could not confirm.
+const unreachedOnly = args.includes('--unreached')
 
 const WIDTH = 1240
 const PAD = 14
@@ -147,6 +149,12 @@ const sources = JSON.parse(await readFile(join(root, 'content', 'sources.json'),
 const dir = join(root, 'content', 'generated', 'papers')
 const items = []
 
+const wanted = unreachedOnly
+  ? new Set(
+      JSON.parse(await readFile(join(root, '.import-cache', 'unreached.json'), 'utf8')).unreached,
+    )
+  : null
+
 for (const source of sources.papers) {
   if (only && !source.id.startsWith(only)) continue
   const paper = JSON.parse(await readFile(join(dir, `${source.id}.json`), 'utf8'))
@@ -155,6 +163,10 @@ for (const source of sources.papers) {
 
   const paragraphs = await paragraphsOf(source.docx)
   for (const q of served) {
+    if (wanted) {
+      if (wanted.has(`${source.id} Q${q.n}`)) items.push({ paper, q })
+      continue
+    }
     // Anything the .docx could confirm is already trustworthy; only the rest
     // needs eyes on it.
     const index = markedIndexFor(paragraphs, q.options.map((o) => o.text))

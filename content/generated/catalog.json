@@ -2,7 +2,7 @@
   "generatedFrom": "scripts/import-papers.mjs",
   "paperCount": 60,
   "questionCount": 1200,
-  "playableCount": 1145,
+  "playableCount": 1139,
   "papers": [
     {
       "id": "s1-penyisihan-bahasa-inggris-paud",
@@ -336,9 +336,9 @@
       "level": "paud",
       "printedDate": "OKTOBER 2025",
       "questionCount": 20,
-      "playableCount": 19,
+      "playableCount": 17,
       "verified": false,
-      "warningCount": 0
+      "warningCount": 2
     },
     {
       "id": "s3-final-matematika-tk-a",
@@ -624,9 +624,9 @@
       "level": "paud",
       "printedDate": "JANUARI 2026",
       "questionCount": 20,
-      "playableCount": 20,
+      "playableCount": 19,
       "verified": false,
-      "warningCount": 0
+      "warningCount": 1
     },
     {
       "id": "s4-penyisihan-bahasa-inggris-tk-a",
@@ -648,9 +648,9 @@
       "level": "tk-b",
       "printedDate": "JANUARI 2026",
       "questionCount": 20,
-      "playableCount": 19,
+      "playableCount": 18,
       "verified": false,
-      "warningCount": 0
+      "warningCount": 1
     },
     {
       "id": "s4-penyisihan-matematika-paud",
@@ -684,9 +684,9 @@
       "level": "tk-b",
       "printedDate": "JANUARI 2026",
       "questionCount": 20,
-      "playableCount": 18,
+      "playableCount": 17,
       "verified": false,
-      "warningCount": 1
+      "warningCount": 2
     },
     {
       "id": "s4-penyisihan-sains-paud",
@@ -696,9 +696,9 @@
       "level": "paud",
       "printedDate": "JANUARI 2026",
       "questionCount": 20,
-      "playableCount": 20,
+      "playableCount": 19,
       "verified": false,
-      "warningCount": 0
+      "warningCount": 1
     },
     {
       "id": "s4-penyisihan-sains-tk-a",

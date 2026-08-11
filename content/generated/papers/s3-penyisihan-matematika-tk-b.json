@@ -138,7 +138,9 @@
       "id": "s3-penyisihan-matematika-tk-b-q05",
       "n": 5,
       "prompt": "Selesaikan penjumlahan berikut!",
-      "images": [],
+      "images": [
+        "/soal/s3-penyisihan-matematika-tk-b/q05-stem.webp"
+      ],
       "options": [
         {
           "key": "a",

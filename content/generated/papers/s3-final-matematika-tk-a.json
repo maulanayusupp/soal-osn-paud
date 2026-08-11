@@ -126,9 +126,7 @@
         {
           "key": "c",
           "text": "20",
-          "images": [
-            "/soal/s3-final-matematika-tk-a/q04-c.webp"
-          ]
+          "images": []
         }
       ],
       "answer": "a",
@@ -138,7 +136,9 @@
       "id": "s3-final-matematika-tk-a-q05",
       "n": 5,
       "prompt": "Berapa nilai buah ceri di bawah ini?",
-      "images": [],
+      "images": [
+        "/soal/s3-final-matematika-tk-a/q05-stem.webp"
+      ],
       "options": [
         {
           "key": "a",
@@ -153,9 +153,7 @@
         {
           "key": "c",
           "text": "7",
-          "images": [
-            "/soal/s3-final-matematika-tk-a/q05-c.webp"
-          ]
+          "images": []
         }
       ],
       "answer": "a",
@@ -165,7 +163,9 @@
       "id": "s3-final-matematika-tk-a-q06",
       "n": 6,
       "prompt": "Hitung hasil penjumlahan berikut!",
-      "images": [],
+      "images": [
+        "/soal/s3-final-matematika-tk-a/q06-stem.webp"
+      ],
       "options": [
         {
           "key": "a",
@@ -497,9 +497,7 @@
         {
           "key": "c",
           "text": "ff",
-          "images": [
-            "/soal/s3-final-matematika-tk-a/q17-c.webp"
-          ]
+          "images": []
         }
       ],
       "answer": "c",
@@ -509,7 +507,9 @@
       "id": "s3-final-matematika-tk-a-q18",
       "n": 18,
       "prompt": "Lengkapilah pola berikut ini!",
-      "images": [],
+      "images": [
+        "/soal/s3-final-matematika-tk-a/q18-stem.webp"
+      ],
       "options": [
         {
           "key": "a",
@@ -572,7 +572,9 @@
       "id": "s3-final-matematika-tk-a-q20",
       "n": 20,
       "prompt": "Isilah batu yang kosong dengan angka yang benar!",
-      "images": [],
+      "images": [
+        "/soal/s3-final-matematika-tk-a/q20-stem.webp"
+      ],
       "options": [
         {
           "key": "a",

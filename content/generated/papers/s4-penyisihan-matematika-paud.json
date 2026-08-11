@@ -272,9 +272,7 @@
         {
           "key": "c",
           "text": "3",
-          "images": [
-            "/soal/s4-penyisihan-matematika-paud/q09-c.webp"
-          ]
+          "images": []
         }
       ],
       "answer": "a",
@@ -284,7 +282,9 @@
       "id": "s4-penyisihan-matematika-paud-q10",
       "n": 10,
       "prompt": "Selesaikan penjumlahan berikut!",
-      "images": [],
+      "images": [
+        "/soal/s4-penyisihan-matematika-paud/q10-stem.webp"
+      ],
       "options": [
         {
           "key": "a",
