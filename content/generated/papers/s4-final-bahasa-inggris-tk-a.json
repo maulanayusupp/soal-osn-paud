@@ -159,7 +159,7 @@
       "options": [
         {
           "key": "a",
-          "text": "c.",
+          "text": null,
           "images": [
             "/soal/s4-final-bahasa-inggris-tk-a/q06-a.webp"
           ]
@@ -369,7 +369,7 @@
       "options": [
         {
           "key": "a",
-          "text": "c.",
+          "text": null,
           "images": [
             "/soal/s4-final-bahasa-inggris-tk-a/q14-a.webp"
           ]

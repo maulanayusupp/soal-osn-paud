@@ -109,18 +109,21 @@ function cropBox(images, page, markerNodes) {
  * Leftover drafting noise: "fghjkl", "gvdshb", "vdcx". Several papers carry it
  * beside an illustrated option, where the picture is the real answer.
  *
- * Words in both languages of this corpus are vowel-rich, so a run of letters
- * with almost no vowels is not a word. Applied ONLY to options that also have a
- * picture, so a genuine text option can never be blanked by it — and deliberately
- * conservative: "Hand" (a quarter vowels) and "Bunglon" both survive.
+ * The test is **no vowels at all**, not a low ratio. A ratio of a quarter looked
+ * safe and was not: "Strawberry" is 2 vowels in 10, "Black" and "Twenty" 1 in 5
+ * and 1 in 6 — a filter tuned that way quietly deleted real answers across the
+ * English papers.
+ *
+ * Even so it is only applied to options that ALSO have a picture, so no option
+ * can ever be emptied by it. "Ssss-ssss" (the snake in Season 2 Sains TK A) has
+ * no vowels either, and it is a perfectly good answer.
  */
 function isKeyboardMash(text) {
   const letters = text.toLowerCase().replace(/[^a-z]/g, '')
-  if (letters.length < 2) return false
-  const vowels = (letters.match(/[aeiou]/g) ?? []).length
-  if (vowels / letters.length < 0.25) return true
+  if (letters.length < 3) return false
+  if (!/[aeiou]/.test(letters)) return true
   // "ddd", "bgggg" — a single letter hammered out.
-  return letters.length >= 3 && new Set(letters).size === 1
+  return new Set(letters).size === 1
 }
 
 /** Illustrations, in raster pixels — off-limits to the highlight reader. */
@@ -290,6 +293,9 @@ async function importPaper(source, overrides) {
         // Several papers repeat the option letter as the option's own body text
         // ("b.  b"). That is a typing slip in the source, not an answer.
         if (text && text.toLowerCase() === band.key) text = null
+        // A stray option marker that the splitter did not claim ("c." sitting in
+        // option a) is not an answer either.
+        if (text && /^[a-d]\s*[.)]$/i.test(text)) text = null
         if (text && band.assets.length && isKeyboardMash(text)) text = null
         return { key: band.key, text, images: band.assets.map((asset) => asset.src) }
       })

@@ -279,7 +279,7 @@
       "options": [
         {
           "key": "a",
-          "text": "c.",
+          "text": null,
           "images": [
             "/soal/s4-final-matematika-paud/q10-a.webp"
           ]
@@ -364,8 +364,10 @@
       "options": [
         {
           "key": "a",
-          "text": "fgyg",
-          "images": []
+          "text": null,
+          "images": [
+            "/soal/s4-final-matematika-paud/q13-a.webp"
+          ]
         },
         {
           "key": "b",
@@ -395,7 +397,7 @@
       "options": [
         {
           "key": "a",
-          "text": "c.",
+          "text": null,
           "images": [
             "/soal/s4-final-matematika-paud/q14-a.webp"
           ]

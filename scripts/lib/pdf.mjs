@@ -95,12 +95,27 @@ export async function pdfLayout(pdfPath, workDir, baseName) {
 
     for (const match of chunk.matchAll(/<image\s([^>]*?)\/?>/g)) {
       const a = attrs(match[1])
-      page.images.push({
+      const box = {
         top: num(a.top),
         left: num(a.left),
         width: num(a.width),
         height: num(a.height),
-      })
+      }
+      // poppler reports a mirrored placement as a NEGATIVE width or height
+      // (Season 4 Final Matematika PAUD q13 has one). Left as-is the box wins
+      // the nearest-marker contest and then crops to nothing, so the option it
+      // claimed ends up with no picture at all. Flipping it back recovers the
+      // real extent instead of throwing the picture away.
+      if (box.width < 0) {
+        box.left += box.width
+        box.width = -box.width
+      }
+      if (box.height < 0) {
+        box.top += box.height
+        box.height = -box.height
+      }
+      if (box.width < 2 || box.height < 2) continue
+      page.images.push(box)
     }
 
     page.texts.sort((x, y) => x.top - y.top || x.left - y.left)

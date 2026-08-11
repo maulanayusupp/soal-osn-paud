@@ -201,14 +201,14 @@
         },
         {
           "key": "b",
-          "text": "n",
+          "text": null,
           "images": [
             "/soal/s3-penyisihan-matematika-tk-b/q07-b.webp"
           ]
         },
         {
           "key": "c",
-          "text": "n",
+          "text": null,
           "images": [
             "/soal/s3-penyisihan-matematika-tk-b/q07-c.webp"
           ]
@@ -367,7 +367,7 @@
         },
         {
           "key": "b",
-          "text": null,
+          "text": "Nn",
           "images": [
             "/soal/s3-penyisihan-matematika-tk-b/q13-b.webp"
           ]
@@ -420,7 +420,7 @@
       "options": [
         {
           "key": "a",
-          "text": null,
+          "text": "nn",
           "images": [
             "/soal/s3-penyisihan-matematika-tk-b/q15-a.webp"
           ]

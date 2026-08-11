@@ -337,7 +337,7 @@
       "options": [
         {
           "key": "a",
-          "text": "c.",
+          "text": null,
           "images": [
             "/soal/s2-penyisihan-sains-tk-b/q12-a.webp"
           ]

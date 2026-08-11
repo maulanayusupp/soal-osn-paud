@@ -238,6 +238,8 @@ export function segment(pages) {
       to: rows.length ? { page: rows[0][0].page, top: rows[0][0].top } : end,
       xFrom: -Infinity,
       xTo: Infinity,
+      textFrom: -Infinity,
+      textTo: Infinity,
     })
 
     rows.forEach((row, rowIndex) => {
@@ -247,15 +249,23 @@ export function segment(pages) {
       // Side-by-side options share one band; `siblings` lets assignImages split
       // the row's pictures between them by x afterwards.
       const siblings = []
-      row.forEach((option) => {
+      row.forEach((option, i) => {
         const band = {
           role: 'option',
           key: option.value,
           marker: option,
           from: { page: option.page, top: row[0].top },
           to: stop,
+          // Pictures are shared out by splitSideBySideRows, which measures the
+          // pictures themselves, so the band imposes no x limit on them.
           xFrom: -Infinity,
           xTo: Infinity,
+          // TEXT still needs an x fence. Without one, the first option in a
+          // side-by-side row collects the whole line — including the leftovers
+          // of its neighbours' merged run, which surfaced as an option reading
+          // literally "c.".
+          textFrom: row.length > 1 && i > 0 ? option.left - 8 : -Infinity,
+          textTo: row.length > 1 && row[i + 1] ? row[i + 1].left - 8 : Infinity,
           siblings,
         }
         siblings.push(band)
@@ -335,7 +345,7 @@ export function bandText(band, pages, markerNodes) {
       const centre = node.top + node.height / 2
       const centreX = node.left + node.width / 2
       if (centre < slice.from || centre >= slice.to) continue
-      if (centreX < band.xFrom || centreX >= band.xTo) continue
+      if (centreX < band.textFrom || centreX >= band.textTo) continue
       // Only ever discard covered text from a band that still has its picture,
       // so this can never leave an option with nothing to show.
       if (!markerNodes.has(node) && band.imageGroups?.length && hiddenByArt(node, page)) {

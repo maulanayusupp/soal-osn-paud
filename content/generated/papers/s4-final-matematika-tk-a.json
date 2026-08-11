@@ -112,7 +112,7 @@
       "options": [
         {
           "key": "a",
-          "text": "c.",
+          "text": null,
           "images": [
             "/soal/s4-final-matematika-tk-a/q04-a.webp"
           ]
@@ -228,7 +228,7 @@
       "options": [
         {
           "key": "a",
-          "text": "c.",
+          "text": null,
           "images": [
             "/soal/s4-final-matematika-tk-a/q08-a.webp"
           ]
@@ -315,7 +315,7 @@
       "options": [
         {
           "key": "a",
-          "text": "c.",
+          "text": null,
           "images": [
             "/soal/s4-final-matematika-tk-a/q11-a.webp"
           ]

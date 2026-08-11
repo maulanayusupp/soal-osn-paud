@@ -298,7 +298,7 @@
       "options": [
         {
           "key": "a",
-          "text": "c.",
+          "text": null,
           "images": [
             "/soal/s4-final-bahasa-inggris-paud/q11-a.webp"
           ]
@@ -411,7 +411,7 @@
         },
         {
           "key": "b",
-          "text": null,
+          "text": "dd",
           "images": [
             "/soal/s4-final-bahasa-inggris-paud/q15-b.webp"
           ]
