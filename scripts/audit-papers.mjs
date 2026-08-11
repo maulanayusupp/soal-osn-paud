@@ -23,6 +23,7 @@ import { execFile } from 'node:child_process'
 import { promisify } from 'node:util'
 import { join, resolve, dirname } from 'node:path'
 import { fileURLToPath } from 'node:url'
+import { paragraphsOf, markedIndexFor, normalise } from './lib/docx-key.mjs'
 
 const run = promisify(execFile)
 const root = resolve(dirname(fileURLToPath(import.meta.url)), '..')
@@ -45,96 +46,6 @@ async function printedQuestionNumbers(pdfPath) {
     if (match) seen.add(Number(match[1]))
   }
   return seen
-}
-
-/**
- * The *text* the .docx highlights, normalised.
- *
- * This is the independent check that matters. The importer reads the key from
- * pixels on a rendered page; this reads it from the Word XML, which shares no
- * code and no assumptions with that path. Where an option is words rather than
- * a picture, the two can be compared directly.
- *
- * Returned as a multiset: "3" is the marked answer to more than one question in
- * most maths papers, so counts matter, not just membership.
- */
-async function highlightedText(docxPath) {
-  const { stdout } = await run('unzip', ['-p', docxPath, 'word/document.xml'], {
-    maxBuffer: 64 * 1024 * 1024,
-    encoding: 'buffer',
-  })
-  const xml = stdout.toString('utf8')
-  const paragraphs = []
-
-  for (const paragraph of xml.split('<w:p ').slice(1)) {
-    let full = ''
-    let highlighted = ''
-    // Split on `<w:r>` AND `<w:r attr=...>`; Word writes revision ids on most
-    // runs, and matching only the bare tag silently drops them. `<w:rPr>` is not
-    // caught by this, since the character after `<w:r` there is `P`.
-    for (const runXml of paragraph.split(/<w:r[ >]/).slice(1)) {
-      const properties = runXml.slice(0, runXml.indexOf('</w:rPr>') + 1)
-      let text = ''
-      for (const match of runXml.matchAll(/<w:t[^>]*>([^<]*)<\/w:t>/g)) text += match[1]
-      full += text
-      if (/<w:highlight w:val="(magenta|yellow)"/.test(properties)) highlighted += text
-    }
-
-    const body = normalise(full)
-    if (!body) continue
-    // The highlight usually covers the option marker as well as the words
-    // ("a.  Satu"), so a highlighted marker alone still marks the paragraph.
-    paragraphs.push({ text: body, marked: Boolean(highlighted.trim()) })
-  }
-  return paragraphs
-}
-
-/**
- * Find this question's options inside the .docx paragraph stream and report
- * which one Word highlights.
- *
- * Matching the *ordered triple* of option texts rather than a single word is
- * what makes this reliable: "3" appears all over a maths paper, but
- * ["3", "4", "5"] in that order almost never appears twice. If it does, the
- * question is skipped rather than guessed at.
- *
- * Returns the marked option's index, or null when the check cannot be made.
- */
-function markedIndexFor(paragraphs, optionTexts) {
-  const wanted = optionTexts.map(normalise)
-  const windows = []
-
-  for (let i = 0; i + wanted.length <= paragraphs.length; i += 1) {
-    let hit = true
-    for (let j = 0; j < wanted.length; j += 1) {
-      if (paragraphs[i + j].text !== wanted[j]) {
-        hit = false
-        break
-      }
-    }
-    if (hit) windows.push(i)
-  }
-  if (windows.length !== 1) return null
-
-  const start = windows[0]
-  const markedAt = []
-  for (let j = 0; j < wanted.length; j += 1) {
-    if (paragraphs[start + j].marked) markedAt.push(j)
-  }
-  return markedAt.length === 1 ? markedAt[0] : null
-}
-
-/**
- * Compare option text loosely: case, spacing, a leading option marker and
- * trailing punctuation all vary between the .docx and the printed page.
- */
-function normalise(value) {
-  return String(value ?? '')
-    .toLowerCase()
-    .replace(/^\s*[a-d]\s*[.)]\s*/, '')
-    .replace(/[.,;:!?…]+$/g, '')
-    .replace(/\s+/g, ' ')
-    .trim()
 }
 
 async function exists(path) {
@@ -185,7 +96,7 @@ for (const source of papers) {
   }
 
   // --- 2. Answer keys vs the .docx ----------------------------------------
-  const paragraphs = await highlightedText(source.docx)
+  const paragraphs = await paragraphsOf(source.docx)
   for (const question of served) {
     // Only questions whose options are all words can be cross-checked this way;
     // a picture option has no text to find in the .docx.

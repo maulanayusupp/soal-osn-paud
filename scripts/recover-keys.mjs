@@ -13,64 +13,12 @@
 // Run: node scripts/recover-keys.mjs [--write]
 // =============================================================================
 import { readFile, writeFile, mkdir, access } from 'node:fs/promises'
-import { execFile } from 'node:child_process'
-import { promisify } from 'node:util'
 import { join, resolve, dirname } from 'node:path'
 import { fileURLToPath } from 'node:url'
+import { paragraphsOf, markedIndexFor, normalise } from './lib/docx-key.mjs'
 
-const run = promisify(execFile)
 const root = resolve(dirname(fileURLToPath(import.meta.url)), '..')
 const write = process.argv.includes('--write')
-
-function normalise(value) {
-  return String(value ?? '')
-    .toLowerCase()
-    .replace(/^\s*[a-d]\s*[.)]\s*/, '')
-    .replace(/[.,;:!?…]+$/g, '')
-    .replace(/\s+/g, ' ')
-    .trim()
-}
-
-/** Every non-empty paragraph of the .docx, in order, with its highlight state. */
-async function paragraphsOf(docxPath) {
-  const { stdout } = await run('unzip', ['-p', docxPath, 'word/document.xml'], {
-    maxBuffer: 64 * 1024 * 1024,
-    encoding: 'buffer',
-  })
-  const xml = stdout.toString('utf8')
-  const out = []
-
-  for (const paragraph of xml.split('<w:p ').slice(1)) {
-    let full = ''
-    let highlighted = ''
-    for (const runXml of paragraph.split(/<w:r[ >]/).slice(1)) {
-      const properties = runXml.slice(0, runXml.indexOf('</w:rPr>') + 1)
-      let text = ''
-      for (const match of runXml.matchAll(/<w:t[^>]*>([^<]*)<\/w:t>/g)) text += match[1]
-      full += text
-      if (/<w:highlight w:val="(magenta|yellow)"/.test(properties)) highlighted += text
-    }
-    const body = normalise(full)
-    if (body) out.push({ text: body, marked: Boolean(highlighted.trim()) })
-  }
-  return out
-}
-
-/** Which of these options the .docx highlights, or null when it is not certain. */
-function markedIndexFor(paragraphs, optionTexts) {
-  const wanted = optionTexts.map(normalise)
-  const starts = []
-  for (let i = 0; i + wanted.length <= paragraphs.length; i += 1) {
-    if (wanted.every((text, j) => paragraphs[i + j].text === text)) starts.push(i)
-  }
-  if (starts.length !== 1) return null
-
-  const marked = []
-  for (let j = 0; j < wanted.length; j += 1) {
-    if (paragraphs[starts[0] + j].marked) marked.push(j)
-  }
-  return marked.length === 1 ? marked[0] : null
-}
 
 async function exists(path) {
   try {
