@@ -22,8 +22,10 @@ const OUT = join(root, '.import-cache', 'review')
 const args = process.argv.slice(2)
 const perSheet = args.includes('--per') ? Number(args[args.indexOf('--per') + 1]) : 6
 const only = args.includes('--only') ? args[args.indexOf('--only') + 1] : null
-// `--unreached` narrows to the questions verify-keys.mjs could not confirm.
+// `--unreached` narrows to the questions verify-keys.mjs could not confirm;
+// `--file <name>` reads any list written into .import-cache in the same shape.
 const unreachedOnly = args.includes('--unreached')
+const listFile = args.includes('--file') ? args[args.indexOf('--file') + 1] : null
 
 const WIDTH = 1240
 const PAD = 14
@@ -149,11 +151,14 @@ const sources = JSON.parse(await readFile(join(root, 'content', 'sources.json'),
 const dir = join(root, 'content', 'generated', 'papers')
 const items = []
 
-const wanted = unreachedOnly
-  ? new Set(
-      JSON.parse(await readFile(join(root, '.import-cache', 'unreached.json'), 'utf8')).unreached,
-    )
-  : null
+const wanted =
+  unreachedOnly || listFile
+    ? new Set(
+        JSON.parse(
+          await readFile(join(root, '.import-cache', listFile ?? 'unreached.json'), 'utf8'),
+        ).unreached,
+      )
+    : null
 
 for (const source of sources.papers) {
   if (only && !source.id.startsWith(only)) continue

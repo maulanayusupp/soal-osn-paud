@@ -126,6 +126,16 @@ function isKeyboardMash(text) {
   return new Set(letters).size === 1
 }
 
+/**
+ * A scrap too short and too vowel-free to be an answer: "ff", "fgyg", "Nn".
+ * Digits are exempt — "3" and "10" are perfectly good options.
+ */
+function isShortNoise(text) {
+  const letters = text.toLowerCase().replace(/[^a-z]/g, '')
+  if (letters.length < 1 || letters.length > 4) return false
+  return !/[aeiou]/.test(letters)
+}
+
 /** Illustrations, in raster pixels — off-limits to the highlight reader. */
 function protectedFor(pages) {
   return pages.map((page) =>
@@ -297,6 +307,12 @@ async function importPaper(source, overrides) {
         // option a) is not an answer either.
         if (text && /^[a-d]\s*[.)]$/i.test(text)) text = null
         if (text && band.assets.length && isKeyboardMash(text)) text = null
+        // A picture-less option whose whole content is a short vowel-free scrap
+        // ("ff", "fgyg") is not an option at all — the real one failed to
+        // extract. Blanking it makes the question incomplete, so it is held back
+        // instead of being served with a stray for an answer. Kept to four
+        // letters so a genuine vowel-free answer like "Ssss-ssss" is untouched.
+        if (text && !band.assets.length && isShortNoise(text)) text = null
         return { key: band.key, text, images: band.assets.map((asset) => asset.src) }
       })
 

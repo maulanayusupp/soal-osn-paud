@@ -22,7 +22,9 @@
   "playableCount": 18,
   "warnings": [
     "Q7: no answer highlight found",
-    "Q20: option a is empty"
+    "Q20: option a is empty",
+    "Q20: option b is empty",
+    "Q20: option c is empty"
   ],
   "questions": [
     {
@@ -585,12 +587,12 @@
         },
         {
           "key": "b",
-          "text": "C",
+          "text": null,
           "images": []
         },
         {
           "key": "c",
-          "text": "D",
+          "text": null,
           "images": []
         }
       ],

@@ -19,9 +19,11 @@
   "answerSource": "pdf",
   "verified": false,
   "questionCount": 20,
-  "playableCount": 19,
+  "playableCount": 17,
   "warnings": [
-    "Q9: option a is empty"
+    "Q6: option c is empty",
+    "Q9: option a is empty",
+    "Q15: option a is empty"
   ],
   "questions": [
     {
@@ -179,12 +181,12 @@
         },
         {
           "key": "c",
-          "text": "S",
+          "text": null,
           "images": []
         }
       ],
       "answer": "b",
-      "status": "ok"
+      "status": "needs-review"
     },
     {
       "id": "s1-penyisihan-bahasa-inggris-paud-q07",
@@ -412,7 +414,7 @@
       "options": [
         {
           "key": "a",
-          "text": "B",
+          "text": null,
           "images": []
         },
         {
@@ -427,7 +429,7 @@
         }
       ],
       "answer": "a",
-      "status": "ok"
+      "status": "needs-review"
     },
     {
       "id": "s1-penyisihan-bahasa-inggris-paud-q16",

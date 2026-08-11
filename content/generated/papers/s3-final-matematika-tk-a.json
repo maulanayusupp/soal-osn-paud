@@ -19,10 +19,11 @@
   "answerSource": "docx",
   "verified": false,
   "questionCount": 20,
-  "playableCount": 17,
+  "playableCount": 16,
   "warnings": [
     "Q7: no answer highlight found",
     "Q8: no answer highlight found",
+    "Q17: option c is empty",
     "Q19: no answer highlight found"
   ],
   "questions": [
@@ -496,12 +497,12 @@
         },
         {
           "key": "c",
-          "text": "ff",
+          "text": null,
           "images": []
         }
       ],
       "answer": "c",
-      "status": "ok"
+      "status": "needs-review"
     },
     {
       "id": "s3-final-matematika-tk-a-q18",
