@@ -7,10 +7,21 @@
 // drifts, or an option's marker is mispositioned, the strip can sit over the
 // wrong line and report the neighbour.
 //
-// This asks the opposite question. It finds the highlight *blobs* on the page,
-// takes each blob's centre, and reports which option marker that centre is
-// nearest. Same pixels, different reasoning — so where the two disagree, one of
-// them is wrong and a human should look.
+// This asks the opposite question. It finds the highlight *blobs* on the page
+// and reports which option marker each one sits on. Same pixels, different
+// reasoning — so where the two disagree, one of them is wrong and a human
+// should look.
+//
+// Two things it must get right, both learned the hard way:
+//   * anchor on the blob's TOP edge, not its centre. Word draws the swatch over
+//     the whole line box, so its centre sits half a line low — which is half the
+//     line spacing, making "nearest marker" a coin flip. 40 phantom
+//     disagreements came from that alone;
+//   * side-by-side options share one top, so y cannot separate them. They are
+//     told apart by x, using the picture-derived `markerHint`.
+//
+// Writes .import-cache/unreached.json — the served questions it could not reach,
+// for `review-sheet.mjs --unreached`.
 //
 // Run: node scripts/verify-keys.mjs [--only <id-prefix>]
 // =============================================================================

@@ -7,9 +7,12 @@
 //
 //   1. Coverage    — does the source print more questions than we extracted?
 //                    Counted from `pdftotext`, not from our own segmentation.
-//   2. Answer keys — how many options does the .docx highlight, and does that
-//                    match how many answers we ended up with? The .docx XML is a
-//                    completely independent source from the rendered pixels.
+//   2. Answer keys — find this question's options in the .docx paragraph stream
+//                    and read which one Word highlights. The XML is a completely
+//                    independent source from the rendered pixels. Matching the
+//                    ordered TRIPLE of option texts is what makes it reliable:
+//                    "3" is all over a maths paper, but ["3","4","5"] in that
+//                    order is not. Ambiguous matches are skipped, not guessed.
 //   3. Integrity   — every served question has 3+ options, exactly one answer,
 //                    an answer that is actually on offer, and no option that is
 //                    both empty and unillustrated.

@@ -1,13 +1,19 @@
 // =============================================================================
 // Render review sheets for the questions whose answer key nobody has checked.
 //
-// 873 keys agree with the .docx text and can be trusted. The rest — mostly
+// Most keys agree with the .docx text and can be trusted. The rest — mostly
 // questions whose options are pictures, so there is no text to match — rest on
 // the pixel reader alone. Those are the ones a human has to look at, and this
-// lays them out so that a wrong key is obvious: the marked option is boxed in
+// lays them out so that a wrong key is obvious: the marked option is ruled in
 // green, everything else is plain.
 //
 // Run: node scripts/review-sheet.mjs [--per 6] [--only <id-prefix>]
+//                                    [--unreached | --file <name.json>]
+//
+//   (no flag)    every question the .docx check could not confirm
+//   --unreached  what verify-keys.mjs could not reach — the narrower, riskier set
+//   --file       any list written into .import-cache by one of the checks
+//
 // Output: .import-cache/review/<nnn>.png
 // =============================================================================
 import { readFile, readdir, mkdir, unlink } from 'node:fs/promises'
