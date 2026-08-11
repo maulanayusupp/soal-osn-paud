@@ -3,7 +3,7 @@
 //
 // Run: pnpm favicons
 // =============================================================================
-import { readFile, writeFile, mkdir, copyFile } from 'node:fs/promises'
+import { writeFile, mkdir, copyFile } from 'node:fs/promises'
 import { fileURLToPath } from 'node:url'
 import { dirname, join, resolve } from 'node:path'
 import favicons from 'favicons'
