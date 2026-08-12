@@ -8,28 +8,49 @@
  *
  * After an answer is given the button reports its outcome in text as well as
  * colour, so the result does not depend on distinguishing green from red.
+ *
+ * `tried` marks an option the child already picked and got wrong while the
+ * answer is still hidden. It reads as wrong and cannot be picked again, but it
+ * says nothing about where the right answer is — that is the whole point of the
+ * second go.
  */
 import type { QuestionOption } from '~/types'
 
 const props = withDefaults(
   defineProps<{
     option: QuestionOption
-    /** Set once the question has been answered. */
+    /** Set once the answer is showing. */
     revealed?: boolean
     chosen?: boolean
     correct?: boolean
+    /** Picked already and wrong, with the answer still hidden. */
+    tried?: boolean
     disabled?: boolean
     /** Grid layout: letter above the picture, so it fits a narrow phone cell. */
     compact?: boolean
   }>(),
-  { revealed: false, chosen: false, correct: false, disabled: false, compact: false },
+  {
+    revealed: false,
+    chosen: false,
+    correct: false,
+    tried: false,
+    disabled: false,
+    compact: false,
+  },
 )
 
 const state = computed(() => {
-  if (!props.revealed) return 'idle'
+  if (!props.revealed) return props.tried ? 'wrong' : 'idle'
   if (props.correct) return 'correct'
   if (props.chosen) return 'wrong'
   return 'muted'
+})
+
+/** Show a tick or a cross — never a tick before the answer is due. */
+const mark = computed(() => {
+  if (!props.revealed) return props.tried ? 'wrong' : null
+  if (props.correct) return 'correct'
+  return props.chosen ? 'wrong' : null
 })
 </script>
 
@@ -59,10 +80,10 @@ const state = computed(() => {
       <span v-if="option.text" class="option__text">{{ option.text }}</span>
     </span>
 
-    <span v-if="revealed && (correct || chosen)" class="option__mark">
-      <BaseIcon :name="correct ? 'check' : 'close'" :size="18" />
+    <span v-if="mark" class="option__mark">
+      <BaseIcon :name="mark === 'correct' ? 'check' : 'close'" :size="18" />
       <span class="visually-hidden">
-        {{ correct ? $t('practice.optionCorrect') : $t('practice.optionWrong') }}
+        {{ mark === 'correct' ? $t('practice.optionCorrect') : $t('practice.optionWrong') }}
       </span>
     </span>
   </button>

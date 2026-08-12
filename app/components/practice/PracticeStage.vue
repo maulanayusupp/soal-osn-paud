@@ -22,6 +22,7 @@ const {
   total,
   phase,
   chosen,
+  tried,
   correctCount,
   score,
   band,
@@ -29,6 +30,8 @@ const {
   wasCorrect,
   shuffled,
   choose,
+  retry,
+  reveal,
   next,
   restart,
 } = practice
@@ -47,23 +50,33 @@ const pictureOnly = computed(
 
 const mood = computed<MascotMood>(() => {
   if (phase.value === 'finished') return score.value >= 55 ? 'cheer' : 'idle'
+  if (phase.value === 'retry') return 'oops'
   if (phase.value === 'revealed') return wasCorrect.value ? 'cheer' : 'oops'
   return 'thinking'
 })
 
 /** Announced to screen readers the moment an answer is judged. */
 const feedback = computed(() => {
+  // Wrong, but the question is still open — say so without giving it away.
+  if (phase.value === 'retry') return t('practice.feedbackRetry')
   if (phase.value !== 'revealed') return ''
-  return wasCorrect.value ? t('practice.feedbackCorrect') : t('practice.feedbackWrong')
+  if (!wasCorrect.value) return t('practice.feedbackWrong')
+  // Getting there on a second go is worth more praise than getting it first
+  // time, not less: the child chose to keep trying.
+  return tried.value.length > 1
+    ? t('practice.feedbackCorrectRetry')
+    : t('practice.feedbackCorrect')
 })
 
 const sound = useSoundEffects()
 
 function onChoose(key: OptionKey) {
   if (phase.value !== 'answering' || !current.value) return
+  const wanted = current.value.answer === key
   choose(key)
-  // Read the outcome after choose() has judged it, not from the click.
-  if (wasCorrect.value) sound.playCorrect()
+  // Judged from the question, not from what the phase became: a wrong pick may
+  // now leave the question open rather than settling it.
+  if (wanted) sound.playCorrect()
   else sound.playWrong()
 }
 
@@ -99,7 +112,10 @@ function onRestart(options: { shuffle: boolean }) {
  */
 const inProgress = usePracticeInProgress()
 watchEffect(() => {
-  inProgress.value = practice.attempts.value.length > 0 && phase.value !== 'finished'
+  // `tried` as well as settled attempts: a first question still open on its
+  // second go has nothing recorded yet, and losing it would smart just as much.
+  const started = practice.attempts.value.length > 0 || tried.value.length > 0
+  inProgress.value = started && phase.value !== 'finished'
 })
 onBeforeUnmount(() => {
   inProgress.value = false
@@ -136,24 +152,42 @@ onBeforeUnmount(() => {
             :revealed="phase === 'revealed'"
             :chosen="chosen === option.key"
             :correct="current.answer === option.key"
-            :disabled="phase === 'revealed'"
+            :tried="tried.includes(option.key)"
+            :disabled="phase !== 'answering' || tried.includes(option.key)"
             :compact="pictureOnly"
             @click="onChoose(option.key)"
           />
         </div>
       </BaseCard>
 
-      <div class="stage__foot" :class="{ 'stage__foot--pinned': phase === 'revealed' }">
+      <div
+        class="stage__foot"
+        :class="{
+          'stage__foot--pinned': phase !== 'answering',
+          'stage__foot--choices': phase === 'retry',
+        }"
+      >
         <div class="stage__mascot">
           <MascotKancil :mood="mood" :size="120" />
           <p class="stage__says" aria-live="polite">
-            <template v-if="phase === 'revealed'">{{ feedback }}</template>
-            <template v-else>{{ $t('practice.pickOne') }}</template>
+            <template v-if="phase === 'answering'">{{ $t('practice.pickOne') }}</template>
+            <template v-else>{{ feedback }}</template>
           </p>
         </div>
 
+        <!-- Wrong, but the question is still open. -->
+        <div v-if="phase === 'retry'" class="stage__actions">
+          <BaseButton size="lg" variant="primary" @click="retry">
+            {{ $t('practice.retry') }}
+            <template #icon-right><BaseIcon name="refresh" :size="18" /></template>
+          </BaseButton>
+          <BaseButton size="lg" variant="ghost" @click="reveal">
+            {{ $t('practice.showAnswer') }}
+          </BaseButton>
+        </div>
+
         <BaseButton
-          v-if="phase === 'revealed'"
+          v-else-if="phase === 'revealed'"
           class="stage__next"
           size="lg"
           variant="primary"
@@ -314,6 +348,34 @@ onBeforeUnmount(() => {
       // Beats the full-width rule below: in the bar it shares the row.
       .stage__next {
         flex: 0 0 auto;
+      }
+    }
+  }
+
+  /**
+   * The retry bar carries two buttons where the "next" bar carries one, and the
+   * pair will not fit beside the message on a narrow phone without squeezing
+   * both to nothing. So this one state is allowed a second row: it appears only
+   * on a wrong answer, and the buttons have to land under the thumb.
+   */
+  &__foot--choices {
+    @include respond-below('md') {
+      flex-wrap: wrap;
+    }
+  }
+
+  &__actions {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+
+    @include respond-below('md') {
+      // Its own row, sharing the width between the two buttons.
+      flex: 1 1 100%;
+      gap: 0.5rem;
+
+      > * {
+        flex: 1 1 0;
       }
     }
   }

@@ -47,6 +47,10 @@ must also update `CLAUDE.md`, the compliance pages, and both locales.
       rendered heights from the image dimensions and the CSS, not by looking at
       it — no browser was available in the session that built it.
 
+- [x] **A second go at a wrong answer.** The pick is marked wrong, the right one
+      stays hidden, and "Coba lagi" reopens the question; "Lihat jawaban" gives
+      up. Not offered when only one option is left untried, since a forced tap
+      would prove nothing. Driven by `pnpm practice:check`.
 - [ ] **Read-aloud button.** Web Speech API on the question prompt (id-ID and
       en-US voices) — the biggest single win for pre-readers.
 - [ ] **Mixed practice.** Draw N random questions across a level/subject instead
@@ -68,9 +72,11 @@ must also update `CLAUDE.md`, the compliance pages, and both locales.
 ## Engineering
 
 - [ ] `pnpm typecheck` is not wired into a pre-commit hook yet.
-- [ ] No test suite. `services/practice.service.ts` (scoring, bands, seeded
-      shuffle) and the segmentation helpers in `scripts/lib/` are pure functions
-      and the obvious place to start.
+- [ ] No test runner. `pnpm practice:check` drives the session state machine
+      through jiti without one, which covers the branch a child actually feels,
+      but `services/practice.service.ts` (scoring, bands, seeded shuffle) and the
+      segmentation helpers in `scripts/lib/` are pure functions still uncovered —
+      the obvious next step, and the point at which a real runner earns its keep.
 - [ ] Image weight: 1,662 WebP files, ~17 MB. Fine over HTTP/2, but a sprite or
       per-paper bundle would cut request count on slow connections.
 - [ ] The import pipeline shells out to poppler and LibreOffice, so it only runs

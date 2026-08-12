@@ -55,6 +55,7 @@ pnpm preview        # run the built server
 pnpm favicons       # regenerate favicons from assets/favicon-source.svg
 pnpm og             # regenerate public/og-image.png
 pnpm i18n:check     # ID/EN key + placeholder parity (fails loudly on drift)
+pnpm practice:check # drive the session state machine (retry, give-up, scoring)
 pnpm typecheck      # vue-tsc type check
 
 pnpm soal:scan <source-root>    # re-index the source papers on disk
@@ -128,6 +129,17 @@ tags: `<BaseButton>`, `<MascotKancil>`, `<PracticeStage>`.
   a build error instead.
 - **Scores are encouragement, not assessment.** `SCORE_BANDS` picks the mascot's
   reaction and the closing message. Never present a band as a grade.
+- **A wrong answer does not end the question.** The pick is marked wrong, the
+  right one stays hidden, and the child is offered a second go — revealing the
+  answer at the first mistake removes the only moment where any thinking
+  happens. The question settles when they get it right, when they press "lihat
+  jawaban", or when only one option is left untried: with a single button
+  standing there is nothing to choose, and offering a retry there would be the
+  app pretending a forced tap meant something. A two-option question therefore
+  never offers one. Getting there on the second go **counts as correct** — the
+  score follows where the child ended up. `Attempt.tries` keeps every pick in
+  order, so the record stays truthful about what happened even though the score
+  does not distinguish.
 
 ## The import pipeline (why it works this way)
 
@@ -258,11 +270,16 @@ child never scrolls to continue.
   is how the printed paper sets them out anyway. `PracticeStage` decides
   (`pictureOnly`) and passes `compact` to each option, which moves the letter
   above the picture so the picture gets the full width of a narrow cell.
+- **The retry bar is the one place the pinned bar gets a second row.** It
+  carries two buttons where the "next" bar carries one, and the pair cannot fit
+  beside the message on a narrow phone without squeezing both to nothing. It
+  only appears on a wrong answer, and the buttons have to land under the thumb.
 - **The "next" bar pins to the bottom of a phone screen once an answer shows.**
   Otherwise it is scroll down past three answers to continue, then get scrolled
-  back up for the new question — down, up, down, up, twenty times. It pins only
-  in the `revealed` phase: while the question is still open, that space belongs
-  to the question. The sticky containing block is `.stage`, so it settles back
+  back up for the new question — down, up, down, up, twenty times. It pins once
+  the question stops waiting on the child — the `retry` and `revealed` phases —
+  because while the question is still open that space belongs to the question.
+  The sticky containing block is `.stage`, so it settles back
   into place at the end of the question rather than following you into the site
   footer. It is one short row — mascot at 44px, feedback, button — because while
   pinned it floats over the card, and every millimetre of bar is a millimetre of

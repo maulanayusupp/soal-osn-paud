@@ -83,8 +83,15 @@ export interface Catalog {
 
 export interface Attempt {
   questionId: string
+  /** The option settled on — the last one picked before the answer was shown. */
   chosen: OptionKey
   correct: boolean
+  /**
+   * Every option picked for this question, in order, `chosen` last. A wrong
+   * first pick may be followed by a second try, so this is the only record of
+   * what actually happened; `correct` speaks for where the child ended up.
+   */
+  tries: OptionKey[]
 }
 
 export interface SessionResult {

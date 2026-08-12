@@ -2,15 +2,22 @@
 // A practice session, as reactive state.
 //
 // The rules live in services/practice.service.ts; this only holds where we are
-// and reacts to answers. One question at a time, answered once, with immediate
-// feedback — a five-year-old cannot hold a list of pending answers in their head,
-// and being told straight away is the part that teaches.
+// and reacts to answers. One question at a time, with immediate feedback — a
+// five-year-old cannot hold a list of pending answers in their head, and being
+// told straight away is the part that teaches.
+//
+// A wrong answer does not end the question. The pick is marked wrong, the right
+// one stays hidden, and the child is offered another go: showing the answer at
+// the first mistake removes the only moment where any thinking happens. The
+// retry is only offered while two or more options are still untried, because
+// with one left there is nothing to choose — the child would be tapping the
+// last button standing, and the app would be pretending that meant something.
 // =============================================================================
 import { bandOf, isCorrect, scoreOf, shuffle, summarise } from '~/services/practice.service'
 import { saveSession } from '~/services/progress.service'
 import type { Attempt, OptionKey, Question, SessionResult } from '~/types'
 
-export type PracticePhase = 'answering' | 'revealed' | 'finished'
+export type PracticePhase = 'answering' | 'retry' | 'revealed' | 'finished'
 
 export function usePractice(paperId: string, source: Ref<Question[]>) {
   const shuffled = ref(false)
@@ -24,6 +31,8 @@ export function usePractice(paperId: string, source: Ref<Question[]>) {
   const index = ref(0)
   const attempts = ref<Attempt[]>([])
   const chosen = ref<OptionKey | null>(null)
+  /** Options picked for the current question so far, in order. */
+  const tried = ref<OptionKey[]>([])
   const phase = ref<PracticePhase>('answering')
   const result = ref<SessionResult | null>(null)
 
@@ -38,15 +47,55 @@ export function usePractice(paperId: string, source: Ref<Question[]>) {
     () => phase.value !== 'answering' && Boolean(chosen.value) && current.value?.answer === chosen.value,
   )
 
-  /** Answer the current question. Ignored once it has been answered. */
-  function choose(key: OptionKey) {
-    if (phase.value !== 'answering' || !current.value) return
+  /** True the moment a wrong pick still leaves a real choice to make. */
+  const canRetry = computed(
+    () => Boolean(current.value) && current.value!.options.length - tried.value.length >= 2,
+  )
+
+  /** Settle the current question and show the answer. */
+  function settle(key: OptionKey) {
+    if (!current.value) return
     chosen.value = key
     attempts.value = [
       ...attempts.value,
-      { questionId: current.value.id, chosen: key, correct: isCorrect(current.value, key) },
+      {
+        questionId: current.value.id,
+        chosen: key,
+        correct: isCorrect(current.value, key),
+        tries: [...tried.value],
+      },
     ]
     phase.value = 'revealed'
+  }
+
+  /**
+   * Answer the current question.
+   *
+   * A wrong pick moves to `retry` rather than settling, unless it was the second
+   * to last option — at which point there is nothing left to choose between.
+   * Ignored once the answer is showing, and an option already tried is ignored
+   * too, so a double tap cannot spend the child's second go.
+   */
+  function choose(key: OptionKey) {
+    if (phase.value !== 'answering' || !current.value) return
+    if (tried.value.includes(key)) return
+
+    tried.value = [...tried.value, key]
+    if (isCorrect(current.value, key) || !canRetry.value) settle(key)
+    else phase.value = 'retry'
+  }
+
+  /** Take the offered second go. */
+  function retry() {
+    if (phase.value !== 'retry') return
+    phase.value = 'answering'
+  }
+
+  /** Give up on the current question and show the answer. */
+  function reveal() {
+    const last = tried.value[tried.value.length - 1]
+    if (phase.value !== 'retry' || !last) return
+    settle(last)
   }
 
   /** Move to the next question, or finish. */
@@ -57,6 +106,7 @@ export function usePractice(paperId: string, source: Ref<Question[]>) {
     }
     index.value += 1
     chosen.value = null
+    tried.value = []
     phase.value = 'answering'
   }
 
@@ -74,6 +124,7 @@ export function usePractice(paperId: string, source: Ref<Question[]>) {
     index.value = 0
     attempts.value = []
     chosen.value = null
+    tried.value = []
     result.value = null
     phase.value = 'answering'
   }
@@ -87,6 +138,7 @@ export function usePractice(paperId: string, source: Ref<Question[]>) {
     total,
     phase,
     chosen,
+    tried,
     attempts,
     result,
     shuffled,
@@ -98,6 +150,8 @@ export function usePractice(paperId: string, source: Ref<Question[]>) {
     wasCorrect,
     // actions
     choose,
+    retry,
+    reveal,
     next,
     finish,
     restart,
