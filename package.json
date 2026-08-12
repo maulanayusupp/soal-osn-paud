@@ -17,6 +17,7 @@
     "practice:check": "node scripts/check-practice.mjs",
     "soal:scan": "node scripts/scan-sources.mjs",
     "soal:import": "node scripts/import-papers.mjs",
+    "soal:manual": "node scripts/import-manual.mjs",
     "soal:audit": "node scripts/audit-papers.mjs",
     "soal:verify:keys": "node scripts/verify-keys.mjs",
     "soal:verify:pictures": "node scripts/verify-pictures.mjs",

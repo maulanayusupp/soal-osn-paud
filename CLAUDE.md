@@ -60,6 +60,7 @@ pnpm typecheck      # vue-tsc type check
 
 pnpm soal:scan <source-root>    # re-index the source papers on disk
 pnpm soal:import                # rebuild content/generated + public/soal from them
+pnpm soal:manual                # build only content/manual/ (hand-written papers)
 pnpm soal:check                 # audit + keys + pictures + completeness — run
                                 #   after any pipeline change (§Verifying the bank)
 pnpm soal:recover               # recover missed keys from the .docx (--write)
@@ -97,12 +98,14 @@ app/
   utils/                  # iconPaths (SVG registry), scroll
 content/
   sources.json            # inventory of the source papers on disk (generated)
+  manual/<id>.json        # hand-written papers — no source document (see below)
   overrides/<id>.json     # optional hand corrections, applied on import
   generated/              # catalog.json + papers/<id>.json — imported, not served
 i18n/locales/{id,en}.json # ALL user-facing text (261 keys each)
 public/soal/<id>/*.webp   # question illustrations (generated)
 scripts/                  # import pipeline, proof sheets, favicons, og, i18n check
 assets/favicon-source.svg # favicon source of truth
+MENAMBAH-SOAL.md          # how to add questions (ID) — OSN paper, own, corrections
 ```
 
 Components are auto-imported by **filename**, so folder names never appear in
@@ -171,6 +174,39 @@ remainder are questions the original paper left unmarked — spot-checked agains
 the printed pages, not assumed. Re-running `pnpm soal:import` is safe and
 idempotent; `content/overrides/<id>.json` lets a human correction win over the
 extractor.
+
+### Hand-written papers
+
+Not every paper is read off a printed exam. `content/manual/<id>.json` holds
+papers written directly — a parent's own sums, this week's vocabulary — in a
+much smaller shape: prompt, options, answer, and optional picture paths. No
+source document, no poppler, no LibreOffice.
+
+- **`origin` separates the two.** An `osn` paper carries a season and a round and
+  composes its title from them; a `manual` paper carries neither (both null) and
+  a free-text `title` instead. "Season 3, Babak Final" means nothing for a set of
+  sums a parent wrote, so the app shows what it is — *Latihan sendiri* — and
+  drops it from the season and round filters rather than inventing a slot.
+- **Refused whole, never half.** There is no `needs-review` for these: a
+  hand-written file is the one input a human types, so it is the one that can
+  hold a typo. `scripts/lib/manual-paper.mjs` checks every one it can name — a
+  key matching no option, two options lettered "b", a picture path not in
+  `public/` — and rejects the file with the question number, rather than writing
+  out something a child cannot answer.
+- **A full import builds them too.** `soal:import` rewrites the catalogue
+  wholesale, so if manual papers lived only in `soal:manual` a normal re-import
+  would silently unpublish every one. `soal:manual` is the fast path — writing
+  one question should not re-rasterise 353 pages — never the only route.
+- **Deleting the file deletes the paper**, both its catalogue row and its
+  generated JSON; otherwise the page stays reachable by URL after vanishing from
+  every list. Only ever papers with `origin: 'manual'`, and never one that merely
+  failed validation, or a single typo would unpublish a paper still on disk.
+- **The four checks skip them.** There is no printed page to compare against;
+  their verification is the validation above.
+
+**Authoring guide: [MENAMBAH-SOAL.md](./MENAMBAH-SOAL.md)** — covers this, adding
+a new OSN paper, and correcting an existing question through
+`content/overrides/`.
 
 ### Verifying the bank
 

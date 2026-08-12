@@ -125,6 +125,7 @@
   },
   "paper": {
     "season": "Season {n}",
+    "own": "Your own practice",
     "fullTitle": "{subject} {level} — {round}, Season {season}",
     "questionCount": "{n} questions",
     "best": "Best {score}",

@@ -16,18 +16,9 @@ if (error.value || !paper.value) {
   throw createError({ statusCode: 404, statusMessage: 'Paper not found', fatal: true })
 }
 
-const { subjectLabel, levelLabel, roundLabel } = usePaperLabels()
+const { subjectLabel, levelLabel, roundLabel, fullTitle } = usePaperLabels()
 
-const heading = computed(() =>
-  paper.value
-    ? t('paper.fullTitle', {
-        subject: subjectLabel(paper.value.subject),
-        level: levelLabel(paper.value.level),
-        round: roundLabel(paper.value.round),
-        season: paper.value.season,
-      })
-    : '',
-)
+const heading = computed(() => (paper.value ? fullTitle(paper.value) : ''))
 
 usePageSeo(
   () => heading.value,
@@ -48,8 +39,14 @@ const { asking, leave, stay } = useLeaveGuard()
 
       <header class="page__header">
         <p class="page__eyebrow">
-          {{ $t('paper.season', { n: paper.season }) }} ·
-          {{ roundLabel(paper.round) }}
+          <!-- A hand-written paper has no season or round to place it in. -->
+          <template v-if="paper.season !== null && paper.round">
+            {{ $t('paper.season', { n: paper.season }) }} · {{ roundLabel(paper.round) }}
+          </template>
+          <template v-else>
+            {{ $t('paper.own') }} · {{ subjectLabel(paper.subject) }} ·
+            {{ levelLabel(paper.level) }}
+          </template>
           <template v-if="paper.printed.date"> · {{ paper.printed.date }}</template>
         </p>
         <h1 class="page__title">{{ heading }}</h1>

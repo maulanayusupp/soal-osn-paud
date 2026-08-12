@@ -30,6 +30,7 @@ import { segment, bandText, bandImages, assignImages } from './lib/segment.mjs'
 import { loadPage, eraseHues, eraseBox, writeCrop } from './lib/raster.mjs'
 import { scoreOptionBands, pickAnswer } from './lib/answer-key.mjs'
 import { questionSlug } from './lib/paper-id.mjs'
+import { loadManualPapers, catalogEntry } from './lib/manual-paper.mjs'
 
 const root = resolve(dirname(fileURLToPath(import.meta.url)), '..')
 const CACHE = join(root, '.import-cache')
@@ -367,6 +368,10 @@ async function importPaper(source, overrides) {
 
   const paper = {
     id: source.id,
+    origin: 'osn',
+    // An OSN paper composes its title from season/round/subject/level; only a
+    // hand-written one carries a name of its own.
+    title: null,
     season: source.season,
     round: source.round,
     subject: source.subject,
@@ -434,18 +439,7 @@ let failed = 0
 for (const source of targets) {
   try {
     const paper = await importPaper(source, await loadOverrides(source.id))
-    catalog.push({
-      id: paper.id,
-      season: paper.season,
-      round: paper.round,
-      subject: paper.subject,
-      level: paper.level,
-      printedDate: paper.printed.date,
-      questionCount: paper.questionCount,
-      playableCount: paper.playableCount,
-      verified: paper.verified,
-      warningCount: paper.warnings.length,
-    })
+    catalog.push(catalogEntry(paper))
     const flag = paper.playableCount === paper.questionCount ? '·' : `⚠`
     console.log(`${flag}\t${paper.id}\t${paper.playableCount}/${paper.questionCount} playable`)
     for (const warning of paper.warnings) console.log(`  \t  ${warning}`)
@@ -456,6 +450,29 @@ for (const source of targets) {
 }
 
 await closePages()
+
+// Hand-written papers ride along on every full run.
+//
+// They have to: the catalogue below is rewritten wholesale, so leaving them to a
+// separate script would mean `pnpm soal:import` silently dropped every paper the
+// owner had written. `pnpm soal:manual` exists for the fast path — writing one
+// question should not mean re-rasterising 353 pages — but it is a shortcut to
+// this, never the only route.
+if (!only) {
+  const { papers: manual, errors } = await loadManualPapers(
+    root,
+    new Set(sources.papers.map((paper) => paper.id)),
+  )
+  for (const message of errors) {
+    failed += 1
+    console.error(`✗\t${message}`)
+  }
+  for (const paper of manual) {
+    await writeFile(join(DATA_OUT, `${paper.id}.json`), `${JSON.stringify(paper, null, 2)}\n`)
+    catalog.push(catalogEntry(paper))
+    console.log(`·\t${paper.id}\t${paper.questionCount}/${paper.questionCount} playable (manual)`)
+  }
+}
 
 // The catalog is rewritten wholesale only on a full run; a --only run patches it.
 if (only) {

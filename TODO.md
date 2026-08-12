@@ -47,6 +47,8 @@ must also update `CLAUDE.md`, the compliance pages, and both locales.
       rendered heights from the image dimensions and the CSS, not by looking at
       it — no browser was available in the session that built it.
 
+- [x] **Hand-written papers.** `content/manual/<id>.json` + `pnpm soal:manual`,
+      for questions with no printed source. Guide: `MENAMBAH-SOAL.md`.
 - [x] **A second go at a wrong answer.** The pick is marked wrong, the right one
       stays hidden, and "Coba lagi" reopens the question; "Lihat jawaban" gives
       up. Not offered when only one option is left untried, since a forced tap

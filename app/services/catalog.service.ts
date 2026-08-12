@@ -51,7 +51,13 @@ export function playableQuestions(paper: Paper): Question[] {
   return paper.questions.filter((question) => question.status === 'ok' && question.answer !== null)
 }
 
-/** Papers matching a filter, in a stable, human-sensible order. */
+/**
+ * Papers matching a filter, in a stable, human-sensible order.
+ *
+ * Hand-written papers have no season or round, so narrowing to either one drops
+ * them — asking for "Season 3, Babak Final" is asking for OSN papers. They sort
+ * after the exam papers, grouped by subject and level like everything else.
+ */
 export function filterPapers(papers: CatalogEntry[], filter: PaperFilter): CatalogEntry[] {
   return papers
     .filter((paper) => filter.level === 'all' || paper.level === filter.level)
@@ -61,16 +67,20 @@ export function filterPapers(papers: CatalogEntry[], filter: PaperFilter): Catal
     .filter((paper) => paper.playableCount > 0)
     .sort(
       (a, b) =>
-        a.season - b.season ||
-        a.round.localeCompare(b.round) ||
+        Number(a.origin === 'manual') - Number(b.origin === 'manual') ||
+        (a.season ?? 0) - (b.season ?? 0) ||
+        (a.round ?? '').localeCompare(b.round ?? '') ||
         a.subject.localeCompare(b.subject) ||
-        a.level.localeCompare(b.level),
+        a.level.localeCompare(b.level) ||
+        (a.title ?? '').localeCompare(b.title ?? ''),
     )
 }
 
-/** Seasons present in the bank, ascending. */
+/** OSN seasons present in the bank, ascending. Hand-written papers have none. */
 export function seasonsIn(papers: CatalogEntry[]): number[] {
-  return [...new Set(papers.map((paper) => paper.season))].sort((a, b) => a - b)
+  return [...new Set(papers.map((paper) => paper.season))]
+    .filter((season): season is number => season !== null)
+    .sort((a, b) => a - b)
 }
 
 /**

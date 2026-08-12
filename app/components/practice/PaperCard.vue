@@ -16,18 +16,23 @@ const to = computed(() => localePath({ name: 'latihan-paper', params: { paper: p
   <BaseCard interactive :accent="accent" class="paper">
     <div class="paper__top">
       <span class="paper__icon" aria-hidden="true">{{ subjectIcon(paper.subject) }}</span>
-      <BaseBadge tone="neutral">{{ $t('paper.season', { n: paper.season }) }}</BaseBadge>
+      <!-- A hand-written paper belongs to no season; it says what it is instead. -->
+      <BaseBadge tone="neutral">
+        {{ paper.season === null ? $t('paper.own') : $t('paper.season', { n: paper.season }) }}
+      </BaseBadge>
     </div>
 
     <h3 class="paper__title">
       <NuxtLink :to="to" class="paper__link">
-        {{ subjectLabel(paper.subject) }}
+        <template v-if="paper.title">{{ paper.title }}</template>
+        <template v-else>{{ subjectLabel(paper.subject) }}</template>
         <span class="paper__level">{{ levelLabel(paper.level) }}</span>
       </NuxtLink>
     </h3>
 
     <p class="paper__meta">
-      {{ roundLabel(paper.round) }}
+      <template v-if="paper.round">{{ roundLabel(paper.round) }}</template>
+      <template v-else>{{ subjectLabel(paper.subject) }}</template>
       <template v-if="paper.printedDate"> · {{ paper.printedDate }}</template>
     </p>
 

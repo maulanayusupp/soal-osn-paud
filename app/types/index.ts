@@ -14,6 +14,17 @@ export type OptionKey = 'a' | 'b' | 'c' | 'd'
 /** A question the extractor could not fully resolve is never served. */
 export type QuestionStatus = 'ok' | 'needs-review'
 
+/**
+ * Where a paper came from.
+ *
+ * `osn` papers are read off a printed exam by the import pipeline and carry a
+ * season and a round. `manual` papers are written by hand in `content/manual/`
+ * and carry neither — "Season 3, Babak Final" means nothing for a set of sums a
+ * parent wrote for their own child, so those fields are null and a free-text
+ * `title` names the paper instead. See MENAMBAH-SOAL.md.
+ */
+export type PaperOrigin = 'osn' | 'manual'
+
 export interface QuestionOption {
   key: OptionKey
   /** Printed text of the option, or null when the option is a picture. */
@@ -43,13 +54,17 @@ export interface PrintedMasthead {
 
 export interface Paper {
   id: string
-  season: number
-  round: Round
+  origin: PaperOrigin
+  /** Names a hand-written paper. Null for OSN papers, which compose a title. */
+  title: string | null
+  /** Null on a hand-written paper — it belongs to no OSN season or round. */
+  season: number | null
+  round: Round | null
   subject: Subject
   level: Level
   printed: PrintedMasthead
-  layoutSource: 'pdf' | 'docx'
-  answerSource: 'pdf' | 'docx'
+  layoutSource: 'pdf' | 'docx' | 'manual'
+  answerSource: 'pdf' | 'docx' | 'manual'
   verified: boolean
   questionCount: number
   playableCount: number
@@ -60,8 +75,10 @@ export interface Paper {
 /** The lightweight index the app boots from. */
 export interface CatalogEntry {
   id: string
-  season: number
-  round: Round
+  origin: PaperOrigin
+  title: string | null
+  season: number | null
+  round: Round | null
   subject: Subject
   level: Level
   printedDate: string | null

@@ -125,6 +125,7 @@
   },
   "paper": {
     "season": "Musim {n}",
+    "own": "Latihan sendiri",
     "fullTitle": "{subject} {level} — {round}, Musim {season}",
     "questionCount": "{n} soal",
     "best": "Terbaik {score}",
