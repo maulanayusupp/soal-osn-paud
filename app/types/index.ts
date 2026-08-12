@@ -111,6 +111,29 @@ export interface Attempt {
   tries: OptionKey[]
 }
 
+/**
+ * A paper left part-answered, kept so it can be picked up again.
+ *
+ * Only settled answers are stored. The question in front of the child when they
+ * left is not: it may have been half-tried, and restoring someone into the
+ * middle of a question they cannot remember reading is worse than asking it
+ * again. `attempts.length` is therefore both the score so far and the question
+ * to resume at.
+ *
+ * `shuffled` and `seed` reproduce the exact order the questions were in —
+ * without them, resuming a shuffled paper would deal a different sequence and
+ * the stored answers would belong to the wrong questions.
+ */
+export interface ResumeState {
+  paperId: string
+  attempts: Attempt[]
+  shuffled: boolean
+  seed: number
+  /** Questions the paper had when this was saved; a re-import may change it. */
+  total: number
+  savedAt: string
+}
+
 export interface SessionResult {
   paperId: string
   total: number

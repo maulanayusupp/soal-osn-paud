@@ -43,9 +43,11 @@ must also update `CLAUDE.md`, the compliance pages, and both locales.
 - [x] Mobile: picture options in a 2-up grid, pinned "next" bar, tighter chrome.
       Measured at 360px, an average question page went from ~1.6 screens to
       ~1.3. Worth re-measuring if the question card grows.
-- [ ] Verify the mobile layout on a real handset. It was tuned by measuring
-      rendered heights from the image dimensions and the CSS, not by looking at
-      it — no browser was available in the session that built it.
+- [x] Verify the mobile layout in a browser. `pnpm browser:check` drives the
+      built site in Chrome at 390x844 and asserts nothing overflows and every
+      button lands on screen. Still worth a look on a real handset for feel —
+      thumb reach and how the pinned bar sits are not things a headless run can
+      judge — but it is no longer unmeasured.
 
 - [x] **Hand-written papers.** `content/manual/<id>.json` + `pnpm soal:manual`,
       for questions with no printed source. Guide: `MENAMBAH-SOAL.md`.
@@ -57,6 +59,9 @@ must also update `CLAUDE.md`, the compliance pages, and both locales.
       en-US voices). **Parked on 12 Aug 2026 at the owner's request** — do not
       start it without being asked. Not a technical objection, so the note is
       only about who decides when.
+- [x] **Resume an unfinished paper.** Settled answers are kept on the device;
+      coming back offers "Lanjutkan dari soal N" or "Mulai dari awal", with the
+      time it was last worked on. Covered by `practice:check` and `browser:check`.
 - [ ] **Mixed practice.** Draw N random questions across a level/subject instead
       of working one paper end to end.
 - [ ] **Wrong-answers-only replay** after finishing a paper.

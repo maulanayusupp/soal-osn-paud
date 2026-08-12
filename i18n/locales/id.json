@@ -197,9 +197,18 @@
     },
     "soundOn": "Nyalakan suara",
     "soundOff": "Matikan suara",
+    "resume": {
+      "title": "Lanjutkan latihan ini?",
+      "today": "Terakhir dikerjakan hari ini pukul {time}.",
+      "yesterday": "Terakhir dikerjakan kemarin pukul {time}.",
+      "on": "Terakhir dikerjakan {date} pukul {time}.",
+      "position": "Sudah selesai {n} dari {total} soal.",
+      "continue": "Lanjutkan dari soal {n}",
+      "fromStart": "Mulai dari awal"
+    },
     "leave": {
       "title": "Keluar dari latihan?",
-      "body": "Jawaban yang sudah dikerjakan pada berkas ini akan hilang kalau keluar sekarang.",
+      "body": "Jawaban yang sudah selesai tersimpan di perangkat ini dan bisa dilanjutkan nanti. Soal yang sedang dikerjakan akan diulang dari awal.",
       "stay": "Lanjut mengerjakan",
       "go": "Ya, keluar"
     }
@@ -372,10 +381,12 @@
       {
         "heading": "Data yang disimpan di perangkat Anda",
         "body": [
-          "Dua hal disimpan di penyimpanan lokal browser Anda, dan tidak pernah meninggalkan perangkat:"
+          "Empat hal disimpan di penyimpanan lokal browser Anda, dan tidak pernah meninggalkan perangkat:"
         ],
         "list": [
           "Riwayat sesi latihan: berkas yang dikerjakan, jumlah benar, dan waktunya.",
+          "Latihan yang belum selesai: jawaban yang sudah dikerjakan, urutannya, dan waktu berhenti — supaya bisa dilanjutkan lagi.",
+          "Suara jawaban dinyalakan atau dimatikan.",
           "Pilihan bahasa antarmuka."
         ]
       },

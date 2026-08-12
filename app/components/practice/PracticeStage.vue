@@ -7,8 +7,9 @@
  * own state so the two can never disagree.
  */
 import { playableQuestions } from '~/services/catalog.service'
+import { clearResume, loadResumeStates, resumeFor } from '~/services/resume.service'
 import { scrollToElement } from '~/utils/scroll'
-import type { MascotMood, OptionKey, Paper } from '~/types'
+import type { MascotMood, OptionKey, Paper, ResumeState } from '~/types'
 
 const props = defineProps<{ paper: Paper }>()
 const { t } = useI18n()
@@ -34,7 +35,31 @@ const {
   reveal,
   next,
   restart,
+  resumeFrom,
 } = practice
+
+/**
+ * An unfinished run of this paper, waiting on a decision.
+ *
+ * Read on mount, never during SSR: localStorage does not exist on the server,
+ * and rendering the panel there only for the client to remove it is a hydration
+ * mismatch. Non-null means the choice is showing instead of the question.
+ */
+const offer = ref<ResumeState | null>(null)
+onMounted(() => {
+  offer.value = resumeFor(loadResumeStates(), props.paper, total.value)
+})
+
+function onResume() {
+  if (!offer.value) return
+  resumeFrom(offer.value)
+  offer.value = null
+}
+
+function onStartOver() {
+  clearResume(props.paper.id)
+  offer.value = null
+}
 
 /**
  * True when every option is a picture and none carries words.
@@ -124,8 +149,17 @@ onBeforeUnmount(() => {
 
 <template>
   <div ref="stage" class="stage">
+    <!-- Left part-answered: continue, or start again? --------------------- -->
+    <ResumePrompt
+      v-if="offer"
+      :state="offer"
+      :total="total"
+      @resume="onResume"
+      @restart="onStartOver"
+    />
+
     <!-- Playing --------------------------------------------------------- -->
-    <template v-if="phase !== 'finished' && current">
+    <template v-else-if="phase !== 'finished' && current">
       <div class="stage__bar">
         <ProgressRail :position="position" :total="total" :correct="correctCount" />
         <button

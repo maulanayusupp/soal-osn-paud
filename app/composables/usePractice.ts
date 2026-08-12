@@ -15,7 +15,8 @@
 // =============================================================================
 import { bandOf, isCorrect, scoreOf, shuffle, summarise } from '~/services/practice.service'
 import { saveSession } from '~/services/progress.service'
-import type { Attempt, OptionKey, Question, SessionResult } from '~/types'
+import { clearResume, saveResume } from '~/services/resume.service'
+import type { Attempt, OptionKey, Question, ResumeState, SessionResult } from '~/types'
 
 export type PracticePhase = 'answering' | 'retry' | 'revealed' | 'finished'
 
@@ -52,6 +53,29 @@ export function usePractice(paperId: string, source: Ref<Question[]>) {
     () => Boolean(current.value) && current.value!.options.length - tried.value.length >= 2,
   )
 
+  /**
+   * Keep the unfinished paper on the device.
+   *
+   * Written the moment an answer is settled, not when leaving: `beforeunload` is
+   * not dependable — a killed tab, a phone that sleeps and never wakes, iOS
+   * discarding the page — and this costs one small write per question.
+   *
+   * Deliberately not called from `resumeFrom`, which would stamp "last worked
+   * on" with the moment the paper was merely reopened.
+   */
+  function remember() {
+    // The last answer needs no entry: `finish()` is next, and it clears one.
+    if (attempts.value.length === 0 || attempts.value.length >= total.value) return
+    saveResume({
+      paperId,
+      attempts: attempts.value,
+      shuffled: shuffled.value,
+      seed: seed.value,
+      total: total.value,
+      savedAt: new Date().toISOString(),
+    })
+  }
+
   /** Settle the current question and show the answer. */
   function settle(key: OptionKey) {
     if (!current.value) return
@@ -66,6 +90,7 @@ export function usePractice(paperId: string, source: Ref<Question[]>) {
       },
     ]
     phase.value = 'revealed'
+    remember()
   }
 
   /**
@@ -113,11 +138,36 @@ export function usePractice(paperId: string, source: Ref<Question[]>) {
   function finish() {
     result.value = summarise(paperId, attempts.value, total.value)
     saveSession(result.value)
+    // The paper is done; there is nothing left to come back to.
+    clearResume(paperId)
     phase.value = 'finished'
   }
 
+  /**
+   * Pick this paper up where it was left.
+   *
+   * The order is restored before the answers, because on a shuffled paper the
+   * answers only line up with the questions they belong to once the same seed
+   * has dealt the same sequence.
+   */
+  function resumeFrom(state: ResumeState) {
+    shuffled.value = state.shuffled
+    seed.value = state.seed
+    attempts.value = [...state.attempts]
+    // Settled answers and position are the same fact: one attempt is recorded
+    // per question, so the count IS the question to carry on from.
+    index.value = state.attempts.length
+    chosen.value = null
+    tried.value = []
+    result.value = null
+    phase.value = 'answering'
+  }
+
+
   /** Start again from question one. Optionally in a new shuffled order. */
   function restart({ shuffle: doShuffle = shuffled.value } = {}) {
+    // Whatever was saved describes a run that is being abandoned on purpose.
+    clearResume(paperId)
     shuffled.value = doShuffle
     // A fresh seed so "acak lagi" really is a different order.
     if (doShuffle) seed.value = Math.floor(Math.random() * 2 ** 31)
@@ -155,5 +205,6 @@ export function usePractice(paperId: string, source: Ref<Question[]>) {
     next,
     finish,
     restart,
+    resumeFrom,
   }
 }

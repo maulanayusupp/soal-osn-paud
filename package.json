@@ -15,6 +15,7 @@
     "og": "node scripts/generate-og.mjs",
     "i18n:check": "node scripts/check-i18n.mjs",
     "practice:check": "node scripts/check-practice.mjs",
+    "browser:check": "node --experimental-websocket scripts/check-browser.mjs",
     "soal:scan": "node scripts/scan-sources.mjs",
     "soal:import": "node scripts/import-papers.mjs",
     "soal:manual": "node scripts/import-manual.mjs",

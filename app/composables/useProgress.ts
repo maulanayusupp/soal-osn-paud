@@ -6,6 +6,7 @@
 // hydration mismatch.
 // =============================================================================
 import { bestScoreFor, clearSessions, loadSessions, progressSummary } from '~/services/progress.service'
+import { clearAllResume } from '~/services/resume.service'
 import type { SessionResult } from '~/types'
 
 export function useProgress() {
@@ -19,8 +20,14 @@ export function useProgress() {
 
   const summary = computed(() => progressSummary(sessions.value))
 
+  /**
+   * "Hapus catatan" has to mean everything, not just the finished sessions —
+   * /kepatuhan promises the button clears what is kept on the device, and a
+   * half-answered paper waiting to be resumed is part of that.
+   */
   function clear() {
     clearSessions()
+    clearAllResume()
     sessions.value = []
   }
 

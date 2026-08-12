@@ -197,9 +197,18 @@
     },
     "soundOn": "Turn sound on",
     "soundOff": "Turn sound off",
+    "resume": {
+      "title": "Carry on with this paper?",
+      "today": "Last worked on today at {time}.",
+      "yesterday": "Last worked on yesterday at {time}.",
+      "on": "Last worked on {date} at {time}.",
+      "position": "{n} of {total} questions done.",
+      "continue": "Continue from question {n}",
+      "fromStart": "Start from the beginning"
+    },
     "leave": {
       "title": "Leave this practice?",
-      "body": "The answers given on this paper will be lost if you leave now.",
+      "body": "Answers already finished are kept on this device and can be picked up later. The question on screen will be asked again.",
       "stay": "Keep going",
       "go": "Yes, leave"
     }
@@ -372,10 +381,12 @@
       {
         "heading": "What is stored on your device",
         "body": [
-          "Two things live in your browser's local storage, and never leave the device:"
+          "Four things live in your browser's local storage, and never leave the device:"
         ],
         "list": [
           "Practice session history: which paper, how many correct, and when.",
+          "Papers left unfinished: the answers given so far, their order, and when you stopped — so a paper can be picked up again.",
+          "Whether the answer sounds are switched on.",
           "Your interface language preference."
         ]
       },

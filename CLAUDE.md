@@ -55,7 +55,8 @@ pnpm preview        # run the built server
 pnpm favicons       # regenerate favicons from assets/favicon-source.svg
 pnpm og             # regenerate public/og-image.png
 pnpm i18n:check     # ID/EN key + placeholder parity (fails loudly on drift)
-pnpm practice:check # drive the session state machine (retry, give-up, scoring)
+pnpm practice:check # drive the session state machine (retry, resume, scoring)
+pnpm browser:check  # click the built site in Chrome at 390x844 (after a build)
 pnpm typecheck      # vue-tsc type check
 
 pnpm soal:scan <source-root>    # re-index the source papers on disk
@@ -324,8 +325,24 @@ child never scrolls to continue.
   already in the heading below it. The question-number pill is **not**: the rail
   beside it shows the running score (`4 dari 19`), not the position, and hiding
   the pill left a parent reading the tally as the question number.
-- **Leaving a part-answered paper asks first.** A session lives only in memory,
-  and the menu sits directly above the question, so a mistaken tap is easy.
+- **An unfinished paper is kept, and offered back.** A session used to live only
+  in memory, which is why leaving one warned that answers would be lost. Twenty
+  questions with a five-year-old gets interrupted, so the settled answers are
+  written to `localStorage` as each one lands — from `settle()`, not from
+  `beforeunload`, which a killed tab or a sleeping phone never fires. Coming
+  back offers a choice rather than dropping the child straight in: a paper left
+  three weeks ago is one they have forgotten, so the panel says when it was last
+  touched and how far it got, and the grown-up decides. `resume.service.ts`
+  refuses an entry whose paper no longer matches — a different question count, or
+  an answer naming a question that no longer exists — because a re-import can
+  renumber the bank underneath it. The question in progress is deliberately not
+  saved: it may have been half-tried, and restoring someone into the middle of a
+  question they cannot remember reading is worse than asking it again.
+- **Leaving a part-answered paper still asks first**, though it no longer warns
+  of losing anything: the menu sits directly above the question, a mistaken tap
+  is easy, and the question in progress does restart. The wording says the
+  finished answers are kept — a dialog that claims a loss that will not happen
+  teaches the reader to dismiss it.
   `useLeaveGuard()` covers both exits: `onBeforeRouteLeave` for in-app
   navigation, which gets the app's own `ConfirmDialog`, and `beforeunload` for
   closing or reloading the tab, where the browser insists on its own wording.
