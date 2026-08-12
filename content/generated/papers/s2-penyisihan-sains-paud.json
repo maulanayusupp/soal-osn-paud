@@ -242,7 +242,9 @@
       "id": "s2-penyisihan-sains-paud-q09",
       "n": 9,
       "prompt": "Es krim di mulut terasa...",
-      "images": [],
+      "images": [
+        "/soal/s2-penyisihan-sains-paud/q09-stem.webp"
+      ],
       "options": [
         {
           "key": "a",
@@ -257,9 +259,7 @@
         {
           "key": "c",
           "text": "Dingin",
-          "images": [
-            "/soal/s2-penyisihan-sains-paud/q09-c.webp"
-          ]
+          "images": []
         }
       ],
       "answer": "c",
@@ -377,7 +377,9 @@
       "id": "s2-penyisihan-sains-paud-q14",
       "n": 14,
       "prompt": "Apa nama buah berikut?",
-      "images": [],
+      "images": [
+        "/soal/s2-penyisihan-sains-paud/q14-stem.webp"
+      ],
       "options": [
         {
           "key": "a",
@@ -392,9 +394,7 @@
         {
           "key": "c",
           "text": "Semangka",
-          "images": [
-            "/soal/s2-penyisihan-sains-paud/q14-c.webp"
-          ]
+          "images": []
         }
       ],
       "answer": "a",
@@ -489,7 +489,9 @@
       "id": "s2-penyisihan-sains-paud-q18",
       "n": 18,
       "prompt": "Apa nama sayuran berikut?",
-      "images": [],
+      "images": [
+        "/soal/s2-penyisihan-sains-paud/q18-stem.webp"
+      ],
       "options": [
         {
           "key": "a",
@@ -504,9 +506,7 @@
         {
           "key": "c",
           "text": "Wortel",
-          "images": [
-            "/soal/s2-penyisihan-sains-paud/q18-c.webp"
-          ]
+          "images": []
         }
       ],
       "answer": "c",

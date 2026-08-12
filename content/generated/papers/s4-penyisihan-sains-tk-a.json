@@ -250,7 +250,9 @@
       "id": "s4-penyisihan-sains-tk-a-q09",
       "n": 9,
       "prompt": "Jika langit gelap dan turun air dari langit, cuacanya adalah ….",
-      "images": [],
+      "images": [
+        "/soal/s4-penyisihan-sains-tk-a/q09-stem.webp"
+      ],
       "options": [
         {
           "key": "a",
@@ -265,9 +267,7 @@
         {
           "key": "c",
           "text": "Mendung",
-          "images": [
-            "/soal/s4-penyisihan-sains-tk-a/q09-c.webp"
-          ]
+          "images": []
         }
       ],
       "answer": "a",
@@ -277,7 +277,9 @@
       "id": "s4-penyisihan-sains-tk-a-q10",
       "n": 10,
       "prompt": "Cuaca saat banyak awan di langit disebut ….",
-      "images": [],
+      "images": [
+        "/soal/s4-penyisihan-sains-tk-a/q10-stem.webp"
+      ],
       "options": [
         {
           "key": "a",
@@ -292,9 +294,7 @@
         {
           "key": "c",
           "text": "Cuaca berawan",
-          "images": [
-            "/soal/s4-penyisihan-sains-tk-a/q10-c.webp"
-          ]
+          "images": []
         }
       ],
       "answer": "c",
@@ -505,7 +505,9 @@
       "id": "s4-penyisihan-sains-tk-a-q18",
       "n": 18,
       "prompt": "Agar tubuh tetap bersih, kita perlu ….",
-      "images": [],
+      "images": [
+        "/soal/s4-penyisihan-sains-tk-a/q18-stem.webp"
+      ],
       "options": [
         {
           "key": "a",
@@ -520,9 +522,7 @@
         {
           "key": "c",
           "text": "Mandi",
-          "images": [
-            "/soal/s4-penyisihan-sains-tk-a/q18-c.webp"
-          ]
+          "images": []
         }
       ],
       "answer": "c",

@@ -503,7 +503,9 @@
       "id": "s3-penyisihan-sains-tk-b-q18",
       "n": 18,
       "prompt": "Setelah mencuci tangan, sebaiknya kita …",
-      "images": [],
+      "images": [
+        "/soal/s3-penyisihan-sains-tk-b/q18-stem.webp"
+      ],
       "options": [
         {
           "key": "a",
@@ -518,9 +520,7 @@
         {
           "key": "c",
           "text": "Membuka keran lebih besar",
-          "images": [
-            "/soal/s3-penyisihan-sains-tk-b/q18-c.webp"
-          ]
+          "images": []
         }
       ],
       "answer": "b",

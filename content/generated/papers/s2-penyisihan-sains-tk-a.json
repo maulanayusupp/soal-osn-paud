@@ -107,7 +107,9 @@
       "id": "s2-penyisihan-sains-tk-a-q04",
       "n": 4,
       "prompt": "Kita dapat mencium bau menggunakan ….",
-      "images": [],
+      "images": [
+        "/soal/s2-penyisihan-sains-tk-a/q04-stem.webp"
+      ],
       "options": [
         {
           "key": "a",
@@ -122,9 +124,7 @@
         {
           "key": "c",
           "text": "Mulut",
-          "images": [
-            "/soal/s2-penyisihan-sains-tk-a/q04-c.webp"
-          ]
+          "images": []
         }
       ],
       "answer": "b",
@@ -304,7 +304,9 @@
       "id": "s2-penyisihan-sains-tk-a-q11",
       "n": 11,
       "prompt": "Hewan berikut ini yang memiliki suara \"kwek kwek\" adalah...",
-      "images": [],
+      "images": [
+        "/soal/s2-penyisihan-sains-tk-a/q11-stem.webp"
+      ],
       "options": [
         {
           "key": "a",

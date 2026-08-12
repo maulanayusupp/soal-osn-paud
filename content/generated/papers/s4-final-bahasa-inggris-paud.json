@@ -209,7 +209,9 @@
       "id": "s4-final-bahasa-inggris-paud-q08",
       "n": 8,
       "prompt": "Which color is not on the umbrella?",
-      "images": [],
+      "images": [
+        "/soal/s4-final-bahasa-inggris-paud/q08-stem.webp"
+      ],
       "options": [
         {
           "key": "a",
@@ -224,9 +226,7 @@
         {
           "key": "c",
           "text": "Green",
-          "images": [
-            "/soal/s4-final-bahasa-inggris-paud/q08-c.webp"
-          ]
+          "images": []
         }
       ],
       "answer": "b",

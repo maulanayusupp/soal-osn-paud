@@ -107,7 +107,9 @@
       "id": "s2-penyisihan-bahasa-inggris-paud-q04",
       "n": 4,
       "prompt": "How many cows are there?",
-      "images": [],
+      "images": [
+        "/soal/s2-penyisihan-bahasa-inggris-paud/q04-stem.webp"
+      ],
       "options": [
         {
           "key": "a",
@@ -122,9 +124,7 @@
         {
           "key": "c",
           "text": "5",
-          "images": [
-            "/soal/s2-penyisihan-bahasa-inggris-paud/q04-c.webp"
-          ]
+          "images": []
         }
       ],
       "answer": "a",
@@ -350,7 +350,9 @@
       "id": "s2-penyisihan-bahasa-inggris-paud-q13",
       "n": 13,
       "prompt": "What animal is this?",
-      "images": [],
+      "images": [
+        "/soal/s2-penyisihan-bahasa-inggris-paud/q13-stem.webp"
+      ],
       "options": [
         {
           "key": "a",
@@ -365,9 +367,7 @@
         {
           "key": "c",
           "text": "Dog",
-          "images": [
-            "/soal/s2-penyisihan-bahasa-inggris-paud/q13-c.webp"
-          ]
+          "images": []
         }
       ],
       "answer": "a",

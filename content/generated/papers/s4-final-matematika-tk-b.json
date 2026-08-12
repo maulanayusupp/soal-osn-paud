@@ -171,7 +171,9 @@
       "id": "s4-final-matematika-tk-b-q06",
       "n": 6,
       "prompt": "Kerjakanlah operasi hitung di bawah ini dengan benar!",
-      "images": [],
+      "images": [
+        "/soal/s4-final-matematika-tk-b/q06-stem.webp"
+      ],
       "options": [
         {
           "key": "a",
@@ -186,9 +188,7 @@
         {
           "key": "c",
           "text": "20",
-          "images": [
-            "/soal/s4-final-matematika-tk-b/q06-c.webp"
-          ]
+          "images": []
         }
       ],
       "answer": "b",
@@ -572,7 +572,9 @@
       "id": "s4-final-matematika-tk-b-q20",
       "n": 20,
       "prompt": "Berdasarkan gambar berikut manakah benda yang lebih besar dari penghapus tetapi lebih ringan dari buku?",
-      "images": [],
+      "images": [
+        "/soal/s4-final-matematika-tk-b/q20-stem.webp"
+      ],
       "options": [
         {
           "key": "a",
@@ -587,9 +589,7 @@
         {
           "key": "c",
           "text": "Botol air",
-          "images": [
-            "/soal/s4-final-matematika-tk-b/q20-c.webp"
-          ]
+          "images": []
         }
       ],
       "answer": "a",

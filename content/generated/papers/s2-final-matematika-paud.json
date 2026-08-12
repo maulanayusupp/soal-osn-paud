@@ -107,7 +107,9 @@
       "id": "s2-final-matematika-paud-q04",
       "n": 4,
       "prompt": "Angka yang tepat untuk melengkapi bagian yang kosong adalah...",
-      "images": [],
+      "images": [
+        "/soal/s2-final-matematika-paud/q04-stem.webp"
+      ],
       "options": [
         {
           "key": "a",
@@ -122,9 +124,7 @@
         {
           "key": "c",
           "text": "4 dan 5",
-          "images": [
-            "/soal/s2-final-matematika-paud/q04-c.webp"
-          ]
+          "images": []
         }
       ],
       "answer": "c",
@@ -327,7 +327,9 @@
       "id": "s2-final-matematika-paud-q12",
       "n": 12,
       "prompt": "Apakah pengurangan di bawah ini benar?",
-      "images": [],
+      "images": [
+        "/soal/s2-final-matematika-paud/q12-stem.webp"
+      ],
       "options": [
         {
           "key": "a",
@@ -342,9 +344,7 @@
         {
           "key": "c",
           "text": "Tidak",
-          "images": [
-            "/soal/s2-final-matematika-paud/q12-c.webp"
-          ]
+          "images": []
         }
       ],
       "answer": "c",

@@ -389,7 +389,9 @@
       "id": "s3-final-bahasa-inggris-paud-q14",
       "n": 14,
       "prompt": "What is this?",
-      "images": [],
+      "images": [
+        "/soal/s3-final-bahasa-inggris-paud/q14-stem.webp"
+      ],
       "options": [
         {
           "key": "a",
@@ -404,9 +406,7 @@
         {
           "key": "c",
           "text": "Watermelon",
-          "images": [
-            "/soal/s3-final-bahasa-inggris-paud/q14-c.webp"
-          ]
+          "images": []
         }
       ],
       "answer": "a",
@@ -497,7 +497,9 @@
       "id": "s3-final-bahasa-inggris-paud-q18",
       "n": 18,
       "prompt": "They cut the paper using …",
-      "images": [],
+      "images": [
+        "/soal/s3-final-bahasa-inggris-paud/q18-stem.webp"
+      ],
       "options": [
         {
           "key": "a",
@@ -512,9 +514,7 @@
         {
           "key": "c",
           "text": "Cutter",
-          "images": [
-            "/soal/s3-final-bahasa-inggris-paud/q18-c.webp"
-          ]
+          "images": []
         }
       ],
       "answer": "b",

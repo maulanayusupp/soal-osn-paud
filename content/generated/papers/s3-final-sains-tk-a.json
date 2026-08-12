@@ -454,7 +454,9 @@
       "id": "s3-final-sains-tk-a-q17",
       "n": 17,
       "prompt": "Benda di bawah ini termasuk ….",
-      "images": [],
+      "images": [
+        "/soal/s3-final-sains-tk-a/q17-stem.webp"
+      ],
       "options": [
         {
           "key": "a",
@@ -469,9 +471,7 @@
         {
           "key": "c",
           "text": "Benda bertumbuh",
-          "images": [
-            "/soal/s3-final-sains-tk-a/q17-c.webp"
-          ]
+          "images": []
         }
       ],
       "answer": "b",

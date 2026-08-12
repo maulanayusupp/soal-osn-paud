@@ -56,7 +56,9 @@
       "id": "s4-penyisihan-sains-tk-b-q02",
       "n": 2,
       "prompt": "Bagian tubuh yang digunakan untuk menulis adalah ….",
-      "images": [],
+      "images": [
+        "/soal/s4-penyisihan-sains-tk-b/q02-stem.webp"
+      ],
       "options": [
         {
           "key": "a",
@@ -71,9 +73,7 @@
         {
           "key": "c",
           "text": "Tangan",
-          "images": [
-            "/soal/s4-penyisihan-sains-tk-b/q02-c.webp"
-          ]
+          "images": []
         }
       ],
       "answer": "c",
@@ -192,7 +192,9 @@
       "id": "s4-penyisihan-sains-tk-b-q07",
       "n": 7,
       "prompt": "Matahari dapat bermanfaat untuk …",
-      "images": [],
+      "images": [
+        "/soal/s4-penyisihan-sains-tk-b/q07-stem.webp"
+      ],
       "options": [
         {
           "key": "a",
@@ -207,9 +209,7 @@
         {
           "key": "c",
           "text": "Memasak",
-          "images": [
-            "/soal/s4-penyisihan-sains-tk-b/q07-c.webp"
-          ]
+          "images": []
         }
       ],
       "answer": "b",
@@ -301,7 +301,9 @@
       "id": "s4-penyisihan-sains-tk-b-q11",
       "n": 11,
       "prompt": "Rusa hidup di ….",
-      "images": [],
+      "images": [
+        "/soal/s4-penyisihan-sains-tk-b/q11-stem.webp"
+      ],
       "options": [
         {
           "key": "a",
@@ -316,9 +318,7 @@
         {
           "key": "c",
           "text": "Darat",
-          "images": [
-            "/soal/s4-penyisihan-sains-tk-b/q11-c.webp"
-          ]
+          "images": []
         }
       ],
       "answer": "c",

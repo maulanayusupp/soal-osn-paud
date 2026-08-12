@@ -19,11 +19,10 @@
   "answerSource": "docx",
   "verified": false,
   "questionCount": 20,
-  "playableCount": 16,
+  "playableCount": 17,
   "warnings": [
     "Q7: no answer highlight found",
     "Q8: no answer highlight found",
-    "Q17: option c is empty",
     "Q19: no answer highlight found"
   ],
   "questions": [
@@ -85,7 +84,9 @@
       "id": "s3-final-matematika-tk-a-q03",
       "n": 3,
       "prompt": "Lengkapilah angka yang hilang di bawah ini!",
-      "images": [],
+      "images": [
+        "/soal/s3-final-matematika-tk-a/q03-stem.webp"
+      ],
       "options": [
         {
           "key": "a",
@@ -479,7 +480,9 @@
       "id": "s3-final-matematika-tk-a-q17",
       "n": 17,
       "prompt": "Lanjutkan pola di bawah ini!",
-      "images": [],
+      "images": [
+        "/soal/s3-final-matematika-tk-a/q17-stem.webp"
+      ],
       "options": [
         {
           "key": "a",
@@ -497,12 +500,14 @@
         },
         {
           "key": "c",
-          "text": null,
-          "images": []
+          "text": "ff",
+          "images": [
+            "/soal/s3-final-matematika-tk-a/q17-c.webp"
+          ]
         }
       ],
       "answer": "c",
-      "status": "needs-review"
+      "status": "ok"
     },
     {
       "id": "s3-final-matematika-tk-a-q18",
@@ -516,8 +521,7 @@
           "key": "a",
           "text": null,
           "images": [
-            "/soal/s3-final-matematika-tk-a/q18-a.webp",
-            "/soal/s3-final-matematika-tk-a/q18-a-2.webp"
+            "/soal/s3-final-matematika-tk-a/q18-a.webp"
           ]
         },
         {
@@ -542,7 +546,9 @@
       "id": "s3-final-matematika-tk-a-q19",
       "n": 19,
       "prompt": "Gambarkan pola berikutnya!",
-      "images": [],
+      "images": [
+        "/soal/s3-final-matematika-tk-a/q19-stem.webp"
+      ],
       "options": [
         {
           "key": "a",

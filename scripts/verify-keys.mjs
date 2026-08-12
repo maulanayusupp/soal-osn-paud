@@ -103,12 +103,13 @@ function findBlobs(raster, protect) {
   return blobs
     .filter((blob) => blob.pixels >= 120)
     .map((blob) => ({
-      // Anchor on the swatch's TOP edge, not its centre. Word draws the swatch
-      // over the whole line box, so its centre sits about half a line below the
-      // marker's top — which is half the line spacing, making "nearest marker to
-      // the centre" a coin flip between the right option and the next one. That
+      // Keep the swatch's whole vertical span. Its CENTRE is useless — Word
+      // draws the swatch over the entire line box, so the centre sits half a
+      // line low, which is half the line spacing, making "nearest marker to the
+      // centre" a coin flip between the right option and the next one. That
       // alone produced 40 false disagreements.
       topY: blob.top / RASTER_PER_XML,
+      bottomY: blob.lastY / RASTER_PER_XML,
       left: blob.minX / RASTER_PER_XML,
       pixels: blob.pixels,
     }))
@@ -169,6 +170,7 @@ for (const source of papers) {
         key: band.key,
         page: band.marker.page,
         top: band.marker.top,
+        height: band.marker.height,
         // Where the letter really is. For a side-by-side option the marker's own
         // `left` is only a character-offset guess; `markerHint` is measured from
         // that option's pictures.
@@ -191,9 +193,28 @@ for (const source of papers) {
     for (const blob of findBlobs(raster, protect)) {
       const onPage = markers.filter((m) => m.page === pageIndex)
       if (!onPage.length) continue
-      // A swatch starts within a few units of its own marker's top.
-      const sameLine = onPage.filter((m) => Math.abs(m.top - blob.topY) <= 12)
+
+      // Match on how much of the marker's LINE BOX the swatch covers, not on how
+      // close its top edge is. A picture's box carries deep transparent margins,
+      // so it often reaches down over the option lines beneath it — and `protect`
+      // above, which exists to ignore colour drawn inside artwork, then blanks
+      // the top of a perfectly real swatch. Its measured top slid a line's worth
+      // down onto the NEXT option, and the check called three correct keys wrong.
+      // What survives that clipping is still squarely inside its own line box.
+      const overlap = (m) =>
+        Math.min(blob.bottomY, m.top + m.height) - Math.max(blob.topY, m.top)
+      let sameLine = onPage.filter((m) => overlap(m) > 0)
+      // Nothing overlaps: fall back to the top-edge test, which still catches a
+      // swatch drawn slightly above its line.
+      if (!sameLine.length) sameLine = onPage.filter((m) => Math.abs(m.top - blob.topY) <= 12)
       if (!sameLine.length) continue
+      if (sameLine.length > 1) {
+        // Stacked options can both be clipped into overlapping; the one the
+        // swatch covers most is its own. Side-by-side options share a line box
+        // exactly, so this leaves them tied and x decides, as below.
+        const best = Math.max(...sameLine.map(overlap))
+        sameLine = sameLine.filter((m) => overlap(m) >= best - 1)
+      }
 
       // Side-by-side options all share one top, so y cannot tell them apart —
       // taking the first match there reported "a" for every such question. The

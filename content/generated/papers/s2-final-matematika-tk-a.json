@@ -112,7 +112,9 @@
       "id": "s2-final-matematika-tk-a-q04",
       "n": 4,
       "prompt": "Berapa jumlah jeruk pada gambar berikut?",
-      "images": [],
+      "images": [
+        "/soal/s2-final-matematika-tk-a/q04-stem.webp"
+      ],
       "options": [
         {
           "key": "a",
@@ -127,9 +129,7 @@
         {
           "key": "c",
           "text": "11",
-          "images": [
-            "/soal/s2-final-matematika-tk-a/q04-c.webp"
-          ]
+          "images": []
         }
       ],
       "answer": "a",
@@ -518,7 +518,9 @@
       "id": "s2-final-matematika-tk-a-q18",
       "n": 18,
       "prompt": "Urutkan hewan-hewan berikut dari ukuran yang paling kecil hingga yang paling besar!",
-      "images": [],
+      "images": [
+        "/soal/s2-final-matematika-tk-a/q18-stem.webp"
+      ],
       "options": [
         {
           "key": "a",
@@ -533,9 +535,7 @@
         {
           "key": "c",
           "text": "B – A – D – C",
-          "images": [
-            "/soal/s2-final-matematika-tk-a/q18-c.webp"
-          ]
+          "images": []
         }
       ],
       "answer": "b",

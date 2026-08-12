@@ -249,7 +249,9 @@
       "id": "s4-penyisihan-bahasa-inggris-tk-a-q09",
       "n": 9,
       "prompt": "I am playing with my ….",
-      "images": [],
+      "images": [
+        "/soal/s4-penyisihan-bahasa-inggris-tk-a/q09-stem.webp"
+      ],
       "options": [
         {
           "key": "a",
@@ -264,9 +266,7 @@
         {
           "key": "c",
           "text": "Son",
-          "images": [
-            "/soal/s4-penyisihan-bahasa-inggris-tk-a/q09-c.webp"
-          ]
+          "images": []
         }
       ],
       "answer": "a",
@@ -334,7 +334,9 @@
       "id": "s4-penyisihan-bahasa-inggris-tk-a-q12",
       "n": 12,
       "prompt": "She is my ….",
-      "images": [],
+      "images": [
+        "/soal/s4-penyisihan-bahasa-inggris-tk-a/q12-stem.webp"
+      ],
       "options": [
         {
           "key": "a",
@@ -349,9 +351,7 @@
         {
           "key": "c",
           "text": "Grandmother",
-          "images": [
-            "/soal/s4-penyisihan-bahasa-inggris-tk-a/q12-c.webp"
-          ]
+          "images": []
         }
       ],
       "answer": "a",

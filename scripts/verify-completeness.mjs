@@ -84,15 +84,17 @@ for (const source of papers) {
     }
   })
 
-  // A question that stored fewer pictures than its bands were given lost them at
-  // the crop step — a blank or degenerate region.
+  // A band's pictures on one page are cut as ONE union crop, so the unit here is
+  // the group, not the picture — counting pictures reported every side-by-side
+  // illustration as a loss. A group that produced no file is a real one: the
+  // region came out blank, or degenerate enough for sharp to refuse it.
   for (const question of questions) {
     const record = stored.questions.find((q) => q.n === question.n)
     if (!record) continue
 
     let assigned = 0
     for (const band of question.bands) {
-      for (const group of band.imageGroups ?? []) assigned += group.images.length
+      assigned += (band.imageGroups ?? []).filter((group) => group.images.length).length
     }
     const kept =
       record.images.length + record.options.reduce((sum, o) => sum + o.images.length, 0)
@@ -116,7 +118,7 @@ for (const d of dropped.slice(0, 40)) {
 }
 if (dropped.length > 40) console.log(`  … and ${dropped.length - 40} more`)
 
-console.log(`\nQuestions that lost a picture at the crop step: ${shortfall.length}`)
+console.log(`\nQuestions whose crop came out empty: ${shortfall.length}`)
 for (const s of shortfall) {
   console.log(`  ${s.id} Q${s.n}: ${s.assigned} assigned, ${s.kept} kept  [${s.status}]`)
 }

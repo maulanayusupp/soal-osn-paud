@@ -109,7 +109,9 @@
       "id": "s3-penyisihan-bahasa-inggris-paud-q04",
       "n": 4,
       "prompt": "Count the flowers below!",
-      "images": [],
+      "images": [
+        "/soal/s3-penyisihan-bahasa-inggris-paud/q04-stem.webp"
+      ],
       "options": [
         {
           "key": "a",
@@ -124,9 +126,7 @@
         {
           "key": "c",
           "text": "Two",
-          "images": [
-            "/soal/s3-penyisihan-bahasa-inggris-paud/q04-c.webp"
-          ]
+          "images": []
         }
       ],
       "answer": "b",

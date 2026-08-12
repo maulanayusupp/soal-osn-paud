@@ -313,7 +313,9 @@
       "id": "s4-final-bahasa-inggris-tk-a-q12",
       "n": 12,
       "prompt": "Hi, my name is Evelyn. I am the first child in my family. I have a younger brother. We live together with our father and mother. Who is the man in Evelyn’s family?",
-      "images": [],
+      "images": [
+        "/soal/s4-final-bahasa-inggris-tk-a/q12-stem.webp"
+      ],
       "options": [
         {
           "key": "a",
@@ -328,9 +330,7 @@
         {
           "key": "c",
           "text": "Brother and sister",
-          "images": [
-            "/soal/s4-final-bahasa-inggris-tk-a/q12-c.webp"
-          ]
+          "images": []
         }
       ],
       "answer": "b",

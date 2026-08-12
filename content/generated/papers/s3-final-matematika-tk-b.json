@@ -80,7 +80,9 @@
       "id": "s3-final-matematika-tk-b-q03",
       "n": 3,
       "prompt": "Lengkapilah bagian yang kosong dengan angka yang tepat!",
-      "images": [],
+      "images": [
+        "/soal/s3-final-matematika-tk-b/q03-stem.webp"
+      ],
       "options": [
         {
           "key": "a",
@@ -95,9 +97,7 @@
         {
           "key": "c",
           "text": "17, 25, 29, 20, 18",
-          "images": [
-            "/soal/s3-final-matematika-tk-b/q03-c.webp"
-          ]
+          "images": []
         }
       ],
       "answer": "a",
@@ -389,7 +389,9 @@
       "id": "s3-final-matematika-tk-b-q14",
       "n": 14,
       "prompt": "Warna selanjunya dari pola berikut adalah ….",
-      "images": [],
+      "images": [
+        "/soal/s3-final-matematika-tk-b/q14-stem.webp"
+      ],
       "options": [
         {
           "key": "a",

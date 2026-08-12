@@ -466,7 +466,9 @@
       "id": "s2-penyisihan-matematika-tk-b-q17",
       "n": 17,
       "prompt": "Ani bangun tidur di …. hari.",
-      "images": [],
+      "images": [
+        "/soal/s2-penyisihan-matematika-tk-b/q17-stem.webp"
+      ],
       "options": [
         {
           "key": "a",
@@ -481,9 +483,7 @@
         {
           "key": "c",
           "text": "Pagi",
-          "images": [
-            "/soal/s2-penyisihan-matematika-tk-b/q17-c.webp"
-          ]
+          "images": []
         }
       ],
       "answer": "c",

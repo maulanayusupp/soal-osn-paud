@@ -107,7 +107,9 @@
       "id": "s2-penyisihan-bahasa-inggris-tk-b-q04",
       "n": 4,
       "prompt": "Count the banana below!",
-      "images": [],
+      "images": [
+        "/soal/s2-penyisihan-bahasa-inggris-tk-b/q04-stem.webp"
+      ],
       "options": [
         {
           "key": "a",
@@ -122,9 +124,7 @@
         {
           "key": "c",
           "text": "10",
-          "images": [
-            "/soal/s2-penyisihan-bahasa-inggris-tk-b/q04-c.webp"
-          ]
+          "images": []
         }
       ],
       "answer": "a",
@@ -242,7 +242,9 @@
       "id": "s2-penyisihan-bahasa-inggris-tk-b-q09",
       "n": 9,
       "prompt": "What drink is this?",
-      "images": [],
+      "images": [
+        "/soal/s2-penyisihan-bahasa-inggris-tk-b/q09-stem.webp"
+      ],
       "options": [
         {
           "key": "a",
@@ -257,9 +259,7 @@
         {
           "key": "c",
           "text": "Water",
-          "images": [
-            "/soal/s2-penyisihan-bahasa-inggris-tk-b/q09-c.webp"
-          ]
+          "images": []
         }
       ],
       "answer": "c",

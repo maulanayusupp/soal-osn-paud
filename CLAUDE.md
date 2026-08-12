@@ -59,8 +59,8 @@ pnpm typecheck      # vue-tsc type check
 
 pnpm soal:scan <source-root>    # re-index the source papers on disk
 pnpm soal:import                # rebuild content/generated + public/soal from them
-pnpm soal:check                 # audit + both key verifiers — run after any
-                                #   pipeline change (see §Verifying the bank)
+pnpm soal:check                 # audit + keys + pictures + completeness — run
+                                #   after any pipeline change (§Verifying the bank)
 pnpm soal:recover               # recover missed keys from the .docx (--write)
 pnpm soal:review --unreached    # review sheets for whatever the checks missed
 pnpm soal:proof <paper-id>      # visual proof sheet for one paper
@@ -141,6 +141,8 @@ printed page does.** Everything is therefore read off the rendered page.
 | Structure | A "N." at the left margin starts a question; an indented "a."/"b."/"c." starts an option. The option column is found *relative* to the question column, because some papers indent one question's options twice as far as the last one's. |
 | Side-by-side options | Options printed on one line ("a. ▢  b. ▢  c. ▢") arrive as a single merged text run. Splitting them by character offset does **not** work — poppler collapses the wide printed gaps, so the estimated columns sit far left and option a's picture is handed to option b. The pictures are the ruler instead: sort the row's pictures by x and cut at the widest gaps. The same measurement then tells the key reader where each letter really is (`markerHint`). |
 | Picture ownership | A picture belongs to the band its **centre** lands in, with a 20-unit look-ahead for pictures centred on the marker's own line. Matching on "which marker does the box cover" fails: the source PNGs carry wide transparent margins, so a box reaches well past the visible artwork. |
+| Figures beside the options | Many questions print the illustration to the LEFT of their options — a shape beside "a. b. c.", a boy beside a stacked a/b/c — and it lands on an option, offering the question itself as an answer. A picture whose right edge clears the option column entirely cannot be an option's, because artwork always reaches past its own letter; those go to the stem. **On a side-by-side row this also corrupted the key**: the row is cut into as many runs as there are options, so a fourth picture shifted every option one place left, and `markerHint` shifted with them, so the key reader sampled the *next* letter's swatch. Both key checks derive from those hints, so they agreed with each other and saw nothing. |
+| Stem pictures reclaimed | A picture reaching past the next question's number may be that question's stem, printed above its own number with a deep transparent margin. Reclaimed only when it **fills at least half** the next question's stem region (its number to its first option). Overshoot alone cannot decide it — margin scales with the picture — but coverage separates the two cleanly: a real next-question stem covers 85–99% of that gap, a box that merely drifts in covers ~10%. Its crop is then floored at its own question number, since the overlap clip refuses to cut a box this deep. |
 | Answer key | The authors highlighted the correct option — magenta almost everywhere, yellow on a few questions. It is read from the pixels, in a narrow strip at the option marker (the artwork starts ~25 units further right, so nothing coloured in a picture can be mistaken for a key). |
 | Key erasure | The highlight is painted white **before** the pictures are cut, so it can never leak into what the child sees. |
 | Season 4 finals | The shipped PDF is the clean student copy with no key at all. The key is read from a second render of the `.docx`, then merged by question number. |
@@ -151,7 +153,7 @@ printed page does.** Everything is therefore read off the rendered page.
 | Drafting noise | Options carry leftover keyboard-mash. The test is **no vowels at all**, never a low ratio — a quarter-vowel threshold deletes "Strawberry", "Black" and "Twenty". It only runs where the option also has a picture, so it cannot empty one. A picture-less option that is nothing but a short vowel-free scrap ("ff") makes the question incomplete instead, so it is held back rather than served with a stray for an answer. |
 | Held-back questions | A question whose key or options could not be read in full is written to the JSON with `status: "needs-review"` and **never served**. A half-read question is worse for a five-year-old than a missing one. |
 
-**Current state: 1,136 of 1,200 questions across all 60 papers are served.** The
+**Current state: 1,142 of 1,200 questions across all 60 papers are served.** The
 remainder are questions the original paper left unmarked — spot-checked against
 the printed pages, not assumed. Re-running `pnpm soal:import` is safe and
 idempotent; `content/overrides/<id>.json` lets a human correction win over the
@@ -159,29 +161,48 @@ extractor.
 
 ### Verifying the bank
 
-Three checks, each reaching something the others cannot. `pnpm soal:check` runs
-all three; run it after touching the pipeline.
+Four checks, each reaching something the others cannot. `pnpm soal:check` runs
+all four; run it after touching the pipeline.
 
 | Script | Asks |
 | ------ | ---- |
 | `audit-papers` | Does the data agree with the sources? Coverage from `pdftotext`, keys from the **Word XML**, plus integrity and asset checks. |
 | `verify-keys` | Independent second opinion on every key: finds the highlight **blobs** and reports which marker each sits on, rather than sampling a strip beside each marker. Reaches the picture options the Word XML cannot. |
 | `verify-pictures` | Is the artwork under letter "b" the artwork printed beside b? Both key checks assume the option assignment is right; this is the only one that tests it. |
+| `verify-completeness` | Did every picture printed on the page actually arrive? The only check that starts at the **source** rather than at the extraction, which is why it caught what the other three could not. |
 
 The first two share `scripts/lib/docx-key.mjs`; nothing re-implements it.
+
+**Every check above starts from the extraction except the last.** Three of them
+asked "is what we pulled out right?", and none asked "is any of it missing?" — so
+a question that lost its picture, or had its options shifted along by one, looked
+consistent to all three. That was the gap, and `verify-completeness` closes it by
+counting from the page inwards.
 
 Whatever the checks cannot confirm goes to `pnpm soal:review`, which lays the
 questions out with their options and the key that was read. `soal:recover` goes
 the other way: for a question the pixel reader could not resolve, it looks the
 key up in the Word XML and writes an override.
 
-Two false-alarm modes cost real time and are worth not rediscovering:
+False-alarm modes that cost real time and are worth not rediscovering. A check
+that cries wolf is how the real defect gets missed, so each of these was fixed in
+the check rather than tolerated:
 
-- **Anchor a highlight blob on its top edge, not its centre.** Word draws the
-  swatch over the whole line box, so the centre sits half a line low — half the
-  line spacing — making "nearest marker" a coin flip. 40 phantom disagreements.
-- **Side-by-side options share one top**, so y cannot separate them; they must be
-  told apart by x.
+- **Match a highlight blob to a marker by how much of its LINE BOX it covers**,
+  not by its top edge and never by its centre. The centre sits half a line low,
+  which is half the line spacing — "nearest marker" is then a coin flip, and it
+  produced 40 phantom disagreements. The top edge is better but still wrong when
+  a picture's box overlaps the option lines beneath it: the artwork-protection
+  mask then blanks the top of a real swatch and slides it onto the next option.
+- **Side-by-side options share one line box**, so y cannot separate them; they
+  must be told apart by x.
+- **Do not ask which question a picture's BOX sits in.** The boxes carry deep
+  transparent margins and overlap each other — one question's crop can contain,
+  pixel for pixel, the artwork of the question before it — so neither the box's
+  centre, nor its bulk, nor even its ink bounds settle it. Two attempts at that
+  test flagged 85 and then 35 correctly-placed questions. `verify-pictures`
+  reports the pictures the importer *moved* instead, which is a claim it can
+  stand behind.
 
 ## Styling (SCSS, no inline CSS — hard rule)
 

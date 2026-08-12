@@ -19,10 +19,8 @@
   "answerSource": "docx",
   "verified": false,
   "questionCount": 20,
-  "playableCount": 19,
-  "warnings": [
-    "Q19: option c is empty"
-  ],
+  "playableCount": 20,
+  "warnings": [],
   "questions": [
     {
       "id": "s4-penyisihan-bahasa-inggris-paud-q01",
@@ -364,7 +362,9 @@
       "id": "s4-penyisihan-bahasa-inggris-paud-q13",
       "n": 13,
       "prompt": "The fruit in the picture is ….",
-      "images": [],
+      "images": [
+        "/soal/s4-penyisihan-bahasa-inggris-paud/q13-stem.webp"
+      ],
       "options": [
         {
           "key": "a",
@@ -379,9 +379,7 @@
         {
           "key": "c",
           "text": "Mango",
-          "images": [
-            "/soal/s4-penyisihan-bahasa-inggris-paud/q13-c.webp"
-          ]
+          "images": []
         }
       ],
       "answer": "c",
@@ -553,11 +551,13 @@
         {
           "key": "c",
           "text": null,
-          "images": []
+          "images": [
+            "/soal/s4-penyisihan-bahasa-inggris-paud/q19-c.webp"
+          ]
         }
       ],
       "answer": "b",
-      "status": "needs-review"
+      "status": "ok"
     },
     {
       "id": "s4-penyisihan-bahasa-inggris-paud-q20",
@@ -580,9 +580,7 @@
         {
           "key": "c",
           "text": "Bottle",
-          "images": [
-            "/soal/s4-penyisihan-bahasa-inggris-paud/q20-c.webp"
-          ]
+          "images": []
         }
       ],
       "answer": "a",

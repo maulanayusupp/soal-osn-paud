@@ -369,14 +369,15 @@
       "id": "s4-penyisihan-matematika-paud-q13",
       "n": 13,
       "prompt": "Berapa hasil pengurangan berikut?",
-      "images": [],
+      "images": [
+        "/soal/s4-penyisihan-matematika-paud/q13-stem.webp"
+      ],
       "options": [
         {
           "key": "a",
           "text": null,
           "images": [
-            "/soal/s4-penyisihan-matematika-paud/q13-a.webp",
-            "/soal/s4-penyisihan-matematika-paud/q13-a-2.webp"
+            "/soal/s4-penyisihan-matematika-paud/q13-a.webp"
           ]
         },
         {
@@ -401,7 +402,9 @@
       "id": "s4-penyisihan-matematika-paud-q14",
       "n": 14,
       "prompt": "Hasil pengurangan berikut adalah ….",
-      "images": [],
+      "images": [
+        "/soal/s4-penyisihan-matematika-paud/q14-stem.webp"
+      ],
       "options": [
         {
           "key": "a",

@@ -109,7 +109,9 @@
       "id": "s2-penyisihan-sains-tk-b-q04",
       "n": 4,
       "prompt": "Bagian tubuh yang digunakan untuk mengunyah makanan adalah …",
-      "images": [],
+      "images": [
+        "/soal/s2-penyisihan-sains-tk-b/q04-stem.webp"
+      ],
       "options": [
         {
           "key": "a",
@@ -124,9 +126,7 @@
         {
           "key": "c",
           "text": "Telinga",
-          "images": [
-            "/soal/s2-penyisihan-sains-tk-b/q04-c.webp"
-          ]
+          "images": []
         }
       ],
       "answer": "a",

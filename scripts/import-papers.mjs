@@ -66,10 +66,16 @@ function readMasthead(pages, firstQuestion) {
  * so the raw union often reaches down over the next line of prose. `page` lets
  * us stop the crop just above the first line of type the picture swallowed —
  * without it, half a sentence gets baked into the illustration.
+ *
+ * `floor` is a hard upper boundary from the caller. Only a reclaimed stem
+ * picture carries one, and it is that question's own number: such a box reaches
+ * up over the PREVIOUS question, deeply enough that the overlap clip below
+ * refuses to cut it — it protects an illustration from being gutted, and here
+ * the real artwork genuinely is only the bottom of the box.
  */
-function cropBox(images, page, markerNodes, others = []) {
+function cropBox(images, page, markerNodes, others = [], floor = -Infinity) {
   const left = Math.min(...images.map((i) => i.left)) - CROP_PADDING
-  let top = Math.min(...images.map((i) => i.top)) - CROP_PADDING
+  let top = Math.max(floor, Math.min(...images.map((i) => i.top)) - CROP_PADDING)
   const right = Math.max(...images.map((i) => i.left + i.width)) + CROP_PADDING
   let bottom = Math.max(...images.map((i) => i.top + i.height)) + CROP_PADDING
 
@@ -297,7 +303,7 @@ async function importPaper(source, overrides) {
         const others = pages[group.pageIndex].images.filter((image) => !mine.has(image))
         const written = await writeCrop(
           raster,
-          cropBox(group.images, pages[group.pageIndex], markerNodes, others),
+          cropBox(group.images, pages[group.pageIndex], markerNodes, others, band.clipTop),
           join(imageDir, name),
         )
         if (written) parts.push({ src: `/soal/${source.id}/${name}`, ...written })

@@ -5,16 +5,23 @@ must also update `CLAUDE.md`, the compliance pages, and both locales.
 
 ## Content quality
 
-- [ ] **Review the 64 held-back questions.** They sit in
+- [ ] **Review the 58 held-back questions.** They sit in
       `content/generated/papers/*.json` with `status: "needs-review"`. Spot-checking
       says most are questions the original paper simply never marked. Everything
       recoverable from the .docx has already been recovered by
       `pnpm soal:recover --write`; what remains needs a human to read
       the printed page and add `content/overrides/<id>.json` by hand.
-- [x] **Verify every served answer key.** Done: 871 agree with the Word XML,
-      1,074 with independent blob analysis, and the 14 confirmed by neither were
-      read against the printed page. No wrong key was found anywhere.
+- [x] **Verify every served answer key.** 871 agree with the Word XML, 1,078 with
+      independent blob analysis, and the rest were read against the printed page.
+      Two keys were wrong and are fixed — `s2-final-matematika-tk-a` Q13 and
+      `s3-penyisihan-matematika-tk-b` Q7, both questions that printed their
+      figure on the option row, which shifted the options and the key together.
       `pnpm soal:check` re-runs all of it.
+- [x] **Check that every printed picture arrived.** `verify-completeness` counts
+      from the page inwards, which is what found the shifted-option bug the three
+      extraction-side checks all agreed on. 50 questions were showing the
+      question's own illustration as an answer; 6 more were held back for an
+      empty option that had been taken from them.
 - [ ] Mark reviewed papers `"verified": true` in their override file, so a future
       re-import can tell checked papers from unchecked ones.
 - [ ] A handful of options still carry drafting noise ("ascxd", "Dcsa", "Sdefv")

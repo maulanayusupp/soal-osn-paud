@@ -335,7 +335,9 @@
       "id": "s3-penyisihan-bahasa-inggris-tk-a-q12",
       "n": 12,
       "prompt": "What is the English word for ‘kakek’?",
-      "images": [],
+      "images": [
+        "/soal/s3-penyisihan-bahasa-inggris-tk-a/q12-stem.webp"
+      ],
       "options": [
         {
           "key": "a",
@@ -350,9 +352,7 @@
         {
           "key": "c",
           "text": "Mother",
-          "images": [
-            "/soal/s3-penyisihan-bahasa-inggris-tk-a/q12-c.webp"
-          ]
+          "images": []
         }
       ],
       "answer": "b",

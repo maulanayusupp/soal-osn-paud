@@ -66,9 +66,7 @@
         {
           "key": "b",
           "text": "26",
-          "images": [
-            "/soal/s3-final-bahasa-inggris-tk-b/q02-b.webp"
-          ]
+          "images": []
         },
         {
           "key": "c",
@@ -83,7 +81,9 @@
       "id": "s3-final-bahasa-inggris-tk-b-q03",
       "n": 3,
       "prompt": "Which number is missing?",
-      "images": [],
+      "images": [
+        "/soal/s3-final-bahasa-inggris-tk-b/q03-stem.webp"
+      ],
       "options": [
         {
           "key": "a",
@@ -264,7 +264,9 @@
       "id": "s3-final-bahasa-inggris-tk-b-q10",
       "n": 10,
       "prompt": "The picture below is a …",
-      "images": [],
+      "images": [
+        "/soal/s3-final-bahasa-inggris-tk-b/q10-stem.webp"
+      ],
       "options": [
         {
           "key": "a",
@@ -274,9 +276,7 @@
         {
           "key": "b",
           "text": "Submarine",
-          "images": [
-            "/soal/s3-final-bahasa-inggris-tk-b/q10-b.webp"
-          ]
+          "images": []
         },
         {
           "key": "c",

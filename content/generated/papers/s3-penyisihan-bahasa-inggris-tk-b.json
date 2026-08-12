@@ -84,7 +84,9 @@
       "id": "s3-penyisihan-bahasa-inggris-tk-b-q03",
       "n": 3,
       "prompt": "How many stars are these?",
-      "images": [],
+      "images": [
+        "/soal/s3-penyisihan-bahasa-inggris-tk-b/q03-stem.webp"
+      ],
       "options": [
         {
           "key": "a",
@@ -99,9 +101,7 @@
         {
           "key": "c",
           "text": "13",
-          "images": [
-            "/soal/s3-penyisihan-bahasa-inggris-tk-b/q03-c.webp"
-          ]
+          "images": []
         }
       ],
       "answer": "a",
@@ -528,7 +528,9 @@
       "id": "s3-penyisihan-bahasa-inggris-tk-b-q19",
       "n": 19,
       "prompt": "In the morning we say …",
-      "images": [],
+      "images": [
+        "/soal/s3-penyisihan-bahasa-inggris-tk-b/q19-stem.webp"
+      ],
       "options": [
         {
           "key": "a",
@@ -538,9 +540,7 @@
         {
           "key": "b",
           "text": "Good night",
-          "images": [
-            "/soal/s3-penyisihan-bahasa-inggris-tk-b/q19-b.webp"
-          ]
+          "images": []
         },
         {
           "key": "c",

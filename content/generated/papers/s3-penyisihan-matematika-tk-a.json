@@ -331,7 +331,9 @@
       "id": "s3-penyisihan-matematika-tk-a-q12",
       "n": 12,
       "prompt": "Hitunglah hasil pengurangan berikut!",
-      "images": [],
+      "images": [
+        "/soal/s3-penyisihan-matematika-tk-a/q12-stem.webp"
+      ],
       "options": [
         {
           "key": "a",
@@ -346,9 +348,7 @@
         {
           "key": "c",
           "text": "3",
-          "images": [
-            "/soal/s3-penyisihan-matematika-tk-a/q12-c.webp"
-          ]
+          "images": []
         }
       ],
       "answer": "b",
@@ -443,7 +443,9 @@
       "id": "s3-penyisihan-matematika-tk-a-q16",
       "n": 16,
       "prompt": "Berapa jumlah permen yang memiliki bentuk lingkaran?",
-      "images": [],
+      "images": [
+        "/soal/s3-penyisihan-matematika-tk-a/q16-stem.webp"
+      ],
       "options": [
         {
           "key": "a",
@@ -458,9 +460,7 @@
         {
           "key": "c",
           "text": "6",
-          "images": [
-            "/soal/s3-penyisihan-matematika-tk-a/q16-c.webp"
-          ]
+          "images": []
         }
       ],
       "answer": "b",

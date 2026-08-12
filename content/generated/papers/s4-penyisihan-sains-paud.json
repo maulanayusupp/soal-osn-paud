@@ -19,10 +19,8 @@
   "answerSource": "docx",
   "verified": false,
   "questionCount": 20,
-  "playableCount": 19,
-  "warnings": [
-    "Q12: option c is empty"
-  ],
+  "playableCount": 20,
+  "warnings": [],
   "questions": [
     {
       "id": "s4-penyisihan-sains-paud-q01",
@@ -356,19 +354,19 @@
         {
           "key": "c",
           "text": null,
-          "images": []
+          "images": [
+            "/soal/s4-penyisihan-sains-paud/q12-c.webp"
+          ]
         }
       ],
       "answer": "b",
-      "status": "needs-review"
+      "status": "ok"
     },
     {
       "id": "s4-penyisihan-sains-paud-q13",
       "n": 13,
       "prompt": "Manakah gambar yang menunjukkan singa?",
-      "images": [
-        "/soal/s4-penyisihan-sains-paud/q13-stem.webp"
-      ],
+      "images": [],
       "options": [
         {
           "key": "a",
@@ -457,7 +455,9 @@
       "id": "s4-penyisihan-sains-paud-q16",
       "n": 16,
       "prompt": "Apa nama hewan pada gambar berikut?",
-      "images": [],
+      "images": [
+        "/soal/s4-penyisihan-sains-paud/q16-stem.webp"
+      ],
       "options": [
         {
           "key": "a",
@@ -472,9 +472,7 @@
         {
           "key": "c",
           "text": "Bunglon",
-          "images": [
-            "/soal/s4-penyisihan-sains-paud/q16-c.webp"
-          ]
+          "images": []
         }
       ],
       "answer": "b",
@@ -542,7 +540,9 @@
       "id": "s4-penyisihan-sains-paud-q19",
       "n": 19,
       "prompt": "Gambar berikut menunjukkan ….",
-      "images": [],
+      "images": [
+        "/soal/s4-penyisihan-sains-paud/q19-stem.webp"
+      ],
       "options": [
         {
           "key": "a",
@@ -557,9 +557,7 @@
         {
           "key": "c",
           "text": "Pohon",
-          "images": [
-            "/soal/s4-penyisihan-sains-paud/q19-c.webp"
-          ]
+          "images": []
         }
       ],
       "answer": "a",

@@ -395,7 +395,9 @@
       "id": "s2-final-sains-tk-a-q15",
       "n": 15,
       "prompt": "Ketika hujan reda dan matahari muncul, kita bisa melihat ….",
-      "images": [],
+      "images": [
+        "/soal/s2-final-sains-tk-a/q15-stem.webp"
+      ],
       "options": [
         {
           "key": "a",
@@ -410,9 +412,7 @@
         {
           "key": "c",
           "text": "Badai",
-          "images": [
-            "/soal/s2-final-sains-tk-a/q15-c.webp"
-          ]
+          "images": []
         }
       ],
       "answer": "b",

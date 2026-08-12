@@ -538,7 +538,9 @@
       "id": "s2-penyisihan-matematika-paud-q19",
       "n": 19,
       "prompt": "Selesaikan pengurangan berikut!",
-      "images": [],
+      "images": [
+        "/soal/s2-penyisihan-matematika-paud/q19-stem.webp"
+      ],
       "options": [
         {
           "key": "a",
@@ -553,9 +555,7 @@
         {
           "key": "c",
           "text": "3",
-          "images": [
-            "/soal/s2-penyisihan-matematika-paud/q19-c.webp"
-          ]
+          "images": []
         }
       ],
       "answer": "c",

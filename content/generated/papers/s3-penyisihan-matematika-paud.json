@@ -177,8 +177,7 @@
           "key": "a",
           "text": null,
           "images": [
-            "/soal/s3-penyisihan-matematika-paud/q06-a.webp",
-            "/soal/s3-penyisihan-matematika-paud/q06-a-2.webp"
+            "/soal/s3-penyisihan-matematika-paud/q06-a.webp"
           ]
         },
         {
@@ -203,7 +202,9 @@
       "id": "s3-penyisihan-matematika-paud-q07",
       "n": 7,
       "prompt": "Hitung hasil penjumlahan di bawah ini!",
-      "images": [],
+      "images": [
+        "/soal/s3-penyisihan-matematika-paud/q07-stem.webp"
+      ],
       "options": [
         {
           "key": "a",

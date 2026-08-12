@@ -64,27 +64,30 @@ for (const source of papers) {
     const stem = question.bands.find((band) => band.role === 'stem')
     const optionBands = question.bands.filter((band) => band.role === 'option')
 
-    if (stem) {
-      const firstOption = optionBands[0]
-      for (const group of stem.imageGroups ?? []) {
-        for (const image of group.images) {
-          checked += 1
-          const centre = image.top + image.height / 2
-          const from = question.start.top - LEAD
-          const sameStartPage = group.pageIndex === question.start.page
-          const sameOptionPage = firstOption && firstOption.marker.page === group.pageIndex
-          const to = sameOptionPage ? firstOption.marker.top : Infinity
-          const belowStart = !sameStartPage || centre >= from
-          if (!belowStart || centre >= to) {
-            suspects.push({
-              id: source.id,
-              n: question.n,
-              key: 'stem',
-              why: `centre ${Math.round(centre)} outside [${Math.round(from)}, ${Number.isFinite(to) ? Math.round(to) : '∞'})`,
-            })
-          }
-        }
-      }
+    // Stem pictures the importer moved between questions.
+    //
+    // There is no geometric test that settles these. Which question a picture
+    // belongs to cannot be read off its box, because the boxes carry deep
+    // transparent margins and routinely overlap each other — the crop for the
+    // watering cans of one question contains, pixel for pixel, the road diagram
+    // of the one before it. Ink bounds do not separate them either, for the same
+    // reason. Asking whether the box's centre, or the bulk of the box, lands in
+    // the right span flagged 85 and then 35 questions whose artwork was in fact
+    // correctly placed — a check that cries wolf is how the real one gets
+    // missed.
+    //
+    // So this reports what it can stand behind: the pictures the importer moved
+    // out of the band they were printed in. Those are the ones whose placement
+    // rests on a rule rather than on the plain reading of the page, which makes
+    // them exactly the set worth a human's eyes.
+    if (stem?.clipTop != null) {
+      checked += (stem.imageGroups ?? []).reduce((sum, g) => sum + g.images.length, 0)
+      suspects.push({
+        id: source.id,
+        n: question.n,
+        key: 'stem',
+        why: 'reclaimed from the question above — placement rests on a rule',
+      })
     }
 
     for (const [index, band] of optionBands.entries()) {

@@ -132,7 +132,9 @@
       "id": "s4-final-sains-paud-q05",
       "n": 5,
       "prompt": "Ibu menuang air dari teko yang baru dipanaskan. Benda mana yang sebaiknya tidak langsung dipegang?",
-      "images": [],
+      "images": [
+        "/soal/s4-final-sains-paud/q05-stem.webp"
+      ],
       "options": [
         {
           "key": "a",
@@ -147,9 +149,7 @@
         {
           "key": "c",
           "text": "Nampan",
-          "images": [
-            "/soal/s4-final-sains-paud/q05-c.webp"
-          ]
+          "images": []
         }
       ],
       "answer": "a",

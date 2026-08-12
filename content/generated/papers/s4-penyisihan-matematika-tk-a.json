@@ -455,7 +455,9 @@
       "id": "s4-penyisihan-matematika-tk-a-q16",
       "n": 16,
       "prompt": "Kelompok yang memiliki bentuk sama adalah ….",
-      "images": [],
+      "images": [
+        "/soal/s4-penyisihan-matematika-tk-a/q16-stem.webp"
+      ],
       "options": [
         {
           "key": "a",
@@ -480,9 +482,7 @@
       "id": "s4-penyisihan-matematika-tk-a-q17",
       "n": 17,
       "prompt": "Manakah pensil yang ukurannya sama?",
-      "images": [
-        "/soal/s4-penyisihan-matematika-tk-a/q17-stem.webp"
-      ],
+      "images": [],
       "options": [
         {
           "key": "a",

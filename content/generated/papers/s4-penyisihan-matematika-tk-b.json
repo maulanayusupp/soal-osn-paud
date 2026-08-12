@@ -19,10 +19,9 @@
   "answerSource": "docx",
   "verified": false,
   "questionCount": 20,
-  "playableCount": 17,
+  "playableCount": 18,
   "warnings": [
-    "Q4: no answer highlight found",
-    "Q5: option c is empty"
+    "Q4: no answer highlight found"
   ],
   "questions": [
     {
@@ -158,11 +157,13 @@
         {
           "key": "c",
           "text": null,
-          "images": []
+          "images": [
+            "/soal/s4-penyisihan-matematika-tk-b/q05-c.webp"
+          ]
         }
       ],
       "answer": "b",
-      "status": "needs-review"
+      "status": "ok"
     },
     {
       "id": "s4-penyisihan-matematika-tk-b-q06",
@@ -222,7 +223,9 @@
       "id": "s4-penyisihan-matematika-tk-b-q08",
       "n": 8,
       "prompt": "Hasil pengurangan berikut adalah ….",
-      "images": [],
+      "images": [
+        "/soal/s4-penyisihan-matematika-tk-b/q08-stem.webp"
+      ],
       "options": [
         {
           "key": "a",
@@ -237,9 +240,7 @@
         {
           "key": "c",
           "text": "15",
-          "images": [
-            "/soal/s4-penyisihan-matematika-tk-b/q08-c.webp"
-          ]
+          "images": []
         }
       ],
       "answer": "b",
@@ -412,7 +413,9 @@
       "id": "s4-penyisihan-matematika-tk-b-q15",
       "n": 15,
       "prompt": "Hewan yang paling tinggi pada gambar berikut adalah ….",
-      "images": [],
+      "images": [
+        "/soal/s4-penyisihan-matematika-tk-b/q15-stem.webp"
+      ],
       "options": [
         {
           "key": "a",
@@ -427,9 +430,7 @@
         {
           "key": "c",
           "text": "Tupai",
-          "images": [
-            "/soal/s4-penyisihan-matematika-tk-b/q15-c.webp"
-          ]
+          "images": []
         }
       ],
       "answer": "b",
@@ -466,7 +467,9 @@
       "id": "s4-penyisihan-matematika-tk-b-q17",
       "n": 17,
       "prompt": "Buah yang ukurannya paling besar adalah ….",
-      "images": [],
+      "images": [
+        "/soal/s4-penyisihan-matematika-tk-b/q17-stem.webp"
+      ],
       "options": [
         {
           "key": "a",
@@ -481,9 +484,7 @@
         {
           "key": "c",
           "text": "Ceri, mangga, dan semangka",
-          "images": [
-            "/soal/s4-penyisihan-matematika-tk-b/q17-c.webp"
-          ]
+          "images": []
         }
       ],
       "answer": "a",

@@ -449,6 +449,7 @@ export function assignImages(pages, questions) {
     }
   })
 
+  claimStemFigures(questions)
   splitSideBySideRows(questions)
   reclaimNextStemPictures(questions)
 }
@@ -456,49 +457,92 @@ export function assignImages(pages, questions) {
 /**
  * Give back a picture that is really the NEXT question's stem.
  *
- * A question's last option band runs all the way down to the next question's
- * number, and these pictures carry deep transparent margins — so a stem picture
- * printed above its own "5." can have its centre land 30-odd units earlier,
- * inside question 4's option c. The look-ahead that catches this for pictures
- * sitting *on* a marker line is far too small for one this tall.
+ * A question's bands run all the way down to the next question's number, and
+ * these pictures carry deep transparent margins — so a stem picture printed
+ * above its own "5." can have its centre land 30-odd units earlier, inside
+ * question 4. The look-ahead that catches this for pictures sitting *on* a
+ * marker line is far too small for one this tall.
  *
  * The tell is that the picture reaches *past* the next question's number: no
- * option's artwork does that. Only claimed when the next question has no stem
- * picture of its own, so nothing is ever stolen from a question that already
- * has one.
+ * artwork of this question's does that, whichever band it landed in. Only
+ * claimed when the next question has no stem picture of its own, so nothing is
+ * ever stolen from a question that already has one.
+ *
+ * Every band is checked, not just the last option. A question whose options are
+ * printed *below* its illustration puts the next question's stem picture into
+ * this question's STEM band instead — and there it was left, merged into the
+ * same crop as the real illustration, so the child saw two questions' artwork
+ * stacked in one picture while the next question showed none at all.
  */
 function reclaimNextStemPictures(questions) {
   questions.forEach((question, index) => {
     const next = questions[index + 1]
     if (!next) return
 
-    const options = question.bands.filter((band) => band.role === 'option')
-    const last = options[options.length - 1]
     const nextStem = next.bands.find((band) => band.role === 'stem')
-    if (!last || !nextStem) return
-    if (nextStem.imageGroups?.length) return
+    if (!nextStem || nextStem.imageGroups?.length) return
 
-    for (const group of last.imageGroups ?? []) {
-      if (group.pageIndex !== next.start.page) continue
-      const moving = group.images.filter(
-        (image) => image.top + image.height > next.start.top && image.top < next.start.top,
-      )
-      if (!moving.length) continue
+    for (const band of question.bands) {
+      for (const group of band.imageGroups ?? []) {
+        if (group.pageIndex !== next.start.page) continue
+        const moving = group.images.filter(
+          (image) =>
+            image.top + image.height > next.start.top &&
+            image.top < next.start.top &&
+            fillsNextStemRegion(image, next),
+        )
+        if (!moving.length) continue
 
-      group.images = group.images.filter((image) => !moving.includes(image))
-      nextStem.imageGroups ??= []
-      let target = nextStem.imageGroups.find((g) => g.pageIndex === group.pageIndex)
-      if (!target) {
-        target = { pageIndex: group.pageIndex, images: [] }
-        nextStem.imageGroups.push(target)
+        group.images = group.images.filter((image) => !moving.includes(image))
+        nextStem.imageGroups ??= []
+        let target = nextStem.imageGroups.find((g) => g.pageIndex === group.pageIndex)
+        if (!target) {
+          target = { pageIndex: group.pageIndex, images: [] }
+          nextStem.imageGroups.push(target)
+        }
+        target.images.push(...moving)
+        // The box reaches up over the previous question, so its crop would carry
+        // that question's artwork above its own. The overlap clip cannot help:
+        // it refuses to cut when too little of the box would survive, and here
+        // the real artwork IS only the bottom of it. This picture's own question
+        // number is the honest floor — a stem illustration is printed below its
+        // number, never above.
+        nextStem.clipTop = next.start.top
       }
-      target.images.push(...moving)
-    }
 
-    if (last.imageGroups) {
-      last.imageGroups = last.imageGroups.filter((group) => group.images.length)
+      if (band.imageGroups) {
+        band.imageGroups = band.imageGroups.filter((group) => group.images.length)
+      }
     }
   })
+}
+
+/**
+ * Does this picture actually FILL the space where the next question prints its
+ * illustration — between its number and its first option?
+ *
+ * "Reaches past the next question's number" is the right idea but far too eager
+ * on its own: these boxes carry deep transparent margins, so the last option's
+ * artwork routinely clears the number below it by a few units while belonging
+ * squarely to the question above. Season 4 Sains PAUD question 12 lost its kiwi
+ * that way — the box cleared question 13's number by 13 of its 176 units — and
+ * the question was held back from the app for having an empty option c.
+ *
+ * Overshoot alone cannot separate the two, because the amount of margin scales
+ * with the picture. Coverage can, and by a wide margin: measured across the
+ * papers, a picture that really is the next question's stem covers 85–99% of
+ * that gap, while one that merely drifts into it covers around 10%.
+ */
+function fillsNextStemRegion(image, next) {
+  const firstOption = next.bands.find((band) => band.role === 'option')
+  const regionTop = next.start.top
+  const regionBottom = firstOption?.from.page === next.start.page ? firstOption.from.top : null
+  // Nothing to measure against — a question whose options are on the next page.
+  // Fall back to the plain overshoot test rather than guessing at a span.
+  if (regionBottom === null || regionBottom <= regionTop) return true
+
+  const overlap = Math.min(image.top + image.height, regionBottom) - Math.max(image.top, regionTop)
+  return overlap / (regionBottom - regionTop) >= 0.5
 }
 
 /**
@@ -519,8 +563,6 @@ function splitSideBySideRows(questions) {
   const done = new Set()
 
   for (const question of questions) {
-    const stem = question.bands.find((band) => band.role === 'stem')
-
     for (const band of question.bands) {
       const row = band.siblings
       if (!row || row.length < 2 || done.has(row)) continue
@@ -529,13 +571,9 @@ function splitSideBySideRows(questions) {
       const pooled = row.flatMap((sibling) => sibling.imageGroups ?? [])
       for (const sibling of row) sibling.imageGroups = []
 
-      const images = claimStemFigures(
-        pooled
-          .flatMap((group) => group.images.map((image) => ({ image, pageIndex: group.pageIndex })))
-          .sort((a, b) => a.image.left - b.image.left),
-        row,
-        stem,
-      )
+      const images = pooled
+        .flatMap((group) => group.images.map((image) => ({ image, pageIndex: group.pageIndex })))
+        .sort((a, b) => a.image.left - b.image.left)
       if (!images.length) continue
 
       // Cut at the row's widest gaps until there are as many runs as options.
@@ -572,51 +610,71 @@ function splitSideBySideRows(questions) {
 }
 
 /**
- * Take the question's own figure back out of a side-by-side option row.
+ * Take the question's own figure back off an option that cannot own it.
  *
- * Some questions print the figure to reason about on the same line as the
- * options — "break this shape down into its parts", with the shape sitting to
- * the left of a, b, c. The row then pools four pictures for three options, and
- * cutting it into three runs hands the figure to option a and shifts every
- * option one place left. The child sees the question's own figure offered as an
- * answer, and the real last option disappears into its neighbour.
+ * Some questions print the figure to reason about beside their options rather
+ * than above them — "break this shape down into its parts" with the shape to the
+ * left of a, b, c; "what is Liam writing with?" with the boy to the left of a
+ * stacked a/b/c. Either way the figure lands on an option, and the child is
+ * offered the question itself as an answer.
  *
- * The key goes with it. `markerHint` is derived from these same pictures, so it
- * shifts too, and the reader samples the swatch beside the *next* letter — the
- * stored answer comes out one letter late. Both key checks inherit the shifted
- * hints, agree with each other, and report nothing: this is the blind spot they
- * shared. `verify-completeness.mjs` finds it from the other end, by noticing the
- * question stores fewer pictures than the page prints.
+ * On a side-by-side row it also corrupts the key. The row is cut into as many
+ * runs as there are options, so a fourth picture shifts every option one place
+ * left, and `markerHint` — measured from these same pictures — shifts with them.
+ * The key reader then samples the swatch beside the NEXT letter and stores the
+ * answer one letter late. Both key checks derive from those hints, so they agree
+ * with each other and report nothing: the blind spot they shared.
+ * `verify-completeness.mjs` catches it from the other end, by starting at the
+ * page and asking whether every printed picture arrived.
  *
- * The boundary is measurable. A row's first option prints its letter as its own
- * text run, so that x is a real measurement — only the *merged* runs behind it
- * have untrustworthy character offsets. A picture whose right edge clears that
- * column entirely cannot be an option's: artwork always reaches well past its
- * own letter, so requiring the whole box to sit left of it takes nothing real.
+ * The boundary is measurable. An option prints its letter as a text run, and
+ * artwork always reaches well past its own letter — so a picture whose right
+ * edge clears the letter entirely cannot belong to it. Inline markers are
+ * excluded: their x is a character-offset guess, which is what made the columns
+ * wrong in the first place.
  *
- * Returns the row's remaining pictures; the strays are pushed onto `stem`.
+ * Runs before the row splitter, so the row it splits holds only real options.
  */
-function claimStemFigures(images, row, stem) {
-  const column = Math.min(
-    ...row.filter((sibling) => !sibling.marker?.inline).map((sibling) => sibling.marker.left),
-  )
-  if (!stem || !Number.isFinite(column)) return images
+function claimStemFigures(questions) {
+  for (const question of questions) {
+    const stem = question.bands.find((band) => band.role === 'stem')
+    if (!stem) continue
 
-  const strays = images.filter(({ image }) => image.left + image.width <= column)
-  // Never empty the row: if everything is left of the column the measurement is
-  // the thing at fault, not the layout.
-  if (!strays.length || strays.length === images.length) return images
+    for (const band of question.bands) {
+      if (band.role !== 'option') continue
 
-  stem.imageGroups ??= []
-  for (const { image, pageIndex } of strays) {
-    let group = stem.imageGroups.find((g) => g.pageIndex === pageIndex)
-    if (!group) {
-      group = { pageIndex, images: [] }
-      stem.imageGroups.push(group)
+      const row = band.siblings?.length > 1 ? band.siblings : null
+      // A side-by-side row has not been split yet, so all of its pictures sit in
+      // one arbitrary sibling's band — comparing them against THAT letter moved
+      // most of a row onto the stem. The row's leftmost letter is the column.
+      const column = row
+        ? Math.min(
+            ...row.filter((sibling) => !sibling.marker?.inline).map((s) => s.marker.left),
+          )
+        : band.marker?.inline
+          ? Number.NaN
+          : band.marker.left
+      if (!Number.isFinite(column)) continue
+
+      for (const group of band.imageGroups ?? []) {
+        const strays = group.images.filter((image) => image.left + image.width <= column)
+        if (!strays.length) continue
+        // On a side-by-side row the pictures ARE the options, so emptying it
+        // would mean the measurement is at fault rather than the layout. A
+        // stacked option holding nothing but the figure is the normal case.
+        if (row && strays.length === group.images.length) continue
+
+        group.images = group.images.filter((image) => !strays.includes(image))
+        stem.imageGroups ??= []
+        let target = stem.imageGroups.find((g) => g.pageIndex === group.pageIndex)
+        if (!target) {
+          target = { pageIndex: group.pageIndex, images: [] }
+          stem.imageGroups.push(target)
+        }
+        target.images.push(...strays)
+      }
     }
-    group.images.push(image)
   }
-  return images.filter((entry) => !strays.includes(entry))
 }
 
 /** The groups assigned to a band by assignImages(). */

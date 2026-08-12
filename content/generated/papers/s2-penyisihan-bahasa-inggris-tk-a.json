@@ -242,7 +242,9 @@
       "id": "s2-penyisihan-bahasa-inggris-tk-a-q09",
       "n": 9,
       "prompt": "What is the vegetable below?",
-      "images": [],
+      "images": [
+        "/soal/s2-penyisihan-bahasa-inggris-tk-a/q09-stem.webp"
+      ],
       "options": [
         {
           "key": "a",
@@ -257,9 +259,7 @@
         {
           "key": "c",
           "text": "Tomato",
-          "images": [
-            "/soal/s2-penyisihan-bahasa-inggris-tk-a/q09-c.webp"
-          ]
+          "images": []
         }
       ],
       "answer": "a",
@@ -485,7 +485,9 @@
       "id": "s2-penyisihan-bahasa-inggris-tk-a-q18",
       "n": 18,
       "prompt": "What is the body part below?",
-      "images": [],
+      "images": [
+        "/soal/s2-penyisihan-bahasa-inggris-tk-a/q18-stem.webp"
+      ],
       "options": [
         {
           "key": "a",
@@ -500,9 +502,7 @@
         {
           "key": "c",
           "text": "Hand",
-          "images": [
-            "/soal/s2-penyisihan-bahasa-inggris-tk-a/q18-c.webp"
-          ]
+          "images": []
         }
       ],
       "answer": "c",
