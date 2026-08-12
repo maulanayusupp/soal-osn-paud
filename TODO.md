@@ -54,7 +54,9 @@ must also update `CLAUDE.md`, the compliance pages, and both locales.
       up. Not offered when only one option is left untried, since a forced tap
       would prove nothing. Driven by `pnpm practice:check`.
 - [ ] **Read-aloud button.** Web Speech API on the question prompt (id-ID and
-      en-US voices) — the biggest single win for pre-readers.
+      en-US voices). **Parked on 12 Aug 2026 at the owner's request** — do not
+      start it without being asked. Not a technical objection, so the note is
+      only about who decides when.
 - [ ] **Mixed practice.** Draw N random questions across a level/subject instead
       of working one paper end to end.
 - [ ] **Wrong-answers-only replay** after finishing a paper.
