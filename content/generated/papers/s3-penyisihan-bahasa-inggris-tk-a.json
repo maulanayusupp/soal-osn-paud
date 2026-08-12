@@ -28,7 +28,9 @@
       "id": "s3-penyisihan-bahasa-inggris-tk-a-q01",
       "n": 1,
       "prompt": "Which number comes after 8?",
-      "images": [],
+      "images": [
+        "/soal/s3-penyisihan-bahasa-inggris-tk-a/q01-stem.webp"
+      ],
       "options": [
         {
           "key": "a",

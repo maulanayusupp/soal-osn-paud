@@ -26,7 +26,9 @@
       "id": "s3-final-bahasa-inggris-paud-q01",
       "n": 1,
       "prompt": "What is missing?",
-      "images": [],
+      "images": [
+        "/soal/s3-final-bahasa-inggris-paud/q01-stem.webp"
+      ],
       "options": [
         {
           "key": "a",

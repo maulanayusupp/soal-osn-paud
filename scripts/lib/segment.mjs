@@ -444,8 +444,31 @@ export function assignImages(pages, questions) {
       const containing = eligible.filter(
         (band) => after(centre, band.from) && before(centre, band.to),
       )
-      if (containing.length) push(containing[containing.length - 1], pageIndex, image)
-      // 3. Nothing contains it — masthead art above question 1. Dropped.
+      if (containing.length) {
+        push(containing[containing.length - 1], pageIndex, image)
+        continue
+      }
+
+      // 3. Above every band. Usually the organiser's masthead — but question 1
+      //    has no question before it to catch a picture that hangs above its
+      //    own number, and these boxes hang a long way: Season 4 Maths TK B
+      //    prints its first sum as a 286-unit box whose transparent top margin
+      //    reaches up over the masthead, putting its centre 39 units above the
+      //    "1.". It was dropped, and question 1 asked for the sum of nothing.
+      //
+      //    The masthead never reaches down past the first question's number;
+      //    artwork belonging to that question always does.
+      const firstQuestion = questions[0]
+      const firstStem = firstQuestion?.bands.find((band) => band.role === 'stem')
+      if (
+        firstStem &&
+        pageIndex === firstQuestion.start.page &&
+        image.top + image.height > firstQuestion.start.top
+      ) {
+        push(firstStem, pageIndex, image)
+        firstStem.clipTop = firstQuestion.start.top
+      }
+      // 4. Otherwise it really is the masthead. Dropped.
     }
   })
 

@@ -26,7 +26,9 @@
       "id": "s3-final-matematika-paud-q01",
       "n": 1,
       "prompt": "Angka manakah yang tidak ada pada deret berikut?",
-      "images": [],
+      "images": [
+        "/soal/s3-final-matematika-paud/q01-stem.webp"
+      ],
       "options": [
         {
           "key": "a",

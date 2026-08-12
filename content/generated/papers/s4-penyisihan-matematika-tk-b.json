@@ -28,7 +28,9 @@
       "id": "s4-penyisihan-matematika-tk-b-q01",
       "n": 1,
       "prompt": "Hasil penjumlahan berikut adalah….",
-      "images": [],
+      "images": [
+        "/soal/s4-penyisihan-matematika-tk-b/q01-stem.webp"
+      ],
       "options": [
         {
           "key": "a",

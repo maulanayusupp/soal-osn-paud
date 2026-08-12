@@ -69,12 +69,14 @@ for (const source of papers) {
     for (const image of page.images) {
       if (claimed.has(image)) continue
       // Above question 1 is the organiser's masthead, which the pipeline drops on
-      // purpose — and rule 9 forbids shipping it anyway. Judge it by the picture's
-      // CENTRE, the same measure assignImages uses: the logo's box carries deep
-      // transparent margins that reach past the "1.", so its edges say otherwise.
+      // purpose — and rule 9 forbids shipping it anyway. The test is the picture's
+      // BOTTOM edge, not its centre: judging by the centre exempted question 1's
+      // own illustration wherever its box hung above the "1.", which is exactly
+      // the picture this check exists to notice going missing.
       const first = questions[0]
-      const centre = image.top + image.height / 2
-      if (pageIndex === first?.start.page && centre < first.start.top) continue
+      if (pageIndex === first?.start.page && image.top + image.height <= first.start.top) {
+        continue
+      }
       dropped.push({
         id: source.id,
         page: pageIndex + 1,
