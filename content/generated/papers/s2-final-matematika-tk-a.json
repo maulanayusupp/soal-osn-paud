@@ -365,7 +365,9 @@
       "id": "s2-final-matematika-tk-a-q13",
       "n": 13,
       "prompt": "Uraikan bentuk-bentuk penyusun bangun berikut!",
-      "images": [],
+      "images": [
+        "/soal/s2-final-matematika-tk-a/q13-stem.webp"
+      ],
       "options": [
         {
           "key": "a",
@@ -389,7 +391,7 @@
           ]
         }
       ],
-      "answer": "c",
+      "answer": "b",
       "status": "ok"
     },
     {

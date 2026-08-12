@@ -192,7 +192,9 @@
       "id": "s3-penyisihan-matematika-tk-b-q07",
       "n": 7,
       "prompt": "Hitunglah balok maninan di bawah ini!",
-      "images": [],
+      "images": [
+        "/soal/s3-penyisihan-matematika-tk-b/q07-stem.webp"
+      ],
       "options": [
         {
           "key": "a",
@@ -216,7 +218,7 @@
           ]
         }
       ],
-      "answer": "b",
+      "answer": "a",
       "status": "ok"
     },
     {

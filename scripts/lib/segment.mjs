@@ -449,7 +449,7 @@ export function assignImages(pages, questions) {
     }
   })
 
-  splitSideBySideRows(bands)
+  splitSideBySideRows(questions)
   reclaimNextStemPictures(questions)
 }
 
@@ -512,54 +512,111 @@ function reclaimNextStemPictures(questions) {
  *
  * The pictures themselves are the better ruler. Sort them left to right and cut
  * at the widest gaps: three pictures across a row are three options, whatever
- * the text run claims.
+ * the text run claims — once the question's own figure has been taken out of
+ * the row, which `claimStemFigures` does first.
  */
-function splitSideBySideRows(bands) {
+function splitSideBySideRows(questions) {
   const done = new Set()
 
-  for (const band of bands) {
-    const row = band.siblings
-    if (!row || row.length < 2 || done.has(row)) continue
-    done.add(row)
+  for (const question of questions) {
+    const stem = question.bands.find((band) => band.role === 'stem')
 
-    const pooled = row.flatMap((sibling) => sibling.imageGroups ?? [])
-    for (const sibling of row) sibling.imageGroups = []
+    for (const band of question.bands) {
+      const row = band.siblings
+      if (!row || row.length < 2 || done.has(row)) continue
+      done.add(row)
 
-    const images = pooled
-      .flatMap((group) => group.images.map((image) => ({ image, pageIndex: group.pageIndex })))
-      .sort((a, b) => a.image.left - b.image.left)
-    if (!images.length) continue
+      const pooled = row.flatMap((sibling) => sibling.imageGroups ?? [])
+      for (const sibling of row) sibling.imageGroups = []
 
-    // Cut at the row's widest gaps until there are as many runs as options.
-    const gaps = images
-      .slice(1)
-      .map((entry, i) => ({ at: i + 1, size: entry.image.left - images[i].image.left }))
-      .sort((a, b) => b.size - a.size)
-      .slice(0, row.length - 1)
-      .map((gap) => gap.at)
-      .sort((a, b) => a - b)
+      const images = claimStemFigures(
+        pooled
+          .flatMap((group) => group.images.map((image) => ({ image, pageIndex: group.pageIndex })))
+          .sort((a, b) => a.image.left - b.image.left),
+        row,
+        stem,
+      )
+      if (!images.length) continue
 
-    let cut = 0
-    for (const [index, entry] of images.entries()) {
-      if (gaps.includes(index)) cut += 1
-      const target = row[Math.min(cut, row.length - 1)]
-      let group = target.imageGroups.find((g) => g.pageIndex === entry.pageIndex)
-      if (!group) {
-        group = { pageIndex: entry.pageIndex, images: [] }
-        target.imageGroups.push(group)
+      // Cut at the row's widest gaps until there are as many runs as options.
+      const gaps = images
+        .slice(1)
+        .map((entry, i) => ({ at: i + 1, size: entry.image.left - images[i].image.left }))
+        .sort((a, b) => b.size - a.size)
+        .slice(0, row.length - 1)
+        .map((gap) => gap.at)
+        .sort((a, b) => a - b)
+
+      let cut = 0
+      for (const [index, entry] of images.entries()) {
+        if (gaps.includes(index)) cut += 1
+        const target = row[Math.min(cut, row.length - 1)]
+        let group = target.imageGroups.find((g) => g.pageIndex === entry.pageIndex)
+        if (!group) {
+          group = { pageIndex: entry.pageIndex, images: [] }
+          target.imageGroups.push(group)
+        }
+        group.images.push(entry.image)
       }
-      group.images.push(entry.image)
-    }
 
-    // Where each letter is actually printed. The merged run only gives a
-    // character-offset guess, which is what made the columns wrong in the first
-    // place; the left edge of an option's own pictures is a real measurement,
-    // and its letter sits just to the left of it.
-    for (const sibling of row) {
-      const own = sibling.imageGroups.flatMap((group) => group.images)
-      if (own.length) sibling.markerHint = Math.min(...own.map((image) => image.left))
+      // Where each letter is actually printed. The merged run only gives a
+      // character-offset guess, which is what made the columns wrong in the
+      // first place; the left edge of an option's own pictures is a real
+      // measurement, and its letter sits just to the left of it.
+      for (const sibling of row) {
+        const own = sibling.imageGroups.flatMap((group) => group.images)
+        if (own.length) sibling.markerHint = Math.min(...own.map((image) => image.left))
+      }
     }
   }
+}
+
+/**
+ * Take the question's own figure back out of a side-by-side option row.
+ *
+ * Some questions print the figure to reason about on the same line as the
+ * options — "break this shape down into its parts", with the shape sitting to
+ * the left of a, b, c. The row then pools four pictures for three options, and
+ * cutting it into three runs hands the figure to option a and shifts every
+ * option one place left. The child sees the question's own figure offered as an
+ * answer, and the real last option disappears into its neighbour.
+ *
+ * The key goes with it. `markerHint` is derived from these same pictures, so it
+ * shifts too, and the reader samples the swatch beside the *next* letter — the
+ * stored answer comes out one letter late. Both key checks inherit the shifted
+ * hints, agree with each other, and report nothing: this is the blind spot they
+ * shared. `verify-completeness.mjs` finds it from the other end, by noticing the
+ * question stores fewer pictures than the page prints.
+ *
+ * The boundary is measurable. A row's first option prints its letter as its own
+ * text run, so that x is a real measurement — only the *merged* runs behind it
+ * have untrustworthy character offsets. A picture whose right edge clears that
+ * column entirely cannot be an option's: artwork always reaches well past its
+ * own letter, so requiring the whole box to sit left of it takes nothing real.
+ *
+ * Returns the row's remaining pictures; the strays are pushed onto `stem`.
+ */
+function claimStemFigures(images, row, stem) {
+  const column = Math.min(
+    ...row.filter((sibling) => !sibling.marker?.inline).map((sibling) => sibling.marker.left),
+  )
+  if (!stem || !Number.isFinite(column)) return images
+
+  const strays = images.filter(({ image }) => image.left + image.width <= column)
+  // Never empty the row: if everything is left of the column the measurement is
+  // the thing at fault, not the layout.
+  if (!strays.length || strays.length === images.length) return images
+
+  stem.imageGroups ??= []
+  for (const { image, pageIndex } of strays) {
+    let group = stem.imageGroups.find((g) => g.pageIndex === pageIndex)
+    if (!group) {
+      group = { pageIndex, images: [] }
+      stem.imageGroups.push(group)
+    }
+    group.images.push(image)
+  }
+  return images.filter((entry) => !strays.includes(entry))
 }
 
 /** The groups assigned to a band by assignImages(). */
