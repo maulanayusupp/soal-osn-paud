@@ -13,36 +13,17 @@ import type { ResumeState } from '~/types'
 const props = defineProps<{ state: ResumeState; total: number }>()
 defineEmits<{ resume: []; restart: [] }>()
 
-const { locale } = useI18n()
-const { number } = useFormat()
+const { number, time, dateLong, daysAgo } = useFormat()
 
-const tag = computed(() => (locale.value === 'en' ? 'en-US' : 'id-ID'))
-
-/**
- * "today at 14.30", "yesterday at 14.30", or the full date.
- *
- * Compared by calendar day rather than by elapsed hours: something at 11pm and
- * something at 1am are an hour apart but belong to different days, and a child
- * reads "yesterday" the way a calendar does, not the way a clock does.
- */
+/** "today at 14.30", "yesterday at 14.30", or the full date. */
 const lastWorked = computed(() => {
-  const saved = new Date(props.state.savedAt)
-  if (Number.isNaN(saved.getTime())) return null
+  const saved = props.state.savedAt
+  if (Number.isNaN(new Date(saved).getTime())) return null
 
-  const time = new Intl.DateTimeFormat(tag.value, { timeStyle: 'short' }).format(saved)
-  const midnight = (date: Date) =>
-    new Date(date.getFullYear(), date.getMonth(), date.getDate()).getTime()
-  const days = Math.round((midnight(new Date()) - midnight(saved)) / 86_400_000)
-
-  if (days === 0) return { key: 'practice.resume.today', params: { time } }
-  if (days === 1) return { key: 'practice.resume.yesterday', params: { time } }
-  return {
-    key: 'practice.resume.on',
-    params: {
-      time,
-      date: new Intl.DateTimeFormat(tag.value, { dateStyle: 'long' }).format(saved),
-    },
-  }
+  const days = daysAgo(saved)
+  if (days === 0) return { key: 'practice.resume.today', params: { time: time(saved) } }
+  if (days === 1) return { key: 'practice.resume.yesterday', params: { time: time(saved) } }
+  return { key: 'practice.resume.on', params: { time: time(saved), date: dateLong(saved) } }
 })
 
 const answered = computed(() => props.state.attempts.length)
