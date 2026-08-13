@@ -154,9 +154,10 @@ tags: `<BaseButton>`, `<MascotKancil>`, `<PracticeStage>`.
   standing there is nothing to choose, and offering a retry there would be the
   app pretending a forced tap meant something. A two-option question therefore
   never offers one. Getting there on the second go **counts as correct** — the
-  score follows where the child ended up. `Attempt.tries` keeps every pick in
-  order, so the record stays truthful about what happened even though the score
-  does not distinguish.
+  score follows where the child ended up, and an `Attempt` records only that:
+  which option was settled on and whether it was right. It once kept every pick
+  in order too, which read well and was never once looked at — including on the
+  device, where it was persisted with the unfinished paper.
 
 ## The import pipeline (why it works this way)
 

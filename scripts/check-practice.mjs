@@ -101,7 +101,6 @@ function check(label, actual, expected) {
   p.choose('b')
   check('right on the second go settles it', p.phase.value, 'revealed')
   check('and counts as correct', p.attempts.value[0].correct, true)
-  check('both picks are recorded', p.attempts.value[0].tries, ['a', 'b'])
   check('the tally moves', p.correctCount.value, 1)
 }
 
@@ -114,7 +113,6 @@ function check(label, actual, expected) {
   p.choose('c')
   check('a second wrong pick settles it', p.phase.value, 'revealed')
   check('counted wrong', p.attempts.value[0].correct, false)
-  check('both wrong picks recorded', p.attempts.value[0].tries, ['a', 'c'])
 }
 
 // --- giving up ---------------------------------------------------------------
@@ -143,7 +141,6 @@ function check(label, actual, expected) {
 
   p.choose('b')
   check('right first time settles', p.phase.value, 'revealed')
-  check('one try recorded', p.attempts.value[0].tries, ['b'])
   check('wasCorrect', p.wasCorrect.value, true)
 }
 
@@ -275,7 +272,7 @@ function check(label, actual, expected) {
   const paper = { id: 'paper', questions }
   const base = {
     paperId: 'paper',
-    attempts: [{ questionId: 'q1', chosen: 'b', correct: true, tries: ['b'] }],
+    attempts: [{ questionId: 'q1', chosen: 'b', correct: true }],
     shuffled: false,
     seed: 1,
     total: 3,

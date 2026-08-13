@@ -100,12 +100,7 @@ export function usePractice(paperId: string, source: Ref<Question[]>) {
     chosen.value = key
     attempts.value = [
       ...attempts.value,
-      {
-        questionId: current.value.id,
-        chosen: key,
-        correct: isCorrect(current.value, key),
-        tries: [...tried.value],
-      },
+      { questionId: current.value.id, chosen: key, correct: isCorrect(current.value, key) },
     ]
     phase.value = 'revealed'
     remember()
