@@ -318,6 +318,134 @@ try {
   `)
   check('starting over goes back to question 1', restarted.position, '1')
   check('and the saved run is forgotten', restarted.stored, 0)
+
+  // --- working a paper to the end, then redoing only the misses -------------
+  //
+  // On the shortest paper, so the run stays quick. Two questions are missed on
+  // purpose by asking to be shown the answer, which settles them as wrong
+  // without depending on how many options a question happens to have.
+  const shortEntry = catalog.papers
+    .filter((p) => p.origin === 'osn' && p.playableCount >= 4)
+    .sort((a, b) => a.playableCount - b.playableCount)[0]
+  const shortPaper = JSON.parse(
+    await readFile(join(root, 'content', 'generated', 'papers', `${shortEntry.id}.json`), 'utf8'),
+  )
+  const shortQuestions = shortPaper.questions.filter((q) => q.status === 'ok')
+  const missAt = new Set([1, 3]) // zero-based positions to get wrong
+
+  console.log(`\n${shortEntry.id} — ${shortQuestions.length} questions, missing 2 on purpose\n`)
+  await goto(`/latihan/${shortEntry.id}`)
+  // A previous section left this paper untouched, but be certain we start clean.
+  await evaluate(`localStorage.removeItem('kancil-resume-v1'); return true`)
+
+  for (const [i, q] of shortQuestions.entries()) {
+    const correct = q.options.findIndex((o) => o.key === q.answer)
+    const wrong = q.options.findIndex((o) => o.key !== q.answer)
+    await click('.option', missAt.has(i) ? wrong : correct)
+    await sleep(220)
+    // A wrong pick leaves the question open; "Lihat jawaban" settles it.
+    if (await evaluate(`return Boolean(document.querySelector('.stage__actions'))`)) {
+      await click('.stage__actions button', 1)
+      await sleep(220)
+    }
+    await click('.stage__next')
+    await sleep(i === shortQuestions.length - 1 ? 500 : 260)
+  }
+
+  const finished = await evaluate(`
+    const el = document.querySelector('.result')
+    if (!el) return null
+    return {
+      detail: el.querySelector('.result__score-detail')?.textContent?.trim(),
+      buttons: [...el.querySelectorAll('button')].map(b => b.textContent.trim()),
+      note: el.querySelector('.result__note')?.textContent?.trim(),
+    }
+  `)
+  check('the paper ends on the result panel', finished !== null, true)
+  check(
+    'the score counts the whole paper',
+    finished?.detail,
+    new RegExp(`${shortQuestions.length - 2} benar dari ${shortQuestions.length} soal`),
+  )
+  check('a redo of the misses is offered first', finished?.buttons?.[0], /Ulangi 2 soal yang salah/)
+
+  // Four buttons now, where there were three. They wrap, but they still have to
+  // fit the width and stay reachable.
+  const resultFit = await evaluate(`
+    const boxes = [...document.querySelectorAll('.result__actions button, .result__actions a')].map(b => {
+      const r = b.getBoundingClientRect()
+      return { left: Math.round(r.left), right: Math.round(r.right), width: Math.round(r.width) }
+    })
+    return {
+      boxes,
+      overflowsX: document.documentElement.scrollWidth > window.innerWidth,
+      panelHeight: Math.round(document.querySelector('.result').getBoundingClientRect().height),
+      viewport: window.innerHeight,
+    }
+  `)
+  console.log(`   result panel: ${resultFit.panelHeight}px tall, ${resultFit.boxes.length} actions`)
+  check('the result panel does not overflow sideways', resultFit.overflowsX, false)
+  check(
+    'every action fits the screen',
+    resultFit.boxes.every((b) => b.left >= 0 && b.right <= 390),
+    true,
+  )
+  check('every action is tappable', resultFit.boxes.every((b) => b.width >= 100), true)
+  check('the paper result went into the history', await evaluate(`
+    return JSON.parse(localStorage.getItem('kancil-progress-v1') ?? '[]').length
+  `), 1)
+
+  await click('.result__actions button', 0)
+  await sleep(500)
+  const drill = await evaluate(`
+    return {
+      total: document.querySelector('.question__count-total')?.textContent?.trim(),
+      position: document.querySelector('.question__count-now')?.textContent?.trim(),
+      prompt: document.querySelector('.question__prompt')?.textContent?.trim(),
+    }
+  `)
+  check('the redo holds just the two missed', drill.total, '/ 2')
+  check('starting at the first of them', drill.position, '1')
+  check(
+    'and it is one of the ones actually missed',
+    [shortQuestions[1].prompt, shortQuestions[3].prompt]
+      .map((p) => (p ?? '').trim())
+      .includes(drill.prompt ?? ''),
+    true,
+  )
+
+  // Answer both correctly and check the redo is not banked as a paper result.
+  for (const i of [1, 3]) {
+    const q = shortQuestions[i]
+    const correct = q.options.findIndex((o) => o.key === q.answer)
+    await click('.option', correct)
+    await sleep(240)
+    await click('.stage__next')
+    await sleep(i === 3 ? 500 : 260)
+  }
+
+  const afterDrill = await evaluate(`
+    const el = document.querySelector('.result')
+    return {
+      detail: el?.querySelector('.result__score-detail')?.textContent?.trim(),
+      paper: el?.querySelector('.result__paper')?.textContent?.trim(),
+      note: el?.querySelector('.result__note')?.textContent?.trim(),
+      buttons: [...(el?.querySelectorAll('button') ?? [])].map(b => b.textContent.trim()),
+      history: JSON.parse(localStorage.getItem('kancil-progress-v1') ?? '[]').length,
+      resume: JSON.parse(localStorage.getItem('kancil-resume-v1') ?? '[]').length,
+    }
+  `)
+  check('the redo is scored over its own two', afterDrill.detail, /2 benar dari 2 soal/)
+  check('and says so, rather than posing as the paper', afterDrill.paper, /mengulang soal yang salah/)
+  check('the note explains it is not banked', afterDrill.note, /tidak dicatat sebagai hasil berkas/)
+  check('nothing more was added to the history', afterDrill.history, 1)
+  check('and no unfinished paper was left behind', afterDrill.resume, 0)
+  check('all correct now, so no further redo', afterDrill.buttons[0], /Kerjakan satu berkas penuh/)
+  check(
+    'and shuffle is not offered over two questions',
+    afterDrill.buttons.some((b) => /Acak urutannya/.test(b)),
+    false,
+  )
 } catch (error) {
   failures += 1
   console.error(`\n✗ ${error.message}`)

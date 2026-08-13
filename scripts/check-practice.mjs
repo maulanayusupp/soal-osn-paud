@@ -53,7 +53,9 @@ const { usePractice } = await jiti.import(join(root, 'app', 'composables', 'useP
 const { resumeFor, loadResumeStates } = await jiti.import(
   join(root, 'app', 'services', 'resume.service.ts'),
 )
-const { RESUME_STORAGE_KEY } = await jiti.import(join(root, 'app', 'config', 'practice.config.ts'))
+const { RESUME_STORAGE_KEY, PROGRESS_STORAGE_KEY: PROGRESS_KEY } = await jiti.import(
+  join(root, 'app', 'config', 'practice.config.ts'),
+)
 
 const question = (id, answer, keys = ['a', 'b', 'c']) => ({
   id,
@@ -308,6 +310,132 @@ function check(label, actual, expected) {
 
   store.set(RESUME_STORAGE_KEY, JSON.stringify([{ paperId: 'x' }, null, 42]))
   check('malformed entries are dropped', loadResumeStates(), [])
+}
+
+// --- redoing only the ones that were missed ---------------------------------
+{
+  store.clear()
+  const questions = [
+    question('q1', 'a'),
+    question('q2', 'a'),
+    question('q3', 'a'),
+    question('q4', 'a'),
+  ]
+  const p = usePractice('paper', vue.ref(questions))
+
+  // Right, wrong, right, wrong. Each wrong needs two picks to settle.
+  p.choose('a')
+  p.next()
+  p.choose('b')
+  p.retry()
+  p.choose('c')
+  p.next()
+  p.choose('a')
+  p.next()
+  p.choose('b')
+  p.retry()
+  p.choose('c')
+  p.next()
+
+  check('the run is over', p.phase.value, 'finished')
+  check('two were missed', p.wrongIds.value, ['q2', 'q4'])
+  check('a redo is offered', p.canReplayWrong.value, true)
+  check('scored over the whole paper', p.score.value, 50)
+  check('the paper result was recorded', JSON.parse(store.get(PROGRESS_KEY)).length, 1)
+
+  p.replayWrong()
+  check('the redo holds only the missed ones', p.questions.value.map((q) => q.id), ['q2', 'q4'])
+  check('starting at the first of them', p.current.value.id, 'q2')
+  check('with a clean slate', [p.attempts.value.length, p.correctCount.value], [0, 0])
+  check('and its own length', p.total.value, 2)
+
+  // Get one right, miss the other again.
+  p.choose('a')
+  p.next()
+  p.choose('b')
+  p.retry()
+  p.choose('c')
+  p.next()
+  check('the redo ends', p.phase.value, 'finished')
+  check('still one missed', p.wrongIds.value, ['q4'])
+
+  // The heart of it: a redo is not a run of the paper.
+  check(
+    'the redo is NOT recorded as a paper result',
+    JSON.parse(store.get(PROGRESS_KEY)).length,
+    1,
+  )
+  check('and left no unfinished paper behind', loadResumeStates().length, 0)
+
+  // Drill again, and get it right this time.
+  p.replayWrong()
+  check('drilling narrows further', p.questions.value.map((q) => q.id), ['q4'])
+  p.choose('a')
+  p.next()
+  check('nothing left to drill', p.canReplayWrong.value, false)
+  check('still just the one paper result', JSON.parse(store.get(PROGRESS_KEY)).length, 1)
+}
+
+// --- a clean sheet offers no redo -------------------------------------------
+{
+  store.clear()
+  const questions = [question('q1', 'a'), question('q2', 'b')]
+  const p = usePractice('paper', vue.ref(questions))
+  p.choose('a')
+  p.next()
+  p.choose('b')
+  p.next()
+  check('all correct', p.score.value, 100)
+  check('no redo offered', p.canReplayWrong.value, false)
+  p.replayWrong()
+  check('and calling it anyway does nothing', p.phase.value, 'finished')
+}
+
+// --- "the whole paper" means the whole paper --------------------------------
+{
+  store.clear()
+  const questions = [question('q1', 'a'), question('q2', 'a'), question('q3', 'a')]
+  const p = usePractice('paper', vue.ref(questions))
+  p.choose('b')
+  p.retry()
+  p.choose('c')
+  p.next()
+  p.choose('a')
+  p.next()
+  p.choose('a')
+  p.next()
+
+  p.replayWrong()
+  check('focused on one question', p.total.value, 1)
+  p.restart({ shuffle: false })
+  check('restart returns to the whole paper', p.total.value, 3)
+  check('at question one', p.index.value, 0)
+}
+
+// --- a redo of a shuffled run keeps the order it was seen in ----------------
+{
+  store.clear()
+  const questions = Array.from({ length: 6 }, (_, i) => question(`q${i + 1}`, 'a'))
+  const p = usePractice('paper', vue.ref(questions))
+  p.restart({ shuffle: true })
+  const dealt = p.questions.value.map((q) => q.id)
+
+  // Miss the 2nd and 5th as dealt.
+  dealt.forEach((_, i) => {
+    if (i === 1 || i === 4) {
+      p.choose('b')
+      p.retry()
+      p.choose('c')
+    } else {
+      p.choose('a')
+    }
+    p.next()
+  })
+
+  const missed = [dealt[1], dealt[4]]
+  check('the right two were missed', p.wrongIds.value, missed)
+  p.replayWrong()
+  check('the redo follows the dealt order', p.questions.value.map((q) => q.id), missed)
 }
 
 console.log(failures ? `\n${failures} FAILED` : '\nAll checks passed.')

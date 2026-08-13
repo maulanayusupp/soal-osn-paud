@@ -179,6 +179,10 @@
     "resultDetail": "{correct} benar dari {total} soal",
     "tryAgain": "Ulangi lagi",
     "shuffleAgain": "Acak urutannya",
+    "replayWrong": "Ulangi {n} soal yang salah",
+    "tryWholePaper": "Kerjakan satu berkas penuh",
+    "focusedRun": "mengulang soal yang salah",
+    "focusedNote": "Ini latihan ulang soal yang tadi belum tepat, jadi angkanya tidak dicatat sebagai hasil berkas ini.",
     "pickAnother": "Pilih berkas lain",
     "resultNote": "Angka ini hanya catatan latihan di perangkat ini. Bukan penilaian resmi dan tidak dibandingkan dengan siapa pun.",
     "band": {

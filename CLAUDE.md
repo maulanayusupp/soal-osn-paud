@@ -133,6 +133,19 @@ tags: `<BaseButton>`, `<MascotKancil>`, `<PracticeStage>`.
   a build error instead.
 - **Scores are encouragement, not assessment.** `SCORE_BANDS` picks the mascot's
   reaction and the closing message. Never present a band as a grade.
+- **The ones that were missed can be redone on their own.** After a paper, the
+  four a child got wrong are the lesson; making them sit through the sixteen
+  they already knew to reach those four is how a paper stops being worth
+  reopening. `replayWrong()` narrows `questions` to those ids through a `focus`
+  ref, keeping the order they were just seen in.
+  **A focused run is never scored into the history.** Banking "3 of 3" against a
+  twenty-question paper would put a 100% in `bestScoreFor` and on the card's
+  "best" badge for a paper that was never worked through — a real number giving
+  a false impression. It writes no resume entry either, since "continue at
+  question 3 of 4" means nothing for a twenty-question paper. The result panel
+  says which kind of run it was rather than leaving the number to be read as the
+  paper's, and `restart()` clears the focus so "ulangi lagi" always means the
+  whole paper.
 - **A wrong answer does not end the question.** The pick is marked wrong, the
   right one stays hidden, and the child is offered a second go — revealing the
   answer at the first mistake removes the only moment where any thinking

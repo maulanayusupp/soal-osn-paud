@@ -24,10 +24,24 @@ export function usePractice(paperId: string, source: Ref<Question[]>) {
   const shuffled = ref(false)
   const seed = ref(1)
 
+  /**
+   * Question ids to drill, or null for the whole paper.
+   *
+   * Set when replaying only the ones that were answered wrong. The paper stays
+   * the unit of everything else: a focused run is a lens over it, not a session
+   * of its own — which is why it is never scored into the history below.
+   */
+  const focus = ref<string[] | null>(null)
+
   /** Printed order by default; a stable shuffled order when asked for. */
-  const questions = computed(() =>
-    shuffled.value ? shuffle(source.value, seed.value) : source.value,
-  )
+  const questions = computed(() => {
+    const ordered = shuffled.value ? shuffle(source.value, seed.value) : source.value
+    if (!focus.value) return ordered
+    // Filter the ordered list rather than mapping over the ids, so a focused run
+    // keeps the order the child just saw them in.
+    const wanted = new Set(focus.value)
+    return ordered.filter((question) => wanted.has(question.id))
+  })
 
   const index = ref(0)
   const attempts = ref<Attempt[]>([])
@@ -66,6 +80,10 @@ export function usePractice(paperId: string, source: Ref<Question[]>) {
   function remember() {
     // The last answer needs no entry: `finish()` is next, and it clears one.
     if (attempts.value.length === 0 || attempts.value.length >= total.value) return
+    // A focused run is short and belongs to no paper-shaped position, so there
+    // is nothing coherent to come back to — and storing one would offer to
+    // "continue" a twenty-question paper at question 3 of 4.
+    if (focus.value) return
     saveResume({
       paperId,
       attempts: attempts.value,
@@ -135,12 +153,47 @@ export function usePractice(paperId: string, source: Ref<Question[]>) {
     phase.value = 'answering'
   }
 
+  /** The questions answered wrong in the run just finished, in the order seen. */
+  const wrongIds = computed(() =>
+    attempts.value.filter((attempt) => !attempt.correct).map((attempt) => attempt.questionId),
+  )
+
+  /** Whether there is anything to drill once a run is over. */
+  const canReplayWrong = computed(
+    () => phase.value === 'finished' && wrongIds.value.length > 0,
+  )
+
   function finish() {
     result.value = summarise(paperId, attempts.value, total.value)
-    saveSession(result.value)
-    // The paper is done; there is nothing left to come back to.
-    clearResume(paperId)
+    // A focused run is NOT a session of this paper. Recording "3 of 3" against a
+    // twenty-question paper would put a 100% in the history and on the card's
+    // "best" badge for a paper that was never worked through — the number would
+    // be real and the impression false.
+    if (!focus.value) {
+      saveSession(result.value)
+      // The paper is done; there is nothing left to come back to.
+      clearResume(paperId)
+    }
     phase.value = 'finished'
+  }
+
+  /**
+   * Go again over just the ones that were wrong.
+   *
+   * The whole point of a session for a five-year-old: the four they missed are
+   * the lesson, and making them sit through the sixteen they already knew to
+   * reach those four is how a paper stops being worth reopening.
+   */
+  function replayWrong() {
+    const ids = wrongIds.value
+    if (!ids.length) return
+    focus.value = ids
+    index.value = 0
+    attempts.value = []
+    chosen.value = null
+    tried.value = []
+    result.value = null
+    phase.value = 'answering'
   }
 
   /**
@@ -164,10 +217,17 @@ export function usePractice(paperId: string, source: Ref<Question[]>) {
   }
 
 
-  /** Start again from question one. Optionally in a new shuffled order. */
+  /**
+   * Start again from question one, over the WHOLE paper.
+   *
+   * Deliberately clears the focus: "ulangi lagi" beside a focused result has to
+   * mean the paper, or there would be two buttons on the same screen both
+   * meaning "these four again" and nothing meaning "all twenty".
+   */
   function restart({ shuffle: doShuffle = shuffled.value } = {}) {
     // Whatever was saved describes a run that is being abandoned on purpose.
     clearResume(paperId)
+    focus.value = null
     shuffled.value = doShuffle
     // A fresh seed so "acak lagi" really is a different order.
     if (doShuffle) seed.value = Math.floor(Math.random() * 2 ** 31)
@@ -192,12 +252,15 @@ export function usePractice(paperId: string, source: Ref<Question[]>) {
     attempts,
     result,
     shuffled,
+    focus,
     // derived
     correctCount,
     score,
     band,
     isLast,
     wasCorrect,
+    wrongIds,
+    canReplayWrong,
     // actions
     choose,
     retry,
@@ -206,5 +269,6 @@ export function usePractice(paperId: string, source: Ref<Question[]>) {
     finish,
     restart,
     resumeFrom,
+    replayWrong,
   }
 }

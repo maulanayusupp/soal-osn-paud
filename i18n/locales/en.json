@@ -179,6 +179,10 @@
     "resultDetail": "{correct} right out of {total} questions",
     "tryAgain": "Go again",
     "shuffleAgain": "Shuffle the order",
+    "replayWrong": "Redo the {n} you missed",
+    "tryWholePaper": "Work through the whole paper",
+    "focusedRun": "redoing the ones missed",
+    "focusedNote": "This is a redo of the questions missed earlier, so the number is not recorded as a result for this paper.",
     "pickAnother": "Pick another paper",
     "resultNote": "This number is only a practice note kept on this device. It is not an official assessment and it is not compared with anyone else.",
     "band": {

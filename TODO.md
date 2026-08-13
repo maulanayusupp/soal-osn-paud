@@ -64,7 +64,10 @@ must also update `CLAUDE.md`, the compliance pages, and both locales.
       time it was last worked on. Covered by `practice:check` and `browser:check`.
 - [ ] **Mixed practice.** Draw N random questions across a level/subject instead
       of working one paper end to end.
-- [ ] **Wrong-answers-only replay** after finishing a paper.
+- [x] **Wrong-answers-only replay** after finishing a paper. "Ulangi N soal yang
+      salah" narrows to just those, keeps drilling as they shrink, and is never
+      recorded as a result for the paper. Covered by `practice:check` and by a
+      full 15-question play-through in `browser:check`.
 - [ ] Per-question progress on the paper cards (not just best score).
 - [ ] Offline support via a service worker — the whole bank is static files, so
       this is mostly configuration.

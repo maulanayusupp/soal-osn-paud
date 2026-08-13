@@ -16,9 +16,13 @@ const props = defineProps<{
   total: number
   band: ScoreBand
   shuffled: boolean
+  /** How many were answered wrong — 0 hides the drill. */
+  wrongCount: number
+  /** True when this result is itself a run over previously-wrong questions. */
+  focused: boolean
 }>()
 
-defineEmits<{ again: []; shuffle: [] }>()
+defineEmits<{ again: []; shuffle: []; replayWrong: [] }>()
 
 const localePath = useLocalePath()
 const { percent } = useFormat()
@@ -41,14 +45,42 @@ const mood = computed(() => (props.band === 'keep-going' ? 'idle' : 'cheer'))
       </span>
     </p>
 
-    <p class="result__paper">{{ fullTitle(paper) }}</p>
+    <p class="result__paper">
+      {{ fullTitle(paper) }}
+      <!-- Says plainly that this number is not a run of the whole paper. -->
+      <template v-if="focused"> · {{ $t('practice.focusedRun') }}</template>
+    </p>
 
     <div class="result__actions">
-      <BaseButton variant="primary" size="lg" @click="$emit('again')">
-        {{ $t('practice.tryAgain') }}
+      <!--
+        The drill leads, because the questions that were missed are the reason
+        to still be on this screen. Only when there is something to drill.
+      -->
+      <BaseButton
+        v-if="wrongCount > 0"
+        variant="primary"
+        size="lg"
+        @click="$emit('replayWrong')"
+      >
+        {{ $t('practice.replayWrong', { n: wrongCount }) }}
         <template #icon-left><BaseIcon name="refresh" :size="18" /></template>
       </BaseButton>
-      <BaseButton variant="secondary" size="lg" @click="$emit('shuffle')">
+
+      <BaseButton
+        :variant="wrongCount > 0 ? 'secondary' : 'primary'"
+        size="lg"
+        @click="$emit('again')"
+      >
+        {{ $t(focused ? 'practice.tryWholePaper' : 'practice.tryAgain') }}
+        <template #icon-left><BaseIcon name="refresh" :size="18" /></template>
+      </BaseButton>
+
+      <!--
+        Hidden on a focused result: it restarts the whole paper, exactly as the
+        button above it does, so the two would read as one choice offered twice
+        while nothing on screen meant "shuffle these four".
+      -->
+      <BaseButton v-if="!focused" variant="secondary" size="lg" @click="$emit('shuffle')">
         {{ $t('practice.shuffleAgain') }}
         <template #icon-left><BaseIcon name="shuffle" :size="18" /></template>
       </BaseButton>
@@ -57,7 +89,9 @@ const mood = computed(() => (props.band === 'keep-going' ? 'idle' : 'cheer'))
       </BaseButton>
     </div>
 
-    <p class="result__note">{{ $t('practice.resultNote') }}</p>
+    <p class="result__note">
+      {{ focused ? $t('practice.focusedNote') : $t('practice.resultNote') }}
+    </p>
   </BaseCard>
 </template>
 

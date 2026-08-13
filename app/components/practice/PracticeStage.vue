@@ -36,6 +36,9 @@ const {
   next,
   restart,
   resumeFrom,
+  replayWrong,
+  focus,
+  wrongIds,
 } = practice
 
 /**
@@ -127,6 +130,11 @@ function onNext() {
 
 function onRestart(options: { shuffle: boolean }) {
   restart(options)
+  void showQuestionFromTop()
+}
+
+function onReplayWrong() {
+  replayWrong()
   void showQuestionFromTop()
 }
 
@@ -249,8 +257,11 @@ onBeforeUnmount(() => {
       :total="total"
       :band="band"
       :shuffled="shuffled"
+      :wrong-count="wrongIds.length"
+      :focused="focus !== null"
       @again="onRestart({ shuffle: false })"
       @shuffle="onRestart({ shuffle: true })"
+      @replay-wrong="onReplayWrong"
     />
   </div>
 </template>
