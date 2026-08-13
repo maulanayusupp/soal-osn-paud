@@ -64,6 +64,8 @@ pnpm soal:import                # rebuild content/generated + public/soal from t
 pnpm soal:manual                # build only content/manual/ (hand-written papers)
 pnpm soal:check                 # audit + keys + pictures + completeness — run
                                 #   after any pipeline change (§Verifying the bank)
+                                #   individually: soal:audit, soal:verify:keys,
+                                #   soal:verify:pictures, soal:verify:complete
 pnpm soal:recover               # recover missed keys from the .docx (--write)
 pnpm soal:review --unreached    # review sheets for whatever the checks missed
 pnpm soal:proof <paper-id>      # visual proof sheet for one paper
@@ -102,7 +104,7 @@ content/
   manual/<id>.json        # hand-written papers — no source document (see below)
   overrides/<id>.json     # optional hand corrections, applied on import
   generated/              # catalog.json + papers/<id>.json — imported, not served
-i18n/locales/{id,en}.json # ALL user-facing text (261 keys each)
+i18n/locales/{id,en}.json # ALL user-facing text (279 keys each)
 public/soal/<id>/*.webp   # question illustrations (generated)
 scripts/                  # import pipeline, proof sheets, favicons, og, i18n check
 assets/favicon-source.svg # favicon source of truth
@@ -393,7 +395,7 @@ persists in `localStorage` (`SOUND_STORAGE_KEY`).
   configured through `i18n.pages` in `nuxt.config`. Keys there are page file
   paths relative to `app/pages` without the extension (`latihan/index`).
 - Keys mirror page/section structure. **Keep ID and EN in lockstep** — same keys,
-  same interpolation placeholders (**261 keys each**). `pnpm i18n:check` verifies
+  same interpolation placeholders (**279 keys each**). `pnpm i18n:check` verifies
   both and exits non-zero on drift.
 - Legal/compliance prose is stored as an **array of sections** and read through
   `useLocalizedSections()`, so a section cannot quietly go missing from one

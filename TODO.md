@@ -89,7 +89,7 @@ must also update `CLAUDE.md`, the compliance pages, and both locales.
       but `services/practice.service.ts` (scoring, bands, seeded shuffle) and the
       segmentation helpers in `scripts/lib/` are pure functions still uncovered —
       the obvious next step, and the point at which a real runner earns its keep.
-- [ ] Image weight: 1,662 WebP files, ~17 MB. Fine over HTTP/2, but a sprite or
+- [ ] Image weight: 1,684 WebP files, ~17 MB. Fine over HTTP/2, but a sprite or
       per-paper bundle would cut request count on slow connections.
 - [ ] The import pipeline shells out to poppler and LibreOffice, so it only runs
       on a machine that has them. Document or containerise if anyone else needs
