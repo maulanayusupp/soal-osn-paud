@@ -158,11 +158,6 @@ export function usePractice(paperId: string, source: Ref<Question[]>) {
     attempts.value.filter((attempt) => !attempt.correct).map((attempt) => attempt.questionId),
   )
 
-  /** Whether there is anything to drill once a run is over. */
-  const canReplayWrong = computed(
-    () => phase.value === 'finished' && wrongIds.value.length > 0,
-  )
-
   function finish() {
     result.value = summarise(paperId, attempts.value, total.value)
     // A focused run is NOT a session of this paper. Recording "3 of 3" against a
@@ -260,7 +255,6 @@ export function usePractice(paperId: string, source: Ref<Question[]>) {
     isLast,
     wasCorrect,
     wrongIds,
-    canReplayWrong,
     // actions
     choose,
     retry,

@@ -339,7 +339,6 @@ function check(label, actual, expected) {
 
   check('the run is over', p.phase.value, 'finished')
   check('two were missed', p.wrongIds.value, ['q2', 'q4'])
-  check('a redo is offered', p.canReplayWrong.value, true)
   check('scored over the whole paper', p.score.value, 50)
   check('the paper result was recorded', JSON.parse(store.get(PROGRESS_KEY)).length, 1)
 
@@ -372,7 +371,7 @@ function check(label, actual, expected) {
   check('drilling narrows further', p.questions.value.map((q) => q.id), ['q4'])
   p.choose('a')
   p.next()
-  check('nothing left to drill', p.canReplayWrong.value, false)
+  check('nothing left to drill', p.wrongIds.value, [])
   check('still just the one paper result', JSON.parse(store.get(PROGRESS_KEY)).length, 1)
 }
 
@@ -386,7 +385,7 @@ function check(label, actual, expected) {
   p.choose('b')
   p.next()
   check('all correct', p.score.value, 100)
-  check('no redo offered', p.canReplayWrong.value, false)
+  check('no redo offered', p.wrongIds.value, [])
   p.replayWrong()
   check('and calling it anyway does nothing', p.phase.value, 'finished')
 }
