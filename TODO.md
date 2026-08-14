@@ -5,12 +5,18 @@ must also update `CLAUDE.md`, the compliance pages, and both locales.
 
 ## Content quality
 
-- [ ] **Review the 58 held-back questions.** They sit in
-      `content/generated/papers/*.json` with `status: "needs-review"`. Spot-checking
-      says most are questions the original paper simply never marked. Everything
-      recoverable from the .docx has already been recovered by
-      `pnpm soal:recover --write`; what remains needs a human to read
-      the printed page and add `content/overrides/<id>.json` by hand.
+- [ ] **Review the 58 held-back questions**, `status: "needs-review"` in
+      `content/generated/papers/*.json`. They split three ways, and only the
+      first genuinely needs a person:
+      - **34** the source never highlighted an answer. Everything recoverable
+        from the .docx already was (`pnpm soal:recover --write`); the rest needs
+        someone to read the page, work out the answer and write an override.
+      - **16** hold fewer than three options — but 14 of those are lettered
+        `[a c]` or `[a b]`, a gap in the middle. No paper prints a and c without
+        b, so an option failed to extract rather than never existing. Likely
+        fixable in the pipeline, and worth doing before any hand-editing.
+      - **8** carry an option that came out empty. Same story, same order:
+        pipeline first.
 - [x] **Verify every served answer key.** 871 agree with the Word XML, 1,078 with
       independent blob analysis, and the rest were read against the printed page.
       Two keys were wrong and are fixed — `s2-final-matematika-tk-a` Q13 and
@@ -106,5 +112,4 @@ must also update `CLAUDE.md`, the compliance pages, and both locales.
 - [ ] Verify link previews after deploying (WhatsApp / Facebook / X) — OG tags
       are server-rendered and `og:image` is an absolute https PNG, so it should
       work without a JS-executing crawler.
-- [ ] Create the GitHub remote (`git@github.com:maulanayusupp/soal-osn-paud.git`)
-      and push; the local repository is ready.
+- [x] GitHub remote created and pushed; `main` tracks `origin/main`.
